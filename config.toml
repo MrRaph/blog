@@ -1,0 +1,22 @@
+theme="material-design"
+baseurl = "https://techan.fr"
+languageCode = "fr-FR"
+title = "TechAN"
+MetaDataFormat = "toml"
+paginate = 9 # To specify a multiple of 3
+disqusShortname = "techan" # optional
+copyright = "© 2016 Copyright Text"
+
+[params]
+  description = "Trucs, Astuces et Bidouilles IT" # optional
+  twitter = "TechAldanet" # optional
+  github = "MrRaph" # optional
+  facebook = "TechAldaNet" # optional
+  # linkedin = "Your LinkedIn Name" # optional
+  headerCover = "images/background.png" # optional
+  footerCover = "images/background.png" # optional
+  googleAnalyticsUserID = "UA-66138476-1" # optional
+
+[permalinks]
+  # post = "/:year/:month/:day/:title/" # optional
+  post = "/:title/" # optional

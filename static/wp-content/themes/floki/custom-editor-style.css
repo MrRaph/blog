@@ -1,0 +1,305 @@
+body#tinymce {
+	color: #7F8C8D;
+	font-size: 16px;
+	-webkit-font-smoothing: antialiased;
+	background-color: #FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	line-height: 24px;
+}
+body#tinymce a {
+	text-decoration: none;
+	
+	}
+
+body#tinymce h1, body#tinymce h2, body#tinymce h3, body#tinymce h4, body#tinymce h5 {
+	margin-top:10px;
+	margin-bottom:10px;
+	font-weight:lighter;
+	font-family: 'Roboto', serif;
+
+}
+
+body#tinymce ul {
+	text-decoration:none;
+	list-style:none;
+}
+
+
+body#tinymce a img {
+	border:none;
+}
+
+body#tinymce body {
+	  color:#7F8C8D;
+	  font-size:16px;
+	  -webkit-font-smoothing: antialiased;
+	  
+	  background-color: #FFFFFF;
+	  margin: 0 auto;
+	  
+	  font-family: 'Roboto', sans-serif;font-weight:300;		
+	 line-height:24px;}
+  
+  
+ body#tinymce input, body#tinymce textarea {
+	border: solid 1px #7F8C8D;
+	padding:15px;
+}
+
+body#tinymce body a {
+	 color:#3B97D2;
+	 
+ }
+ 
+body#tinymce body a:visited {
+	 
+	 color:#235A7D;
+ }
+ 
+ 
+
+body#tinymce a:hover, body#tinymce a:focus
+{
+	
+color:#48B7FF;
+}
+
+
+body#tinymce hr {
+	background-color:#7F8C8D;
+height: 1px;
+	border:none;
+}
+ 
+body#tinymce h1 {
+	 
+	  color:#3B97D2;
+	  font-size:38px;
+	   line-height:49px;
+	  vertical-align:middle;
+
+ }
+ 
+body#tinymce .stitched {
+   padding: 20px;
+   margin: 10px;
+   background: #3B97D2;
+   color: #fff;
+   font-size: 21px;
+   font-weight: bold;
+   line-height: 1.3em;
+   border: 2px dashed #fff;
+   border-radius: 10px;
+   box-shadow: 0 0 0 4px #ff0030, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+   text-shadow: -1px -1px #aa3030;
+   font-weight: normal;
+}
+ 
+body#tinymce button {
+	 
+	  border: solid 1px #3B97D2;
+ }
+ 
+ 
+body#tinymce .more-link {
+	 margin-top:20px;
+	 margin-bottom:20px;
+	float:right;
+ }
+ 
+ body#tinymce  .more-link .svg {
+	  
+	  fill: #3B97D2;
+	  height:20px;
+	  width:20px;
+	  vertical-align:middle;
+}
+
+body#tinymce ul  {
+
+   list-style-type:disc;
+
+  
+}
+
+	body#tinymce .button,
+	body#tinymce button,
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"] {
+		
+			background-color: #3B97D2;
+	color: #fff;	
+border: solid 1px #3B97D2;
+	}
+	
+		body#tinymce .button:hover,
+	body#tinymce button:hover,
+	input[type="submit"]:hover,
+	input[type="reset"]:hover,
+	input[type="button"]:hover {
+		background-color:transparent;
+		color:  #3B97D2;
+
+	}
+	
+		body#tinymce .button2 {
+		
+			
+	background-color:transparent;
+		color:  #3B97D2 !important;	
+border: solid 2px #3B97D2;
+	}
+	
+		body#tinymce .button2:hover {
+opacity: 0.5;
+
+	}
+	
+
+body#tinymce .su-quote {
+	
+	 background-color:#3B97D2;
+	 color: #fff;
+}
+
+
+body#tinymce  h1 .svg {
+	  
+	  fill: #3B97D2;
+	  height:128px;
+	  width:128px;
+	  vertical-align:middle;
+
+}
+
+body#tinymce .breadcrumbfloki .svg {
+	  
+	  fill: #fff;
+	  height:20px;
+	  width:20px;
+	  vertical-align:middle;
+
+}
+
+body#tinymce strong {
+	color: #3B97D2;
+	font-weight:normal;
+}
+
+ body#tinymce strong .svg {
+	  
+	  fill:  #3B97D2;
+	  height:32px;
+	  width:32px;
+	  vertical-align:middle;
+	  padding-bottom:2px;
+}
+
+
+ 
+ body#tinymce .su-divider {
+
+	background: #3B97D2;
+
+}
+ 
+
+body#tinymce blockquote {
+	border-left: 5px solid #3B97D2;
+	padding-left:10px;
+	}
+
+body#tinymce .breadcrumbflokistyle {
+
+		background-color: #3B97D2;
+	  top:50%;
+	  color: #fff;	
+
+}
+body#tinymce .breadcrumbfloki {
+	 padding-top:20px;
+
+ }
+
+ 
+body#tinymce  h2 {
+	 
+	  color:#3B97D2;
+	  font-size:36px;
+	   line-height:47px;
+	    vertical-align:middle;
+
+ }
+ 
+
+ body#tinymce h3 {
+	 
+	  color:#3B97D2;
+	  font-size:32px;
+	   line-height:42px;
+ }
+
+ 
+ body#tinymce  h4 {
+	 
+	  color:#3B97D2;
+	  font-size:24px;
+	   line-height:31px;
+ }
+ 
+body#tinymce   h5 {
+	 
+	  color: #3B97D2;
+	  font-size: 20px;
+	   line-height: 26px;
+ }
+
+ 	body#tinymce h1 a, body#tinymce h2 a, body#tinymce h3 a, body#tinymce h4 a, body#tinymce h5 a, body#tinymce h6 a { font-weight: inherit; }
+
+	body#tinymce .black {
+	  
+	  fill: #000000;
+
+}
+
+	
+	body#tinymce .white {
+	  
+	  fill: #ffffff;
+
+}
+	
+  body#tinymce .small {
+	  
+
+	  height:16px;
+	  width:16px;
+
+}
+
+  body#tinymce .medium {
+	  
+
+	  height:32px;
+	  width:32px;
+
+}
+
+  body#tinymce .big {
+	  
+
+	  height:64px;
+	  width:64px;
+
+}
+
+ body#tinymce .bigbig {
+	  
+
+	  height:128px;
+	  width:128px;
+
+}
+

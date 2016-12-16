@@ -1,0 +1,1363 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: floki\n"
+"POT-Creation-Date: 2014-04-11 03:38+0100\n"
+"PO-Revision-Date: 2014-04-15 02:55+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\wor34\\wp-content\\themes\\floki\n"
+"X-Poedit-SearchPath-0: C:\\xampp\\htdocs\\wor34\\wp-content\\themes\\loki\n"
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/404.php:10
+msgid "ERROR 404, PAGE NOT FOUND"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/archive.php:203
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/blog.php:185
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/index.php:130
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/search.php:44
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/single.php:120
+msgid "Posted by "
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/archive.php:216
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/blog.php:198
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/index.php:143
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/page.php:101
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/single.php:133
+msgid "Read more"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/archive.php:244
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/blog.php:228
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/search.php:96
+msgid "Next Page >>"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/archive.php:249
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/blog.php:233
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/search.php:101
+msgid "<< Previous Page"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/coments.php:9
+msgid "Pages:"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/coments.php:10
+msgid "Tags:"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/coments.php:18
+msgid "You can"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/coments.php:18
+msgid "leave a response"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/coments.php:18
+msgid "trackback"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/coments.php:18
+msgid "from own site"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/coments.php:22
+msgid "Responses are currently closed, but you can"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/coments.php:22
+msgid "from your own site"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/coments.php:26
+msgid ""
+"You can skip to the end and leave a response. Pinging is currently not "
+"allowed."
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/coments.php:30
+msgid "Both comments and pings are currently closed."
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/coments.php:32
+msgid "Edit this entry"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/comments.php:31
+msgid "Comment navigation"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/comments.php:32
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/comments.php:33
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/comments.php:38
+msgid "Comments are closed."
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:17
+msgid "A list of your site&#8217;s Pages."
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:18
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:24
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/page.php:104
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/single.php:135
+msgid "Pages"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:66
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:215
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:281
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:340
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:380
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:426
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:512
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:640
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:752
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:1097
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:1170
+msgid "Title:"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:68
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:159
+msgid "Sort by:"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:70
+msgid "Page title"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:71
+msgid "Page order"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:72
+msgid "Page ID"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:76
+msgid "Exclude:"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:78
+msgid "Page IDs, separated by commas."
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:93
+msgid "Your blogroll"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:94
+msgid "Links"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:148
+msgid "Select Link Category:"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:161
+msgid "Link title"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:162
+msgid "Link rating"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:163
+msgid "Link ID"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:169
+msgid "Show Link Image"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:171
+msgid "Show Link Name"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:173
+msgid "Show Link Description"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:175
+msgid "Show Link Rating"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:178
+msgid "Number of links to show:"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:193
+msgid "A search form for your site."
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:194
+msgid "Search"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:236
+msgid "A monthly archive of your site&#8217;s Posts."
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:237
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:244
+msgid "Archives"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:252
+msgid "Select Month"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:283
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:516
+msgid "Display as dropdown"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:285
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:519
+msgid "Show post counts"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:301
+msgid "Login, RSS, &amp; WordPress.org links."
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:302
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:307
+msgid "Meta"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:316
+msgid "Syndicate this site using RSS 2.0"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:316
+msgid "Entries <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:317
+msgid "The latest comments to all posts in RSS"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:317
+msgid "Comments <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:319
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:353
+msgid "A calendar of your site&#8217;s Posts."
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:354
+msgid "Calendar"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:394
+msgid "Arbitrary text or HTML."
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:396
+msgid "Text"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:431
+msgid "Automatically add paragraphs"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:444
+msgid "A list or dropdown of categories."
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:445
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:451
+msgid "Categories"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:463
+msgid "Select Category"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:522
+msgid "Show hierarchy"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:536
+msgid "Your site&#8217;s most recent Posts."
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:537
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:562
+msgid "Recent Posts"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:643
+msgid "Number of posts to show:"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:647
+msgid "Display post date?"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:662
+msgid "Your site&#8217;s most recent comments."
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:663
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:706
+msgid "Recent Comments"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:755
+msgid "Number of comments to show:"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:769
+msgid "Entries from any RSS or Atom feed."
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:771
+msgid "RSS"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:807
+msgid "Unknown Feed"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:861
+#, php-format
+msgid "<strong>RSS Error</strong>: %s"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:877
+msgid ""
+"An error has occurred, which probably means the feed is down. Try again "
+"later."
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:891
+msgid "Untitled"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:969
+#, php-format
+msgid "RSS Error: %s"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:973
+msgid "Enter the RSS feed URL here:"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:976
+msgid "Give the feed a title (optional):"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:979
+msgid "How many items would you like to display?"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:988
+msgid "Display item content?"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:991
+msgid "Display item author if available?"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:994
+msgid "Display item date?"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:1060
+msgid "A cloud of your most used tags."
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:1061
+msgid "Tag Cloud"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:1071
+msgid "Tags"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:1099
+msgid "Taxonomy:"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:1127
+msgid "Add a custom menu to your sidebar."
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:1128
+msgid "Custom Menu"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:1165
+#, php-format
+msgid "No menus have been created yet. <a href=\"%s\">Create some</a>."
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:1174
+msgid "Select Menu:"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:1202
+msgid "Recent works from the portfolio."
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:1280
+msgid "Recent Works"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:1283
+msgid "Title"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/default-widgets.php:1288
+msgid "Number of items to show:"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:7
+msgid "Main sidebar"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:17
+msgid "Footer column 1"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:18
+msgid "Footer widget zone 1"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:28
+msgid "Footer column 2"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:29
+msgid "Footer widget zone 2"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:39
+msgid "Footer column 3"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:40
+msgid "Footer widget zone 3"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:50
+msgid "Footer column 4"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:51
+msgid "Footer widget zone 4"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:92
+msgid "Header Menu"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:93
+msgid "Extra Menu"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:566
+msgid "Select the column to insert"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:571
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:573
+msgid "Select icon and press INSERT ICON button"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:583
+msgid "Select Width of column:"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:585
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:586
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:587
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:588
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:591
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:592
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:593
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:594
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:595
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:596
+msgid "Column"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:601
+msgid "Column type:"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:601
+msgid "Normal"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:601
+msgid "Last column"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:601
+msgid "Insert column content here"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:601
+msgid "INSERT COLUMNS"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:620
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:645
+msgid "INSERT ICON"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:620
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:645
+msgid "Select size:"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:620
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:645
+msgid "Theme sizes"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:620
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:645
+msgid "Select color:"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:620
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:645
+msgid "Theme colors"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:620
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:645
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:992
+msgid "Black"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:620
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:645
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:992
+msgid "White"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:625
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:667
+msgid "Insert icons on  h1, h2, h3, ... tags to have the same color and size."
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:743
+msgid "lokiseo Theme"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:743
+msgid "Loki theme options"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/functions.php:919
+msgid "YouTube video ID not found. Please double-check your URL."
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/header.php:11
+msgid "RSS 0.92 Feed"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/header.php:12
+msgid "Atom Feed"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/header.php:13
+msgid "RSS 2.0 Feed"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/index.php:164
+msgid "Older Entries"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/index.php:169
+msgid "Newer Entries"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/index.php:179
+msgid "Not found"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/index.php:180
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/page.php:123
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/single.php:156
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/list.php:205
+msgid "Read more on"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/list.php:211
+msgid "Posted in"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:67
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:75
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:83
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:98
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:106
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:196
+msgid "  * Incorrect image url"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:396
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:410
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:440
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:454
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:469
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:484
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:499
+msgid "  * Incorrect font size"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:699
+msgid "Options updated"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:748
+msgid "lokiSeo theme options"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:759
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1499
+msgid "Save Options"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:766
+msgid "General options"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:767
+msgid "Colors"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:768
+msgid "Design"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:769
+msgid "Fonts"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:770
+msgid "Header options"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:771
+msgid "Sidebar options"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:772
+msgid "Footer options"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:773
+msgid "Animations options"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:784
+msgid "Select div animations"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:790
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:815
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:840
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:865
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:889
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1421
+msgid "None"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:794
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:819
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:844
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:869
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:893
+msgid "Opacity"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:798
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:823
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:848
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:873
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:897
+msgid "Rotate Y"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:802
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:827
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:852
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:877
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:901
+msgid "Rotate X"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:809
+msgid "Select image animations"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:834
+msgid "Select heading animations"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:859
+msgid "Select link animations"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:883
+msgid "Select text animations"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:909
+msgid "Custom Favicon"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:912
+msgid ""
+"You can put url of an icon image that will represent your website's favicon "
+"(16px x 16px)"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:914
+msgid "Apple iPhone Icon"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:917
+msgid "Icon for Apple iPhone (57px x 57px)"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:919
+msgid "Apple iPhone Retina Icon"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:922
+msgid "Icon for Apple iPhone Retina Version (114px x 114px)"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:924
+msgid "Apple iPad Icon"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:927
+msgid "Icon for Apple iPhone (72px x 72px)"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:929
+msgid "Apple iPad Retina Icon"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:932
+msgid "Icon for Apple iPad Retina Version (144px x 144px)"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:935
+msgid "Allow comments on pages"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:939
+msgid "Allow comments on regular pages."
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:942
+msgid "Code inside head tag"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:944
+msgid "Add code before the /head tag."
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:946
+msgid "Code inside body tag"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:948
+msgid "Add code before the /body tag."
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:956
+msgid "Logo"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:959
+msgid "Url image logo"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:962
+msgid "Slider shortcode"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:964
+msgid "Write plugin shortcode for home slider position."
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:966
+msgid "Header fixed"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:970
+msgid "Header fixed in top page."
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:972
+msgid "TOP BAR"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:974
+msgid "TOP BAR Visible"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:978
+msgid "TOP BAR visible."
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:980
+msgid "Secondary menu position"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:981
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:986
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1429
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1440
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1445
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1449
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1453
+msgid "Not show"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:981
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:986
+msgid "Left"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:981
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:986
+msgid "Right"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:982
+msgid "Select submenu position in top bar"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:985
+msgid "Social icons position"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:987
+msgid "Select social icons position in top bar"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:989
+msgid "SOCIAL LINKS"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:991
+msgid "Social icons style"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:993
+msgid "Select icons design: black or white."
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:995
+msgid "Icons opacity"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:997
+msgid "Number between 0-1. Sample: 0.5 "
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1001
+msgid "Facebook link"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1003
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1007
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1011
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1015
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1019
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1023
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1027
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1031
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1035
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1039
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1043
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1047
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1051
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1055
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1059
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1063
+msgid "Write url with http://"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1005
+msgid "RSS link"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1009
+msgid "Twitter link"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1013
+msgid "Flickr link"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1017
+msgid "Youtube link"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1021
+msgid "Vimeo link"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1025
+msgid "Google Plus link"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1029
+msgid "Pinterest link"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1033
+msgid "Tumblr link"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1037
+msgid "Dribbble link"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1041
+msgid "Digg link"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1045
+msgid "LinkedIn link"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1049
+msgid "Blogger link"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1053
+msgid "Skype link"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1057
+msgid "Myspace link"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1061
+msgid "Yahoo link"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1066
+msgid "Background"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1068
+msgid "Background style"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1069
+msgid "Not background"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1069
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1115
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1150
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1185
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1218
+msgid "Color"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1069
+msgid "Image"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1070
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1100
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1133
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1168
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1201
+msgid "Select color type"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1085
+msgid "Background Color"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1087
+msgid "Select color"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1090
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1093
+msgid "Image background"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1096
+msgid "Top Bar"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1098
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1131
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1166
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1199
+msgid "Color style"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1099
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1132
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1167
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1200
+msgid "Solid color"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1099
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1132
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1167
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1200
+msgid "Degradate color"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1117
+msgid "Color top bar"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1120
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1156
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1191
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1224
+msgid "Color 2"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1122
+msgid "Color 2 top bar"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1126
+msgid "Header"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1152
+msgid "Color header"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1158
+msgid "Color 2 header"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1161
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1278
+msgid "Body"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1187
+msgid "Color body"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1193
+msgid "Color 2 body"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1196
+msgid "Footer"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1220
+msgid "Color footer"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1226
+msgid "Color 2 footer"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1229
+msgid "Bottom"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1231
+msgid "Color bottom footer"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1233
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1243
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1268
+msgid "Text Color"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1235
+msgid "Select text footer color"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1239
+msgid "Main Menu"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1245
+msgid "Select or write menu text color."
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1248
+msgid "Active Color"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1250
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1258
+msgid "Select or write color"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1252
+msgid "Sub menu Text Color"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1254
+msgid "Select or write sub menu text color."
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1256
+msgid "Sub menu background color"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1260
+msgid "Secondary Menu"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1270
+msgid "Select menu text color."
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1280
+msgid "Recommended google fonts"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1283
+msgid "Use manual font"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1298
+msgid "Heading font"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1301
+msgid "Use same font"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1319
+msgid "Select font"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1321
+msgid "Manual font"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1323
+msgid "Write manual font"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1326
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1341
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1361
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1372
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1383
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1394
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1405
+msgid "Font size"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1328
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1343
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1363
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1374
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1385
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1396
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1407
+msgid "Write size font: 12px, 1.2em, ..."
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1331
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1346
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1366
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1377
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1388
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1399
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1410
+msgid "Font color"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1333
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1348
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1352
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1356
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1368
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1379
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1390
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1401
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1412
+msgid "Write or select font color"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1335
+msgid "Strong color"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1337
+msgid "Write or select strong text color"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1350
+msgid "Font color link hover"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1354
+msgid "Font color link visited"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1420
+msgid "Widget columns"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1421
+msgid "column"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1421
+msgid "columns"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1422
+msgid "Select footer widget columns"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1424
+msgid "Copyright and footer text"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1426
+msgid "Write footer text"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1428
+msgid "Social icons"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1429
+msgid "White icons"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1429
+msgid "Black icons"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1430
+msgid "Social icons in footer. Social links in header options."
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1439
+msgid "Sidebar Position home"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1440
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1445
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1449
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1453
+msgid "Position Right"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1440
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1445
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1449
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1453
+msgid "Position Left"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1441
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1454
+msgid "Select the position of the sidebar in home page."
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1444
+msgid "Sidebar Position in Posts"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1446
+msgid "Select the defeault position of the sidebar."
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1448
+msgid "Sidebar Position in pages"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1450
+msgid "Select the position of the sidebar in pages."
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1452
+msgid "Sidebar Position in archives"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1462
+msgid "Main color"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1464
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1468
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1472
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1476
+msgid "Write or select color"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1466
+msgid "Dark color"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1470
+msgid "Light color"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1474
+msgid "Text color"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1479
+msgid "LOAD COLORS"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/options.php:1501
+msgid "Restore Default"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/search.php:3
+msgid "Search Results for"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/search.php:110
+msgid "Not Found"
+msgstr ""
+
+#: C:\xampp\htdocs\wor34\wp-content\themes\loki/search.php:111
+msgid "Sorry, but the requested resource was not found on this site."
+msgstr ""
