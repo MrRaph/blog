@@ -1,5 +1,5 @@
 theme="material-design-techan"
-baseurl = "https://techan.fr"
+baseurl = "http://www.techan.fr"
 languageCode = "fr-FR"
 title = "TechAN"
 MetaDataFormat = "toml"
