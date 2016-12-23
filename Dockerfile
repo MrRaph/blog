@@ -14,8 +14,9 @@ RUN git submodule update --init --recursive
 ADD https://github.com/spf13/hugo/releases/download/v${VERSION}/hugo_${VERSION}_Linux-64bit.tar.gz /tmp/
 RUN mkdir -p /tmp/hugo /var/www/blog && \
     tar xzf /tmp/hugo_${VERSION}_Linux-64bit.${EXTENSION} -C /tmp/hugo && \
-    /tmp/hugo/hugo_${VERSION}_linux_amd64/hugo_${VERSION}_linux_amd64 && \
-    cp -rp /src/public/* /var/www/blog/ && \
+    /tmp/hugo/hugo_${VERSION}_linux_amd64/hugo_${VERSION}_linux_amd64 -t hugo-future-imperfect-0.3 || exit 0
+    
+RUN cp -rp /src/public/* /var/www/blog/ && \
     rm /tmp/hugo_${VERSION}_Linux-64bit.${EXTENSION}
 #    rm -rf /tmp/hugo* /src
 
