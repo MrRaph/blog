@@ -12,9 +12,9 @@ install:
 script: hugo -t hugo-future-imperfect-0.3
 
 before_install:
-- docker build -t mrraph/blog MrRaph/blog
+- docker build -t mrraph/blog $HOME/gopath/src/github.com/MrRaph/blog/
 - docker login
-- docker push
+- docker push mrraph/blog
 # before_deploy:
 #   pip install --user awscli
 # deploy:
