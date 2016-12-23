@@ -9,9 +9,12 @@ go:
 install:
 - go get github.com/spf13/hugo
 
-script: hugo -t hugo-future-imperfect-0.3
 
-before_install:
+
+# before_install:
+before_deploy:
+  script: cd $HOME/gopath/src/github.com/MrRaph/blog/ && hugo -t hugo-future-imperfect-0.3
+deploy:
 - docker build -t mrraph/blog $HOME/gopath/src/github.com/MrRaph/blog/
 - docker login
 - docker push mrraph/blog
