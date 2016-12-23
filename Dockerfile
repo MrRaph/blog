@@ -3,7 +3,7 @@ FROM nginx:stable-alpine
 RUN apk add --no-cache --update py-pygments python py-pip git
 
 
-ADD public /var/www/blog
+ADD /home/travis/gopath/src/github.com/MrRaph/blog/public /var/www/blog
 
 WORKDIR /var/www/blog
 
