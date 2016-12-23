@@ -1,0 +1,17 @@
+sudo: required
+
+services:
+  - docker
+
+language: go
+go:
+- 1.4
+install:
+- go get github.com/spf13/hugo
+
+script: hugo -t material-design-techan
+
+before_install:
+- docker build -t mrraph/blog blog
+- docker login
+- docker push
