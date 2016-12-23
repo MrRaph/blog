@@ -9,9 +9,15 @@ go:
 install:
 - go get github.com/spf13/hugo
 
-script: hugo -t material-design-techan
+script: hugo -t hugo-future-imperfect-0.3
 
 before_install:
-- docker build -t mrraph/blog blog
+- docker build -t mrraph/blog MrRaph/blog
 - docker login
 - docker push
+# before_deploy:
+#   pip install --user awscli
+# deploy:
+#   provider: script
+#   script: ~/.local/bin/aws s3 sync public/ s3://www.techan.fr --region=eu-west-1 --delete
+#   skip_cleanup: true
