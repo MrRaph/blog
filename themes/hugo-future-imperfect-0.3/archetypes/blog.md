@@ -7,4 +7,5 @@ featured = ""
 featuredpath = ""
 featuredalt = ""
 type = "post"
+image = ""
 +++
