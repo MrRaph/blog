@@ -33,8 +33,7 @@ copyright = "© 2016 Copyright Text"
   showCategories = false
 
 [permalinks]
-  # post = "/:year/:month/:day/:title/" # optional
-  post = "/:title/" # optional
+  post = "/:slug/" # optional
 
 
 # parms.intro will appear on the sidebar
