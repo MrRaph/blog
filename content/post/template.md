@@ -8,6 +8,6 @@ featuredalt = ""
 featuredpath = ""
 featured = ""
 categories = []
-
+draft = true
 +++
 
