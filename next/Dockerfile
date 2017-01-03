@@ -10,7 +10,8 @@ RUN apk add --no-cache --update py-pygments python py-pip git
 RUN git clone --recursive https://github.com/MrRaph/blog.git /src
 WORKDIR /src
 
-RUN sed -i 's/www.techan.fr/next.techan.fr/' /src/config.toml
+RUN git checkout origin/next && \
+    sed -i 's/www.techan.fr/next.techan.fr/' /src/config.toml
 
 ADD https://github.com/spf13/hugo/releases/download/v${VERSION}/hugo_${VERSION}_Linux-64bit.tar.gz /tmp/
 RUN mkdir -p /tmp/hugo /var/www/blog && \
