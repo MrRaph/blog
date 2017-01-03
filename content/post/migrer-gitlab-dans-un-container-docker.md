@@ -3,6 +3,7 @@ slug = "migrer-gitlab-dans-un-container-docker"
 draft = false
 date = 2016-08-29T14:19:33Z
 image = "https://about.gitlab.com/images/press/logo/wm_no_bg.svg"
+featured = "https://about.gitlab.com/images/press/logo/wm_no_bg.svg"
 description = "Voici une procédure expliquant comment migrer un GitLab installé en dur sur une machine dans un container Docker."
 categories = ["Docker","GitLab","Migrer GitLab dans Docker","docker-compose","Trucs et Astuces","Linux"]
 tags = ["Docker","GitLab","Migrer GitLab dans Docker","docker-compose","Trucs et Astuces","Linux"]
