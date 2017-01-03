@@ -1,5 +1,5 @@
 theme="hugo-future-imperfect-0.3"
-baseurl = "https://www.techan.fr"
+baseurl = "https://techan.fr"
 languageCode = "fr-FR"
 title = "TechAN"
 MetaDataFormat = "toml"
