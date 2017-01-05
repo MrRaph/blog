@@ -7,7 +7,7 @@ title = "[AirPlay] Transformez votre Ubuntu en serveur AirPlay avec ShairPort"
 date = 2014-11-19T10:24:38Z
 author = "MrRaph_"
 tags = ["AirPlay","ShairPort","Ubuntu"]
-image = "https://techan.fr/wp-content/uploads/2015/04/Ubuntu_Logo.gif"
+image = "https://techan.fr/images/2015/04/Ubuntu_Logo.gif"
 
 +++
 
@@ -54,7 +54,7 @@ Ensuite, depuis votre appareil Apple, il suffit de choisir votre ordinateur comm
 
 Dans mon cas, il porte le nom par défaut « shairport ».
 
-[![Transformez votre Ubuntu en serveur AirPlay avec ShairPort](https://techan.fr/wp-content/uploads/2014/11/shairport.png)](https://techan.fr/wp-content/uploads/2014/11/shairport.png)
+[![Transformez votre Ubuntu en serveur AirPlay avec ShairPort](https://techan.fr/images/2014/11/shairport.png)](https://techan.fr/images/2014/11/shairport.png)
 
  
 

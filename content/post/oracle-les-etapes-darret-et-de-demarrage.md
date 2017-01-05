@@ -1,7 +1,7 @@
 +++
 categories = ["Oracle","Survival Guide","Trucs et Astuces"]
 tags = ["Oracle","Survival Guide","Trucs et Astuces"]
-image = "https://techan.fr/wp-content/uploads/2014/10/SQL_term.png"
+image = "https://techan.fr/images/2014/10/SQL_term.png"
 description = ""
 date = 2014-10-16T15:33:21Z
 author = "MrRaph_"

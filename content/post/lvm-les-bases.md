@@ -1,5 +1,5 @@
 +++
-image = "https://techan.fr/wp-content/uploads/2014/11/Linux.png"
+image = "https://techan.fr/images/2014/11/Linux.png"
 draft = false
 title = "[LVM] Les bases"
 date = 2014-09-29T14:41:14Z

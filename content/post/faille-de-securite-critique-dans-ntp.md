@@ -4,7 +4,7 @@ categories = ["Faille de sécurité","faille de sécurité critique dans ntp","L
 slug = "faille-de-securite-critique-dans-ntp"
 title = "Faille de sécurité critique dans NTP"
 tags = ["Faille de sécurité","faille de sécurité critique dans ntp","Linux","NTP","OSX"]
-image = "https://techan.fr/wp-content/uploads/2014/11/Linux.png"
+image = "https://techan.fr/images/2014/11/Linux.png"
 description = ""
 draft = false
 date = 2014-12-23T09:42:29Z
@@ -22,11 +22,11 @@ Cette faille touche tous les systèmes utilisant la version 4 du protocole et ce
 
 Par exemple, sur un Oracle Linux relativement récent en version 6.5 :
 
-[![Faille de sécurité critique dans NTP](https://techan.fr/wp-content/uploads/2014/12/ntp1.png)](https://techan.fr/wp-content/uploads/2014/12/ntp1.png)
+[![Faille de sécurité critique dans NTP](https://techan.fr/images/2014/12/ntp1.png)](https://techan.fr/images/2014/12/ntp1.png)
 
 Et sur un RedHat assez ancien en version 3 :
 
-[![Faille de sécurité critique dans NTP](https://techan.fr/wp-content/uploads/2014/12/npt2.png)](https://techan.fr/wp-content/uploads/2014/12/npt2.png)
+[![Faille de sécurité critique dans NTP](https://techan.fr/images/2014/12/npt2.png)](https://techan.fr/images/2014/12/npt2.png)
 
 Cette faille est suffisamment inquiétante pour qu’Apple propose cette nuit une mise à jour de sécurité spécifique à cette faille alors qu’habituellement elle inclut ces corrections dans de plus gros patchs. Apple utilise également son canal d’installation automatique. Une grande première alors que ce moyen existe depuis plus de deux ans, mais n’avait encore jamais été utilisé par la firme de Cuppertino.
 
@@ -46,7 +46,7 @@ Pour les systèmes Apple, il faut installer la mise à jour qui est dors et déj
 
 Pour les systèmes Linux, une mise à jour est disponible dans les dépôts ce matin, un exemple avec Ubuntu :
 
-[![Faille de sécurité critique dans NTP](https://techan.fr/wp-content/uploads/2014/12/ntp3.png)](https://techan.fr/wp-content/uploads/2014/12/ntp3.png)
+[![Faille de sécurité critique dans NTP](https://techan.fr/images/2014/12/ntp3.png)](https://techan.fr/images/2014/12/ntp3.png)
 
 Des mises à jour ont également été publiées pour les systèmes basés sur les RPM, comme RedHat, CentOS et Oracle Linux.
 

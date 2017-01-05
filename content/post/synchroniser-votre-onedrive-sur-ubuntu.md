@@ -4,7 +4,7 @@ tags = ["OneDrive","Trcus Astuces","Ubuntu"]
 description = ""
 date = 2015-05-12T15:37:41Z
 author = "MrRaph_"
-image = "https://techan.fr/wp-content/uploads/2015/05/ubuntu_et_onedrive_logo.jpg"
+image = "https://techan.fr/images/2015/05/ubuntu_et_onedrive_logo.jpg"
 slug = "synchroniser-votre-onedrive-sur-ubuntu"
 draft = false
 title = "Synchroniser votre OneDrive sur Ubuntu"
@@ -65,7 +65,7 @@ A ce stade, il va vous falloir copier l’URL fourni par le programme de configu
 
 Une fois que vous aurez chargé la page, il va falloir vous connecter avec votre compte OneDrive.
 
-<div class="wp-caption aligncenter" id="attachment_1362" style="width: 402px">[![Synchroniser votre OneDrive sur Ubuntu](https://techan.fr/wp-content/uploads/2015/05/screenshot.458.jpg)](https://techan.fr/wp-content/uploads/2015/05/screenshot.458.jpg)Connecter vous à votre compte OneDrive
+<div class="wp-caption aligncenter" id="attachment_1362" style="width: 402px">[![Synchroniser votre OneDrive sur Ubuntu](https://techan.fr/images/2015/05/screenshot.458.jpg)](https://techan.fr/images/2015/05/screenshot.458.jpg)Connecter vous à votre compte OneDrive
 
 </div> 
 
@@ -73,7 +73,7 @@ Et autoriser l’application.
 
  
 
-<div class="wp-caption aligncenter" id="attachment_1359" style="width: 375px">[![Synchroniser votre OneDrive sur Ubuntu](https://techan.fr/wp-content/uploads/2015/05/screenshot.455.jpg)](https://techan.fr/wp-content/uploads/2015/05/screenshot.455.jpg)Autoriser ensuite l’application à accéder à votre OneDrive.
+<div class="wp-caption aligncenter" id="attachment_1359" style="width: 375px">[![Synchroniser votre OneDrive sur Ubuntu](https://techan.fr/images/2015/05/screenshot.455.jpg)](https://techan.fr/images/2015/05/screenshot.455.jpg)Autoriser ensuite l’application à accéder à votre OneDrive.
 
 </div> 
 

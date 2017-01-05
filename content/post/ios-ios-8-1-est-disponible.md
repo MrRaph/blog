@@ -1,6 +1,6 @@
 +++
 author = "MrRaph_"
-image = "https://techan.fr/wp-content/uploads/2014/10/IMG_4456-0.png"
+image = "https://techan.fr/images/2014/10/IMG_4456-0.png"
 slug = "ios-ios-8-1-est-disponible"
 categories = ["8.1","iOS","Mise à jour"]
 tags = ["8.1","iOS","Mise à jour"]
@@ -14,7 +14,7 @@ date = 2014-10-20T19:57:48Z
 
 Avis aux possesseurs d’iPhone, la mise à jour du système iOS numérotée 8.1 est disponible !  
   
-[![IMG_4456.PNG](https://techan.fr/wp-content/uploads/2014/10/IMG_4456.png)](https://techan.fr/wp-content/uploads/2014/10/IMG_4456.png)
+[![IMG_4456.PNG](https://techan.fr/images/2014/10/IMG_4456.png)](https://techan.fr/images/2014/10/IMG_4456.png)
 
 Il paraît qu’elle amène plus de fluidité sur les iPhone les plus anciens supportés par l’iOS 8.
 

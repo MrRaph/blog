@@ -2,7 +2,7 @@
 slug = "oracle-afficher-et-modifier-les-parametres-oracle"
 title = "[Oracle] Afficher et modifier les paramètres Oracle"
 categories = ["Oracle","Survival Guide","Trucs et Astuces"]
-image = "https://techan.fr/wp-content/uploads/2014/10/SQL_term.png"
+image = "https://techan.fr/images/2014/10/SQL_term.png"
 draft = false
 date = 2014-10-20T11:33:23Z
 author = "MrRaph_"
@@ -94,13 +94,13 @@ Pour récupérer la valeur d’un paramètres, vous avez deux options, soit util
 
 Une fois connecté à la base, taper « show » suivit du nom du paramètre dont vous voulez la valeur, ou une partie de son nom.
 
-[![image2014-4-3 14-34-35](https://techan.fr/wp-content/uploads/2014/10/image2014-4-3-14-34-35.png)](https://techan.fr/wp-content/uploads/2014/10/image2014-4-3-14-34-35.png)
+[![image2014-4-3 14-34-35](https://techan.fr/images/2014/10/image2014-4-3-14-34-35.png)](https://techan.fr/images/2014/10/image2014-4-3-14-34-35.png)
 
 ##### Utiliser un requête SQL
 
 Cette méthode est un peu plus compliquée mais vous permettra de voir si la valeur du paramètre est par défaut et/ou si elle a été modifiée.
 
-[![image2014-4-3 14-42-44](https://techan.fr/wp-content/uploads/2014/10/image2014-4-3-14-42-44.png)](https://techan.fr/wp-content/uploads/2014/10/image2014-4-3-14-42-44.png)
+[![image2014-4-3 14-42-44](https://techan.fr/images/2014/10/image2014-4-3-14-42-44.png)](https://techan.fr/images/2014/10/image2014-4-3-14-42-44.png)
 
  
 
@@ -134,14 +134,14 @@ Ces paramètres sont modifiables uniquement base éteinte ou en utilisant un sco
 
 Nous allons modifier le paramètre « sessions », dans un premier temps, nous allons sauvegarder l’ancienne valeur, 247 dans notre cas.
 
-[![image2014-4-3 15-51-39](https://techan.fr/wp-content/uploads/2014/10/image2014-4-3-15-51-39.png)](https://techan.fr/wp-content/uploads/2014/10/image2014-4-3-15-51-39.png)
+[![image2014-4-3 15-51-39](https://techan.fr/images/2014/10/image2014-4-3-15-51-39.png)](https://techan.fr/images/2014/10/image2014-4-3-15-51-39.png)
 
 Modifions la valeur du paramètre à 300.  
-[![image2014-4-3 15-52-23](https://techan.fr/wp-content/uploads/2014/10/image2014-4-3-15-52-23.png)](https://techan.fr/wp-content/uploads/2014/10/image2014-4-3-15-52-23.png)
+[![image2014-4-3 15-52-23](https://techan.fr/images/2014/10/image2014-4-3-15-52-23.png)](https://techan.fr/images/2014/10/image2014-4-3-15-52-23.png)
 
 L’erreur indique qu’il s’agit d’un paramètre « froid », nous allons devoir le modifier dans le spfile et/ou dans le pfile.
 
-[![image2014-4-3 15-53-36](https://techan.fr/wp-content/uploads/2014/10/image2014-4-3-15-53-36.png)](https://techan.fr/wp-content/uploads/2014/10/image2014-4-3-15-53-36.png)
+[![image2014-4-3 15-53-36](https://techan.fr/images/2014/10/image2014-4-3-15-53-36.png)](https://techan.fr/images/2014/10/image2014-4-3-15-53-36.png)
 
 La nouvelle valeur est maintenant 300.
 
@@ -159,7 +159,7 @@ SQL> alter system reset [parameter_name]='[value]' [scope=both|memory|spfile];
 
 Nous allons réinitialiser la valeur du paramètre « sessions » que nous avons modifié juste avant.
 
-[![image2014-4-3 15-55-7](https://techan.fr/wp-content/uploads/2014/10/image2014-4-3-15-55-7.png)](https://techan.fr/wp-content/uploads/2014/10/image2014-4-3-15-55-7.png)
+[![image2014-4-3 15-55-7](https://techan.fr/images/2014/10/image2014-4-3-15-55-7.png)](https://techan.fr/images/2014/10/image2014-4-3-15-55-7.png)
 
 Après un reboot de la base, la valeur est de nouveau 247 ! ![:)](http://blog.techan.fr/wp-includes/images/smilies/simple-smile.png)
 

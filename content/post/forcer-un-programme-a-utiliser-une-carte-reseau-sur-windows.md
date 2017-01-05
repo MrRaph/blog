@@ -6,7 +6,7 @@ draft = false
 title = "Forcer un programme à utiliser une carte réseau sur Windows"
 author = "MrRaph_"
 tags = ["ForceBindIP","réseau","Trucs et Astuces","Windows"]
-image = "https://techan.fr/wp-content/uploads/2015/06/windows_10_logo.png"
+image = "https://techan.fr/images/2015/06/windows_10_logo.png"
 description = ""
 
 +++
@@ -46,19 +46,19 @@ Il ne vous reste plus qu’à modifier la variable d’environnement **path** af
 
 Ouvrez un explorateur de fichier, faites un clic droit sur **Ce PC** et cliquez sur **Propriétés**.
 
-[![Forcer un programme à utiliser une carte réseau sur Windows](https://techan.fr/wp-content/uploads/2015/08/screenshot.709.jpg)](https://techan.fr/wp-content/uploads/2015/08/screenshot.709.jpg)
+[![Forcer un programme à utiliser une carte réseau sur Windows](https://techan.fr/images/2015/08/screenshot.709.jpg)](https://techan.fr/images/2015/08/screenshot.709.jpg)
 
 Sur la gauche de la fenêtre qui s’ouvre, cliquez sur **Paramètres système avancés**.
 
  
 
-[![Forcer un programme à utiliser une carte réseau sur Windows](https://techan.fr/wp-content/uploads/2015/08/screenshot.710.jpg)](https://techan.fr/wp-content/uploads/2015/08/screenshot.710.jpg)
+[![Forcer un programme à utiliser une carte réseau sur Windows](https://techan.fr/images/2015/08/screenshot.710.jpg)](https://techan.fr/images/2015/08/screenshot.710.jpg)
 
 Dans la nouvelle fenêtre, cliquez sur **Variables d’environnement…**.
 
  
 
-[![Forcer un programme à utiliser une carte réseau sur Windows](https://techan.fr/wp-content/uploads/2015/08/screenshot.711.jpg)](https://techan.fr/wp-content/uploads/2015/08/screenshot.711.jpg)
+[![Forcer un programme à utiliser une carte réseau sur Windows](https://techan.fr/images/2015/08/screenshot.711.jpg)](https://techan.fr/images/2015/08/screenshot.711.jpg)
 
  
 
@@ -70,7 +70,7 @@ Adaptez ce chemin en fonction de là ou vous avez enregistré le l’exécutable
 
  
 
-[![Forcer un programme à utiliser une carte réseau sur Windows](https://techan.fr/wp-content/uploads/2015/08/screenshot.712.jpg)](https://techan.fr/wp-content/uploads/2015/08/screenshot.712.jpg)
+[![Forcer un programme à utiliser une carte réseau sur Windows](https://techan.fr/images/2015/08/screenshot.712.jpg)](https://techan.fr/images/2015/08/screenshot.712.jpg)
 
 Validez le tout, fermez votre session et rouvrez la pour que les modifications soient prisent en compte.
 
@@ -87,7 +87,7 @@ Tout d’abord, il va falloir identifier les différentes adresses IP attribuée
 
  
 
-[![Forcer un programme à utiliser une carte réseau sur Windows](https://techan.fr/wp-content/uploads/2015/08/screenshot.714.jpg)](https://techan.fr/wp-content/uploads/2015/08/screenshot.714.jpg)
+[![Forcer un programme à utiliser une carte réseau sur Windows](https://techan.fr/images/2015/08/screenshot.714.jpg)](https://techan.fr/images/2015/08/screenshot.714.jpg)
 
 Tapez **cmd** dans la pop-up et cliquez sur **OK**. Une invite de commandes s’ouvre, tapez la commande :
 
@@ -97,7 +97,7 @@ Ceci va lister les informations concernant toutes les cartes réseau de la machi
 
  
 
-[![Forcer un programme à utiliser une carte réseau sur Windows](https://techan.fr/wp-content/uploads/2015/08/screenshot.715.jpg)](https://techan.fr/wp-content/uploads/2015/08/screenshot.715.jpg)
+[![Forcer un programme à utiliser une carte réseau sur Windows](https://techan.fr/images/2015/08/screenshot.715.jpg)](https://techan.fr/images/2015/08/screenshot.715.jpg)
 
 Notez la valeur en face du libellé **Adresse IPv4**.
 
@@ -105,13 +105,13 @@ Maintenant, configurons une application pour utiliser ForceBinIP. Je vais prendr
 
  
 
-[![Forcer un programme à utiliser une carte réseau sur Windows](https://techan.fr/wp-content/uploads/2015/08/screenshot.713.jpg)](https://techan.fr/wp-content/uploads/2015/08/screenshot.713.jpg)
+[![Forcer un programme à utiliser une carte réseau sur Windows](https://techan.fr/images/2015/08/screenshot.713.jpg)](https://techan.fr/images/2015/08/screenshot.713.jpg)
 
 Cliquez sur **Propriétés**.
 
  
 
-[![Forcer un programme à utiliser une carte réseau sur Windows](https://techan.fr/wp-content/uploads/2015/08/screenshot.716.jpg)](https://techan.fr/wp-content/uploads/2015/08/screenshot.716.jpg)
+[![Forcer un programme à utiliser une carte réseau sur Windows](https://techan.fr/images/2015/08/screenshot.716.jpg)](https://techan.fr/images/2015/08/screenshot.716.jpg)
 
 C’est dans le champs **Cible** que tout va se jouer. Par défaut, ce champ ne contient que le chemin vers le binaire de Firefox, nous allons ajouter **ForceBindIP **juste avant.
 

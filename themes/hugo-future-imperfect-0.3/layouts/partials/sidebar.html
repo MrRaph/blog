@@ -34,7 +34,7 @@
         <section id="recent-posts">
             <ul class="posts">
                 <header>
-                    <h3>Recent Posts</h3>
+                    <h3>Posts récents</h3>
                 </header>
                 {{ if .Site.Params.orderByPublishDate }}
                     {{ $.Scratch.Set "recentPosts" .Site.Pages.ByPublishDate.Reverse }}
@@ -75,7 +75,7 @@
                             {{ else }}
                                 "/post/"
                             {{ end }}
-                            class="button">View more posts</a></li>
+                            class="button">Voir plus de posts</a></li>
                         </ul>
                     </li>
                 {{ end }}

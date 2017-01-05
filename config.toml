@@ -58,7 +58,7 @@ copyright = "© 2016 Copyright Text"
 # Adjust the amount of recent posts on the sidebar.
 # This is optional. The default value 5 will be used
 [params.postAmount]
-    sidebar = 2
+    sidebar = 3
 
 # Set up your menu items in the navigation bar
 # You can use identifier to prepend a font awesome icon to your text
@@ -77,6 +77,11 @@ copyright = "© 2016 Copyright Text"
     name = "A Propos"
     url = "/a-propos"
     weight = 3
+
+[[menu.main]]
+    name = "Docker"
+    url = "/categories/docker/"
+    weight = 4
 
 # Insert your username and the icon will apear on the page as long as
 # socialAppearAtTop or socialAppearAtBottom is set to true in the params area

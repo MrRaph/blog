@@ -1,7 +1,7 @@
 +++
 author = "MrRaph_"
 categories = ["Bons plans","bons plans à gogo","Dealabs","iGraal","Promos"]
-image = "https://techan.fr/wp-content/uploads/2015/01/MMA-Cochon-tirelire.jpg"
+image = "https://techan.fr/images/2015/01/MMA-Cochon-tirelire.jpg"
 slug = "bons-plans-a-gogo"
 description = ""
 draft = false
@@ -18,7 +18,7 @@ Je tenais à vous faire découvrir [Dealabs](https://www.dealabs.com), un site q
 
 Voici quelques exemples de deals ![:)](http://blog.techan.fr/wp-includes/images/smilies/simple-smile.png)
 
-[![Bons plans à gogo !](https://techan.fr/wp-content/uploads/2015/01/deal_1.png)](https://techan.fr/wp-content/uploads/2015/01/deal_1.png) [![Bons plans à gogo !](https://techan.fr/wp-content/uploads/2015/01/deal_2.png)](https://techan.fr/wp-content/uploads/2015/01/deal_2.png) [![Bons plans à gogo !](https://techan.fr/wp-content/uploads/2015/01/deal_3.png)](https://techan.fr/wp-content/uploads/2015/01/deal_3.png)
+[![Bons plans à gogo !](https://techan.fr/images/2015/01/deal_1.png)](https://techan.fr/images/2015/01/deal_1.png) [![Bons plans à gogo !](https://techan.fr/images/2015/01/deal_2.png)](https://techan.fr/images/2015/01/deal_2.png) [![Bons plans à gogo !](https://techan.fr/images/2015/01/deal_3.png)](https://techan.fr/images/2015/01/deal_3.png)
 
 Les deals portent sur n’importe quel domaine, que ce soit du High Tech, de l’alimentaire, des produits hygiéniques, des billets de trains, tout y passe. Ces bons plans peuvent être valables sur les sites de e-commerce ou en magasin, dans ce dernier cas, il faut bien vérifier la localisation du magasin qui propose la promotion.
 
@@ -31,7 +31,7 @@ Depuis quelque temps il est possible de créer des alertes afin de recevoir dire
 
  
 
-<div class="wp-caption aligncenter" id="attachment_640" style="width: 259px">[![Dealabs, créer une alerte](https://techan.fr/wp-content/uploads/2015/01/dealabs_creer_alerte.png)](https://techan.fr/wp-content/uploads/2015/01/dealabs_creer_alerte.png)Dealabs, créer une alerte
+<div class="wp-caption aligncenter" id="attachment_640" style="width: 259px">[![Dealabs, créer une alerte](https://techan.fr/images/2015/01/dealabs_creer_alerte.png)](https://techan.fr/images/2015/01/dealabs_creer_alerte.png)Dealabs, créer une alerte
 
 </div>
 ## Encore plus de bons plans à gogo
@@ -42,7 +42,7 @@ Alors, comment ça ce passe ? C’est pas très compliqué, le plus simple est d
 
 Voici une exemple, très loin d’être exhaustif, des marchands présents sur iGraal.
 
-[![Bons plans à gogo !](https://techan.fr/wp-content/uploads/2015/01/igraal_marchands.png)](https://techan.fr/wp-content/uploads/2015/01/igraal_marchands.png)
+[![Bons plans à gogo !](https://techan.fr/images/2015/01/igraal_marchands.png)](https://techan.fr/images/2015/01/igraal_marchands.png)
 
 Pour couronner le tout, iGraal vous offre 3€ lors de votre [inscription](http://fr.igraal.com/#parrain=MrRpah_), alors courez profiter de ces bons plans à gogo !!! ![:)](http://blog.techan.fr/wp-includes/images/smilies/simple-smile.png)
 

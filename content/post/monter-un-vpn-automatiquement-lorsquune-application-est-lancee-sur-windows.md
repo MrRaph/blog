@@ -1,5 +1,5 @@
 +++
-image = "https://techan.fr/wp-content/uploads/2015/06/powershell-logo.jpg"
+image = "https://techan.fr/images/2015/06/powershell-logo.jpg"
 description = ""
 draft = false
 categories = ["monter un vpn automatiquement lorsqu une application est lancee sur windows","PowerShell","Trucs et Astuces","VPN","Windows"]

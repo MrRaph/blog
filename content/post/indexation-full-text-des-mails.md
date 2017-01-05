@@ -6,7 +6,7 @@ title = "Indexation full text des mails"
 date = 2015-01-26T10:32:40Z
 author = "MrRaph_"
 categories = ["Dovecot","Indexation full text","Mails","Solr"]
-image = "https://techan.fr/wp-content/uploads/2015/01/solr_logo.png"
+image = "https://techan.fr/images/2015/01/solr_logo.png"
 description = ""
 
 +++

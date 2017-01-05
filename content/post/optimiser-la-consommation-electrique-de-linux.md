@@ -3,7 +3,7 @@ slug = "optimiser-la-consommation-electrique-de-linux"
 title = "Optimiser la consommation électrique de Linux"
 date = 2015-02-06T10:21:09Z
 tags = ["Linux","tlp","Trucs et Astuces"]
-image = "https://techan.fr/wp-content/uploads/2014/11/Linux.png"
+image = "https://techan.fr/images/2014/11/Linux.png"
 description = ""
 author = "MrRaph_"
 categories = ["Linux","tlp","Trucs et Astuces"]
@@ -37,11 +37,11 @@ tlp stat powertop
 
 Par exemple, la commande « powertop » m’apprend que la fréquence de mon CPU0 est 1,7 GHz alors que la fréquence nominale du CPU est 3,3 GHz.
 
-[![Optimiser la consommation électrique de Linux](https://techan.fr/wp-content/uploads/2015/02/screenshot.1423041272.png)](https://techan.fr/wp-content/uploads/2015/02/screenshot.1423041272.png)
+[![Optimiser la consommation électrique de Linux](https://techan.fr/images/2015/02/screenshot.1423041272.png)](https://techan.fr/images/2015/02/screenshot.1423041272.png)
 
 La commande « tlp stat » donne quand a elle des informations sur le système et les paramètres que tlp lui applique.
 
-[![Optimiser la consommation électrique de Linux](https://techan.fr/wp-content/uploads/2015/02/screenshot.1423041485.png)](https://techan.fr/wp-content/uploads/2015/02/screenshot.1423041485.png)
+[![Optimiser la consommation électrique de Linux](https://techan.fr/images/2015/02/screenshot.1423041485.png)](https://techan.fr/images/2015/02/screenshot.1423041485.png)
 
 Ici , on voit les bornes de fréquences qu’impose tlp au CPU.
 

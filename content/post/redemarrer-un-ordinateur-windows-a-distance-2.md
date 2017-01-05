@@ -4,7 +4,7 @@ categories = ["redémarrage distant","redémarrer un ordinateur windows à dista
 tags = ["redémarrage distant","redémarrer un ordinateur windows à distance","Trucs et Astuces","Windows"]
 title = "Redémarrer un ordinateur Windows à distance"
 author = "MrRaph_"
-image = "https://techan.fr/wp-content/uploads/2015/06/windows_10_logo.png"
+image = "https://techan.fr/images/2015/06/windows_10_logo.png"
 description = ""
 slug = "redemarrer-un-ordinateur-windows-a-distance-2"
 draft = false
@@ -20,7 +20,7 @@ Il existe toute fois une commande DOS – équivalente à la commande **shutdown
 
  
 
-<div class="wp-caption aligncenter" id="attachment_1712" style="width: 664px">[![Redémarrer un ordinateur Windows à distance](https://techan.fr/wp-content/uploads/2015/09/screenshot.840.jpg)](https://techan.fr/wp-content/uploads/2015/09/screenshot.840.jpg)Page d’aide de la commande shutdown.
+<div class="wp-caption aligncenter" id="attachment_1712" style="width: 664px">[![Redémarrer un ordinateur Windows à distance](https://techan.fr/images/2015/09/screenshot.840.jpg)](https://techan.fr/images/2015/09/screenshot.840.jpg)Page d’aide de la commande shutdown.
 
 </div> 
 

@@ -28,7 +28,7 @@ Ses points forts :
 
 Aller, une petite capture d’écran et vous aurez tout vu de Rufus !
 
-<div class="wp-caption aligncenter" id="attachment_401" style="width: 208px">[![windows outil USB bootable](https://techan.fr/wp-content/uploads/2014/11/rufus-198x300.png)](https://techan.fr/wp-content/uploads/2014/11/rufus.png)L’interface de Rufus
+<div class="wp-caption aligncenter" id="attachment_401" style="width: 208px">[![windows outil USB bootable](https://techan.fr/images/2014/11/rufus-198x300.png)](https://techan.fr/images/2014/11/rufus.png)L’interface de Rufus
 
 </div>Donc dans un premier temps, vous sélectionnez le périphérique USB a utiliser, puis vous sélectionner l’image ISO a « graver » plus bas.
 

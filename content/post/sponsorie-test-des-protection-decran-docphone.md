@@ -4,7 +4,7 @@ categories = ["DocPhone","Protection d'écran","Sponsorisé"]
 description = ""
 date = 2015-08-09T14:09:18Z
 tags = ["DocPhone","Protection d'écran","Sponsorisé"]
-image = "https://techan.fr/wp-content/uploads/2015/08/docphone_logo.png"
+image = "https://techan.fr/images/2015/08/docphone_logo.png"
 slug = "sponsorie-test-des-protection-decran-docphone"
 draft = false
 title = "[Sponsorié] Test des protection d'écran DocPhone"
@@ -27,7 +27,7 @@ Je dois dire que je suis vraiment satisfait de ce produit jusque là, reste à v
 
 Les protections sont livrées dans des envelopes signées [DocPhone.org](http://www.docphone.org). Les instructions d’installation sont fournies au verso des-dites enveloppes.
 
-[![[Sponsorié] Test des protection d'écran DocPhone](https://techan.fr/wp-content/uploads/2015/08/IMG_0122-e1439120800694.jpg)](https://techan.fr/wp-content/uploads/2015/08/IMG_0122-e1439120800694.jpg) [![[Sponsorié] Test des protection d'écran DocPhone](https://techan.fr/wp-content/uploads/2015/08/IMG_0125-e1439120952477.jpg)](https://techan.fr/wp-content/uploads/2015/08/IMG_0125-e1439120952477.jpg)
+[![[Sponsorié] Test des protection d'écran DocPhone](https://techan.fr/images/2015/08/IMG_0122-e1439120800694.jpg)](https://techan.fr/images/2015/08/IMG_0122-e1439120800694.jpg) [![[Sponsorié] Test des protection d'écran DocPhone](https://techan.fr/images/2015/08/IMG_0125-e1439120952477.jpg)](https://techan.fr/images/2015/08/IMG_0125-e1439120952477.jpg)
 
  
 
@@ -62,7 +62,7 @@ Le kit comprend :
 
  
 
-[![[Sponsorié] Test des protection d'écran DocPhone](https://techan.fr/wp-content/uploads/2015/08/IMG_0123-e1439121131918.jpg)](https://techan.fr/wp-content/uploads/2015/08/IMG_0123.jpg)
+[![[Sponsorié] Test des protection d'écran DocPhone](https://techan.fr/images/2015/08/IMG_0123-e1439121131918.jpg)](https://techan.fr/images/2015/08/IMG_0123.jpg)
 
  
 
@@ -70,7 +70,7 @@ Voici le contenu de la petite pochette en papier, deux lingettes nettoyantes et 
 
  
 
-[![[Sponsorié] Test des protection d'écran DocPhone](https://techan.fr/wp-content/uploads/2015/08/IMG_0124-e1439121390233.jpg)](https://techan.fr/wp-content/uploads/2015/08/IMG_0124-e1439121390233.jpg)
+[![[Sponsorié] Test des protection d'écran DocPhone](https://techan.fr/images/2015/08/IMG_0124-e1439121390233.jpg)](https://techan.fr/images/2015/08/IMG_0124-e1439121390233.jpg)
 
  
 

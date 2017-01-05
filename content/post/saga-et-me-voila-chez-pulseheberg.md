@@ -6,7 +6,7 @@ title = "[Saga] Et me voilà chez PulseHeberg !"
 date = 2015-03-14T16:01:25Z
 categories = ["Hébergement","PulseHeberg","saga changement d hébergeur"]
 tags = ["Hébergement","PulseHeberg","saga changement d hébergeur"]
-image = "https://techan.fr/wp-content/uploads/2015/03/IMG_9395.jpg"
+image = "https://techan.fr/images/2015/03/IMG_9395.jpg"
 description = ""
 
 +++

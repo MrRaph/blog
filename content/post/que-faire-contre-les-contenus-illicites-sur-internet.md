@@ -1,6 +1,6 @@
 +++
 tags = ["PHAROS","que faire contre les contenus illicites sur internet","signalement"]
-image = "https://techan.fr/wp-content/uploads/2015/01/IMG_9194.jpg"
+image = "https://techan.fr/images/2015/01/IMG_9194.jpg"
 slug = "que-faire-contre-les-contenus-illicites-sur-internet"
 title = "Que faire contre les contenus illicites sur Internet ?"
 date = 2015-01-12T22:10:02Z
@@ -26,7 +26,7 @@ C’est ainsi que FaceBook et Twitter ferment quantité de compte qui enfreignen
 
 Depuis 2009, l’État Français a mis en place la Plateforme d’harmonisation, d’analyse, de recoupement et d’orientation des signalements (Pharos), cette plateforme est accessible ici : [internet-signalement.gouv.fr](https://internet-signalement.gouv.fr). Depuis sa mise en place, cette plateforme n’arrête pas de battre ses records de signalements reçus, preuve que les gens sont de plus en plus conscient de son existence.
 
-[![IMG_9195.PNG](https://techan.fr/wp-content/uploads/2015/01/IMG_9195.png)](https://techan.fr/wp-content/uploads/2015/01/IMG_9195.png)
+[![IMG_9195.PNG](https://techan.fr/images/2015/01/IMG_9195.png)](https://techan.fr/images/2015/01/IMG_9195.png)
 
 Derrière PHAROS, intégrée à l’Office central de lutte contre la criminalité liée aux technologies de l’information et de la communication (OCLCTIC), toutes une équipe de cyberflics épluchent les signalements, les catégorisent par ordre de priorité, enquêtent, transmettent ces données aux services les plus compétents pour les traiter.
 

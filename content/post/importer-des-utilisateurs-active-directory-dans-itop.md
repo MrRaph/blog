@@ -5,7 +5,7 @@ description = ""
 draft = false
 date = 2016-01-25T10:13:08Z
 categories = ["Active Directory","Authentification","importer des utilisateurs active directory dans itop","iTop","Linux"]
-image = "https://techan.fr/wp-content/uploads/2016/01/itop-logo.png"
+image = "https://techan.fr/images/2016/01/itop-logo.png"
 slug = "importer-des-utilisateurs-active-directory-dans-itop"
 title = "Importer des utilisateurs Active Directory dans iTop"
 

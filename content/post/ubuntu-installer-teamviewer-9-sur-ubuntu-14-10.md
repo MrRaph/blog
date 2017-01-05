@@ -1,7 +1,7 @@
 +++
 categories = ["Installation","TeamViewer","TrucsAstuces","Ubuntu"]
 tags = ["Installation","TeamViewer","TrucsAstuces","Ubuntu"]
-image = "https://techan.fr/wp-content/uploads/2014/11/logo_teamviewer.gif"
+image = "https://techan.fr/images/2014/11/logo_teamviewer.gif"
 description = ""
 draft = false
 title = "[Ubuntu] Installer TeamViewer 9 sur Ubuntu 14.10"

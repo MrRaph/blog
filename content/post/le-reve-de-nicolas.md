@@ -6,7 +6,7 @@ slug = "le-reve-de-nicolas"
 title = "Le rêve de Nicolas"
 author = "MrRaph_"
 tags = ["Le rêve de mon beau frère","le rêve de nicolas"]
-image = "https://techan.fr/wp-content/uploads/2015/01/safe_image.php_.jpg"
+image = "https://techan.fr/images/2015/01/safe_image.php_.jpg"
 description = ""
 
 +++

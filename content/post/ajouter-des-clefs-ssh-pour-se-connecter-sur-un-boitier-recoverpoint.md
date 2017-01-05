@@ -1,6 +1,6 @@
 +++
 tags = ["EMC","Linux","RecoverPoint","SSH"]
-image = "https://techan.fr/wp-content/uploads/2014/11/Linux.png"
+image = "https://techan.fr/images/2014/11/Linux.png"
 slug = "ajouter-des-clefs-ssh-pour-se-connecter-sur-un-boitier-recoverpoint"
 title = "Ajouter des clefs SSH pour se connecter sur un boîtier RecoverPoint"
 author = "MrRaph_"

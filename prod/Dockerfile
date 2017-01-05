@@ -1,6 +1,6 @@
 FROM nginx:stable-alpine
 
-ENV VERSION=0.18 \
+ENV VERSION=0.18.1 \
     SRC=hugo_${VERSION}_Linux-64bit \
     EXTENSION=tar.gz \
     BINARY=hugo_${VERSION}_linux_amd64/hugo_${VERSION}_linux_amd64
@@ -19,7 +19,8 @@ WORKDIR /var/www
 
 RUN cp -rp /src/public/* /var/www/ && \
     rm /tmp/hugo_${VERSION}_Linux-64bit.${EXTENSION} && \
-    rm -rf /src
+    rm -rf /src && \
+    chown -R nginx:nginx /var/www
 #    rm -rf /tmp/hugo* /src
 
 ADD sites-enabled/www.techan.fr.conf /etc/nginx/conf.d/www.techan.fr.conf

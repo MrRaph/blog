@@ -4,7 +4,7 @@ title = "Réinstaller votre Mac depuis Internet"
 date = 2015-05-04T09:13:42Z
 categories = ["Internet","Lion","OS X","Réinstallation","réinstaller votre mac depuis internet","Restauration","Yosemite"]
 tags = ["Internet","Lion","OS X","Réinstallation","réinstaller votre mac depuis internet","Restauration","Yosemite"]
-image = "https://techan.fr/wp-content/uploads/2015/04/hero_icon_large1.png"
+image = "https://techan.fr/images/2015/04/hero_icon_large1.png"
 description = ""
 author = "MrRaph_"
 draft = false
@@ -18,7 +18,7 @@ Je cherche toujours à accélérer les plus possible mon MacBook Unibody Mid 201
 
  
 
-<div class="wp-caption aligncenter" id="attachment_1317" style="width: 664px">[![Réinstaller votre Mac depuis Internet](https://techan.fr/wp-content/uploads/2015/05/restauration_par_internet.png)](https://techan.fr/wp-content/uploads/2015/05/restauration_par_internet.png)Voici un extrait de la KB.
+<div class="wp-caption aligncenter" id="attachment_1317" style="width: 664px">[![Réinstaller votre Mac depuis Internet](https://techan.fr/images/2015/05/restauration_par_internet.png)](https://techan.fr/images/2015/05/restauration_par_internet.png)Voici un extrait de la KB.
 
 </div> 
 
@@ -26,7 +26,7 @@ Mon MacBook n’était pas fourni avec OS X Lion, aussi il m’a fallut vérifie
 
  
 
-<div class="wp-caption aligncenter" id="attachment_1315" style="width: 664px">[![Réinstaller votre Mac depuis Internet](https://techan.fr/wp-content/uploads/2015/05/restauration_internet_liste_ancien_mac_compatibles.png)](https://techan.fr/wp-content/uploads/2015/05/restauration_internet_liste_ancien_mac_compatibles.png)Liste des anciens Mac compatibles.
+<div class="wp-caption aligncenter" id="attachment_1315" style="width: 664px">[![Réinstaller votre Mac depuis Internet](https://techan.fr/images/2015/05/restauration_internet_liste_ancien_mac_compatibles.png)](https://techan.fr/images/2015/05/restauration_internet_liste_ancien_mac_compatibles.png)Liste des anciens Mac compatibles.
 
 </div> 
 
@@ -34,7 +34,7 @@ Il faut cependant faire une mise à jour si vous souhaitez utiliser la restaurat
 
  
 
-<div class="wp-caption aligncenter" id="attachment_1316" style="width: 664px">[![Réinstaller votre Mac depuis Internet](https://techan.fr/wp-content/uploads/2015/05/restauration_internet_maj_EFI.png)](https://techan.fr/wp-content/uploads/2015/05/restauration_internet_maj_EFI.png)La page de téléchargement de la mise à jour de l’EFI.
+<div class="wp-caption aligncenter" id="attachment_1316" style="width: 664px">[![Réinstaller votre Mac depuis Internet](https://techan.fr/images/2015/05/restauration_internet_maj_EFI.png)](https://techan.fr/images/2015/05/restauration_internet_maj_EFI.png)La page de téléchargement de la mise à jour de l’EFI.
 
 </div> 
 
@@ -42,7 +42,7 @@ La mise à jour se présente sous la forme d’un fichier « .pkg » sur leque
 
  
 
-[![Réinstaller votre Mac depuis Internet](https://techan.fr/wp-content/uploads/2015/05/contenu_mise_a_jour.png)](https://techan.fr/wp-content/uploads/2015/05/contenu_mise_a_jour.png)
+[![Réinstaller votre Mac depuis Internet](https://techan.fr/images/2015/05/contenu_mise_a_jour.png)](https://techan.fr/images/2015/05/contenu_mise_a_jour.png)
 
  
 
@@ -59,7 +59,7 @@ Lorsque l’écran devient noir, maintenant appuyées les touches **Commande *
 
  
 
-<div class="wp-caption aligncenter" id="attachment_1323" style="width: 423px">[![Réinstaller votre Mac depuis Internet](https://techan.fr/wp-content/uploads/2015/05/screenshot.426.jpg)](https://techan.fr/wp-content/uploads/2015/05/screenshot.426.jpg)Chargement des outils de réinstallation
+<div class="wp-caption aligncenter" id="attachment_1323" style="width: 423px">[![Réinstaller votre Mac depuis Internet](https://techan.fr/images/2015/05/screenshot.426.jpg)](https://techan.fr/images/2015/05/screenshot.426.jpg)Chargement des outils de réinstallation
 
 </div> 
 

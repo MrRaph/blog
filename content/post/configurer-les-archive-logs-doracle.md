@@ -4,7 +4,7 @@ title = "Configurer les archive logs d'Oracle"
 categories = ["Archive Log","configurer les archive logs d oracle","Oracle","Survival Guide"]
 description = ""
 slug = "configurer-les-archive-logs-doracle"
-image = "https://techan.fr/wp-content/uploads/2014/10/SQL_term.png"
+image = "https://techan.fr/images/2014/10/SQL_term.png"
 date = 2015-01-23T16:40:06Z
 author = "MrRaph_"
 tags = ["Archive Log","configurer les archive logs d oracle","Oracle","Survival Guide"]
@@ -23,7 +23,7 @@ Les archive logs doivent être stockés en de multiples endroits, la requête SQ
 
 SQL> show parameter log_archive_dest
 
-[![Configurer les archive logs d'Oracle](https://techan.fr/wp-content/uploads/2015/01/archive_logs_1.png)](https://techan.fr/wp-content/uploads/2015/01/archive_logs_1.png)
+[![Configurer les archive logs d'Oracle](https://techan.fr/images/2015/01/archive_logs_1.png)](https://techan.fr/images/2015/01/archive_logs_1.png)
 
 Sur cette base, il n’y a qu’une destination pour les archive logs, c’est le dossier : ‘/data/oracle/product/11.2.0/db_2/tfti_archive’.
 
@@ -32,7 +32,7 @@ Sur cette base, il n’y a qu’une destination pour les archive logs, c’est l
 
 SQL> archive log list ;
 
-[![Configurer les archive logs d'Oracle](https://techan.fr/wp-content/uploads/2015/01/archive_logs_2.png)](https://techan.fr/wp-content/uploads/2015/01/archive_logs_2.png)
+[![Configurer les archive logs d'Oracle](https://techan.fr/images/2015/01/archive_logs_2.png)](https://techan.fr/images/2015/01/archive_logs_2.png)
 
 Le mode archive log est activé sur cette base.
 
@@ -49,7 +49,7 @@ SQL> shutdown immediate ; SQL> startup mount ; SQL> alter database archivelog ; 
 
  
 
-[![Configurer les archive logs d'Oracle](https://techan.fr/wp-content/uploads/2015/01/archive_logs_3.png)](https://techan.fr/wp-content/uploads/2015/01/archive_logs_3.png)
+[![Configurer les archive logs d'Oracle](https://techan.fr/images/2015/01/archive_logs_3.png)](https://techan.fr/images/2015/01/archive_logs_3.png)
 
 #### Désactiver le mode archive logs
 
@@ -57,7 +57,7 @@ SQL> shutdown immediate ; SQL> startup mount ; SQL> alter database noarchivelog 
 
  
 
-[![Configurer les archive logs d'Oracle](https://techan.fr/wp-content/uploads/2015/01/archive_logs_4.png)](https://techan.fr/wp-content/uploads/2015/01/archive_logs_4.png)
+[![Configurer les archive logs d'Oracle](https://techan.fr/images/2015/01/archive_logs_4.png)](https://techan.fr/images/2015/01/archive_logs_4.png)
 
 
 ## Changer la destination d’archivage des logs
@@ -82,6 +82,6 @@ SQL> alter system set log_archive_dest_<NUMBER_OF_THE_DESTINATION>='LOCATION=<NE
 
 Par exemple, je vais changer la destination d’archivage de ma base de « /data/oracle/product/11.2.0/db_2/tfti_archive » vers « /data/oracle/archives/TFTI1 » :
 
-[![Configurer les archive logs d'Oracle](https://techan.fr/wp-content/uploads/2015/01/archive_logs_5.png)](https://techan.fr/wp-content/uploads/2015/01/archive_logs_5.png)
+[![Configurer les archive logs d'Oracle](https://techan.fr/images/2015/01/archive_logs_5.png)](https://techan.fr/images/2015/01/archive_logs_5.png)
 
 </div>

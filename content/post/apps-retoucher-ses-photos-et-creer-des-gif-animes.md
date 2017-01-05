@@ -1,7 +1,7 @@
 +++
 categories = ["Apps","iOS","Photos"]
 tags = ["Apps","iOS","Photos"]
-image = "https://techan.fr/wp-content/uploads/2014/11/app-store.png"
+image = "https://techan.fr/images/2014/11/app-store.png"
 description = ""
 slug = "apps-retoucher-ses-photos-et-creer-des-gif-animes"
 date = 2014-11-17T11:28:56Z
@@ -20,15 +20,15 @@ J’ai trouvé deux applis sympa et gratuites, une pour la retouche de photos[Av
 
 Partant de ces deux magnifiques photos prises par un néophyte de l’appareil photo sur smartphone, je voulais ajouter des effets et du texte.
 
-<div class="wp-caption alignleft" id="attachment_353" style="width: 235px">[![Avant](https://techan.fr/wp-content/uploads/2014/11/day_orig-225x300.jpg)](https://techan.fr/wp-content/uploads/2014/11/day_orig.jpg)Avant
+<div class="wp-caption alignleft" id="attachment_353" style="width: 235px">[![Avant](https://techan.fr/images/2014/11/day_orig-225x300.jpg)](https://techan.fr/images/2014/11/day_orig.jpg)Avant
 
-</div><div class="wp-caption alignleft" id="attachment_354" style="width: 235px">[![Après](https://techan.fr/wp-content/uploads/2014/11/day-225x300.jpg)](https://techan.fr/wp-content/uploads/2014/11/day.jpg)Après
+</div><div class="wp-caption alignleft" id="attachment_354" style="width: 235px">[![Après](https://techan.fr/images/2014/11/day-225x300.jpg)](https://techan.fr/images/2014/11/day.jpg)Après
 
 </div> 
 
-<div class="wp-caption alignleft" id="attachment_356" style="width: 235px">[![Avant](https://techan.fr/wp-content/uploads/2014/11/night_orig-225x300.jpg)](https://techan.fr/wp-content/uploads/2014/11/night_orig.jpg)Avant
+<div class="wp-caption alignleft" id="attachment_356" style="width: 235px">[![Avant](https://techan.fr/images/2014/11/night_orig-225x300.jpg)](https://techan.fr/images/2014/11/night_orig.jpg)Avant
 
-</div><div class="wp-caption alignleft" id="attachment_364" style="width: 235px">[![Tadaaaaaaam !](https://techan.fr/wp-content/uploads/2014/11/chat_bete1-225x300.gif)](https://techan.fr/wp-content/uploads/2014/11/chat_bete1.gif)Après
+</div><div class="wp-caption alignleft" id="attachment_364" style="width: 235px">[![Tadaaaaaaam !](https://techan.fr/images/2014/11/chat_bete1-225x300.gif)](https://techan.fr/images/2014/11/chat_bete1.gif)Après
 
 </div> 
 
@@ -80,7 +80,7 @@ Une fois ces deux magnifiques photos retouchées dans Aviary, je les ai importé
 
  
 
-[![chat_bete](https://techan.fr/wp-content/uploads/2014/11/chat_bete.gif)](https://techan.fr/wp-content/uploads/2014/11/chat_bete.gif)
+[![chat_bete](https://techan.fr/images/2014/11/chat_bete.gif)](https://techan.fr/images/2014/11/chat_bete.gif)
 
  
 

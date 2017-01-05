@@ -5,7 +5,7 @@ tags = ["Cache","Linux","Varnish","WordPress"]
 description = ""
 date = 2014-10-27T09:46:13Z
 categories = ["Cache","Linux","Varnish","WordPress"]
-image = "https://techan.fr/wp-content/uploads/2014/11/Linux.png"
+image = "https://techan.fr/images/2014/11/Linux.png"
 slug = "varnish-configurer-varnish-pour-booster-wordpress"
 title = "[Varnish] Configurer Varnish pour booster Wordpress"
 

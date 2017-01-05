@@ -15,7 +15,7 @@ Au détours d’un passage sur un des sites Google utile pour les webmasters –
 
  
 
-<div class="wp-caption aligncenter" id="attachment_1294" style="width: 784px">[![La version mobile des sites influe maintenant sur le score de Google](https://techan.fr/wp-content/uploads/2015/04/screenshot.405.jpg)](https://techan.fr/wp-content/uploads/2015/04/screenshot.405.jpg)Le bandeau de l’étrange
+<div class="wp-caption aligncenter" id="attachment_1294" style="width: 784px">[![La version mobile des sites influe maintenant sur le score de Google](https://techan.fr/images/2015/04/screenshot.405.jpg)](https://techan.fr/images/2015/04/screenshot.405.jpg)Le bandeau de l’étrange
 
 </div> 
 
@@ -29,7 +29,7 @@ La fameuse page est disponible [par ici](https://www.google.fr/webmasters/tools/
 
  
 
-<div class="wp-caption aligncenter" id="attachment_1295" style="width: 664px">[![La version mobile des sites influe maintenant sur le score de Google](https://techan.fr/wp-content/uploads/2015/04/screenshot.406.jpg)](https://techan.fr/wp-content/uploads/2015/04/screenshot.406.jpg)Demander à Google de tester la version mobile de votre site web
+<div class="wp-caption aligncenter" id="attachment_1295" style="width: 664px">[![La version mobile des sites influe maintenant sur le score de Google](https://techan.fr/images/2015/04/screenshot.406.jpg)](https://techan.fr/images/2015/04/screenshot.406.jpg)Demander à Google de tester la version mobile de votre site web
 
 </div> 
 
@@ -42,7 +42,7 @@ Bien évidement, je n’ai pas résisté à la tentation de tester cet outil et 
 
  
 
-<div class="wp-caption aligncenter" id="attachment_1263" style="width: 665px">[![google_test_mobile_en_cours](https://techan.fr/wp-content/uploads/2015/04/google_test_mobile_en_cours.jpg)](https://techan.fr/wp-content/uploads/2015/04/google_test_mobile_en_cours.jpg)Pour tester, il suffit de renseigner l’URL du site et d’attendre quelques – dizaines – de secondes.
+<div class="wp-caption aligncenter" id="attachment_1263" style="width: 665px">[![google_test_mobile_en_cours](https://techan.fr/images/2015/04/google_test_mobile_en_cours.jpg)](https://techan.fr/images/2015/04/google_test_mobile_en_cours.jpg)Pour tester, il suffit de renseigner l’URL du site et d’attendre quelques – dizaines – de secondes.
 
 </div> 
 
@@ -50,7 +50,7 @@ Après quelques dizaines de secondes d’attente, le couperet tombe ! Pour ma pa
 
  
 
-[![google_test_mobile_fini](https://techan.fr/wp-content/uploads/2015/04/google_test_mobile_fini.jpg)](https://techan.fr/wp-content/uploads/2015/04/google_test_mobile_fini.jpg)
+[![google_test_mobile_fini](https://techan.fr/images/2015/04/google_test_mobile_fini.jpg)](https://techan.fr/images/2015/04/google_test_mobile_fini.jpg)
 
 Aller, à votre tour de tester !
 

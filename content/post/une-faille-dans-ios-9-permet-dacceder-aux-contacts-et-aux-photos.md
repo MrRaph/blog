@@ -4,7 +4,7 @@ draft = false
 title = "Une faille dans iOS 9 permet d'accéder aux contacts et aux photos"
 author = "MrRaph_"
 categories = ["contacts","faille","iOS","iOS 9","Photos","Vu sur le Web"]
-image = "https://techan.fr/wp-content/uploads/2015/08/ios9_icon_large.png"
+image = "https://techan.fr/images/2015/08/ios9_icon_large.png"
 tags = ["contacts","faille","iOS","iOS 9","Photos","Vu sur le Web"]
 description = ""
 date = 2015-09-21T10:15:15Z
@@ -46,7 +46,7 @@ La manipulation est la suivante :
 
  
 
-[![Une faille dans iOS 9 permet d'accéder aux contacts et aux photos](https://techan.fr/wp-content/uploads/2015/09/ios9_faille_photos_contacts.png)](https://techan.fr/wp-content/uploads/2015/09/ios9_faille_photos_contacts.png)
+[![Une faille dans iOS 9 permet d'accéder aux contacts et aux photos](https://techan.fr/images/2015/09/ios9_faille_photos_contacts.png)](https://techan.fr/images/2015/09/ios9_faille_photos_contacts.png)
 
  
 

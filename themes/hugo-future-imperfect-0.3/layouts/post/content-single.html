@@ -1,6 +1,17 @@
 <article class="post">
     {{ .Render "header" }}
-
+    <div style="display: block; width: 100%; margin-top: 15px; margin-bottom: 15px;">
+      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <!-- Post 1 -->
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-9979120049846119"
+           data-ad-slot="7276561981"
+           data-ad-format="auto"></ins>
+      <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
     <section id="social-share">
         <ul class="icons">
             {{ partial "share-links" . }}
@@ -14,6 +25,19 @@
     </footer>
 </article>
 {{ .Render "prev-next" }}
+
+<div style="display: block; width: 100%; margin-top: 15px; margin-bottom: 15px;">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Post 2 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9979120049846119"
+     data-ad-slot="8753295183"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
 
 {{ if ne .Site.DisqusShortname "" }}
     {{ if not (in (printf "%#v" .Site.BaseURL) "localhost") }}

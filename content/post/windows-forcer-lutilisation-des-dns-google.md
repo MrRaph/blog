@@ -21,7 +21,7 @@ Ensuite dans la fenêtre qui s’ouvre, faire un clic droit sur l’interface r�
 
 Sélectionner **Utiliser l’adresse du serveur DNS suivante:** » et remplir les IP comme suit :
 
-[![ncpa_dns](https://techan.fr/wp-content/uploads/2014/11/ncpa_dns-264x300.png)](https://techan.fr/wp-content/uploads/2014/11/ncpa_dns.png)
+[![ncpa_dns](https://techan.fr/images/2014/11/ncpa_dns-264x300.png)](https://techan.fr/images/2014/11/ncpa_dns.png)
 
  
 

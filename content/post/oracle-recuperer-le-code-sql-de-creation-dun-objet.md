@@ -1,7 +1,7 @@
 +++
 date = 2014-10-23T08:18:00Z
 categories = ["Oracle","Survival Guide","Trucs et Astuces"]
-image = "https://techan.fr/wp-content/uploads/2014/10/SQL_term.png"
+image = "https://techan.fr/images/2014/10/SQL_term.png"
 description = ""
 draft = false
 title = "[Oracle] Récupérer le code SQL de création d'un objet"

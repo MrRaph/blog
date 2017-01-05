@@ -4,7 +4,7 @@ categories = ["Export PST","mail","ThunderBird","Trucs et Astuces","Ubuntu"]
 slug = "exporter-mails-dun-fichier-pst-ubuntu"
 draft = false
 tags = ["Export PST","mail","ThunderBird","Trucs et Astuces","Ubuntu"]
-image = "https://techan.fr/wp-content/uploads/2015/04/Ubuntu_Logo.gif"
+image = "https://techan.fr/images/2015/04/Ubuntu_Logo.gif"
 description = ""
 title = "Exporter les mails d'un fichier PST sur Ubuntu"
 date = 2015-11-19T09:55:28Z
@@ -35,7 +35,7 @@ mkdir 2014 readpst -D -M -b -e -o 2014 /media/raphael/Aldata/Outlook/2014.pst
 
 Voici la sortie écran que génère cette opération.
 
-[![Exporter les mails d'un fichier PST sur Ubuntu](https://techan.fr/wp-content/uploads/2015/11/avancement-export.png)](https://techan.fr/wp-content/uploads/2015/11/avancement-export.png)
+[![Exporter les mails d'un fichier PST sur Ubuntu](https://techan.fr/images/2015/11/avancement-export.png)](https://techan.fr/images/2015/11/avancement-export.png)
 
  
 
@@ -56,7 +56,7 @@ Une fois ce prérequis installé, rien n’est plus simple, faites un clic droit
 
  
 
-[![importer_les_messages](https://techan.fr/wp-content/uploads/2015/11/importer_les_messages.png)](https://techan.fr/wp-content/uploads/2015/11/importer_les_messages.png)
+[![importer_les_messages](https://techan.fr/images/2015/11/importer_les_messages.png)](https://techan.fr/images/2015/11/importer_les_messages.png)
 
 L’opération prend …. longtemps … mais tout fonctionne au poil !
 

@@ -6,7 +6,7 @@ slug = "linux-forcer-un-programme-a-utiliser-une-locale-anglaise"
 title = "[Linux] Forcer un programme a utiliser une locale anglaise"
 categories = ["Anglais","Linux","Locale"]
 tags = ["Anglais","Linux","Locale"]
-image = "https://techan.fr/wp-content/uploads/2014/11/Linux.png"
+image = "https://techan.fr/images/2014/11/Linux.png"
 draft = false
 
 +++

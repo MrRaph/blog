@@ -6,7 +6,7 @@ categories = ["la fin est proche"]
 tags = ["la fin est proche"]
 description = ""
 draft = false
-image = "https://techan.fr/wp-content/uploads/2014/09/cropped-TechAN_moyen13.png"
+image = "https://techan.fr/images/2014/09/cropped-TechAN_moyen13.png"
 slug = "la-fin-est-proche"
 
 +++

@@ -5,7 +5,7 @@ draft = false
 title = "Installer Flash pour Chromium sur un Raspberry Pi 2"
 categories = ["Flash","installer flash pour chromium sur un raspberry pi 2","Raspberry Pi 2","Trucs et Astuces","Ubuntu MATE"]
 tags = ["Flash","installer flash pour chromium sur un raspberry pi 2","Raspberry Pi 2","Trucs et Astuces","Ubuntu MATE"]
-image = "https://techan.fr/wp-content/uploads/2015/06/Raspi_Colour_R.png"
+image = "https://techan.fr/images/2015/06/Raspi_Colour_R.png"
 description = ""
 date = 2015-06-30T11:30:41Z
 
