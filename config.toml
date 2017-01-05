@@ -58,7 +58,7 @@ copyright = "© 2016 Copyright Text"
 # Adjust the amount of recent posts on the sidebar.
 # This is optional. The default value 5 will be used
 [params.postAmount]
-    sidebar = 2
+    sidebar = 3
 
 # Set up your menu items in the navigation bar
 # You can use identifier to prepend a font awesome icon to your text
