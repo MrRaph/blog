@@ -105,6 +105,7 @@ article.post footer .stats {
 
         /* Modern Browsers */
         opacity: 0.87;
+        text-align: justify;
     }
 
 #header h2 {
