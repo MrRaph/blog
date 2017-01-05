@@ -1,6 +1,6 @@
 {{ if isset .Params "image" }}
   <a href="{{ .Permalink }}" class="image featured">
-      <img src="{{ $path }}/{{ .Params.featured }}" />
+      <img src="{{ .Params.image }}" />
   </a>
 {{ else if and (isset .Params "featuredpath") (ne .Params.featuredpath "") }}
     {{ $.Scratch.Set "path" .Params.featuredpath }}
