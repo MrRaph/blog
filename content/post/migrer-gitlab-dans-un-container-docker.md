@@ -1,9 +1,9 @@
 +++
 slug = "migrer-gitlab-dans-un-container-docker"
 draft = false
-date = 2016-08-29T14:19:33Z
+date = "2016-08-29"
 image = "https://about.gitlab.com/images/press/logo/wm_no_bg.svg"
-featured = "https://about.gitlab.com/images/press/logo/wm_no_bg.svg"
+featured = "gitlab_logo.svg"
 description = "Voici une procédure expliquant comment migrer un GitLab installé en dur sur une machine dans un container Docker."
 categories = ["Docker","GitLab","Migrer GitLab dans Docker","docker-compose","Trucs et Astuces","Linux"]
 tags = ["Docker","GitLab","Migrer GitLab dans Docker","docker-compose","Trucs et Astuces","Linux"]
@@ -40,13 +40,13 @@ Voici le fichier `docker-compose.yml` que j'ai utilisé, adaptez le suivant votr
 
     services:
      gitlab:
-   
+
      image: gitlab/gitlab-ce
-   
+
      restart: always
-   
+
      container_name: gitlab
-   
+
      volumes:
       - /data/gitlab/config:/etc/gitlab
       - /etc/letsencrypt:/etc/letsencrypt
@@ -118,4 +118,4 @@ Puis faites lui recréer votre/vos container(s) !
 
     dokcer-compose up -d
 
-GitLab est à jour ! :) 
+GitLab est à jour ! :)
