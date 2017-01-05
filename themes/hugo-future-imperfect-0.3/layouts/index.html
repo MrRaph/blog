@@ -15,7 +15,7 @@
         {{ range $i, $e := .Paginator.Pages }}
             {{ .Render "content-list" }}
 
-            {{ if modBool $i 3 }}
+            {{ if eq $i 3 }}
               <div style="display: block; width: 100%; margin-top: 15px; margin-bottom: 15px;">
               	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
               	<!-- Post unique – 3 (mobile, techan.fr) -->
@@ -28,6 +28,51 @@
               	(adsbygoogle = window.adsbygoogle || []).push({});
               	</script>
               </div>
+            {{ end }}
+
+            { if eq $i 6 }}
+              <div style="display: block; width: 100%; margin-top: 15px; margin-bottom: 15px;">
+                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- Homepage 2 -->
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-9979120049846119"
+                     data-ad-slot="2846362380"
+                     data-ad-format="auto"></ins>
+                <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+              </div>
+            {{ end }}
+
+            { if eq $i 9 }}
+              <div style="display: block; width: 100%; margin-top: 15px; margin-bottom: 15px;">
+                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- Homepage 3 -->
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-9979120049846119"
+                     data-ad-slot="4323095583"
+                     data-ad-format="auto"></ins>
+                <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
+            {{ end }}
+
+            { if eq $i 12 }}
+              <div style="display: block; width: 100%; margin-top: 15px; margin-bottom: 15px;">
+                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                  <!-- Homepage 4 -->
+                  <ins class="adsbygoogle"
+                       style="display:block"
+                       data-ad-client="ca-pub-9979120049846119"
+                       data-ad-slot="5799828782"
+                       data-ad-format="auto"></ins>
+                  <script>
+                  (adsbygoogle = window.adsbygoogle || []).push({});
+                  </script>
+            </div>
             {{ end }}
         {{ end }}
 
