@@ -22,7 +22,8 @@ WORKDIR /var/www
 
 RUN cp -rp /src/public/* /var/www/ && \
     rm /tmp/hugo_${VERSION}_Linux-64bit.${EXTENSION} && \
-    rm -rf /src
+    rm -rf /src && \
+    chown -R nginx:nginx /var/www
 #    rm -rf /tmp/hugo* /src
 
 ADD sites-enabled/www.techan.fr.conf /etc/nginx/conf.d/www.techan.fr.conf
