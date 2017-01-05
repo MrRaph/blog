@@ -1,8 +1,6 @@
 +++
 title = "Dire Stop à la frustration en corrigeant les problèmes de freeze de la souris sur Ubuntu"
-featured = "/images/2016/12/touchpad_64.png"
-featuredalt = ""
-featuredpath = ""
+image = "/images/2016/12/touchpad_64.png"
 slug = "dire-stop-a-la-frustration-en-corrigeant-les-problemes-de-freeze-de-la-souris-sur-ubuntu"
 draft = false
 date = 2016-12-12T12:48:35Z
