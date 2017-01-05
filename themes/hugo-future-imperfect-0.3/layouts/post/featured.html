@@ -1,8 +1,9 @@
 {{ if isset .Params "image" }}
-  <a href="{{ .Permalink }}" class="image featured">
+  <center><a href="{{ .Permalink }}" class="image featured">
       <img src="{{ .Params.image }}" />
-  </a>
-{{ else if and (isset .Params "featuredpath") (ne .Params.featuredpath "") }}
+  </a></center>
+{{ end }}
+<!-- {{ else if and (isset .Params "featuredpath") (ne .Params.featuredpath "") }}
     {{ $.Scratch.Set "path" .Params.featuredpath }}
 
     {{ if and (isset .Params "featured") (ne .Params.featuredpath "") }}
@@ -18,4 +19,4 @@
           <img src="{{ .Params.featured }}" alt="{{ .Params.featuredalt }}" />
       </a>
     {{ end }}
-{{ end }}
+{{ end }} -->
