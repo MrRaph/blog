@@ -1,6 +1,8 @@
 +++
 title = "Dire Stop à la frustration en corrigeant les problèmes de freeze de la souris sur Ubuntu"
-image = "/images/2016/12/touchpad_64.png"
+featured = "/images/2016/12/touchpad_64.png"
+featuredalt = ""
+featuredpath = ""
 slug = "dire-stop-a-la-frustration-en-corrigeant-les-problemes-de-freeze-de-la-souris-sur-ubuntu"
 draft = false
 date = 2016-12-12T12:48:35Z
@@ -13,7 +15,7 @@ description = ""
 
 Depuis mainteant presque huit mois, je n'utilises plus qu'Ubuntu pour mes besoins professionels. Bon, je l'avoue tout de suite, j'ai quand même une VM Windows pour certains besoins - client VPN exotiques, applications très spécifiques, ... J'ai réussi à trouver une solution satisfaisante pour tous mes besoins.
 
-Je travaille sur un poste Lenovo, autant dire que je n'utilise pas le pavé tactile, en fait, je n'utilise ces choses que sur mon Mac. Je trouve - c'est un avis personnel hein ! - que les pavé tactiles non Mac sont beaucoup trop limités et limitants. J'utilise donc en permanence ma bonne vieille <a target="_blank" href="https://www.amazon.fr/gp/product/B0152YTWPW/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=B0152YTWPW&linkCode=as2&tag=techan0f-21">Razer Orochi</a> quelque soient mes besoins et ce depuis des années. Sa capacité à être à la fois une souris Bluetooth et une souris filaire couplée à sa petite taille sont des qualités essentielles à ma mobilité. 
+Je travaille sur un poste Lenovo, autant dire que je n'utilise pas le pavé tactile, en fait, je n'utilise ces choses que sur mon Mac. Je trouve - c'est un avis personnel hein ! - que les pavé tactiles non Mac sont beaucoup trop limités et limitants. J'utilise donc en permanence ma bonne vieille <a target="_blank" href="https://www.amazon.fr/gp/product/B0152YTWPW/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=B0152YTWPW&linkCode=as2&tag=techan0f-21">Razer Orochi</a> quelque soient mes besoins et ce depuis des années. Sa capacité à être à la fois une souris Bluetooth et une souris filaire couplée à sa petite taille sont des qualités essentielles à ma mobilité.
 
 Malheureuseument, sous Ubuntu cette bonne vieille souris freezait de manière intempestive, le pointeur qui se bloque en plein milieu d'un déplacement, LE truc carrément pénible. Il est donc temps de dire Stop à la frustration en corrigeant les problèmes de freeze de la souris sur Ubuntu !
 

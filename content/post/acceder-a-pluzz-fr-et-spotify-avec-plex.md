@@ -2,11 +2,14 @@
 author = "MrRaph_"
 title = "Accéder à Pluzz.fr et Spotify avec Plex"
 tags = ["accéder à pluzz fr avec plex","accéder à pluzz fr et spotify avec plex","Plex","Pluzz","Pluzz.fr","PMS","Spotify","Trucs et Astuces"]
-image = "https://techan.fr/wp-content/uploads/2015/06/plex_logo.png"
+image = "https://techan.fr/images/2015/06/plex_logo.png"
+featured = "plex_logo.png"
+featuredalt = ""
+featuredpath = ""
 description = ""
 slug = "acceder-a-pluzz-fr-et-spotify-avec-plex"
 draft = false
-date = 2015-11-16T12:23:33Z
+date = 2015-11-16
 categories = ["accéder à pluzz fr avec plex","accéder à pluzz fr et spotify avec plex","Plex","Pluzz","Pluzz.fr","PMS","Spotify","Trucs et Astuces"]
 
 +++
@@ -16,7 +19,7 @@ Il  ya quelques temps, je suis tombé sur un post sur le forum de la communaut�
 
  
 
-![screenshot.565](https://techan.fr/wp-content/uploads/2015/06/screenshot.565.jpg)
+![screenshot.565](https://techan.fr/images/2015/06/screenshot.565.jpg)
 
 J’ai donc entrepris de l’installer. Par ailleurs, j’ai également déniché un plugin pour pouvoir écouter Spotify directement dans Plex !
 
@@ -40,7 +43,7 @@ Et voilà !
 
  
 
-[![pluzz_plex](https://techan.fr/wp-content/uploads/2015/06/pluzz_plex.jpg)](https://techan.fr/wp-content/uploads/2015/06/pluzz_plex.jpg)
+[![pluzz_plex](https://techan.fr/images/2015/06/pluzz_plex.jpg)](https://techan.fr/images/2015/06/pluzz_plex.jpg)
 
  
 
@@ -53,7 +56,7 @@ De la même façon que pour Pluzz, voici la marche à suivre pour installer le s
     git clone https://github.com/pablorusso/Spotify2.bundle
     chown -R plex: Spotify2.bundle/
     ln -s /opt/Plex/Spotify2.bundle/ /var/lib/plexmediaserver/Library/Application\ Support/Plex\ Media\ Server/Plug-ins/
-    chown -h plex: /var/lib/plexmediaserver/Library/Application\ Support/Plex\ Media\ Server/Plug-ins/Spotify2.bundle 
+    chown -h plex: /var/lib/plexmediaserver/Library/Application\ Support/Plex\ Media\ Server/Plug-ins/Spotify2.bundle
     service plexmediaserver restart
 
  
@@ -65,5 +68,3 @@ De la même façon que pour Pluzz, voici la marche à suivre pour installer le s
 - [Spotify Bundle](https://iterando.wordpress.com/2014/06/11/listen-spotify-with-chromecast-and-dlna-using-plex/)
 
  
-
-
