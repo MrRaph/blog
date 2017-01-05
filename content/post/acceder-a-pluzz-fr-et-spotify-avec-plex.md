@@ -9,7 +9,7 @@ featuredpath = ""
 description = ""
 slug = "acceder-a-pluzz-fr-et-spotify-avec-plex"
 draft = false
-date = 2015-11-16
+date = "2015-11-16"
 categories = ["accéder à pluzz fr avec plex","accéder à pluzz fr et spotify avec plex","Plex","Pluzz","Pluzz.fr","PMS","Spotify","Trucs et Astuces"]
 
 +++
