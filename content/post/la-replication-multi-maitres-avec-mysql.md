@@ -1,5 +1,5 @@
 +++
-image = "https://techan.fr/wp-content/uploads/2014/10/SQL_term.png"
+image = "https://techan.fr/images/2014/10/SQL_term.png"
 description = ""
 draft = false
 categories = ["la réplication multi maitres avec mysql","Mult-master","MySQL","Replication","Survival Guide"]

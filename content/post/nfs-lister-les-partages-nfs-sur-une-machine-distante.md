@@ -1,7 +1,7 @@
 +++
 date = 2014-11-14T09:52:45Z
 author = "MrRaph_"
-image = "https://techan.fr/wp-content/uploads/2014/11/Linux.png"
+image = "https://techan.fr/images/2014/11/Linux.png"
 description = ""
 draft = false
 title = "[NFS] Lister les partages NFS sur une machine distante"

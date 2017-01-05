@@ -21,7 +21,7 @@ A voir si ce patch résout tous ces soucis … ![:)](http://blog.techan.fr/wp-in
 
  
 
-[![Yosemite_10.10.1](https://techan.fr/wp-content/uploads/2014/11/Yosemite_10.10.1.png)](https://techan.fr/wp-content/uploads/2014/11/Yosemite_10.10.1.png)
+[![Yosemite_10.10.1](https://techan.fr/images/2014/11/Yosemite_10.10.1.png)](https://techan.fr/images/2014/11/Yosemite_10.10.1.png)
 
  
 

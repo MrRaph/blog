@@ -1,6 +1,6 @@
 +++
 author = "MrRaph_"
-image = "https://techan.fr/wp-content/uploads/2015/06/powershell-logo.jpg"
+image = "https://techan.fr/images/2015/06/powershell-logo.jpg"
 draft = false
 title = "Lister les jobs concurrents dans BackupExec avec PowserShell"
 categories = ["BackupExec","lister les jobs concurrents dans backupexec avec powsershell","Trucs et Astuces"]
@@ -27,7 +27,7 @@ SELECT [JobName] ,[ActualStartTime] ,[ElapsedTimeSeconds] ,[FinalJobStatus] ,[Fi
 
 Voici le résultat de son exécution dans Management Studio.
 
-<div class="wp-caption aligncenter" id="attachment_1491" style="width: 664px">[![Lister les jobs concurrents dans BackupExec avec PowserShell](https://techan.fr/wp-content/uploads/2015/06/BE_listee_des_jobs.jpg)](https://techan.fr/wp-content/uploads/2015/06/BE_listee_des_jobs.jpg)L’historique des jobs sur les 7 derniers jours
+<div class="wp-caption aligncenter" id="attachment_1491" style="width: 664px">[![Lister les jobs concurrents dans BackupExec avec PowserShell](https://techan.fr/images/2015/06/BE_listee_des_jobs.jpg)](https://techan.fr/images/2015/06/BE_listee_des_jobs.jpg)L’historique des jobs sur les 7 derniers jours
 
 </div> 
 
@@ -58,7 +58,7 @@ Pour chacun des jobs listés dans l’historique, j’ajoute un champ dans leque
 
  
 
-<div class="wp-caption aligncenter" id="attachment_1492" style="width: 664px">[![Lister les jobs concurrents dans BackupExec avec PowserShell](https://techan.fr/wp-content/uploads/2015/06/BE_jobs_concurrents.jpg)](https://techan.fr/wp-content/uploads/2015/06/BE_jobs_concurrents.jpg)On voit ici que les deux jobs sont concurrents.
+<div class="wp-caption aligncenter" id="attachment_1492" style="width: 664px">[![Lister les jobs concurrents dans BackupExec avec PowserShell](https://techan.fr/images/2015/06/BE_jobs_concurrents.jpg)](https://techan.fr/images/2015/06/BE_jobs_concurrents.jpg)On voit ici que les deux jobs sont concurrents.
 
 </div> 
 

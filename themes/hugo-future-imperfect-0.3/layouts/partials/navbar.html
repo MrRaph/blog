@@ -26,7 +26,7 @@
             </li>
             {{ end }}
             <li class="search">
-                <a class="fa-search" href="#search">Search</a>
+                <a class="fa-search" href="#search">Recherche</a>
                 <form id="search" method="get" action="//google.com/search">
                     <input type="text" name="q" placeholder="Search" />
                     <input type="hidden" name="q" value="site:{{ .Site.BaseURL }}">
@@ -72,7 +72,7 @@
         <section>
             <ul class="links">
                 <header>
-                    <h3>Recent Posts</h3>
+                    <h3>Posts récents</h3>
                 </header>
                 {{ with .Site.Params.postAmount.sidebar }}
                     {{ $.Scratch.Set "postLimit" . }}

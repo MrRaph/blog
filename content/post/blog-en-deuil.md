@@ -1,6 +1,6 @@
 +++
 tags = ["blog en deuil","Je suis Charlie !"]
-image = "https://techan.fr/wp-content/uploads/2015/01/je_suis_charlie.jpg"
+image = "https://techan.fr/images/2015/01/je_suis_charlie.jpg"
 description = ""
 slug = "blog-en-deuil"
 draft = false
@@ -32,6 +32,6 @@ Aujourd’hui, je suis triste, j’ai l’impression comme Philippe Val d’avoi
 
 Alors aujourd’hui, JE SUIS CHARLIE !
 
-[![Je suis Charlie](https://techan.fr/wp-content/uploads/2015/01/je_suis_charlie.jpg)](https://techan.fr/wp-content/uploads/2015/01/je_suis_charlie.jpg)
+[![Je suis Charlie](https://techan.fr/images/2015/01/je_suis_charlie.jpg)](https://techan.fr/images/2015/01/je_suis_charlie.jpg)
 
 

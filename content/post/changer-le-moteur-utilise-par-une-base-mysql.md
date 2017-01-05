@@ -4,7 +4,7 @@ draft = false
 title = "Changer le moteur utilisé par une base MySQL"
 date = 2015-02-02T11:20:21Z
 tags = ["changer le moteur utilisé par une base mysql","Changer moteur","MyISAM","MySQL","Trucs et Astuces"]
-image = "https://techan.fr/wp-content/uploads/2014/10/SQL_term.png"
+image = "https://techan.fr/images/2014/10/SQL_term.png"
 description = ""
 slug = "changer-le-moteur-utilise-par-une-base-mysql"
 categories = ["changer le moteur utilisé par une base mysql","Changer moteur","MyISAM","MySQL","Trucs et Astuces"]
@@ -19,7 +19,7 @@ Je pars du principe que l’on veut changer le moteur de toutes les tables de la
 
 ## La table INFORMATION_SCHEMA.tables
 
-[![Changer le moteur utilisé par une base MySQL](https://techan.fr/wp-content/uploads/2015/01/describe_information_schema_tables.png)](https://techan.fr/wp-content/uploads/2015/01/describe_information_schema_tables.png)
+[![Changer le moteur utilisé par une base MySQL](https://techan.fr/images/2015/01/describe_information_schema_tables.png)](https://techan.fr/images/2015/01/describe_information_schema_tables.png)
 
 Cette table stocke les informations liées à toutes les tables existantes dans l’instance MySQL. On y trouve notamment, les champs « table_name » et « table_schema ».
 
@@ -37,6 +37,6 @@ mysql> select concat('ALTER TABLE ', table_name, ' ENGINE = MyISAM;') from (sele
 
 mysql> ALTER TABLE wp_commentmeta ENGINE = MyISAM; Query OK, 0 rows affected (0.03 sec) Records: 0 Duplicates: 0 Warnings: 0
 
-[![Changer le moteur utilisé par une base MySQL](https://techan.fr/wp-content/uploads/2015/01/table_transformee_myisam.png)](https://techan.fr/wp-content/uploads/2015/01/table_transformee_myisam.png)
+[![Changer le moteur utilisé par une base MySQL](https://techan.fr/images/2015/01/table_transformee_myisam.png)](https://techan.fr/images/2015/01/table_transformee_myisam.png)
 
 

@@ -5,7 +5,7 @@ draft = false
 title = "Rediriger une page WordPress p=xxx vers une autre"
 author = "MrRaph_"
 tags = ["Redirection","rediriger une page wordpress p=xxx vers une autre","Trucs et Astuces","WordPress"]
-image = "https://techan.fr/wp-content/uploads/2014/11/Linux.png"
+image = "https://techan.fr/images/2014/11/Linux.png"
 categories = ["Redirection","rediriger une page wordpress p=xxx vers une autre","Trucs et Astuces","WordPress"]
 date = 2014-12-26T11:35:28Z
 

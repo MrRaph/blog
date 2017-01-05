@@ -57,7 +57,7 @@ L'import peut durer un certain temps, soyez patient ! Il est également probable
 
 ## 3. Les à-côté fastidieux
 
-Il reste maintenant à migrer les images existantes dans WordPress. Ces dernières sont stockées dans le dossier `/dossier/de/wordpress/wp-content/uploads`. Copiez ce dossier à côté de votre installation de Ghost - dans cet exemple, je vais utiliser le dossier `/data/ghost/images_wordpress`.
+Il reste maintenant à migrer les images existantes dans WordPress. Ces dernières sont stockées dans le dossier `/dossier/de/wordpress/images`. Copiez ce dossier à côté de votre installation de Ghost - dans cet exemple, je vais utiliser le dossier `/data/ghost/images_wordpress`.
 
 Maintenant que nous avons tout ce qu'il faut dans Ghost et que les images sont disponibles, il ne reste plus qu'à configurer Nginx pour qu'il serve les images et qu'il proxyfie Ghost.
 

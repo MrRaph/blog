@@ -1,6 +1,6 @@
 +++
 categories = ["Cloud Control","cloud control 12c agent down","Oracle","Survival Guide"]
-image = "https://techan.fr/wp-content/uploads/2014/10/SQL_term.png"
+image = "https://techan.fr/images/2014/10/SQL_term.png"
 slug = "agent-cloud-control-12c-apres-reboot-de-la-machine"
 date = 2014-11-26T18:31:30Z
 author = "MrRaph_"
@@ -14,7 +14,7 @@ title = "Agent Cloud Control 12c down après reboot de la machine"
 
 Après une action sur une VM Oracle Linux hébergeant deux bases Oracle, j’ai eu la mauvaise surprise de voir que l’agent Cloud Control 12c a bien redémarrer mais était vu comme down dans le Cloud Control. Je dois avouer que j’ai pas mal tourné en rond que cette flèche rouge m’a pas mal irrité …  
   
-[![Agent Cloud Control 12c down](https://techan.fr/wp-content/uploads/2014/11/agent_recalcitrant1.png)](https://techan.fr/wp-content/uploads/2014/11/agent_recalcitrant1.png)
+[![Agent Cloud Control 12c down](https://techan.fr/images/2014/11/agent_recalcitrant1.png)](https://techan.fr/images/2014/11/agent_recalcitrant1.png)
 
  
 
@@ -24,7 +24,7 @@ Cette marche à suivre se trouve sur le site [community.oracle.com](https://comm
 
  
 
-[![forcer_agent_recalcitrant](https://techan.fr/wp-content/uploads/2014/11/forcer_agent_recalcitrant.png)](https://techan.fr/wp-content/uploads/2014/11/forcer_agent_recalcitrant.png)J’ai donc appliqué cette procédure.
+[![forcer_agent_recalcitrant](https://techan.fr/images/2014/11/forcer_agent_recalcitrant.png)](https://techan.fr/images/2014/11/forcer_agent_recalcitrant.png)J’ai donc appliqué cette procédure.
 
 **<span style="text-decoration: underline;">Note :</span>** Il faut se placer dans le répertoire « $AGENT_HOME/bin » pour lancer ces commandes.
 
@@ -36,7 +36,7 @@ Une fois ces  actions réalisées, la flèche repasse miraculeusement au vert !
 
  
 
-[![agent_recalcitrant_up](https://techan.fr/wp-content/uploads/2014/11/agent_recalcitrant_up.png)](https://techan.fr/wp-content/uploads/2014/11/agent_recalcitrant_up.png)
+[![agent_recalcitrant_up](https://techan.fr/images/2014/11/agent_recalcitrant_up.png)](https://techan.fr/images/2014/11/agent_recalcitrant_up.png)
 
  
 

@@ -15,7 +15,7 @@ Depuis plusieurs jours des bruits filtraient sur le Net et aujourd’hui le cons
   
   
 
-<div class="wp-caption aligncenter" id="attachment_115" style="width: 310px">[![Le mail de GoPro](https://techan.fr/wp-content/uploads/2014/09/gopro4_sortie-300x229.png)](https://techan.fr/wp-content/uploads/2014/09/gopro4_sortie.png)Le mail de GoPro
+<div class="wp-caption aligncenter" id="attachment_115" style="width: 310px">[![Le mail de GoPro](https://techan.fr/images/2014/09/gopro4_sortie-300x229.png)](https://techan.fr/images/2014/09/gopro4_sortie.png)Le mail de GoPro
 
 </div> 
 
@@ -47,7 +47,7 @@ Le constructeur ajoute une caméra plus bas de gamme à son catalogue, mais nett
 
  
 
-<div class="wp-caption aligncenter" id="attachment_117" style="width: 310px">[![La nouvelle gamme de caméras GoPro](https://techan.fr/wp-content/uploads/2014/09/gopro4_nouvelle_gamme-300x120.png)](https://techan.fr/wp-content/uploads/2014/09/gopro4_nouvelle_gamme.png)La nouvelle gamme de caméras GoPro
+<div class="wp-caption aligncenter" id="attachment_117" style="width: 310px">[![La nouvelle gamme de caméras GoPro](https://techan.fr/images/2014/09/gopro4_nouvelle_gamme-300x120.png)](https://techan.fr/images/2014/09/gopro4_nouvelle_gamme.png)La nouvelle gamme de caméras GoPro
 
 </div> 
 

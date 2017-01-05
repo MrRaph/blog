@@ -1,7 +1,7 @@
 +++
 author = "MrRaph_"
 categories = ["installer manuellement tomcat 8 sur fedora 21"]
-image = "https://techan.fr/wp-content/uploads/2015/02/120px-Fedora_logo.svg_.png"
+image = "https://techan.fr/images/2015/02/120px-Fedora_logo.svg_.png"
 slug = "installer-manuellement-tomcat-8-sur-fedora-21"
 title = "Installer manuellement Tomcat 8 sur Fedora 21"
 tags = ["installer manuellement tomcat 8 sur fedora 21"]
@@ -91,7 +91,7 @@ On démarre Tomcat 8 !
 
 On peut maintenant se rendre à l’adresse : http://localhost:8080/ et voir cette magnifique page.
 
-[![screenshot.1423643818](https://techan.fr/wp-content/uploads/2015/02/screenshot.1423643818.png)](https://techan.fr/wp-content/uploads/2015/02/screenshot.1423643818.png)Et dans les logs :
+[![screenshot.1423643818](https://techan.fr/images/2015/02/screenshot.1423643818.png)](https://techan.fr/images/2015/02/screenshot.1423643818.png)Et dans les logs :
 
 [root@xxxx logs]# journalctl -f -- Logs begin at dim. 2015-02-01 15:14:43 CET. -- févr. 11 09:35:49 xxxx.domain.net startup.sh[20397]: Using CATALINA_BASE: /opt/tomcat-latest févr. 11 09:35:49 xxxx.domain.net startup.sh[20397]: Using CATALINA_HOME: /opt/tomcat-latest févr. 11 09:35:49 xxxx.domain.net startup.sh[20397]: Using CATALINA_TMPDIR: /opt/tomcat-latest/temp févr. 11 09:35:49 xxxx.domain.net startup.sh[20397]: Using JRE_HOME: /usr févr. 11 09:35:49 xxxx.domain.net startup.sh[20397]: Using CLASSPATH: /opt/tomcat-latest/bin/bootstrap.jar:/opt/tomcat-latest/bin/tomcat-juli.jar févr. 11 09:35:49 xxxx.domain.net startup.sh[20397]: Using CATALINA_PID: /opt/tomcat-latest/tomcat8.pid févr. 11 09:35:49 xxxx.domain.net startup.sh[20397]: Tomcat started.
 

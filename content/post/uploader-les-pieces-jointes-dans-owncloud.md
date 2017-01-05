@@ -1,6 +1,6 @@
 +++
 categories = ["Bidouille","FileLink","OwnCloud","ThunderBird","Trucs et Astuces","uploader les pièces jointes dans owncloud"]
-image = "https://techan.fr/wp-content/uploads/2014/12/oc_logo.png"
+image = "https://techan.fr/images/2014/12/oc_logo.png"
 date = 2014-12-17T12:07:00Z
 author = "MrRaph_"
 tags = ["Bidouille","FileLink","OwnCloud","ThunderBird","Trucs et Astuces","uploader les pièces jointes dans owncloud"]

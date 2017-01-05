@@ -1,6 +1,6 @@
 +++
 tags = ["Copie bit à bit","dd","Linux","USB"]
-image = "https://techan.fr/wp-content/uploads/2014/11/Linux.png"
+image = "https://techan.fr/images/2014/11/Linux.png"
 slug = "linux-creer-une-copie-bit-a-bit-dune-clef-usb"
 title = "[Linux] Créer une copie bit à bit d'une clef USB"
 author = "MrRaph_"

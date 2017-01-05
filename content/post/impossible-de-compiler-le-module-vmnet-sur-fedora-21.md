@@ -1,6 +1,6 @@
 +++
 categories = ["Fedora 11","impossible de compiler le module vmnet sur fedora 11","vmnet","VMware","Workstation"]
-image = "https://techan.fr/wp-content/uploads/2015/04/vmware_workstation_logo.jpg"
+image = "https://techan.fr/images/2015/04/vmware_workstation_logo.jpg"
 description = ""
 draft = false
 title = "Impossible de compiler le module vmnet sur Fedora 21"

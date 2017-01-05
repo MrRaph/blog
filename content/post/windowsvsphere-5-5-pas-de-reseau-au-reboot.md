@@ -6,7 +6,7 @@ title = "[Windows/vSphere 5.5] Pas de réseau au reboot"
 author = "MrRaph_"
 categories = ["réseau","TroubleShooting","VMware","vsphere windows 2008","vSphere55","Windows"]
 tags = ["réseau","TroubleShooting","VMware","vsphere windows 2008","vSphere55","Windows"]
-image = "https://techan.fr/wp-content/uploads/2014/11/server2008r2_vmware.png"
+image = "https://techan.fr/images/2014/11/server2008r2_vmware.png"
 date = 2014-11-20T10:21:22Z
 
 +++
@@ -16,7 +16,7 @@ Voici un souci que j’ai rencontré, parfois lorsqu’un Windows 2008 hébergé
 
  
 
-La carte réseau a un petite triangle jaune délicieux comme ceci : [![carte_reseau_triangle_jaune](https://techan.fr/wp-content/uploads/2014/11/carte_reseau_triangle_jaune.png)](https://techan.fr/wp-content/uploads/2014/11/carte_reseau_triangle_jaune.png).
+La carte réseau a un petite triangle jaune délicieux comme ceci : [![carte_reseau_triangle_jaune](https://techan.fr/images/2014/11/carte_reseau_triangle_jaune.png)](https://techan.fr/images/2014/11/carte_reseau_triangle_jaune.png).
 
 Une solution pour résoudre cela rapidement est de désactiver puis réactiver la carte réseau, tout rentre alors dans l’ordre, mais cela ne corrige pas le fond du problème.  
   

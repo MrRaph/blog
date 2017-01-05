@@ -1,7 +1,7 @@
 +++
 author = "MrRaph_"
 categories = ["lancer plusieurs instances mysql sur une machine","Multi instances","MySQL","Trucs et Astuces"]
-image = "https://techan.fr/wp-content/uploads/2014/10/SQL_term.png"
+image = "https://techan.fr/images/2014/10/SQL_term.png"
 description = ""
 slug = "lancer-plusieurs-instances-mysql-sur-une-machine"
 draft = false

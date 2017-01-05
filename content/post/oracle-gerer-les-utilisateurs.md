@@ -3,7 +3,7 @@ title = "[Oracle] Gérer les utilisateurs"
 author = "MrRaph_"
 categories = ["Oracle","Survival Guide","Trucs et Astuces"]
 tags = ["Oracle","Survival Guide","Trucs et Astuces"]
-image = "https://techan.fr/wp-content/uploads/2014/10/SQL_term.png"
+image = "https://techan.fr/images/2014/10/SQL_term.png"
 slug = "oracle-gerer-les-utilisateurs"
 draft = false
 date = 2014-10-16T12:08:30Z
@@ -22,7 +22,7 @@ Ceci peut être fait via une requête SQL très simple :
 
 select username from dba_users ;
 
-[![image2014-4-4 13-36-50](https://techan.fr/wp-content/uploads/2014/10/image2014-4-4-13-36-50.png)](https://techan.fr/wp-content/uploads/2014/10/image2014-4-4-13-36-50.png)
+[![image2014-4-4 13-36-50](https://techan.fr/images/2014/10/image2014-4-4-13-36-50.png)](https://techan.fr/images/2014/10/image2014-4-4-13-36-50.png)
 
 <span style="text-decoration: underline;">**Attention :**</span> Ceci liste <span style="text-decoration: underline;">**tous**</span> les utilisateurs présents dans la base, même les utilisateurs systèmes d’Oracle.
 
@@ -34,7 +34,7 @@ La requête suivante permet de créer un utilisateur dans Oracle.
 
 create user <USERNAME> identified by <PASSWORD> ;
 
-[![image2014-4-4 13-40-28](https://techan.fr/wp-content/uploads/2014/10/image2014-4-4-13-40-28.png)](https://techan.fr/wp-content/uploads/2014/10/image2014-4-4-13-40-28.png)
+[![image2014-4-4 13-40-28](https://techan.fr/images/2014/10/image2014-4-4-13-40-28.png)](https://techan.fr/images/2014/10/image2014-4-4-13-40-28.png)
 
 Ceci va créer l’utilisateur « izual » avec le mot de passe « izualpass ».
 
@@ -60,7 +60,7 @@ Donner ces privilèges se fait via cette requête SQL :
 
 grant connect, resource to <USERNAME> ;
 
-[![image2014-4-4 13-49-44](https://techan.fr/wp-content/uploads/2014/10/image2014-4-4-13-49-44.png)](https://techan.fr/wp-content/uploads/2014/10/image2014-4-4-13-49-44.png)
+[![image2014-4-4 13-49-44](https://techan.fr/images/2014/10/image2014-4-4-13-49-44.png)](https://techan.fr/images/2014/10/image2014-4-4-13-49-44.png)
 
 A partir de maintenant, l’utilisateur « izual » peut se connecter à la base et créer des objets.
 
@@ -70,7 +70,7 @@ A partir de maintenant, l’utilisateur « izual » peut se connecter à la ba
 
 ##### Mot de passe
 
-[![image2014-4-4 13-53-9](https://techan.fr/wp-content/uploads/2014/10/image2014-4-4-13-53-9.png)](https://techan.fr/wp-content/uploads/2014/10/image2014-4-4-13-53-9.png)
+[![image2014-4-4 13-53-9](https://techan.fr/images/2014/10/image2014-4-4-13-53-9.png)](https://techan.fr/images/2014/10/image2014-4-4-13-53-9.png)
 
 Le mot de passe du compte « izual » est maintenant « izualnewpass ».
 
@@ -82,7 +82,7 @@ Le tablepsace par défaut, est l’endroit ou sont stockés les objets les objet
 
 Par défaut, le tablepspace par défaut est « USERS ».
 
-[![image2014-4-4 13-54-51](https://techan.fr/wp-content/uploads/2014/10/image2014-4-4-13-54-51.png)](https://techan.fr/wp-content/uploads/2014/10/image2014-4-4-13-54-51.png)
+[![image2014-4-4 13-54-51](https://techan.fr/images/2014/10/image2014-4-4-13-54-51.png)](https://techan.fr/images/2014/10/image2014-4-4-13-54-51.png)
 
 On peut changer ce default tablepsace en utilisant la commande suivante.
 
@@ -90,7 +90,7 @@ alter user <USERNAME> default tablespace EXAMPLE ;
 
  
 
-[![image2014-4-4 14-1-0](https://techan.fr/wp-content/uploads/2014/10/image2014-4-4-14-1-0.png)](https://techan.fr/wp-content/uploads/2014/10/image2014-4-4-14-1-0.png)
+[![image2014-4-4 14-1-0](https://techan.fr/images/2014/10/image2014-4-4-14-1-0.png)](https://techan.fr/images/2014/10/image2014-4-4-14-1-0.png)
 
 Le tablespace par défaut est maintenant « EXAMPLE ».
 
@@ -108,10 +108,10 @@ La commande suivante permet de verrouiller un compte :
 
 alter user <USERNAME> account lock ;
 
-[![image2014-4-4 14-3-37](https://techan.fr/wp-content/uploads/2014/10/image2014-4-4-14-3-37.png)](https://techan.fr/wp-content/uploads/2014/10/image2014-4-4-14-3-37.png)
+[![image2014-4-4 14-3-37](https://techan.fr/images/2014/10/image2014-4-4-14-3-37.png)](https://techan.fr/images/2014/10/image2014-4-4-14-3-37.png)
 
 Le compte « izual » est maintenant verrouillé, personne ne peux plus se connecter à la base en l’utilisant.  
-[![image2014-4-4 14-4-33](https://techan.fr/wp-content/uploads/2014/10/image2014-4-4-14-4-33.png)](https://techan.fr/wp-content/uploads/2014/10/image2014-4-4-14-4-33.png)
+[![image2014-4-4 14-4-33](https://techan.fr/images/2014/10/image2014-4-4-14-4-33.png)](https://techan.fr/images/2014/10/image2014-4-4-14-4-33.png)
 
  
 
@@ -121,11 +121,11 @@ Voici la requête qui permet de déverrouiller un compte :
 
 alter user <USERNAME> account unlock ;
 
-[![image2014-4-4 14-5-37](https://techan.fr/wp-content/uploads/2014/10/image2014-4-4-14-5-37.png)](https://techan.fr/wp-content/uploads/2014/10/image2014-4-4-14-5-37.png)
+[![image2014-4-4 14-5-37](https://techan.fr/images/2014/10/image2014-4-4-14-5-37.png)](https://techan.fr/images/2014/10/image2014-4-4-14-5-37.png)
 
 On peut de nouveau se connecter avec le compte « izual ».
 
-[![image2014-4-4 14-5-51](https://techan.fr/wp-content/uploads/2014/10/image2014-4-4-14-5-51.png)](https://techan.fr/wp-content/uploads/2014/10/image2014-4-4-14-5-51.png)
+[![image2014-4-4 14-5-51](https://techan.fr/images/2014/10/image2014-4-4-14-5-51.png)](https://techan.fr/images/2014/10/image2014-4-4-14-5-51.png)
 
  
 
@@ -157,7 +157,7 @@ SQL> select dbms_metadata.get_ddl('USER','<USERNAME>') from dual ;
 
 **<span style="text-decoration: underline;">Note :</span>** Il ne faut pas oublier le « set long 999999 » qui permet d’avoir l’affichage complet, non tronqué de la sortie de cette commande.
 
-[![image2014-4-7 11-19-7](https://techan.fr/wp-content/uploads/2014/10/image2014-4-7-11-19-7.png)](https://techan.fr/wp-content/uploads/2014/10/image2014-4-7-11-19-7.png)
+[![image2014-4-7 11-19-7](https://techan.fr/images/2014/10/image2014-4-7-11-19-7.png)](https://techan.fr/images/2014/10/image2014-4-7-11-19-7.png)
 
  
 
@@ -169,6 +169,6 @@ alter user <USERNAME> identified by values '<PASSWORD HASH VALUE>' ;
 
  
 
-[![image2014-4-7 11-22-9](https://techan.fr/wp-content/uploads/2014/10/image2014-4-7-11-22-9.png)](https://techan.fr/wp-content/uploads/2014/10/image2014-4-7-11-22-9.png)
+[![image2014-4-7 11-22-9](https://techan.fr/images/2014/10/image2014-4-7-11-22-9.png)](https://techan.fr/images/2014/10/image2014-4-7-11-22-9.png)
 
 

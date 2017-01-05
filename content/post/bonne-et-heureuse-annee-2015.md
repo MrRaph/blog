@@ -1,7 +1,7 @@
 +++
 categories = ["2015","Bonne année","bonne et heureuse année 2015"]
 tags = ["2015","Bonne année","bonne et heureuse année 2015"]
-image = "https://techan.fr/wp-content/uploads/2015/01/happy_new_year_by_clwoods.jpg"
+image = "https://techan.fr/images/2015/01/happy_new_year_by_clwoods.jpg"
 description = ""
 title = "Bonne et heureuse année 2015 !"
 author = "MrRaph_"

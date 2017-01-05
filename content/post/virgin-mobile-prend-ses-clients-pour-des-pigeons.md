@@ -1,6 +1,6 @@
 +++
 tags = ["Low Cost","Pigeons","Saga","Virgin Mobile","virgin mobile prend ses clients pour des pigeons","Voleurs"]
-image = "https://techan.fr/wp-content/uploads/2015/09/virgin_mobile_pigeons.png"
+image = "https://techan.fr/images/2015/09/virgin_mobile_pigeons.png"
 date = 2015-09-25T17:36:52Z
 author = "MrRaph_"
 slug = "virgin-mobile-prend-ses-clients-pour-des-pigeons"
@@ -18,7 +18,7 @@ Jusque là, tout va bien, je souscris, ils me prélèvent, je reçois ma Box et 
 
  
 
-<div class="wp-caption aligncenter" id="attachment_1871" style="width: 510px">[![Virgin Mobile prend ses clients pour des pigeons](https://techan.fr/wp-content/uploads/2015/09/eligibilité.png)](https://techan.fr/wp-content/uploads/2015/09/eligibilité.png)Débit annoncé par Virgin jusqu’à. 14 Mb/s
+<div class="wp-caption aligncenter" id="attachment_1871" style="width: 510px">[![Virgin Mobile prend ses clients pour des pigeons](https://techan.fr/images/2015/09/eligibilité.png)](https://techan.fr/images/2015/09/eligibilité.png)Débit annoncé par Virgin jusqu’à. 14 Mb/s
 
 </div> 
 
@@ -26,13 +26,13 @@ Cependant, la réalité est bien loin de ça … Voici un test de débit que j�
 
  
 
-<div class="wp-caption aligncenter" id="attachment_1877" style="width: 510px">[![Virgin Mobile prend ses clients pour des pigeons](https://techan.fr/wp-content/uploads/2015/09/IMG_0641.png)](https://techan.fr/wp-content/uploads/2015/09/IMG_0641.png)Test de débit sur la ligne Free
+<div class="wp-caption aligncenter" id="attachment_1877" style="width: 510px">[![Virgin Mobile prend ses clients pour des pigeons](https://techan.fr/images/2015/09/IMG_0641.png)](https://techan.fr/images/2015/09/IMG_0641.png)Test de débit sur la ligne Free
 
 </div>Et maintenant, le même test mais depuis la ligne Virgin Mobile, avec le même équipement, rien n’a changé chez moi, à part la Box. Et paf, deux fois moins de débit …
 
  
 
-<div class="wp-caption aligncenter" id="attachment_1878" style="width: 510px">[![Virgin Mobile prend ses clients pour des pigeons](https://techan.fr/wp-content/uploads/2015/09/IMG_0642.png)](https://techan.fr/wp-content/uploads/2015/09/IMG_0642.png)Test de débit sur la ligne Virgin Mobile
+<div class="wp-caption aligncenter" id="attachment_1878" style="width: 510px">[![Virgin Mobile prend ses clients pour des pigeons](https://techan.fr/images/2015/09/IMG_0642.png)](https://techan.fr/images/2015/09/IMG_0642.png)Test de débit sur la ligne Virgin Mobile
 
 </div> 
 
@@ -46,7 +46,7 @@ Sachez que par défaut, Virgin Mobile force votre Box a utiliser la modulation G
 
  
 
-<div class="wp-caption aligncenter" id="attachment_1873" style="width: 664px">[![Virgin Mobile prend ses clients pour des pigeons](https://techan.fr/wp-content/uploads/2015/09/virgin_service_minimum.png)](https://techan.fr/wp-content/uploads/2015/09/virgin_service_minimum.png)[Lien vers le message sur la communauté Virgin Mobile](http://communaute.virginmobile.fr/t5/La-Virgin-Box-au-quotidien/Comment-arriver-%C3%A0-passer-en-ADSL2/td-p/188434/page/3)
+<div class="wp-caption aligncenter" id="attachment_1873" style="width: 664px">[![Virgin Mobile prend ses clients pour des pigeons](https://techan.fr/images/2015/09/virgin_service_minimum.png)](https://techan.fr/images/2015/09/virgin_service_minimum.png)[Lien vers le message sur la communauté Virgin Mobile](http://communaute.virginmobile.fr/t5/La-Virgin-Box-au-quotidien/Comment-arriver-%C3%A0-passer-en-ADSL2/td-p/188434/page/3)
 
 </div> 
 
@@ -54,13 +54,13 @@ Outré par cette politique scandaleuse, j’ai laissé un message “musclé” 
 
  
 
-[![Virgin Mobile prend ses clients pour des pigeons](https://techan.fr/wp-content/uploads/2015/09/virgin_mon_message.png)](https://techan.fr/wp-content/uploads/2015/09/virgin_mon_message.png)
+[![Virgin Mobile prend ses clients pour des pigeons](https://techan.fr/images/2015/09/virgin_mon_message.png)](https://techan.fr/images/2015/09/virgin_mon_message.png)
 
 Croyez-moi ou pas, 30 minutes après ce message ma box se synchronisait en ADSL 2+ … Mais il ne faut pas trop rêver non plus, le débit est toujours le même … J’en ai donc parlé à plusieurs collègues – qui ont travaillé chez Orange et un autre opérateur ADSL – et chacune de ces personnes m’a rapporté des pratiques identiques. Lorsqu’un client souscrivait à une Box, le débit “max” était estimé en fonction de plusieurs critères – comme la distance avec le DSLAM par exemple – puis était bridé à cette valeur maximale et ce même si la ligne aurait pu supporter un débit plus important. Ils m’ont également raconté qu’ils pouvaient “augmenter” le débit de leurs amis d’un simple clic et qu’ils le faisaient par fois pour des clients qui râlaient trop sur leur débit.
 
  
 
-[![passage_en_adsl2+](https://techan.fr/wp-content/uploads/2015/09/passage_en_adsl2-.jpg)](https://techan.fr/wp-content/uploads/2015/09/passage_en_adsl2-.jpg)
+[![passage_en_adsl2+](https://techan.fr/images/2015/09/passage_en_adsl2-.jpg)](https://techan.fr/images/2015/09/passage_en_adsl2-.jpg)
 
  
 
@@ -70,7 +70,7 @@ Bref, du coup j’ai rappelé Free, le technicien était surpris de la chute de 
 
  
 
-<div class="wp-caption aligncenter" id="attachment_1884" style="width: 166px">[![Virgin Mobile prend ses clients pour des pigeons](https://techan.fr/wp-content/uploads/2015/09/virgin_satisfait_rembourse.png)](https://techan.fr/wp-content/uploads/2015/09/virgin_satisfait_rembourse.png)[Lien vers le formulaire](http://www.virginmobile.fr/media/virgin/promotions/pdf/adsl-coupon-satisfaitourembourse.pdf)
+<div class="wp-caption aligncenter" id="attachment_1884" style="width: 166px">[![Virgin Mobile prend ses clients pour des pigeons](https://techan.fr/images/2015/09/virgin_satisfait_rembourse.png)](https://techan.fr/images/2015/09/virgin_satisfait_rembourse.png)[Lien vers le formulaire](http://www.virginmobile.fr/media/virgin/promotions/pdf/adsl-coupon-satisfaitourembourse.pdf)
 
 </div> 
 

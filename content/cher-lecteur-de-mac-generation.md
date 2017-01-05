@@ -25,7 +25,7 @@ Vous trouverez juste ici la conversation qui m’a convaincue de vous rediriger 
 
  
 
-[![macgé.co_1_](https://techan.fr/wp-content/uploads/2015/05/macgé.co_1_.png)](https://techan.fr/wp-content/uploads/2015/05/macgé.co_1_.png) [![macgé.co_2_](https://techan.fr/wp-content/uploads/2015/05/macgé.co_2_.png)](https://techan.fr/wp-content/uploads/2015/05/macgé.co_2_.png) [![macgé.co_3_](https://techan.fr/wp-content/uploads/2015/05/macgé.co_3_.png)](https://techan.fr/wp-content/uploads/2015/05/macgé.co_3_.png) [![macgé.co_4_](https://techan.fr/wp-content/uploads/2015/05/macgé.co_4_.png)](https://techan.fr/wp-content/uploads/2015/05/macgé.co_4_.png)
+[![macgé.co_1_](https://techan.fr/images/2015/05/macgé.co_1_.png)](https://techan.fr/images/2015/05/macgé.co_1_.png) [![macgé.co_2_](https://techan.fr/images/2015/05/macgé.co_2_.png)](https://techan.fr/images/2015/05/macgé.co_2_.png) [![macgé.co_3_](https://techan.fr/images/2015/05/macgé.co_3_.png)](https://techan.fr/images/2015/05/macgé.co_3_.png) [![macgé.co_4_](https://techan.fr/images/2015/05/macgé.co_4_.png)](https://techan.fr/images/2015/05/macgé.co_4_.png)
 
  
 

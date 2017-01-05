@@ -19,7 +19,7 @@ A partir de là, les paris sont ouvert … iPhone (mal) reconditionné ? Bullshi
 
  
 
-<div class="wp-caption aligncenter" id="attachment_142" style="width: 903px">[![reddit_iphone_6_photo_bizarre](https://techan.fr/wp-content/uploads/2014/10/reddit_iphone_6_photo_bizarre.png)](https://techan.fr/wp-content/uploads/2014/10/reddit_iphone_6_photo_bizarre.png)[Voir sur Reddit](http://www.reddit.com/r/iphone/comments/2hscgb/iphone_6_came_with_mysterious_picture/)
+<div class="wp-caption aligncenter" id="attachment_142" style="width: 903px">[![reddit_iphone_6_photo_bizarre](https://techan.fr/images/2014/10/reddit_iphone_6_photo_bizarre.png)](https://techan.fr/images/2014/10/reddit_iphone_6_photo_bizarre.png)[Voir sur Reddit](http://www.reddit.com/r/iphone/comments/2hscgb/iphone_6_came_with_mysterious_picture/)
 
 </div> 
 

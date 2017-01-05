@@ -4,7 +4,7 @@ draft = false
 author = "MrRaph_"
 categories = ["iOS","iOS 9","PDF","Trucs et Astuces"]
 tags = ["iOS","iOS 9","PDF","Trucs et Astuces"]
-image = "https://techan.fr/wp-content/uploads/2015/08/ios9_icon_large.png"
+image = "https://techan.fr/images/2015/08/ios9_icon_large.png"
 title = "iOS 9 permet d'éditer les PDF"
 date = 2015-08-09T12:00:37Z
 description = ""
@@ -21,7 +21,7 @@ Vendredi, alors que je répondais à un mail, je suis tombé sur une des nouvell
 
  
 
-[![iOS 9 permet d'éditer les PDF](https://techan.fr/wp-content/uploads/2015/08/IMG_0110.png)](https://techan.fr/wp-content/uploads/2015/08/IMG_0110.png)
+[![iOS 9 permet d'éditer les PDF](https://techan.fr/images/2015/08/IMG_0110.png)](https://techan.fr/images/2015/08/IMG_0110.png)
 
  
 
@@ -31,7 +31,7 @@ Comme je le disais, j’étais en train de consulter un mail lorsque je suis tom
 
  
 
-[![iOS 9 permet d'éditer les PDF](https://techan.fr/wp-content/uploads/2015/08/IMG_0111.png)](https://techan.fr/wp-content/uploads/2015/08/IMG_0111.png)
+[![iOS 9 permet d'éditer les PDF](https://techan.fr/images/2015/08/IMG_0111.png)](https://techan.fr/images/2015/08/IMG_0111.png)
 
  
 
@@ -39,7 +39,7 @@ Une nouvelle icône en forme de boîte à outils a fait son apparition.
 
  
 
-[![iOS 9 permet d'éditer les PDF](https://techan.fr/wp-content/uploads/2015/08/boite_a_outil.png)](https://techan.fr/wp-content/uploads/2015/08/boite_a_outil.png)
+[![iOS 9 permet d'éditer les PDF](https://techan.fr/images/2015/08/boite_a_outil.png)](https://techan.fr/images/2015/08/boite_a_outil.png)
 
  
 
@@ -47,7 +47,7 @@ En faisant un « tap » dessus, on entre en mode Annotation, ce qui offre plus
 
  
 
-[![iOS 9 permet d'éditer les PDF](https://techan.fr/wp-content/uploads/2015/08/IMG_0112.png)](https://techan.fr/wp-content/uploads/2015/08/IMG_0112.png)
+[![iOS 9 permet d'éditer les PDF](https://techan.fr/images/2015/08/IMG_0112.png)](https://techan.fr/images/2015/08/IMG_0112.png)
 
  
 
@@ -55,7 +55,7 @@ On peut ajouter des formes graphiques tracées à la main – lignes, cercles �
 
  
 
-[![iOS 9 permet d'éditer les PDF](https://techan.fr/wp-content/uploads/2015/08/IMG_0114.png)](https://techan.fr/wp-content/uploads/2015/08/IMG_0114.png)
+[![iOS 9 permet d'éditer les PDF](https://techan.fr/images/2015/08/IMG_0114.png)](https://techan.fr/images/2015/08/IMG_0114.png)
 
  
 
@@ -63,7 +63,7 @@ L’outil le plus utile selon moi est celui qui se trouve tout à droite, avec l
 
  
 
-[![iOS 9 permet d'éditer les PDF](https://techan.fr/wp-content/uploads/2015/08/signature.png)](https://techan.fr/wp-content/uploads/2015/08/signature.png)
+[![iOS 9 permet d'éditer les PDF](https://techan.fr/images/2015/08/signature.png)](https://techan.fr/images/2015/08/signature.png)
 
  
 
@@ -71,7 +71,7 @@ Lorsqu’on entre dans ce mode pour la première fois, il propose d’ajouter un
 
  
 
-[![iOS 9 permet d'éditer les PDF](https://techan.fr/wp-content/uploads/2015/08/IMG_0115.png)](https://techan.fr/wp-content/uploads/2015/08/IMG_0115.png)
+[![iOS 9 permet d'éditer les PDF](https://techan.fr/images/2015/08/IMG_0115.png)](https://techan.fr/images/2015/08/IMG_0115.png)
 
  
 
@@ -79,7 +79,7 @@ On trace gracieusement sa signature avec le doigt sur l’écran, puis on valide
 
  
 
-[![iOS 9 permet d'éditer les PDF](https://techan.fr/wp-content/uploads/2015/08/IMG_0116.png)](https://techan.fr/wp-content/uploads/2015/08/IMG_0116.png)
+[![iOS 9 permet d'éditer les PDF](https://techan.fr/images/2015/08/IMG_0116.png)](https://techan.fr/images/2015/08/IMG_0116.png)
 
  
 
@@ -87,7 +87,7 @@ Une fois la signature validée, l’outil l’ajoute sur le fichier PDF, libre �
 
  
 
-[![iOS 9 permet d'éditer les PDF](https://techan.fr/wp-content/uploads/2015/08/IMG_0117.png)](https://techan.fr/wp-content/uploads/2015/08/IMG_0117.png)
+[![iOS 9 permet d'éditer les PDF](https://techan.fr/images/2015/08/IMG_0117.png)](https://techan.fr/images/2015/08/IMG_0117.png)
 
  
 
@@ -101,7 +101,7 @@ Quand les modifications du fichier sont terminées, Mail.app crée automatiqueme
 
  
 
-[![iOS 9 permet d'éditer les PDF](https://techan.fr/wp-content/uploads/2015/08/IMG_0118.jpeg)](https://techan.fr/wp-content/uploads/2015/08/IMG_0118.jpeg)
+[![iOS 9 permet d'éditer les PDF](https://techan.fr/images/2015/08/IMG_0118.jpeg)](https://techan.fr/images/2015/08/IMG_0118.jpeg)
 
  
 

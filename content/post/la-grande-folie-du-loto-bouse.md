@@ -17,7 +17,7 @@ Ce phénomène gagne nos campagnes et met à contribution de paisibles herbivore
 
  
 
-<div class="wp-caption aligncenter" id="attachment_133" style="width: 310px">[![Photo : www.free2use-it.com](https://techan.fr/wp-content/uploads/2014/09/DSCF0093-300x225.jpg)](https://techan.fr/wp-content/uploads/2014/09/DSCF0093.jpg)Photo : [www.free2use-it.com](www.free2use-it.com)
+<div class="wp-caption aligncenter" id="attachment_133" style="width: 310px">[![Photo : www.free2use-it.com](https://techan.fr/images/2014/09/DSCF0093-300x225.jpg)](https://techan.fr/images/2014/09/DSCF0093.jpg)Photo : [www.free2use-it.com](www.free2use-it.com)
 
 </div> 
 

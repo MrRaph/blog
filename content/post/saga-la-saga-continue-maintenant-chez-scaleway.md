@@ -1,7 +1,7 @@
 +++
 slug = "saga-la-saga-continue-maintenant-chez-scaleway"
 title = "[Saga] La saga continue, maintenant chez Scaleway"
-image = "https://techan.fr/wp-content/uploads/2015/09/IMG_0614.png"
+image = "https://techan.fr/images/2015/09/IMG_0614.png"
 description = ""
 draft = false
 date = 2015-09-20T13:05:33Z
@@ -20,7 +20,7 @@ J’avais déjà essayé de réduire le coût de cet hébergement en passant sur
 
  
 
-[![[Saga] la saga continue, maintenant chez Scaleway](https://techan.fr/wp-content/uploads/2015/09/IMG_0615.jpg)](https://techan.fr/wp-content/uploads/2015/09/IMG_0615.jpg)
+[![[Saga] la saga continue, maintenant chez Scaleway](https://techan.fr/images/2015/09/IMG_0615.jpg)](https://techan.fr/images/2015/09/IMG_0615.jpg)
 
  
 
@@ -40,7 +40,7 @@ Le principe est simple, vous disposez d’une interface administration depuis la
 
  
 
-[![IMG_0616](https://techan.fr/wp-content/uploads/2015/09/IMG_0616-e1442817922572.png)](https://techan.fr/wp-content/uploads/2015/09/IMG_0616-e1442817922572.png)
+[![IMG_0616](https://techan.fr/images/2015/09/IMG_0616-e1442817922572.png)](https://techan.fr/images/2015/09/IMG_0616-e1442817922572.png)
 
  
 

@@ -1,7 +1,7 @@
 +++
 author = "MrRaph_"
 date = 2015-03-31T15:03:16Z
-image = "https://techan.fr/wp-content/uploads/2015/03/nagios.png"
+image = "https://techan.fr/images/2015/03/nagios.png"
 description = ""
 slug = "surveiller-les-performances-dun-site-avec-nagios"
 draft = false
@@ -31,11 +31,11 @@ Il vous faudra adapter :
 
 Afin d’intégrer le script dans Nagios, je l’ai copié dans le dossier « /usr/lib64/nagios/plugins », mon dossier $USER1$.
 
-####  Création de la commande[![Surveiller les performances d'un site avec Nagios](https://techan.fr/wp-content/uploads/2015/03/screenshot.182.jpg)](https://techan.fr/wp-content/uploads/2015/03/screenshot.182.jpg)
+####  Création de la commande[![Surveiller les performances d'un site avec Nagios](https://techan.fr/images/2015/03/screenshot.182.jpg)](https://techan.fr/images/2015/03/screenshot.182.jpg)
 
 #### Création du service
 
-[![Surveiller les performances d’un site avec Nagios ](https://techan.fr/wp-content/uploads/2015/03/screenshot.183.jpg)](https://techan.fr/wp-content/uploads/2015/03/screenshot.183.jpg)
+[![Surveiller les performances d’un site avec Nagios ](https://techan.fr/images/2015/03/screenshot.183.jpg)](https://techan.fr/images/2015/03/screenshot.183.jpg)
 
 Avec ces réglages on aura :
 
@@ -44,6 +44,6 @@ Avec ces réglages on aura :
 
 #### Et voilà !
 
-[![Surveiller les performances d’un site avec Nagios ](https://techan.fr/wp-content/uploads/2015/03/screenshot.179.jpg)](https://techan.fr/wp-content/uploads/2015/03/screenshot.179.jpg)
+[![Surveiller les performances d’un site avec Nagios ](https://techan.fr/images/2015/03/screenshot.179.jpg)](https://techan.fr/images/2015/03/screenshot.179.jpg)
 
 

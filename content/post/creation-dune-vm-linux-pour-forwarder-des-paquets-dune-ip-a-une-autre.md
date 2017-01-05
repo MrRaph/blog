@@ -5,7 +5,7 @@ draft = false
 title = "Création d'une VM Linux pour forwarder des paquets d'une IP à une autre"
 author = "MrRaph_"
 tags = ["forwarding","iptables","Linux","réseau"]
-image = "https://techan.fr/wp-content/uploads/2014/11/Linux.png"
+image = "https://techan.fr/images/2014/11/Linux.png"
 description = ""
 date = 2014-09-23T11:00:43Z
 

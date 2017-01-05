@@ -6,7 +6,7 @@ draft = false
 title = "Envoyer les identifiants TeamViewer par mail avec un AppleScript"
 author = "MrRaph_"
 tags = ["Apple","AppleScript","envoyer les identifiants teamviewer par mail avec un applescript","envoyer les identifiants teamviewer par mail avec un applscript","OS X","TeamViewer"]
-image = "https://techan.fr/wp-content/uploads/2015/04/screenshot.423.jpg"
+image = "https://techan.fr/images/2015/04/screenshot.423.jpg"
 date = 2015-04-30T15:04:47Z
 
 +++
@@ -36,7 +36,7 @@ On lance le script, et quelques secondes après, ô bonheur, vous recevez la cap
 
  
 
-<div class="wp-caption aligncenter" id="attachment_1303" style="width: 366px">[![Envoyer les identifiants TeamViewer par mail avec un ApplScript](https://techan.fr/wp-content/uploads/2015/04/screenshot.4201.jpg)](https://techan.fr/wp-content/uploads/2015/04/screenshot.4201.jpg)Et voilà le travail !
+<div class="wp-caption aligncenter" id="attachment_1303" style="width: 366px">[![Envoyer les identifiants TeamViewer par mail avec un ApplScript](https://techan.fr/images/2015/04/screenshot.4201.jpg)](https://techan.fr/images/2015/04/screenshot.4201.jpg)Et voilà le travail !
 
 </div> 
 

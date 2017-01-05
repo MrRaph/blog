@@ -4,7 +4,7 @@ slug = "probleme-de-flush-de-cache-disque-sur-linux-hebergeant-oracle"
 author = "MrRaph_"
 categories = ["ext4_sync_file","Linux","ORA-00239","ORA-00494","Oracle","problème de flush de cache disque sur linux hébergeant oracle","TroubleShooting"]
 tags = ["ext4_sync_file","Linux","ORA-00239","ORA-00494","Oracle","problème de flush de cache disque sur linux hébergeant oracle","TroubleShooting"]
-image = "https://techan.fr/wp-content/uploads/2014/10/SQL_term.png"
+image = "https://techan.fr/images/2014/10/SQL_term.png"
 title = "Problème de flush de cache disque sur Linux hébergeant Oracle"
 date = 2015-06-24T19:32:29Z
 draft = false
@@ -24,7 +24,7 @@ Jun 23 19:46:15 le-serveur kernel: INFO: task kworker/0:144:24895 blocked for mo
 
 Le site [oracleseeds.wordpress.com](https://oracleseeds.wordpress.com) m’a fourni une bonne partie de la réponse.
 
-[![Problème de flush de cache disque sur Linux hébergeant Oracle](https://techan.fr/wp-content/uploads/2015/06/Capture-d’écran-2015-06-24-à-19.16.02.png)](https://techan.fr/wp-content/uploads/2015/06/Capture-d’écran-2015-06-24-à-19.16.02.png)
+[![Problème de flush de cache disque sur Linux hébergeant Oracle](https://techan.fr/images/2015/06/Capture-d’écran-2015-06-24-à-19.16.02.png)](https://techan.fr/images/2015/06/Capture-d’écran-2015-06-24-à-19.16.02.png)
 
  
 

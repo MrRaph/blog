@@ -3,7 +3,7 @@ categories = ["OSMC","PlexBMC","Raspberry"]
 slug = "osmc-avec-plexbmc-et-le-replay-francais-sur-raspberry-pi-2"
 title = "OSMC avec PleXBMC et le Replay Francais sur Raspberry PI 2"
 tags = ["OSMC","PlexBMC","Raspberry"]
-image = "https://techan.fr/wp-content/uploads/2015/06/Raspi_Colour_R.png"
+image = "https://techan.fr/images/2015/06/Raspi_Colour_R.png"
 description = ""
 draft = false
 date = 2015-09-23T11:17:16Z
@@ -28,7 +28,7 @@ Le processus d’installation d’OSMC est très simple et peut se depuis n’im
 **Note :** Il est conseillé par OSMC de disposer d'un <a rel="nofollow" href="https://www.amazon.fr/gp/product/B013UDL5RU/ref=as_li_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=B013UDL5RU&linkCode=as2&tag=techan0f-21">carte mémoire microSDHC de classe 10</a><img src="http://ir-fr.amazon-adsystem.com/e/ir?t=techan0f-21&l=as2&o=8&a=B013UDL5RU" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />, ceci permet à la [Rapsberry PI](https://www.amazon.fr/gp/product/B01CYQJP9O/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=B01CYQJP9O&linkCode=as2&tag=techan0f-21) de réaliser des lecture/écriture performantes.
 
 
-[![OSMC avec PleXBMC et le Replay Francais sur Raspberry PI 2](https://techan.fr/wp-content/uploads/2015/09/winstaller.png)](https://techan.fr/wp-content/uploads/2015/09/winstaller.png)
+[![OSMC avec PleXBMC et le Replay Francais sur Raspberry PI 2](https://techan.fr/images/2015/09/winstaller.png)](https://techan.fr/images/2015/09/winstaller.png)
 
 Lorsque que votre [Rapsberry PI](https://www.amazon.fr/gp/product/B01CYQJP9O/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=B01CYQJP9O&linkCode=as2&tag=techan0f-21) est correctement installé et qu’OSMC a démarré pour la première fois, récupérer l’adresse IP de votre PI.
 

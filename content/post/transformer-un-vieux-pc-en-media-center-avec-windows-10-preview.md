@@ -4,7 +4,7 @@ tags = ["media center","preview","windows 10"]
 description = ""
 slug = "transformer-un-vieux-pc-en-media-center-avec-windows-10-preview"
 author = "MrRaph_"
-image = "https://techan.fr/wp-content/uploads/2015/06/windows_10_logo.png"
+image = "https://techan.fr/images/2015/06/windows_10_logo.png"
 draft = false
 title = "Transformer un vieux PC en média center avec Windows 10 preview"
 date = 2015-06-21T14:15:46Z
@@ -36,9 +36,9 @@ Le moins que je puisse dire c’est que je suis bluffé par la réactivité du s
 
  
 
-<div class="wp-caption aligncenter" id="attachment_1450" style="width: 664px">[![Transformer un vieux PC en média center avec Windows 10 preview](https://techan.fr/wp-content/uploads/2015/06/brutus_processeur.png)](https://techan.fr/wp-content/uploads/2015/06/brutus_processeur.png)Et oui, les processeurs mono cœur existent encore …
+<div class="wp-caption aligncenter" id="attachment_1450" style="width: 664px">[![Transformer un vieux PC en média center avec Windows 10 preview](https://techan.fr/images/2015/06/brutus_processeur.png)](https://techan.fr/images/2015/06/brutus_processeur.png)Et oui, les processeurs mono cœur existent encore …
 
-</div><div class="wp-caption aligncenter" id="attachment_1451" style="width: 664px">[![Transformer un vieux PC en média center avec Windows 10 preview](https://techan.fr/wp-content/uploads/2015/06/brutus_memoire.png)](https://techan.fr/wp-content/uploads/2015/06/brutus_memoire.png)2 Go de RAM !?! Et bah ça suffit !! :)
+</div><div class="wp-caption aligncenter" id="attachment_1451" style="width: 664px">[![Transformer un vieux PC en média center avec Windows 10 preview](https://techan.fr/images/2015/06/brutus_memoire.png)](https://techan.fr/images/2015/06/brutus_memoire.png)2 Go de RAM !?! Et bah ça suffit !! :)
 
 </div> 
 
@@ -46,7 +46,7 @@ La seule petite astuce que j’ai utilisée c’est une clef USB de 8 Go dédié
 
  
 
-<div class="wp-caption aligncenter" id="attachment_1456" style="width: 634px">[![Transformer un vieux PC en média center avec Windows 10 preview](https://techan.fr/wp-content/uploads/2015/06/brutus_ready_boost.png)](https://techan.fr/wp-content/uploads/2015/06/brutus_ready_boost.png)Bon j’avoue j’ai triché un peu avec ReadyBoost …
+<div class="wp-caption aligncenter" id="attachment_1456" style="width: 634px">[![Transformer un vieux PC en média center avec Windows 10 preview](https://techan.fr/images/2015/06/brutus_ready_boost.png)](https://techan.fr/images/2015/06/brutus_ready_boost.png)Bon j’avoue j’ai triché un peu avec ReadyBoost …
 
 </div> 
 
@@ -57,15 +57,15 @@ Et voilà maintenant que Windows 10 preview est prêt, il ne reste plus qu’à 
 
  
 
-<div class="wp-caption aligncenter" id="attachment_1448" style="width: 665px">[![Transformer un vieux PC en média center avec Windows 10 preview](https://techan.fr/wp-content/uploads/2015/06/Capture-d’écran-2015-06-22-à-07.13.38.png)](https://techan.fr/wp-content/uploads/2015/06/Capture-d’écran-2015-06-22-à-07.13.38.png)Ohhhh, le bel écran de connexion !
+<div class="wp-caption aligncenter" id="attachment_1448" style="width: 665px">[![Transformer un vieux PC en média center avec Windows 10 preview](https://techan.fr/images/2015/06/Capture-d’écran-2015-06-22-à-07.13.38.png)](https://techan.fr/images/2015/06/Capture-d’écran-2015-06-22-à-07.13.38.png)Ohhhh, le bel écran de connexion !
 
 </div>Pour commencer, j’ai ajouté l’application [Plex Home Theater for Windows](https://plex.tv/downloads) qui diffusera le contenu de mon Plex Media Server installé lui sur mon serveur Ubuntu.
 
-<div class="wp-caption aligncenter" id="attachment_1454" style="width: 664px">[![Transformer un vieux PC en média center avec Windows 10 preview](https://techan.fr/wp-content/uploads/2015/06/brutus_plex.png)](https://techan.fr/wp-content/uploads/2015/06/brutus_plex.png)L’application Plex Home Theater
+<div class="wp-caption aligncenter" id="attachment_1454" style="width: 664px">[![Transformer un vieux PC en média center avec Windows 10 preview](https://techan.fr/images/2015/06/brutus_plex.png)](https://techan.fr/images/2015/06/brutus_plex.png)L’application Plex Home Theater
 
 </div>Et j’ai trouvé les applications Netflix, Pluzz, My TF1 et 6Play sur le Store Microsoft afin de compléter ce media center. L’utilisation du mode tablette permet une utilisation très facile depuis le fond du canapé ! ![:-)](http://blog.techan.fr/wp-includes/images/smilies/simple-smile.png)
 
-<div class="wp-caption aligncenter" id="attachment_1457" style="width: 664px">[![Transformer un vieux PC en média center avec Windows 10 preview](https://techan.fr/wp-content/uploads/2015/06/brutus_mode_tablette.png)](https://techan.fr/wp-content/uploads/2015/06/brutus_mode_tablette.png)Passer en mode « tablette » pour fluidifier la navigation.
+<div class="wp-caption aligncenter" id="attachment_1457" style="width: 664px">[![Transformer un vieux PC en média center avec Windows 10 preview](https://techan.fr/images/2015/06/brutus_mode_tablette.png)](https://techan.fr/images/2015/06/brutus_mode_tablette.png)Passer en mode « tablette » pour fluidifier la navigation.
 
 </div> 
 

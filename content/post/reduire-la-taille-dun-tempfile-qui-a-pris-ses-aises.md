@@ -5,7 +5,7 @@ author = "MrRaph_"
 title = "Réduire la taille d'un tempfile qui a pris ses aises"
 date = 2015-02-04T10:30:31Z
 categories = ["Oracle","réduire la taille d un tempfile qui a pris ses aises","tempfile","Trucs et Astuces"]
-image = "https://techan.fr/wp-content/uploads/2014/10/SQL_term.png"
+image = "https://techan.fr/images/2014/10/SQL_term.png"
 description = ""
 slug = "reduire-la-taille-dun-tempfile-qui-a-pris-ses-aises"
 
@@ -19,7 +19,7 @@ Voici donc la marche à suivre pour réduire la taille de ce fichier indélicat 
 
 ## Le constat
 
-[![Réduire la taille d'un tempfile qui a pris ses aises](https://techan.fr/wp-content/uploads/2015/01/temp_file_plein_avant_reduction.png)](https://techan.fr/wp-content/uploads/2015/01/temp_file_plein_avant_reduction.png)
+[![Réduire la taille d'un tempfile qui a pris ses aises](https://techan.fr/images/2015/01/temp_file_plein_avant_reduction.png)](https://techan.fr/images/2015/01/temp_file_plein_avant_reduction.png)
 
 Le voilà ce méchant temp01.dbf qui prend toute la couette avec ses 31,3 Go … On va lui régler son compte !
 
@@ -38,6 +38,6 @@ Et voilà, le file system respire ![:)](http://blog.techan.fr/wp-includes/images
 
 [oracle@xxxxxx trace](DWH)$ df -h /u02 Sys. de fichiers Taille Uti. Disp. Uti% Monté sur /dev/mapper/VolGroup--u02-vol--u02 102G 70G 30G 71% /u02
 
-[![Réduire la taille d'un tempfile qui a pris ses aises](https://techan.fr/wp-content/uploads/2015/01/temp_file_plein_aprest_reduction.png)](https://techan.fr/wp-content/uploads/2015/01/temp_file_plein_aprest_reduction.png)
+[![Réduire la taille d'un tempfile qui a pris ses aises](https://techan.fr/images/2015/01/temp_file_plein_aprest_reduction.png)](https://techan.fr/images/2015/01/temp_file_plein_aprest_reduction.png)
 
 

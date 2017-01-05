@@ -1,7 +1,7 @@
 +++
 author = "MrRaph_"
 categories = ["Dovecot","Linux","mail","mail in a box les astuces qui vous sauveront la vie","Mail-in-a-Box","Postfix","Ubuntu"]
-image = "https://techan.fr/wp-content/uploads/2015/09/Mailinabox.jpg"
+image = "https://techan.fr/images/2015/09/Mailinabox.jpg"
 slug = "mail-in-a-box-les-astuces-qui-vous-sauveront-la-vie"
 draft = false
 title = "Mail-in-a-Box les astuces qui vous sauveront la vie"
@@ -179,7 +179,7 @@ Il se peut que vous rencontriez une erreur sur la page d'accueil de Mail-in-a-Bo
 
 Il se peut donc que vous aillez une erreur de ce type :
 
-[![MailInABox les astuces qui vous sauveront la vie](https://techan.fr/wp-content/uploads/2015/09/screenshot.876.jpg)](https://techan.fr/wp-content/uploads/2015/09/screenshot.876.jpg)
+[![MailInABox les astuces qui vous sauveront la vie](https://techan.fr/images/2015/09/screenshot.876.jpg)](https://techan.fr/images/2015/09/screenshot.876.jpg)
 
 Rien de grave, cette erreur apparaît lorsque les vérifications sont trop longues et que le serveur Web - NGinx - en a marre d'attendre ... Il suffit d’allonger ce temps d'attente pour ne plus avoir cette erreur.
 
@@ -291,7 +291,7 @@ On peut maintenant activer ce swap.
 
 
 
-[caption id="attachment_1819" align="aligncenter" width="500"][![Mail-in-a-Box les astuces qui vous sauveront la vie](https://techan.fr/wp-content/uploads/2015/09/screenshot.874.jpg)](https://techan.fr/wp-content/uploads/2015/09/screenshot.874.jpg) Le swap est désormais actif ![/caption]
+[caption id="attachment_1819" align="aligncenter" width="500"][![Mail-in-a-Box les astuces qui vous sauveront la vie](https://techan.fr/images/2015/09/screenshot.874.jpg)](https://techan.fr/images/2015/09/screenshot.874.jpg) Le swap est désormais actif ![/caption]
 
 Nous allons créer un fichier dans le dossier **/etc/init.d** ceci afin d'activer automatiquement le swap au démarrage de la machine.
 

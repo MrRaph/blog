@@ -1,7 +1,7 @@
 +++
 categories = ["mail in a box migrer la base de donnees sqlite vers mysql","Mail-in-a-Box","MySQL","Trucs et Astuces"]
 tags = ["mail in a box migrer la base de donnees sqlite vers mysql","Mail-in-a-Box","MySQL","Trucs et Astuces"]
-image = "https://techan.fr/wp-content/uploads/2015/09/Mailinabox.jpg"
+image = "https://techan.fr/images/2015/09/Mailinabox.jpg"
 slug = "mail-in-a-box-migrer-la-base-de-donnees-sqlite-vers-mysql"
 title = "Mail-in-a-Box migrer la base de données SQLite vers MySQL"
 author = "MrRaph_"

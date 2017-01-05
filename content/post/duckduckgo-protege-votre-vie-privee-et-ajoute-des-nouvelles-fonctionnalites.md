@@ -2,7 +2,7 @@
 title = "DuckDuckGo protège votre vie privée et ajoute des nouvelles fonctionnalités"
 date = 2015-06-22T18:33:41Z
 author = "MrRaph_"
-image = "https://techan.fr/wp-content/uploads/2015/06/DDG-icon_256x256.png"
+image = "https://techan.fr/images/2015/06/DDG-icon_256x256.png"
 description = ""
 slug = "duckduckgo-protege-votre-vie-privee-et-ajoute-des-nouvelles-fonctionnalites"
 draft = false
@@ -14,7 +14,7 @@ tags = ["Confidentialité","DuckDuckGo","duckduckgo permet de rechercher des vol
 
 Le moteur de recherche [DuckDuckGo](https://duckduckgo.com), le moteur de recherche qui monte, qui monte propose désormais des [Instant Answers](https://duckduckgo.com/tour#answers). DuckDuckGo protège votre vie privée et ajoute des nouvelles fonctionnalités le rendant toujours plus agréable à utiliser.
 
-<div class="wp-caption aligncenter" id="attachment_1471" style="width: 526px">[![DuckDuckGo protège votre vie privée et ajoute des nouvelles fonctionnalités](https://techan.fr/wp-content/uploads/2015/06/Capture-d’écran-2015-06-22-à-18.21.45.png)](https://techan.fr/wp-content/uploads/2015/06/Capture-d’écran-2015-06-22-à-18.21.45.png)La protection de vos données personnelles est leur priorité !
+<div class="wp-caption aligncenter" id="attachment_1471" style="width: 526px">[![DuckDuckGo protège votre vie privée et ajoute des nouvelles fonctionnalités](https://techan.fr/images/2015/06/Capture-d’écran-2015-06-22-à-18.21.45.png)](https://techan.fr/images/2015/06/Capture-d’écran-2015-06-22-à-18.21.45.png)La protection de vos données personnelles est leur priorité !
 
 </div> 
 
@@ -31,7 +31,7 @@ L’annonce est tombée aujourd’hui, on peut désormais utiliser les Instant A
 
 J’ai fait le test pour un vol Lyon-Barcelone, le résultat est très sympa ! ![:-)](http://blog.techan.fr/wp-includes/images/smilies/simple-smile.png)
 
-<div class="wp-caption aligncenter" id="attachment_1463" style="width: 665px">[![DuckDuckGo protège votre vie privée et ajoute des nouvelles fonctionnalités](https://techan.fr/wp-content/uploads/2015/06/screenshot.530.jpg)](https://techan.fr/wp-content/uploads/2015/06/screenshot.530.jpg)Les Instant Answers concernant les vols Lyon-Barcelone avec EasyJet.
+<div class="wp-caption aligncenter" id="attachment_1463" style="width: 665px">[![DuckDuckGo protège votre vie privée et ajoute des nouvelles fonctionnalités](https://techan.fr/images/2015/06/screenshot.530.jpg)](https://techan.fr/images/2015/06/screenshot.530.jpg)Les Instant Answers concernant les vols Lyon-Barcelone avec EasyJet.
 
 </div> 
 

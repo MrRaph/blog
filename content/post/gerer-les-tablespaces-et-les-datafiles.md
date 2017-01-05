@@ -1,7 +1,7 @@
 +++
 author = "MrRaph_"
 categories = ["Datafiles","g rer les tablespaces et les datafiles","gérer les tablespaces et les datafiles","Oracle","Survival Guide","Tablespaces"]
-image = "https://techan.fr/wp-content/uploads/2014/10/SQL_term.png"
+image = "https://techan.fr/images/2014/10/SQL_term.png"
 date = 2015-01-28T10:21:42Z
 tags = ["Datafiles","g rer les tablespaces et les datafiles","gérer les tablespaces et les datafiles","Oracle","Survival Guide","Tablespaces"]
 description = ""
@@ -30,13 +30,13 @@ A l’intérieur d’un datafile, les objets sont stockés dans des « segments
 
 ### dba_tablespaces
 
-[![Gérer les tablespaces et les datafiles](https://techan.fr/wp-content/uploads/2015/01/tbs_dbf_1.png)](https://techan.fr/wp-content/uploads/2015/01/tbs_dbf_1.png)
+[![Gérer les tablespaces et les datafiles](https://techan.fr/images/2015/01/tbs_dbf_1.png)](https://techan.fr/images/2015/01/tbs_dbf_1.png)
 
 Je vais décrire les champs les plus important dans le tableau ci-dessous :
 
 <div class="table-wrap" style="text-align: justify;"><table class="confluenceTable tablesorter"><thead><tr class="sortableHeader"><th class="confluenceTh sortableHeader" data-column="0"><div class="tablesorter-header-inner">Champ</div></th><th class="confluenceTh sortableHeader" data-column="1"><div class="tablesorter-header-inner">Description</div></th></tr></thead><tbody><tr><td class="confluenceTd">tablespace_name</td><td class="confluenceTd">Nom du tablespace</td></tr><tr><td class="confluenceTd">status</td><td class="confluenceTd">Peut être : Online, Offline, Read Only</td></tr></tbody></table></div>### dba_data_files
 
-[![Gérer les tablespaces et les datafiles](https://techan.fr/wp-content/uploads/2015/01/tbs_dbf_2.png)](https://techan.fr/wp-content/uploads/2015/01/tbs_dbf_2.png)
+[![Gérer les tablespaces et les datafiles](https://techan.fr/images/2015/01/tbs_dbf_2.png)](https://techan.fr/images/2015/01/tbs_dbf_2.png)
 
 Je vais décrire les champs les plus important dans le tableau ci-dessous :
 

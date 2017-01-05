@@ -7,7 +7,7 @@ title = "[Ubuntu] Remplacer Unity par Gnome"
 date = 2014-11-14T10:20:03Z
 categories = ["Gnome","TrucsAstuces","Ubuntu"]
 tags = ["Gnome","TrucsAstuces","Ubuntu"]
-image = "https://techan.fr/wp-content/uploads/2014/11/gnome_logo.gif"
+image = "https://techan.fr/images/2014/11/gnome_logo.gif"
 
 +++
 

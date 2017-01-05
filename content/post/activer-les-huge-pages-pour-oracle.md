@@ -6,7 +6,7 @@ slug = "activer-les-huge-pages-pour-oracle"
 title = "Activer les Huge Pages pour Oracle"
 draft = false
 tags = ["activer les huge pages pour oracle","Huge Pages","Oracle","Trucs et Astuces","Tuning"]
-image = "https://techan.fr/wp-content/uploads/2014/10/SQL_term.png"
+image = "https://techan.fr/images/2014/10/SQL_term.png"
 description = ""
 
 +++

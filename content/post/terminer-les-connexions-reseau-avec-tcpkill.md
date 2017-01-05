@@ -6,7 +6,7 @@ slug = "terminer-les-connexions-reseau-avec-tcpkill"
 date = 2015-02-04T18:37:49Z
 author = "MrRaph_"
 categories = ["Linux","Sécurité","tcpkill","terminer les connexions réseau avec tcpkill","Trucs et Astuces"]
-image = "https://techan.fr/wp-content/uploads/2014/11/Linux.png"
+image = "https://techan.fr/images/2014/11/Linux.png"
 title = "Terminer les connexions réseau avec tcpkill"
 
 +++

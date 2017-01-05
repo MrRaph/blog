@@ -5,7 +5,7 @@ slug = "reinitialiser-le-mot-de-passe-root-sur-une-appliance-vcenter"
 draft = false
 title = "Réinitialiser le mot de passe root sur une appliance vCenter"
 categories = ["réinitialiser le mot de passe root sur une appliance vcenter","reset password","root","vCenter","VMware"]
-image = "https://techan.fr/wp-content/uploads/2015/01/vmware_vsphere_client_high_def_icon_by_flakshack-d4o96dy.png"
+image = "https://techan.fr/images/2015/01/vmware_vsphere_client_high_def_icon_by_flakshack-d4o96dy.png"
 description = ""
 date = 2015-08-04T16:24:49Z
 
@@ -29,7 +29,7 @@ Lorsque cet écran apparait, utilisez les flèches du clavier pour désactiver l
 
  
 
-[![Réinitialiser le mot de passe root sur une appliance vCenter](https://techan.fr/wp-content/uploads/2015/08/1_menu_GRUB.png)](https://techan.fr/wp-content/uploads/2015/08/1_menu_GRUB.png)
+[![Réinitialiser le mot de passe root sur une appliance vCenter](https://techan.fr/images/2015/08/1_menu_GRUB.png)](https://techan.fr/images/2015/08/1_menu_GRUB.png)
 
  
 
@@ -37,14 +37,14 @@ Une fois que vous êtes tranquille avec le boot automatique, appuyez sur la touc
 
  
 
-[![Réinitialiser le mot de passe root sur une appliance vCenter](https://techan.fr/wp-content/uploads/2015/08/2_menu_GRUB_password.png)](https://techan.fr/wp-content/uploads/2015/08/2_menu_GRUB_password.png)  
+[![Réinitialiser le mot de passe root sur une appliance vCenter](https://techan.fr/images/2015/08/2_menu_GRUB_password.png)](https://techan.fr/images/2015/08/2_menu_GRUB_password.png)  
  Ce mot de passe est **vmware** par défaut. Ce mot de passe peut être différent si vous avez réinitialisé le mot de passe du compte root en utilisant la VAMI.
 
 Une fois le mot de passe accepté, surlignez la ligne **VMware vCenter Server Appliance** et appuyez sur **e**.
 
  
 
-[![Réinitialiser le mot de passe root sur une appliance vCenter](https://techan.fr/wp-content/uploads/2015/08/3_menu_GRUB_kernel.png)](https://techan.fr/wp-content/uploads/2015/08/3_menu_GRUB_kernel.png)
+[![Réinitialiser le mot de passe root sur une appliance vCenter](https://techan.fr/images/2015/08/3_menu_GRUB_kernel.png)](https://techan.fr/images/2015/08/3_menu_GRUB_kernel.png)
 
  
 
@@ -54,7 +54,7 @@ Vous entrez en mode « édition », l’éditeur vous met directement en fin de 
 
  
 
-[![4_menu_GRUB_kernel_bash](https://techan.fr/wp-content/uploads/2015/08/4_menu_GRUB_kernel_bash.png)](https://techan.fr/wp-content/uploads/2015/08/4_menu_GRUB_kernel_bash.png)
+[![4_menu_GRUB_kernel_bash](https://techan.fr/images/2015/08/4_menu_GRUB_kernel_bash.png)](https://techan.fr/images/2015/08/4_menu_GRUB_kernel_bash.png)
 
  
 
@@ -64,7 +64,7 @@ Le système démarre et vous amène directement dans un Shell « root », utilis
 
  
 
-[![5_vcenter_boot_single](https://techan.fr/wp-content/uploads/2015/08/5_vcenter_boot_single.png)](https://techan.fr/wp-content/uploads/2015/08/5_vcenter_boot_single.png)
+[![5_vcenter_boot_single](https://techan.fr/images/2015/08/5_vcenter_boot_single.png)](https://techan.fr/images/2015/08/5_vcenter_boot_single.png)
 
  
 
@@ -74,7 +74,7 @@ Et voilà, vous pouvez vous connecter à la VAMI en utilisant le nouveau mot de 
 
  
 
-[![6_vami_fonctionnelle](https://techan.fr/wp-content/uploads/2015/08/6_vami_fonctionnelle.png)](https://techan.fr/wp-content/uploads/2015/08/6_vami_fonctionnelle.png)
+[![6_vami_fonctionnelle](https://techan.fr/images/2015/08/6_vami_fonctionnelle.png)](https://techan.fr/images/2015/08/6_vami_fonctionnelle.png)
 
  
 

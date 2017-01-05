@@ -5,7 +5,7 @@ draft = false
 title = "[logstash] Configuration des inputs, filter et output"
 date = 2014-10-15T10:23:39Z
 tags = ["Linux","Logs","Logs centralisés","Logstash"]
-image = "https://techan.fr/wp-content/uploads/2014/11/Linux.png"
+image = "https://techan.fr/images/2014/11/Linux.png"
 author = "MrRaph_"
 categories = ["Linux","Logs","Logs centralisés","Logstash"]
 
@@ -18,7 +18,7 @@ Dans cet article, je vais décrire la configuration de l’outil[logstash](http:
 
 Voici l’architecture telle que je l’ai mise en place.
 
-<div class="wp-caption aligncenter" id="attachment_203" style="width: 347px">[![Schéma des différentes couches logicielles sur le serveur de log centralisé et de logstash](https://techan.fr/wp-content/uploads/2014/10/shema_syslog_logstash.png)](https://techan.fr/wp-content/uploads/2014/10/shema_syslog_logstash.png)Schéma des différentes couches logicielles sur le serveur de log centralisé
+<div class="wp-caption aligncenter" id="attachment_203" style="width: 347px">[![Schéma des différentes couches logicielles sur le serveur de log centralisé et de logstash](https://techan.fr/images/2014/10/shema_syslog_logstash.png)](https://techan.fr/images/2014/10/shema_syslog_logstash.png)Schéma des différentes couches logicielles sur le serveur de log centralisé
 
 </div>Le serveur logstash écoute sur le port 5140, les machines clientes envoient leurs logs à logstash sur ce port. Cependant, pour certaines machines, j’ai eu des soucis de réception des logs … Pour celles-ci, je passe donc les logs à rsyslog qui les écrit dans un fichier de log puis logstash lit ces fichiers et les parse. Le serveur rsyslog écoute sur son port classique, le 514.
 

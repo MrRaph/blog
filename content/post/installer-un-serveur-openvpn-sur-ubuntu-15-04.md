@@ -7,7 +7,7 @@ description = ""
 slug = "installer-un-serveur-openvpn-sur-ubuntu-15-04"
 author = "MrRaph_"
 categories = ["installer un serveur openvpn sur ubuntu 15 04","OpenVPn","Trucs et Astuces","Ubuntu"]
-image = "https://techan.fr/wp-content/uploads/2015/05/openvpntech_logo1.png"
+image = "https://techan.fr/images/2015/05/openvpntech_logo1.png"
 
 +++
 

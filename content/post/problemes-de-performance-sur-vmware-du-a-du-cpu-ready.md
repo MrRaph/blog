@@ -5,7 +5,7 @@ tags = ["CPU Ready","Performances","problemes de performance sur vmware du a du 
 draft = false
 title = "Problèmes de performance sur VMWare du à du CPU Ready"
 author = "MrRaph_"
-image = "https://techan.fr/wp-content/uploads/2015/01/vmware_vsphere_client_high_def_icon_by_flakshack-d4o96dy.png"
+image = "https://techan.fr/images/2015/01/vmware_vsphere_client_high_def_icon_by_flakshack-d4o96dy.png"
 description = ""
 slug = "problemes-de-performance-sur-vmware-du-a-du-cpu-ready"
 
@@ -24,7 +24,7 @@ Je me suis penché sur les graphes VMware, et ce que j’ai vu n’était pas gl
 
 Dans l’image ci-dessous, on voit tout à fait que la VM passe son temps a attendre que l’hyperviseur lui donne accès au CPU de l’hôte physique. Son utilisation de CPU est bridée par cette attente.
 
-[![Problèmes de performance sur VMWare du à du CPU Ready](https://techan.fr/wp-content/uploads/2015/11/http_graphe_CPU.png)](https://techan.fr/wp-content/uploads/2015/11/http_graphe_CPU.png)
+[![Problèmes de performance sur VMWare du à du CPU Ready](https://techan.fr/images/2015/11/http_graphe_CPU.png)](https://techan.fr/images/2015/11/http_graphe_CPU.png)
 
 Maintenant, voici comment est composé le parc VMware en Production :
 
@@ -33,7 +33,7 @@ Maintenant, voici comment est composé le parc VMware en Production :
 
 La cible finale est un cluster de 3 R720.
 
-[![Problèmes de performance sur VMWare du à du CPU Ready](https://techan.fr/wp-content/uploads/2015/11/cluster_CPU.png)](https://techan.fr/wp-content/uploads/2015/11/cluster_CPU.png)
+[![Problèmes de performance sur VMWare du à du CPU Ready](https://techan.fr/images/2015/11/cluster_CPU.png)](https://techan.fr/images/2015/11/cluster_CPU.png)
 
 On constate que les hôtes ne sont pas surchargés au niveau CPU, d’autre part, DRS ne donne aucun conseil pour améliorer les performances.
 
@@ -68,21 +68,21 @@ Voici ce que disent les Best Practices de VMware – voire le lien dans les sour
 
 J’ai trouvé un script PowerSHELL utilisant PowerCLI – vous trouverez un lien dans les Sources – qui calcule l’OverCommitment en terme de CPU, voici le résultats lors de mes constatations.
 
-[![Problèmes de performance sur VMWare du à du CPU Ready](https://techan.fr/wp-content/uploads/2015/11/cpu_overcommit.png)](https://techan.fr/wp-content/uploads/2015/11/cpu_overcommit.png)
+[![Problèmes de performance sur VMWare du à du CPU Ready](https://techan.fr/images/2015/11/cpu_overcommit.png)](https://techan.fr/images/2015/11/cpu_overcommit.png)
 
 La majorité des VMs « à problèmes » qui se trouvent être les plus critiques évidement se trouvaient sur l’hôte 1. La majorité des VMs dans le cluster PROD ont 4 vCPU, certaines en avaient même 8.
 
 Fort de ces constations, j’ai donc testé de déplacer l’une des VMs qui rencontrait des problème de performance sur l’hôte 5 qui est bien moins chargé. Le résultat a été sans appel, et les utilisateurs se sont moins plaints …
 
-[![Problèmes de performance sur VMWare du à du CPU Ready](https://techan.fr/wp-content/uploads/2015/11/dcts_graphe_CPU.png)](https://techan.fr/wp-content/uploads/2015/11/dcts_graphe_CPU.png)
+[![Problèmes de performance sur VMWare du à du CPU Ready](https://techan.fr/images/2015/11/dcts_graphe_CPU.png)](https://techan.fr/images/2015/11/dcts_graphe_CPU.png)
 
 On a donc entrepris de réduire le nombre de vCPU alloués en baissant le nombre de vCPU sur les VMs, on a ainsi gagné 35 vCPU en passant des VMs de 4 à 2 ou de 8 à 2.
 
-[![Problèmes de performance sur VMWare du à du CPU Ready](https://techan.fr/wp-content/uploads/2015/11/cpu_overcommit_2.png)](https://techan.fr/wp-content/uploads/2015/11/cpu_overcommit_2.png)
+[![Problèmes de performance sur VMWare du à du CPU Ready](https://techan.fr/images/2015/11/cpu_overcommit_2.png)](https://techan.fr/images/2015/11/cpu_overcommit_2.png)
 
 J’ai également déplacé la VM http – dont on a vu le graphe tout au début – sur un hôte moins chargé, l’ESXi 5. J’ai fait le déplacement aux alentours de 11h ce jour là, voici le résultat :
 
-[![Problèmes de performance sur VMWare du à du CPU Ready](https://techan.fr/wp-content/uploads/2015/11/http_graphe_CPU_2.png)](https://techan.fr/wp-content/uploads/2015/11/http_graphe_CPU_2.png)
+[![Problèmes de performance sur VMWare du à du CPU Ready](https://techan.fr/images/2015/11/http_graphe_CPU_2.png)](https://techan.fr/images/2015/11/http_graphe_CPU_2.png)
 
 Après cette action, l’équipe du support informatique n’a reçu aucun appel d’utilisateur rencontrant des problèmes de performances, alors qu’habituellement la pire période de la journée commence vers 15h.
 

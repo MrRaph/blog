@@ -4,7 +4,7 @@ draft = false
 date = 2015-09-10T16:55:51Z
 author = "MrRaph_"
 tags = ["avec ios9 vous devrez vous présenter à siri avant de l interpeler","Dis Siri","iOS","iOS 9","Siri"]
-image = "https://techan.fr/wp-content/uploads/2015/08/ios9_icon_large.png"
+image = "https://techan.fr/images/2015/08/ios9_icon_large.png"
 description = ""
 slug = "avec-ios9-vous-devrez-vous-presenter-a-siri-avant-de-linterpeler"
 title = "Avec iOS9 vous devrez vous présenter à Siri avant de l'interpeler !"
@@ -18,25 +18,25 @@ Vous trouverez ci-dessous quelques captures d’écran illustrant le processus d
 
  
 
-[![Avec iOS9 vous devrez vous présenter à Siri avant de l'interpeler !](https://techan.fr/wp-content/uploads/2015/09/image61.png)](https://techan.fr/wp-content/uploads/2015/09/image61.png)
+[![Avec iOS9 vous devrez vous présenter à Siri avant de l'interpeler !](https://techan.fr/images/2015/09/image61.png)](https://techan.fr/images/2015/09/image61.png)
 
 Lorsque l’on réactive la fonction, iOS vous demande de configurer « Dis Siri » afin qu’il puisse reconnaitre votre voix.
 
  
 
-[![Avec iOS9 vous devrez vous présenter à Siri avant de l'interpeler !](https://techan.fr/wp-content/uploads/2015/09/image5.png)](https://techan.fr/wp-content/uploads/2015/09/image5.png)
+[![Avec iOS9 vous devrez vous présenter à Siri avant de l'interpeler !](https://techan.fr/images/2015/09/image5.png)](https://techan.fr/images/2015/09/image5.png)
 
 Les premières étapes consistent à répéter « Dis Siri ».
 
  
 
-[![Avec iOS9 vous devrez vous présenter à Siri avant de l'interpeler !](https://techan.fr/wp-content/uploads/2015/09/image1.png)](https://techan.fr/wp-content/uploads/2015/09/image1.png)
+[![Avec iOS9 vous devrez vous présenter à Siri avant de l'interpeler !](https://techan.fr/images/2015/09/image1.png)](https://techan.fr/images/2015/09/image1.png)
 
 Par la suite, on demande à Siri le temps qu’il fait.
 
  
 
-[![Avec iOS9 vous devrez vous présenter à Siri avant de l'interpeler !](https://techan.fr/wp-content/uploads/2015/09/image2.png)](https://techan.fr/wp-content/uploads/2015/09/image2.png)
+[![Avec iOS9 vous devrez vous présenter à Siri avant de l'interpeler !](https://techan.fr/images/2015/09/image2.png)](https://techan.fr/images/2015/09/image2.png)
 
  
 

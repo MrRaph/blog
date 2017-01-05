@@ -1,7 +1,7 @@
 +++
 author = "MrRaph_"
 tags = ["MySQL","Trucs et Astuces"]
-image = "https://techan.fr/wp-content/uploads/2014/10/SQL_term.png"
+image = "https://techan.fr/images/2014/10/SQL_term.png"
 slug = "astuces-utiles-pour-mysql"
 draft = false
 title = "Astuces utiles pour MySQL"

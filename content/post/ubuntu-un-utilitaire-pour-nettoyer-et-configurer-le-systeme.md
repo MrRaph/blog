@@ -23,7 +23,7 @@ Sinon, vous pouvez télécharger le paquet en utilisant [ce lien](https://launch
 
  
 
-<div class="wp-caption aligncenter" id="attachment_198" style="width: 310px">[![ubuntu-tweak Vue d'ensemble](https://techan.fr/wp-content/uploads/2014/10/ubuntu-tweak_vue_ensemble-300x165.png)](https://techan.fr/wp-content/uploads/2014/10/ubuntu-tweak_vue_ensemble.png)ubuntu-tweak Vue d’ensemble
+<div class="wp-caption aligncenter" id="attachment_198" style="width: 310px">[![ubuntu-tweak Vue d'ensemble](https://techan.fr/images/2014/10/ubuntu-tweak_vue_ensemble-300x165.png)](https://techan.fr/images/2014/10/ubuntu-tweak_vue_ensemble.png)ubuntu-tweak Vue d’ensemble
 
 </div>Plus d’info sur leur blog :
 
