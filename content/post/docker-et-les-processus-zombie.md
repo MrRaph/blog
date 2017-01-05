@@ -21,19 +21,19 @@ Docker est une technologie récente mais qui monte, qui monte très vite. Il y a
 
 Dans le monde UNIX, les processus sont organisés dans un arbre, chaque processus à son identifiant - PID - et l'identifiant de son père - PPID - ceci permet de créer l'arbre. Le seul processus à ne pas avoir de père est le processus au PID 1 - que l'on appelle "init". Ce dernier est le père de tous les autres processus, c'est la racine de notre arbre. C'est l'"init" qui démarre tous les autres processus de la machine qui eux mêmes pourront ensuite créer des fils.
 
-![Unix process hierarchy](https://blog.phusion.nl/wp-content/uploads/2015/01/Unix-process-hierarchy.png)
+![Unix process hierarchy](https://blog.phusion.nl/images/2015/01/Unix-process-hierarchy.png)
 
 
 Maintenant, qu'arriverait-il si un de ces prossus se terminait de façon inattendue ? Prennont l'exemple du processu "bash" - PID 5 - il devient alors une processus "DEFUNCT", aussi appelé "Zombie".
 
 
-![Zombie 1](https://blog.phusion.nl/wp-content/uploads/2015/01/zombie.png)
+![Zombie 1](https://blog.phusion.nl/images/2015/01/zombie.png)
 
 Le père de notre processus "bash" est maintenant sensé "attendre" son fil - "wait" - afin de récupérer son code retour. Tant que le père d'un processus n'a pas collecté ce code retour, le zombie reste présent. Le père doit pour ce faire, utiliser l'appel système "waitpid()". Cette opération spécifique s'appelle le "reaping", la plupart des applications font cela très bien.
 
 
 
-![Reaping](https://blog.phusion.nl/wp-content/uploads/2015/01/reaping.png)
+![Reaping](https://blog.phusion.nl/images/2015/01/reaping.png)
 
 
 Dans notre exemple, si "bash" se termine, le système d'exploitation va envoyer un signal "SIGHLD" au processus "sshd" pour qu'il se réveille et qu'il "reap" son fils disparu.
@@ -44,7 +44,7 @@ Il y a cependant un cas spécial, si un processus parent de processus fils se te
 C'est à ce moment là qu'"init" va refaire parler de lui. Considérons l'exemple ci-dessous, "init" démarre "nginx" qui lui même crée un fils. Lorsque "nginx" se termine, son fils - PID 16 - n'a plus de père et est donc considéré comme "orphaned". Comme un processus ne peux pas rester dans la nature comme cela, "init" va l'adopter. "init" est désormais le père de notre processus "nginx" au PID 16.
 
 
-![Adoption](https://blog.phusion.nl/wp-content/uploads/2015/01/adoption.png)
+![Adoption](https://blog.phusion.nl/images/2015/01/adoption.png)
 
 Maintenant "init" à la responsabilité de "reap"er ce processus adopté et ainsi de nettoyer le système. C'est une responsabilité très important dans un système UNIX, cela garanti que le système reste sain. Quasiment tous les daemons s'attendent à ce que leurs enfants soient ainsi nettoyés par "init". Ceci est également vrai pour la très grande majorité des processus du monde UNIX.
 

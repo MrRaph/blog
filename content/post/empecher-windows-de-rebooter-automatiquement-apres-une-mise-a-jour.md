@@ -1,6 +1,6 @@
 +++
 categories = ["empêcher windows de rebooter automatiquement après une mise à jour","Mise à jour","reboot","Windows"]
-image = "https://techan.fr/wp-content/uploads/2014/12/windows_logo_mini.png"
+image = "https://techan.fr/images/2014/12/windows_logo_mini.png"
 description = ""
 draft = false
 date = 2015-08-07T11:37:43Z
@@ -23,25 +23,25 @@ Appuyez sur la touche **Windows**.
 
  
 
-[![screenshot.662](https://techan.fr/wp-content/uploads/2015/07/screenshot.662.jpg)](https://techan.fr/wp-content/uploads/2015/07/screenshot.662.jpg)
+[![screenshot.662](https://techan.fr/images/2015/07/screenshot.662.jpg)](https://techan.fr/images/2015/07/screenshot.662.jpg)
 
 Tapez **regedit** dans la zone de recherche.
 
  
 
-[![screenshot.663](https://techan.fr/wp-content/uploads/2015/07/screenshot.663.jpg)](https://techan.fr/wp-content/uploads/2015/07/screenshot.663.jpg)
+[![screenshot.663](https://techan.fr/images/2015/07/screenshot.663.jpg)](https://techan.fr/images/2015/07/screenshot.663.jpg)
 
 Faites un clic droit sur **regedit.exe** et cliquez sur **Exécuter en tant qu’administrateur**.
 
  
 
-[![screenshot.664](https://techan.fr/wp-content/uploads/2015/07/screenshot.664.jpg)](https://techan.fr/wp-content/uploads/2015/07/screenshot.664.jpg)
+[![screenshot.664](https://techan.fr/images/2015/07/screenshot.664.jpg)](https://techan.fr/images/2015/07/screenshot.664.jpg)
 
 Cliquez sur **Oui**.
 
  
 
-[![Empêcher Windows de rebooter automatiquement après une mise à jour](https://techan.fr/wp-content/uploads/2015/07/screenshot.665.jpg)](https://techan.fr/wp-content/uploads/2015/07/screenshot.665.jpg)
+[![Empêcher Windows de rebooter automatiquement après une mise à jour](https://techan.fr/images/2015/07/screenshot.665.jpg)](https://techan.fr/images/2015/07/screenshot.665.jpg)
 
  
 
@@ -49,19 +49,19 @@ Dépliez l’arborescence suivante : **HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Micr
 
  
 
-[![Empêcher Windows de rebooter automatiquement après une mise à jour](https://techan.fr/wp-content/uploads/2015/07/screenshot.666.jpg)](https://techan.fr/wp-content/uploads/2015/07/screenshot.666.jpg)
+[![Empêcher Windows de rebooter automatiquement après une mise à jour](https://techan.fr/images/2015/07/screenshot.666.jpg)](https://techan.fr/images/2015/07/screenshot.666.jpg)
 
 Faites une clic droit sur le niveau supérieur – **Windows** -, dépliez **Nouveau** et cliquez sur **Clé**. Nommez la **WindowsUpdate**.
 
  
 
-[![Empêcher Windows de rebooter automatiquement après une mise à jour](https://techan.fr/wp-content/uploads/2015/07/screenshot.667.jpg)](https://techan.fr/wp-content/uploads/2015/07/screenshot.667.jpg)
+[![Empêcher Windows de rebooter automatiquement après une mise à jour](https://techan.fr/images/2015/07/screenshot.667.jpg)](https://techan.fr/images/2015/07/screenshot.667.jpg)
 
 Faites une clic droit sur la clef **WindowsUpdate**, dépliez **Nouveau** et cliquez sur **Clé**. Nommez la **AU**.
 
  
 
-[![Empêcher Windows de rebooter automatiquement après une mise à jour](https://techan.fr/wp-content/uploads/2015/07/screenshot.668.jpg)](https://techan.fr/wp-content/uploads/2015/07/screenshot.668.jpg)
+[![Empêcher Windows de rebooter automatiquement après une mise à jour](https://techan.fr/images/2015/07/screenshot.668.jpg)](https://techan.fr/images/2015/07/screenshot.668.jpg)
 
  
 
@@ -69,7 +69,7 @@ Maintenant que vous avez toute l’arborescence, faites un clic droit sur la cle
 
  
 
-[![Empêcher Windows de rebooter automatiquement après une mise à jour](https://techan.fr/wp-content/uploads/2015/07/screenshot.669.jpg)](https://techan.fr/wp-content/uploads/2015/07/screenshot.669.jpg)
+[![Empêcher Windows de rebooter automatiquement après une mise à jour](https://techan.fr/images/2015/07/screenshot.669.jpg)](https://techan.fr/images/2015/07/screenshot.669.jpg)
 
  
 

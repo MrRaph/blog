@@ -2,7 +2,7 @@
 slug = "empecher-les-mises-a-jour-dun-paquet-sur-ubuntu"
 categories = ["Debian","empêcher les mises à jour d un paquet sur ubuntu","Linux","Mises à jour","Trucs et Astuces","Ubuntu"]
 tags = ["Debian","empêcher les mises à jour d un paquet sur ubuntu","Linux","Mises à jour","Trucs et Astuces","Ubuntu"]
-image = "https://techan.fr/wp-content/uploads/2015/04/UBUNTU.png"
+image = "https://techan.fr/images/2015/04/UBUNTU.png"
 description = ""
 draft = false
 title = "Empêcher les mises à jour d'un paquet sur Ubuntu"

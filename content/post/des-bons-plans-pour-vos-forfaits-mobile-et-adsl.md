@@ -1,6 +1,6 @@
 +++
 categories = ["des bons plans pour vos forfaits mobile et adsl"]
-image = "https://techan.fr/wp-content/uploads/2015/01/MMA-Cochon-tirelire.jpg"
+image = "https://techan.fr/images/2015/01/MMA-Cochon-tirelire.jpg"
 description = ""
 slug = "des-bons-plans-pour-vos-forfaits-mobile-et-adsl"
 draft = false
@@ -18,11 +18,11 @@ Les offres RED proposées dans le cadre des journées guerrières sont disponibl
 
  
 
-[![Des bons plans pour vos forfaits mobile et ADSL](https://techan.fr/wp-content/uploads/2015/09/screenshot.844.jpg)](https://techan.fr/wp-content/uploads/2015/09/screenshot.844.jpg)
+[![Des bons plans pour vos forfaits mobile et ADSL](https://techan.fr/images/2015/09/screenshot.844.jpg)](https://techan.fr/images/2015/09/screenshot.844.jpg)
 
 [L’offre de Virgin](http://www.virginmobile.fr/offre-box) quant à elle est disponible jusqu’au 14 Septembre.
 
-[![Des bons plans pour vos forfaits mobile et ADSL](https://techan.fr/wp-content/uploads/2015/09/screenshot.843.jpg)](https://techan.fr/wp-content/uploads/2015/09/screenshot.843.jpg)
+[![Des bons plans pour vos forfaits mobile et ADSL](https://techan.fr/images/2015/09/screenshot.843.jpg)](https://techan.fr/images/2015/09/screenshot.843.jpg)
 
  
 

@@ -6,7 +6,7 @@ tags = ["Centos","Fedora","Linux","Swap","Trucs et Astuces","Ubuntu"]
 title = "Identifier les processus swapés sur Linux"
 date = 2015-04-22T10:04:55Z
 author = "MrRaph_"
-image = "https://techan.fr/wp-content/uploads/2014/11/Linux.png"
+image = "https://techan.fr/images/2014/11/Linux.png"
 slug = "identifier-les-processus-swapes-sur-linux"
 
 +++
@@ -14,7 +14,7 @@ slug = "identifier-les-processus-swapes-sur-linux"
 
 Il est fréquent de voir un Linux swaper, c’est normal et l’agressivité du processus de mise en swap peut être réglée (voir [[Linux Tuning] Ajuster la swappiness](https://techan.fr/linux-tuning-ajuster-la-swappiness/)). Cependant, il peut être intéressant de savoir quels processus sont actuellement swapés. Malheureusement, il est assez compliqué de trouver cette information dans le système.
 
-<div class="wp-caption aligncenter" id="attachment_1222" style="width: 876px">[![Identifier les processus swapés sur Linux](https://techan.fr/wp-content/uploads/2015/04/htop_swap.png)](https://techan.fr/wp-content/uploads/2015/04/htop_swap.png)Un Linux qui swape un petit peu
+<div class="wp-caption aligncenter" id="attachment_1222" style="width: 876px">[![Identifier les processus swapés sur Linux](https://techan.fr/images/2015/04/htop_swap.png)](https://techan.fr/images/2015/04/htop_swap.png)Un Linux qui swape un petit peu
 
 </div> 
 
@@ -52,7 +52,7 @@ Il est possible de vider le cache de manière brutale en désactivant/réactivan
 
 <span style="text-decoration: underline;">Note :</span> Le vidage du swap peut être un peu long en fonction de la taille utilisée.
 
-<div class="wp-caption aligncenter" id="attachment_1225" style="width: 882px">[![Identifier les processus swapés sur Linux](https://techan.fr/wp-content/uploads/2015/04/htop_swap_vide.jpg)](https://techan.fr/wp-content/uploads/2015/04/htop_swap_vide.jpg)Après le vidage du swap
+<div class="wp-caption aligncenter" id="attachment_1225" style="width: 882px">[![Identifier les processus swapés sur Linux](https://techan.fr/images/2015/04/htop_swap_vide.jpg)](https://techan.fr/images/2015/04/htop_swap_vide.jpg)Après le vidage du swap
 
 </div> 
 

@@ -26,7 +26,7 @@ source ~/.bashrc</code></pre>
 
 Démarrez Pidgin et ajoutez un nouveau compte, choissiez le protocole _Office Communicator_ et reseignez votre compte - dans le champ _Utilisateur_ - ainsi que le mot de passe de ce compte.
 
-![](https://techan.fr/wp-content/uploads/2016/03/skype_configuration_compte_1.png)
+![](https://techan.fr/images/2016/03/skype_configuration_compte_1.png)
 
 
 Passons maintennant à la configuration avancée, ceci se passe dans l'onglet _Avancé_.
@@ -35,7 +35,7 @@ Passons maintennant à la configuration avancée, ceci se passe dans l'onglet _A
 * Renseignez l'_Agent utilisateur_ avec la valeur : ``UCCAPI/15.0.4753.1000 OC/15.0.4753.1003``
 *  Changez le _Schéma d'authentification_ et choissez _TLS-DSK_
 
-![](https://techan.fr/wp-content/uploads/2016/03/skype_configuration_compte_2.png)
+![](https://techan.fr/images/2016/03/skype_configuration_compte_2.png)
 
 
 Et voilà, il ne vous reste plus qu'à vous connecter à votre compte !

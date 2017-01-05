@@ -1,7 +1,7 @@
 +++
 date = 2014-10-17T10:51:50Z
 categories = ["Linux","Mac","Time Capsule"]
-image = "https://techan.fr/wp-content/uploads/2014/10/tm.png"
+image = "https://techan.fr/images/2014/10/tm.png"
 description = ""
 slug = "linux-transformer-votre-linux-en-time-capsule"
 draft = false
@@ -112,16 +112,16 @@ Ouvrez le menu Time Machine et laissez vous guider.
 
  
 
-<div class="wp-caption aligncenter" id="attachment_258" style="width: 310px">[![time_machine_setup_1](https://techan.fr/wp-content/uploads/2014/10/time_machine_setup_1-300x173.png)](https://techan.fr/wp-content/uploads/2014/10/time_machine_setup_1.png)Cliquer sur « Choisir un disque… »
+<div class="wp-caption aligncenter" id="attachment_258" style="width: 310px">[![time_machine_setup_1](https://techan.fr/images/2014/10/time_machine_setup_1-300x173.png)](https://techan.fr/images/2014/10/time_machine_setup_1.png)Cliquer sur « Choisir un disque… »
 
 </div> 
 
-<div class="wp-caption aligncenter" id="attachment_259" style="width: 310px">[![Cliquer sur le disque réseau nouvellement créé. Dans mon cas : "Time Capsule sur Baal".](https://techan.fr/wp-content/uploads/2014/10/time_machine_setup_2-300x172.png)](https://techan.fr/wp-content/uploads/2014/10/time_machine_setup_2.png)Cliquer sur le disque réseau nouvellement créé.  
+<div class="wp-caption aligncenter" id="attachment_259" style="width: 310px">[![Cliquer sur le disque réseau nouvellement créé. Dans mon cas : "Time Capsule sur Baal".](https://techan.fr/images/2014/10/time_machine_setup_2-300x172.png)](https://techan.fr/images/2014/10/time_machine_setup_2.png)Cliquer sur le disque réseau nouvellement créé.  
 Dans mon cas : « Time Capsule sur Baal ».
 
-</div><div class="wp-caption aligncenter" id="attachment_260" style="width: 310px">[![Dans la fenêtre d'authentification, il faut renseigner le compte Linux utilisé dans le fichier AppleVolumes.default et son mot de passe.](https://techan.fr/wp-content/uploads/2014/10/time_machine_setup_3-300x171.png)](https://techan.fr/wp-content/uploads/2014/10/time_machine_setup_3.png)Dans la fenêtre d’authentification, il faut renseigner le compte Linux utilisé dans le fichier AppleVolumes.default et son mot de passe.
+</div><div class="wp-caption aligncenter" id="attachment_260" style="width: 310px">[![Dans la fenêtre d'authentification, il faut renseigner le compte Linux utilisé dans le fichier AppleVolumes.default et son mot de passe.](https://techan.fr/images/2014/10/time_machine_setup_3-300x171.png)](https://techan.fr/images/2014/10/time_machine_setup_3.png)Dans la fenêtre d’authentification, il faut renseigner le compte Linux utilisé dans le fichier AppleVolumes.default et son mot de passe.
 
-</div><div class="wp-caption aligncenter" id="attachment_261" style="width: 310px">[![Et voilà ! Vous êtes paré !](https://techan.fr/wp-content/uploads/2014/10/time_machine_setup_4-300x172.png)](https://techan.fr/wp-content/uploads/2014/10/time_machine_setup_4.png)Et voilà ! Vous êtes paré !
+</div><div class="wp-caption aligncenter" id="attachment_261" style="width: 310px">[![Et voilà ! Vous êtes paré !](https://techan.fr/images/2014/10/time_machine_setup_4-300x172.png)](https://techan.fr/images/2014/10/time_machine_setup_4.png)Et voilà ! Vous êtes paré !
 
 </div> 
 

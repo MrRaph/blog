@@ -1,5 +1,5 @@
 +++
-image = "https://techan.fr/wp-content/uploads/2014/12/windows_logo_mini.png"
+image = "https://techan.fr/images/2014/12/windows_logo_mini.png"
 description = ""
 title = "Installer les pilotes ODBC pour Office 2010"
 date = 2014-12-19T17:07:52Z
@@ -23,7 +23,7 @@ Tout d’abord, il faut trouver l’architecture de l’Office installé sur la 
 
 Pour trouver cette information, il faut lancer Excel par exemple et aller dans « Fichier » -> « Aide ». Dans le panneau de droite vous trouverez une bonne tartine d’informations dont celle que l’on cherche.
 
-[![version_office](https://techan.fr/wp-content/uploads/2014/12/version_office.png)](https://techan.fr/wp-content/uploads/2014/12/version_office.png)
+[![version_office](https://techan.fr/images/2014/12/version_office.png)](https://techan.fr/images/2014/12/version_office.png)
 
 Dans mon cas, j’ai une version 32 bits d’Office 2010 installée sur une machine 64 bits, le cas le plus délicieux.
 
@@ -32,17 +32,17 @@ Dans mon cas, j’ai une version 32 bits d’Office 2010 installée sur une mach
 
 Rendez-vous dans le panneau de configuration puis dans Programmes et fonctionnalités sélectionnez Office et cliquez sur Modifier.
 
-[![install_outil_office_1](https://techan.fr/wp-content/uploads/2014/12/install_outil_office_1.png)](https://techan.fr/wp-content/uploads/2014/12/install_outil_office_1.png)
+[![install_outil_office_1](https://techan.fr/images/2014/12/install_outil_office_1.png)](https://techan.fr/images/2014/12/install_outil_office_1.png)
 
 Dans le programme d’installation d’Office, choisissez la première option.
 
  
 
-[![install_outil_office_2](https://techan.fr/wp-content/uploads/2014/12/install_outil_office_2.png)](https://techan.fr/wp-content/uploads/2014/12/install_outil_office_2.png)
+[![install_outil_office_2](https://techan.fr/images/2014/12/install_outil_office_2.png)](https://techan.fr/images/2014/12/install_outil_office_2.png)
 
 Sélectionnez « Microsoft Query » pour installation dans la catégorie « Outils Office ».
 
-[![Installer les pilotes ODBC pour Office 2010](https://techan.fr/wp-content/uploads/2014/12/install_outil_office_3.png)](https://techan.fr/wp-content/uploads/2014/12/install_outil_office_3.png)
+[![Installer les pilotes ODBC pour Office 2010](https://techan.fr/images/2014/12/install_outil_office_3.png)](https://techan.fr/images/2014/12/install_outil_office_3.png)
 
 Cliquez sur Continuer sans fin jusqu’à ce que l’installation soit terminée et voila.
 
@@ -60,23 +60,23 @@ Une fois qu’on sait ça, et qu’on fait exactement l’inverse de la logique,
 
 Donc on lance la version qui va bien pour l’architecture d’Office, dans mon cas 32 bits, donc dans le répertoire 64 (non je ne m’en remet pas !).
 
-[![outil_admin_odbc](https://techan.fr/wp-content/uploads/2014/12/outil_admin_odbc.png)](https://techan.fr/wp-content/uploads/2014/12/outil_admin_odbc.png)
+[![outil_admin_odbc](https://techan.fr/images/2014/12/outil_admin_odbc.png)](https://techan.fr/images/2014/12/outil_admin_odbc.png)
 
 On voit que mes pilotes sont bien apparus :
 
  
 
-[![outil_admin_odbc_avec_office](https://techan.fr/wp-content/uploads/2014/12/outil_admin_odbc_avec_office.png)](https://techan.fr/wp-content/uploads/2014/12/outil_admin_odbc_avec_office.png)
+[![outil_admin_odbc_avec_office](https://techan.fr/images/2014/12/outil_admin_odbc_avec_office.png)](https://techan.fr/images/2014/12/outil_admin_odbc_avec_office.png)
 
 Et comble du bonheur, on peut configurer les sources avec ces pilotes !
 
-[![outil_admin_odbc_avec_office_qui_marche](https://techan.fr/wp-content/uploads/2014/12/outil_admin_odbc_avec_office_qui_marche.png)](https://techan.fr/wp-content/uploads/2014/12/outil_admin_odbc_avec_office_qui_marche.png)
+[![outil_admin_odbc_avec_office_qui_marche](https://techan.fr/images/2014/12/outil_admin_odbc_avec_office_qui_marche.png)](https://techan.fr/images/2014/12/outil_admin_odbc_avec_office_qui_marche.png)
 
 Alors qui on lance la version 64 bits de l’outil, il nous insulte carrément …
 
-[![outil_admin_odbc_avec_probleme_1](https://techan.fr/wp-content/uploads/2014/12/outil_admin_odbc_avec_probleme_1.png)](https://techan.fr/wp-content/uploads/2014/12/outil_admin_odbc_avec_probleme_1.png)
+[![outil_admin_odbc_avec_probleme_1](https://techan.fr/images/2014/12/outil_admin_odbc_avec_probleme_1.png)](https://techan.fr/images/2014/12/outil_admin_odbc_avec_probleme_1.png)
 
-[![outil_admin_odbc_avec_probleme_2](https://techan.fr/wp-content/uploads/2014/12/outil_admin_odbc_avec_probleme_2.png)](https://techan.fr/wp-content/uploads/2014/12/outil_admin_odbc_avec_probleme_2.png)
+[![outil_admin_odbc_avec_probleme_2](https://techan.fr/images/2014/12/outil_admin_odbc_avec_probleme_2.png)](https://techan.fr/images/2014/12/outil_admin_odbc_avec_probleme_2.png)
 
 
 ## Et si vous êtes vraiment malchanceux

@@ -3,7 +3,7 @@ slug = "joyeux-noel-tous"
 title = "Joyeux Noël à tous !"
 author = "MrRaph_"
 tags = ["Joyeux Noël","joyeux noël à tous"]
-image = "https://techan.fr/wp-content/uploads/2014/12/sapin_de_noel.png"
+image = "https://techan.fr/images/2014/12/sapin_de_noel.png"
 draft = false
 date = 2014-12-24T18:15:38Z
 categories = ["Joyeux Noël","joyeux noël à tous"]
@@ -12,7 +12,7 @@ description = ""
 +++
 
 
-<div class="wp-caption aligncenter" id="attachment_595" style="width: 310px">[![Joyeux Noël à tous !](https://techan.fr/wp-content/uploads/2014/12/pere-noel-humour.jpg)](https://techan.fr/wp-content/uploads/2014/12/pere-noel-humour.jpg)Source : http://zefml.com
+<div class="wp-caption aligncenter" id="attachment_595" style="width: 310px">[![Joyeux Noël à tous !](https://techan.fr/images/2014/12/pere-noel-humour.jpg)](https://techan.fr/images/2014/12/pere-noel-humour.jpg)Source : http://zefml.com
 
 </div>Je vous souhaite à tous de très belles fêtes de fin d’années !
 

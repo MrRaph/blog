@@ -7,7 +7,7 @@ slug = "soutenez-le-reve-des-lucioles"
 description = ""
 title = "Soutenez le Rêve des Lucioles"
 tags = ["Bonne action","Cancer","Le Rêve des Lucioles","soutenez le reve des lucioles","Vu sur le Web"]
-image = "https://techan.fr/wp-content/uploads/2015/11/logo_accueil_wide.png"
+image = "https://techan.fr/images/2015/11/logo_accueil_wide.png"
 
 +++
 
@@ -29,7 +29,7 @@ En ce moment [Le Rêve des Lucioles](http://www.le-reve-des-lucioles.fr/) contr
 
  
 
-[![Soutenez le Rêve des Lucioles](https://techan.fr/wp-content/uploads/2015/11/affiche_RdL.jpg)](https://techan.fr/wp-content/uploads/2015/11/affiche_RdL.jpg)
+[![Soutenez le Rêve des Lucioles](https://techan.fr/images/2015/11/affiche_RdL.jpg)](https://techan.fr/images/2015/11/affiche_RdL.jpg)
 
  
 
@@ -37,7 +37,7 @@ En ce moment [Le Rêve des Lucioles](http://www.le-reve-des-lucioles.fr/) contr
 
  
 
-<div class="wp-caption aligncenter" id="attachment_1946" style="width: 310px">[![Soutenez le Rêve des Lucioles](https://techan.fr/wp-content/uploads/2015/11/objets_RdL_1.jpg)](https://techan.fr/wp-content/uploads/2015/11/objets_RdL_1.jpg)[![lucioles_objets_2](https://techan.fr/wp-content/uploads/2015/11/lucioles_objets_2.jpg)](https://techan.fr/wp-content/uploads/2015/11/lucioles_objets_2.jpg) Quelques objets mis en vente par l’association
+<div class="wp-caption aligncenter" id="attachment_1946" style="width: 310px">[![Soutenez le Rêve des Lucioles](https://techan.fr/images/2015/11/objets_RdL_1.jpg)](https://techan.fr/images/2015/11/objets_RdL_1.jpg)[![lucioles_objets_2](https://techan.fr/images/2015/11/lucioles_objets_2.jpg)](https://techan.fr/images/2015/11/lucioles_objets_2.jpg) Quelques objets mis en vente par l’association
 
 </div> 
 

@@ -7,7 +7,7 @@ slug = "searx-heberger-votre-moteur-de-recherche"
 title = "[Searx] Héberger votre moteur de recherche"
 date = 2014-11-25T15:32:36Z
 author = "MrRaph_"
-image = "https://techan.fr/wp-content/uploads/2014/11/searx.png"
+image = "https://techan.fr/images/2014/11/searx.png"
 
 +++
 
@@ -20,7 +20,7 @@ Pour les plus bidouilleurs d’entre vous, sachez qu’il est possible de dével
 
  
 
-<div class="wp-caption aligncenter" id="attachment_490" style="width: 664px">[![Une recherche avec Searx](https://techan.fr/wp-content/uploads/2014/11/searx_recherche.png)](https://techan.fr/wp-content/uploads/2014/11/searx_recherche.png)Une recherche avec Searx
+<div class="wp-caption aligncenter" id="attachment_490" style="width: 664px">[![Une recherche avec Searx](https://techan.fr/images/2014/11/searx_recherche.png)](https://techan.fr/images/2014/11/searx_recherche.png)Une recherche avec Searx
 
 </div> 
 

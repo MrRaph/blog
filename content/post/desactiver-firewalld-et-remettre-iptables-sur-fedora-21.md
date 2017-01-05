@@ -2,7 +2,7 @@
 title = "Désactiver FirewallD et remettre iptables sur Fedora 21"
 author = "MrRaph_"
 tags = ["désactiver firewalld et remettre iptables sur fedora 21","Fedora","FirewallD","iptables","Trucs et Astuces"]
-image = "https://techan.fr/wp-content/uploads/2015/02/120px-Fedora_logo.svg_.png"
+image = "https://techan.fr/images/2015/02/120px-Fedora_logo.svg_.png"
 description = ""
 draft = false
 date = 2015-02-11T11:18:08Z

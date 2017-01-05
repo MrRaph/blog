@@ -6,7 +6,7 @@ title = "Activer les HugePages pour MySQL"
 date = 2015-04-23T09:21:17Z
 author = "MrRaph_"
 categories = ["HugePages","Linux","MySQL","Trucs et Astuces"]
-image = "https://techan.fr/wp-content/uploads/2015/04/MariaDB-seal.png"
+image = "https://techan.fr/images/2015/04/MariaDB-seal.png"
 draft = false
 
 +++

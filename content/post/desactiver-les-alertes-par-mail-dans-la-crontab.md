@@ -1,6 +1,6 @@
 +++
 author = "MrRaph_"
-image = "https://techan.fr/wp-content/uploads/2014/11/Linux.png"
+image = "https://techan.fr/images/2014/11/Linux.png"
 description = ""
 draft = false
 categories = ["alertes","crontab","Linux","mail"]

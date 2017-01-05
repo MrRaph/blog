@@ -1,6 +1,6 @@
 +++
 tags = ["Installation","installer ubuntu mate 15 04 sur une raspberry pi 2","Raspberry Pi 2","Ubuntu"]
-image = "https://techan.fr/wp-content/uploads/2015/06/Raspi_Colour_R.png"
+image = "https://techan.fr/images/2015/06/Raspi_Colour_R.png"
 slug = "installer-ubuntu-mate-15-04-sur-une-raspberry-pi-2"
 draft = false
 title = "Installer Ubuntu MATE 15.04 sur une RaspBerry Pi 2"

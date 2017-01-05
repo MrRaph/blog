@@ -1,7 +1,7 @@
 +++
 author = "MrRaph_"
 tags = ["Oracle","Survival Guide","Trucs et Astuces"]
-image = "https://techan.fr/wp-content/uploads/2014/10/SQL_term.png"
+image = "https://techan.fr/images/2014/10/SQL_term.png"
 categories = ["Oracle","Survival Guide","Trucs et Astuces"]
 description = ""
 slug = "oracle-gerer-les-directories"
@@ -30,7 +30,7 @@ select * from dba_directories ;
 
  
 
-[![image2014-4-4 10-10-35](https://techan.fr/wp-content/uploads/2014/10/image2014-4-4-10-10-35.png)](https://techan.fr/wp-content/uploads/2014/10/image2014-4-4-10-10-35.png)
+[![image2014-4-4 10-10-35](https://techan.fr/images/2014/10/image2014-4-4-10-10-35.png)](https://techan.fr/images/2014/10/image2014-4-4-10-10-35.png)
 
 Dans cet exemple, on voit que le directory qui s’appelle « DATA_PUMP_DIR » pointe vers le dossier UNIX/Linux « /data/oracle/admin/TFTI1/dpdump ».
 
@@ -46,7 +46,7 @@ grant create any directory to <username> ;
 
  
 
-[![image2014-4-4 10-33-58](https://techan.fr/wp-content/uploads/2014/10/image2014-4-4-10-33-58.png)](https://techan.fr/wp-content/uploads/2014/10/image2014-4-4-10-33-58.png)
+[![image2014-4-4 10-33-58](https://techan.fr/images/2014/10/image2014-4-4-10-33-58.png)](https://techan.fr/images/2014/10/image2014-4-4-10-33-58.png)
 
 L’utilisateur « scott » peut maintenant crée des directories.
 
@@ -58,7 +58,7 @@ La création d’un directory est faite par la commande SQL suivante :
 
 create directory <DIRECTORY_NAME> as '/path/to/system/directory' ;
 
-[![image2014-4-4 10-34-47](https://techan.fr/wp-content/uploads/2014/10/image2014-4-4-10-34-47.png)](https://techan.fr/wp-content/uploads/2014/10/image2014-4-4-10-34-47.png)
+[![image2014-4-4 10-34-47](https://techan.fr/images/2014/10/image2014-4-4-10-34-47.png)](https://techan.fr/images/2014/10/image2014-4-4-10-34-47.png)
 
 L’utilisateur « scott » dispose maintenant d’un directory « DATAPUMP » qui pointe vers le dossier système « /data/oracle/admin/TFTI1/dpdump ».
 

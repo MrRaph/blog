@@ -1,5 +1,5 @@
 +++
-image = "https://techan.fr/wp-content/uploads/2014/10/SQL_term.png"
+image = "https://techan.fr/images/2014/10/SQL_term.png"
 description = ""
 draft = false
 title = "[Wordpress] Mettre une image à la une d'un article via MySQL"
@@ -28,7 +28,7 @@ J’en ai donc extra-paulé (pardon, elle était trop facile celle la … :D) un
 
 insert into wp_postmeta(meta_key,meta_value,post_id) values ('_thumbnail_id', '457', '27');
 
-Cette requête ajoute l’image [![Linux](https://techan.fr/wp-content/uploads/2014/11/Linux.png)](https://techan.fr/wp-content/uploads/2014/11/Linux.png) comme image à la une de l’article [Ajouter des clefs SSH pour se connecter sur un boîtier RecoverPoint](https://techan.fr/ajouter-des-clefs-ssh-pour-se-connecter-sur-un-boitier-recoverpoint/ "Ajouter des clefs SSH pour se connecter sur un boîtier RecoverPoint").
+Cette requête ajoute l’image [![Linux](https://techan.fr/images/2014/11/Linux.png)](https://techan.fr/images/2014/11/Linux.png) comme image à la une de l’article [Ajouter des clefs SSH pour se connecter sur un boîtier RecoverPoint](https://techan.fr/ajouter-des-clefs-ssh-pour-se-connecter-sur-un-boitier-recoverpoint/ "Ajouter des clefs SSH pour se connecter sur un boîtier RecoverPoint").
 
 On passe la requête, on rafraichit la page, et l’image apparait comme par magie (ou presque !).
 

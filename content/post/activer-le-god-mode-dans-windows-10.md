@@ -4,7 +4,7 @@ tags = ["activer le god mode dans windows 10","God Mode","Trucs et Astuces","win
 slug = "activer-le-god-mode-dans-windows-10"
 date = 2015-08-03T16:24:44Z
 author = "MrRaph_"
-image = "https://techan.fr/wp-content/uploads/2015/06/windows_10_logo.png"
+image = "https://techan.fr/images/2015/06/windows_10_logo.png"
 description = ""
 draft = false
 title = "Activer le God Mode dans Windows 10"
@@ -27,7 +27,7 @@ Avec cette astuce, vous n’aurez plus besoin de courir à droit et à gauche po
 
 Créer un nouveau dossier ou vous le souhaitez, personnellement je l’ai fait sur le Bureau.
 
-[![Activer le God Mode dans Windows 10](https://techan.fr/wp-content/uploads/2015/08/screenshot.693.jpg)](https://techan.fr/wp-content/uploads/2015/08/screenshot.693.jpg)
+[![Activer le God Mode dans Windows 10](https://techan.fr/images/2015/08/screenshot.693.jpg)](https://techan.fr/images/2015/08/screenshot.693.jpg)
 
 Renommez ce dossier comme ceci :
 
@@ -37,17 +37,17 @@ GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}
 
  
 
-[![Activer le God Mode dans Windows 10](https://techan.fr/wp-content/uploads/2015/08/screenshot.694.jpg)](https://techan.fr/wp-content/uploads/2015/08/screenshot.694.jpg)
+[![Activer le God Mode dans Windows 10](https://techan.fr/images/2015/08/screenshot.694.jpg)](https://techan.fr/images/2015/08/screenshot.694.jpg)
 
 Validez la modification, le dossier va alors changer d’apparence, pour ressembler à une espèce d’ordinateur.
 
-[![Activer le God Mode dans Windows 10](https://techan.fr/wp-content/uploads/2015/08/screenshot.695.jpg)](https://techan.fr/wp-content/uploads/2015/08/screenshot.695.jpg)
+[![Activer le God Mode dans Windows 10](https://techan.fr/images/2015/08/screenshot.695.jpg)](https://techan.fr/images/2015/08/screenshot.695.jpg)
 
 Il ne reste plus qu’à double cliquer sur ce dossier pour accéder aux paramètres Windows.
 
  
 
-[![Activer le God Mode dans Windows 10](https://techan.fr/wp-content/uploads/2015/08/screenshot.696.jpg)](https://techan.fr/wp-content/uploads/2015/08/screenshot.696.jpg)
+[![Activer le God Mode dans Windows 10](https://techan.fr/images/2015/08/screenshot.696.jpg)](https://techan.fr/images/2015/08/screenshot.696.jpg)
 
  
 

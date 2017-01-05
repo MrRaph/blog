@@ -1,7 +1,7 @@
 +++
 categories = ["Kernel 4.0","Ubuntu","Vu sur le Web"]
 tags = ["Kernel 4.0","Ubuntu","Vu sur le Web"]
-image = "https://techan.fr/wp-content/uploads/2015/04/Ubuntu_Logo.gif"
+image = "https://techan.fr/images/2015/04/Ubuntu_Logo.gif"
 description = ""
 draft = false
 title = "Avec Ubuntu 15.10, vous direz adieu aux reboots !"
@@ -25,7 +25,7 @@ Malheureusement, la prochaine version d’Ubuntu, 15.04, qui va sortir le bout d
 
  
 
-[![ubuntu-release-schedule11](https://techan.fr/wp-content/uploads/2015/04/ubuntu-release-schedule111.jpg)](https://techan.fr/wp-content/uploads/2015/04/ubuntu-release-schedule111.jpg)
+[![ubuntu-release-schedule11](https://techan.fr/images/2015/04/ubuntu-release-schedule111.jpg)](https://techan.fr/images/2015/04/ubuntu-release-schedule111.jpg)
 
  
 

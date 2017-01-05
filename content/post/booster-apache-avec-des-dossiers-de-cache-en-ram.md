@@ -2,7 +2,7 @@
 categories = ["Boost","Cache","Linux","RAM","web"]
 tags = ["Boost","Cache","Linux","RAM","web"]
 draft = false
-image = "https://techan.fr/wp-content/uploads/2014/11/Linux.png"
+image = "https://techan.fr/images/2014/11/Linux.png"
 description = ""
 slug = "booster-apache-avec-des-dossiers-de-cache-en-ram"
 title = "Booster Apache avec des dossiers de cache en RAM"

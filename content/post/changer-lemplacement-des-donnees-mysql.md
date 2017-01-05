@@ -1,5 +1,5 @@
 +++
-image = "https://techan.fr/wp-content/uploads/2014/10/SQL_term.png"
+image = "https://techan.fr/images/2014/10/SQL_term.png"
 date = 2015-01-28T12:52:37Z
 author = "MrRaph_"
 draft = false

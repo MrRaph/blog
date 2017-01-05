@@ -53,22 +53,22 @@ Pour configurer l'outil, il faut tout d'abord le lancer.
 <pre><code class="hljs bash">blueproximity</code></pre>
 
 
-![Cliquez sur 'Scan for devices'](https://techan.fr/wp-content/uploads/2016/04/BlueProximity_Preferences_005.png)
+![Cliquez sur 'Scan for devices'](https://techan.fr/images/2016/04/BlueProximity_Preferences_005.png)
 
 
-![Sélectionnez le périphérique et cliquez sur 'Use selected device'](https://techan.fr/wp-content/uploads/2016/04/BlueProximity_Preferences_006.png)
+![Sélectionnez le périphérique et cliquez sur 'Use selected device'](https://techan.fr/images/2016/04/BlueProximity_Preferences_006.png)
 
-![Cliquez sur 'Scan channels on devices'](https://techan.fr/wp-content/uploads/2016/04/BlueProximity_Preferences_007.png)
+![Cliquez sur 'Scan channels on devices'](https://techan.fr/images/2016/04/BlueProximity_Preferences_007.png)
 
-![Sélectionnez un channel marqué comme 'usable' et cliquez sur 'Fermer'](https://techan.fr/wp-content/uploads/2016/04/BlueProximity_Preferences_008.png)
+![Sélectionnez un channel marqué comme 'usable' et cliquez sur 'Fermer'](https://techan.fr/images/2016/04/BlueProximity_Preferences_008.png)
 
 Nous allons maintenant ajouter BlueProximity au démarrage de la session, pour cela ouvrez les "Applications au démarrage".
 
-![Applications au démarrage](https://techan.fr/wp-content/uploads/2016/04/Sélection_009.png)
+![Applications au démarrage](https://techan.fr/images/2016/04/Sélection_009.png)
 
 Ajoutez BlueProximity au démarrage.
 
-![Ajoutez BlueProximity au démarrage](https://techan.fr/wp-content/uploads/2016/04/BlueProximity_startup_005.png)
+![Ajoutez BlueProximity au démarrage](https://techan.fr/images/2016/04/BlueProximity_startup_005.png)
 
 
 Modifier le fichier de configuration de Blueproximity.

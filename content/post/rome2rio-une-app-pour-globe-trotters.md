@@ -1,6 +1,6 @@
 +++
 categories = ["App","globe-trotters","rome2rio"]
-image = "https://techan.fr/wp-content/uploads/2015/09/IMG_0629.png"
+image = "https://techan.fr/images/2015/09/IMG_0629.png"
 draft = false
 title = "Rome2Rio une App pour globe-trotters"
 author = "MrRaph_"
@@ -20,13 +20,13 @@ Voici un petit exemple en images, vous venez d’atterrir à l’aéroport Marco
 
  
 
-[![Rome2Rio une App pour globe-trotters](https://techan.fr/wp-content/uploads/2015/09/image2-1.png)](https://techan.fr/wp-content/uploads/2015/09/image11.png)
+[![Rome2Rio une App pour globe-trotters](https://techan.fr/images/2015/09/image2-1.png)](https://techan.fr/images/2015/09/image11.png)
 
 L’application vous liste alors les différentes possibilités qui s’offrent à vous que ce soit à pieds, en bus, par ferry ou en taxi. Vous avez également une estimation du coût de chacun de ces moyens de transport et le temps estimé de votre trajet.
 
  
 
-[![Rome2Rio une App pour globe-trotters](https://techan.fr/wp-content/uploads/2015/09/image11.png)](https://techan.fr/wp-content/uploads/2015/09/image11.png)
+[![Rome2Rio une App pour globe-trotters](https://techan.fr/images/2015/09/image11.png)](https://techan.fr/images/2015/09/image11.png)
 
 Ce service est également disponible sur [le site internet de Rome2Rio](http://www.rome2rio.com/fr).
 

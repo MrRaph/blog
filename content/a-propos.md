@@ -9,7 +9,7 @@ author = "MrRaph_"
 +++
 
 
-[![319426_4294985734465_1196558181_n](https://techan.fr/wp-content/uploads/2014/09/319426_4294985734465_1196558181_n-150x150.jpg)](https://techan.fr/wp-content/uploads/2014/09/319426_4294985734465_1196558181_n.jpg)Je m’appelle Raphaël, j’ai 27 ans et je suis consultant en informatique spécialisé dans les bases de données Oracle, les systèmes virtualisés VMware – certifié VCP – et les systèmes Linux.
+[![319426_4294985734465_1196558181_n](https://techan.fr/images/2014/09/319426_4294985734465_1196558181_n-150x150.jpg)](https://techan.fr/images/2014/09/319426_4294985734465_1196558181_n.jpg)Je m’appelle Raphaël, j’ai 27 ans et je suis consultant en informatique spécialisé dans les bases de données Oracle, les systèmes virtualisés VMware – certifié VCP – et les systèmes Linux.
 
 J’ai créé ce blog afin de partager avec le plus grand nombre tous les petits trucs que je fais dans le cadre de mon travail et qui me demande un effort de recherche ou que je fais régulièrement mais que je documente pour ne plus avoir de recherches supplémentaires a réaliser.
 

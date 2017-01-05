@@ -2,7 +2,7 @@
 draft = false
 date = 2015-02-09T10:39:51Z
 author = "MrRaph_"
-image = "https://techan.fr/wp-content/uploads/2015/01/Centreon-Logo-Cube.png"
+image = "https://techan.fr/images/2015/01/Centreon-Logo-Cube.png"
 description = ""
 slug = "installer-nagios-et-centreon-sur-centos-6"
 title = "Installer Nagios et Centreon sur Centos 6"
@@ -66,23 +66,23 @@ Récupérer la clef GPG du dépôt [à cette adresse](http://yum.centreon.com/st
 
 #### Configuration de Centréon
 
-<div class="wp-caption aligncenter" id="attachment_980" style="width: 634px">[![Installer Nagios et Centreon sur Centos 6](https://techan.fr/wp-content/uploads/2015/01/screenshot.1422450421.png)](https://techan.fr/wp-content/uploads/2015/01/screenshot.1422450421.png)Se rendre sur la page http://servername/centreon
+<div class="wp-caption aligncenter" id="attachment_980" style="width: 634px">[![Installer Nagios et Centreon sur Centos 6](https://techan.fr/images/2015/01/screenshot.1422450421.png)](https://techan.fr/images/2015/01/screenshot.1422450421.png)Se rendre sur la page http://servername/centreon
 
 </div> 
 
-<div class="wp-caption aligncenter" id="attachment_981" style="width: 634px">[![Installer Nagios et Centreon sur Centos 6](https://techan.fr/wp-content/uploads/2015/01/screenshot.1422450430.png)](https://techan.fr/wp-content/uploads/2015/01/screenshot.1422450430.png)Vérifier que les prérequis sont validés.
+<div class="wp-caption aligncenter" id="attachment_981" style="width: 634px">[![Installer Nagios et Centreon sur Centos 6](https://techan.fr/images/2015/01/screenshot.1422450430.png)](https://techan.fr/images/2015/01/screenshot.1422450430.png)Vérifier que les prérequis sont validés.
 
-</div><div class="wp-caption aligncenter" id="attachment_982" style="width: 630px">[![Installer Nagios et Centreon sur Centos 6](https://techan.fr/wp-content/uploads/2015/01/screenshot.1422450453.png)](https://techan.fr/wp-content/uploads/2015/01/screenshot.1422450453.png)Déplier la liste de choix.
+</div><div class="wp-caption aligncenter" id="attachment_982" style="width: 630px">[![Installer Nagios et Centreon sur Centos 6](https://techan.fr/images/2015/01/screenshot.1422450453.png)](https://techan.fr/images/2015/01/screenshot.1422450453.png)Déplier la liste de choix.
 
-</div><div class="wp-caption aligncenter" id="attachment_983" style="width: 631px">[![Installer Nagios et Centreon sur Centos 6](https://techan.fr/wp-content/uploads/2015/01/screenshot.1422450504.png)](https://techan.fr/wp-content/uploads/2015/01/screenshot.1422450504.png)Choisir Nagios et valider que les chemins affichés sont bons sur le serveur.
+</div><div class="wp-caption aligncenter" id="attachment_983" style="width: 631px">[![Installer Nagios et Centreon sur Centos 6](https://techan.fr/images/2015/01/screenshot.1422450504.png)](https://techan.fr/images/2015/01/screenshot.1422450504.png)Choisir Nagios et valider que les chemins affichés sont bons sur le serveur.
 
-</div><div class="wp-caption aligncenter" id="attachment_984" style="width: 634px">[![Installer Nagios et Centreon sur Centos 6](https://techan.fr/wp-content/uploads/2015/01/screenshot.1422450523.png)](https://techan.fr/wp-content/uploads/2015/01/screenshot.1422450523.png)Cliquer sur Next.
+</div><div class="wp-caption aligncenter" id="attachment_984" style="width: 634px">[![Installer Nagios et Centreon sur Centos 6](https://techan.fr/images/2015/01/screenshot.1422450523.png)](https://techan.fr/images/2015/01/screenshot.1422450523.png)Cliquer sur Next.
 
-</div><div class="wp-caption aligncenter" id="attachment_986" style="width: 632px">[![Installer Nagios et Centreon sur Centos 6](https://techan.fr/wp-content/uploads/2015/01/screenshot.1422450875.png)](https://techan.fr/wp-content/uploads/2015/01/screenshot.1422450875.png)Configurer le compte administrateur de Centréon.
+</div><div class="wp-caption aligncenter" id="attachment_986" style="width: 632px">[![Installer Nagios et Centreon sur Centos 6](https://techan.fr/images/2015/01/screenshot.1422450875.png)](https://techan.fr/images/2015/01/screenshot.1422450875.png)Configurer le compte administrateur de Centréon.
 
-</div><div class="wp-caption aligncenter" id="attachment_987" style="width: 634px">[![Installer Nagios et Centreon sur Centos 6](https://techan.fr/wp-content/uploads/2015/01/screenshot.1422450997.png)](https://techan.fr/wp-content/uploads/2015/01/screenshot.1422450997.png)Configurer les connexions à MySQL.
+</div><div class="wp-caption aligncenter" id="attachment_987" style="width: 634px">[![Installer Nagios et Centreon sur Centos 6](https://techan.fr/images/2015/01/screenshot.1422450997.png)](https://techan.fr/images/2015/01/screenshot.1422450997.png)Configurer les connexions à MySQL.
 
-</div><div class="wp-caption aligncenter" id="attachment_988" style="width: 633px">[![Installer Nagios et Centreon sur Centos 6](https://techan.fr/wp-content/uploads/2015/01/screenshot.1422451027.png)](https://techan.fr/wp-content/uploads/2015/01/screenshot.1422451027.png)Si comme moi vous avez cette erreur, appliquer les actions ci-dessous.
+</div><div class="wp-caption aligncenter" id="attachment_988" style="width: 633px">[![Installer Nagios et Centreon sur Centos 6](https://techan.fr/images/2015/01/screenshot.1422451027.png)](https://techan.fr/images/2015/01/screenshot.1422451027.png)Si comme moi vous avez cette erreur, appliquer les actions ci-dessous.
 
 </div> 
 
@@ -96,11 +96,11 @@ Puis redémarrer MySQL et cliquer sur Refresh dans l’installateur de Centréon
 
  
 
-<div class="wp-caption aligncenter" id="attachment_989" style="width: 642px">[![Installer Nagios et Centreon sur Centos 6](https://techan.fr/wp-content/uploads/2015/01/screenshot.1422451083.png)](https://techan.fr/wp-content/uploads/2015/01/screenshot.1422451083.png)Attendre la fin de l’installation.
+<div class="wp-caption aligncenter" id="attachment_989" style="width: 642px">[![Installer Nagios et Centreon sur Centos 6](https://techan.fr/images/2015/01/screenshot.1422451083.png)](https://techan.fr/images/2015/01/screenshot.1422451083.png)Attendre la fin de l’installation.
 
-</div><div class="wp-caption aligncenter" id="attachment_990" style="width: 635px">[![Installer Nagios et Centreon sur Centos 6](https://techan.fr/wp-content/uploads/2015/01/screenshot.1422451120.png)](https://techan.fr/wp-content/uploads/2015/01/screenshot.1422451120.png)Cliquer sur Next
+</div><div class="wp-caption aligncenter" id="attachment_990" style="width: 635px">[![Installer Nagios et Centreon sur Centos 6](https://techan.fr/images/2015/01/screenshot.1422451120.png)](https://techan.fr/images/2015/01/screenshot.1422451120.png)Cliquer sur Next
 
-</div><div class="wp-caption aligncenter" id="attachment_991" style="width: 632px">[![Installer Nagios et Centreon sur Centos 6](https://techan.fr/wp-content/uploads/2015/01/screenshot.1422451133.png)](https://techan.fr/wp-content/uploads/2015/01/screenshot.1422451133.png)Et voilà !
+</div><div class="wp-caption aligncenter" id="attachment_991" style="width: 632px">[![Installer Nagios et Centreon sur Centos 6](https://techan.fr/images/2015/01/screenshot.1422451133.png)](https://techan.fr/images/2015/01/screenshot.1422451133.png)Et voilà !
 
 </div> 
 
@@ -108,7 +108,7 @@ Puis redémarrer MySQL et cliquer sur Refresh dans l’installateur de Centréon
 
 Et voilà, il ne reste plus qu’a configurer  la supervision ![:)](http://blog.techan.fr/wp-includes/images/smilies/simple-smile.png)
 
-[![screenshot.1422451183](https://techan.fr/wp-content/uploads/2015/01/screenshot.1422451183.png)](https://techan.fr/wp-content/uploads/2015/01/screenshot.1422451183.png)
+[![screenshot.1422451183](https://techan.fr/images/2015/01/screenshot.1422451183.png)](https://techan.fr/images/2015/01/screenshot.1422451183.png)
 
  
 

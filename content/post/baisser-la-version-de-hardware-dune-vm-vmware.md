@@ -5,7 +5,7 @@ draft = false
 date = 2014-12-15T09:53:08Z
 author = "MrRaph_"
 tags = ["baisser la version de hardware d une vm vmware","Bidouilles","Trucs et Astuces","VMware"]
-image = "https://techan.fr/wp-content/uploads/2014/12/vsphere_logo_miniature.png"
+image = "https://techan.fr/images/2014/12/vsphere_logo_miniature.png"
 slug = "baisser-la-version-de-hardware-dune-vm-vmware"
 title = "Baisser la version de hardware d'une VM VMware"
 

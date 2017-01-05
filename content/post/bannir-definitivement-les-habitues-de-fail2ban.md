@@ -1,5 +1,5 @@
 +++
-image = "https://techan.fr/wp-content/uploads/2014/11/Linux.png"
+image = "https://techan.fr/images/2014/11/Linux.png"
 description = ""
 categories = ["bannir définitivement les habitués de fail2ban","fail2ban","Linux","Trucs et Astuces","ufw"]
 tags = ["bannir définitivement les habitués de fail2ban","fail2ban","Linux","Trucs et Astuces","ufw"]

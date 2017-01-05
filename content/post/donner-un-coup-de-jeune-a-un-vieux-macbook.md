@@ -1,5 +1,5 @@
 +++
-image = "https://techan.fr/wp-content/uploads/2015/04/hero_icon_large1.png"
+image = "https://techan.fr/images/2015/04/hero_icon_large1.png"
 slug = "donner-un-coup-de-jeune-a-un-vieux-macbook"
 date = 2015-04-21T11:58:10Z
 categories = ["Coup de fouet","MacBook","Mid 2010","Trucs et Astuces"]
@@ -22,7 +22,7 @@ J’ai donc trouvé comment désactiver cette fonctionnalité et j’ai gagné p
 
  
 
-<div class="wp-caption aligncenter" id="attachment_1212" style="width: 730px">[![Donner un coup de jeune à un vieux MacBook](https://techan.fr/wp-content/uploads/2015/04/macbook-mid-2010-laterale-anteriore.jpg)](https://techan.fr/wp-content/uploads/2015/04/macbook-mid-2010-laterale-anteriore.jpg)Image : http://www.nonsolomac.com
+<div class="wp-caption aligncenter" id="attachment_1212" style="width: 730px">[![Donner un coup de jeune à un vieux MacBook](https://techan.fr/images/2015/04/macbook-mid-2010-laterale-anteriore.jpg)](https://techan.fr/images/2015/04/macbook-mid-2010-laterale-anteriore.jpg)Image : http://www.nonsolomac.com
 
 </div> 
 

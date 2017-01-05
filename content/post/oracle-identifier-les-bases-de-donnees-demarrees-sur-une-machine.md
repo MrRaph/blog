@@ -7,7 +7,7 @@ description = ""
 slug = "oracle-identifier-les-bases-de-donnees-demarrees-sur-une-machine"
 draft = false
 categories = ["Oracle","Survival Guide","Trucs et Astuces"]
-image = "https://techan.fr/wp-content/uploads/2014/10/SQL_term.png"
+image = "https://techan.fr/images/2014/10/SQL_term.png"
 
 +++
 
@@ -22,7 +22,7 @@ Lorsqu’une base est créée avec les outils Oracle, une ligne est ajoutée dan
 
 Voici comment ce fichier se présente.
 
-[![image2014-4-10 12-35-45](https://techan.fr/wp-content/uploads/2014/10/image2014-4-10-12-35-45.png)](https://techan.fr/wp-content/uploads/2014/10/image2014-4-10-12-35-45.png)
+[![image2014-4-10 12-35-45](https://techan.fr/images/2014/10/image2014-4-10-12-35-45.png)](https://techan.fr/images/2014/10/image2014-4-10-12-35-45.png)
 
 Pour chaque entrée, les champs sont séparés par des « : » , voici ce que chacun de ces champs représentent.
 
@@ -52,7 +52,7 @@ On cherche toutes les processus qui contiennent « smon » dans leur nom, « 
 
  
 
-[![image2014-4-10 12-39-40](https://techan.fr/wp-content/uploads/2014/10/image2014-4-10-12-39-40.png)](https://techan.fr/wp-content/uploads/2014/10/image2014-4-10-12-39-40.png)
+[![image2014-4-10 12-39-40](https://techan.fr/images/2014/10/image2014-4-10-12-39-40.png)](https://techan.fr/images/2014/10/image2014-4-10-12-39-40.png)
 
 On voit ici que deux bases sont démarrées : « lora12c1001d » et « TFTI1 ».
 

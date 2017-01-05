@@ -1,7 +1,7 @@
 +++
 description = ""
 date = 2014-11-14T14:36:51Z
-image = "https://techan.fr/wp-content/uploads/2014/11/Linux.png"
+image = "https://techan.fr/images/2014/11/Linux.png"
 draft = false
 title = "[Linux Tuning] Ajuster la swappiness"
 author = "MrRaph_"

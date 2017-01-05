@@ -1,7 +1,7 @@
 +++
 date = 2015-10-27T11:19:39Z
 categories = ["Docker","Dovecot","Indexation full text","introduction a docker avec l indexation full text des mails","Solr","Trucs et Astuces"]
-image = "https://techan.fr/wp-content/uploads/2015/10/Docker_container_engine_logo.png"
+image = "https://techan.fr/images/2015/10/Docker_container_engine_logo.png"
 description = ""
 draft = false
 title = "Introduction à Docker avec l'indexation full text des mails"
@@ -105,13 +105,13 @@ La première étape est de récupérer l’archive, il n’y a rien de plus simp
 
 Cette commande télécharge tous les éléments nécessaires au fonctionnement de l’image.
 
-[![Introduction à Docker avec l'indexation full text des mails](https://techan.fr/wp-content/uploads/2015/10/screenshot.998.jpg)](https://techan.fr/wp-content/uploads/2015/10/screenshot.998.jpg)
+[![Introduction à Docker avec l'indexation full text des mails](https://techan.fr/images/2015/10/screenshot.998.jpg)](https://techan.fr/images/2015/10/screenshot.998.jpg)
 
 Lorsque le téléchargement est terminé, vous pouvez lister les images que votre Docker possède en utilisant la commande suivante.
 
 `docker images`
 
-[![Introduction à Docker avec l'indexation full text des mails](https://techan.fr/wp-content/uploads/2015/10/screenshot.999.jpg)](https://techan.fr/wp-content/uploads/2015/10/screenshot.999.jpg)
+[![Introduction à Docker avec l'indexation full text des mails](https://techan.fr/images/2015/10/screenshot.999.jpg)](https://techan.fr/images/2015/10/screenshot.999.jpg)
 
 Génial, on a téléchargé l’image, maintenant démarrons la !
 
@@ -126,7 +126,7 @@ Pour vérifier que tout fonctionne bien, rendez-vous à l’adresse suivante : *
 
  
 
-[![Introduction à Docker avec l'indexation full text des mails](https://techan.fr/wp-content/uploads/2015/10/screenshot.1000.jpg)](https://techan.fr/wp-content/uploads/2015/10/screenshot.1000.jpg)
+[![Introduction à Docker avec l'indexation full text des mails](https://techan.fr/images/2015/10/screenshot.1000.jpg)](https://techan.fr/images/2015/10/screenshot.1000.jpg)
 
 <span style="text-decoration: underline;">**Note :**</span> Si vous utilisez Ubuntu 15.10, il y a un bug avec le réseau dans Docker, il suffit de redémarrer le daemon docker – ***service docker restart*** – et de relancer le container.
 

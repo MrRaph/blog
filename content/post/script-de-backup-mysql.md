@@ -2,7 +2,7 @@
 author = "MrRaph_"
 categories = ["Backup","MySQL","script","script de backup mysql","Shell"]
 tags = ["Backup","MySQL","script","script de backup mysql","Shell"]
-image = "https://techan.fr/wp-content/uploads/2014/11/Linux.png"
+image = "https://techan.fr/images/2014/11/Linux.png"
 title = "Script de backup MySQL"
 description = ""
 slug = "script-de-backup-mysql"

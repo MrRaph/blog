@@ -2,7 +2,7 @@
 title = "Petite parenthèse de Geek solidaire pour soutenir une bonne cause"
 date = 2015-06-25T15:40:22Z
 categories = ["Bonne cause","Festival","Lyon","petite parenthèse de geek solidaire pour soutenir une bonne cause","Village Pilote"]
-image = "https://techan.fr/wp-content/uploads/2015/06/village_pilote.png"
+image = "https://techan.fr/images/2015/06/village_pilote.png"
 description = ""
 slug = "petite-parenthese-de-geek-solidaire-soutenir-bonne-cause"
 tags = ["Bonne cause","Festival","Lyon","petite parenthèse de geek solidaire pour soutenir une bonne cause","Village Pilote"]

@@ -5,7 +5,7 @@ slug = "trouver-et-supprimer-les-doublons-dans-photos-sur-mac"
 title = "Trouver et supprimer les doublons dans Photos sur Mac"
 date = 2015-05-05T15:00:09Z
 author = "MrRaph_"
-image = "https://techan.fr/wp-content/uploads/2015/05/screenshot.428.jpg"
+image = "https://techan.fr/images/2015/05/screenshot.428.jpg"
 description = ""
 draft = false
 
@@ -26,7 +26,7 @@ Il conseille d’utiliser [PowerPhotos](http://www.fatcatsoftware.com/powerphoto
 
  
 
-<div class="wp-caption aligncenter" id="attachment_1332" style="width: 664px">[![Trouver et supprimer les doublons dans la nouvelle app Mac Photos](https://techan.fr/wp-content/uploads/2015/05/screenshot.429.jpg)](https://techan.fr/wp-content/uploads/2015/05/screenshot.429.jpg)PowerPhotos chercher des doublons …
+<div class="wp-caption aligncenter" id="attachment_1332" style="width: 664px">[![Trouver et supprimer les doublons dans la nouvelle app Mac Photos](https://techan.fr/images/2015/05/screenshot.429.jpg)](https://techan.fr/images/2015/05/screenshot.429.jpg)PowerPhotos chercher des doublons …
 
 </div> 
 
@@ -34,7 +34,7 @@ J’ai donc décidé de tester un autre outil que propose l’auteur de l’arti
 
  
 
-<div class="wp-caption aligncenter" id="attachment_1334" style="width: 664px">[![Trouver et supprimer les doublons dans la nouvelle app Mac Photos](https://techan.fr/wp-content/uploads/2015/05/screenshot.430.jpg)](https://techan.fr/wp-content/uploads/2015/05/screenshot.430.jpg)PhotoSweeper en trouve !
+<div class="wp-caption aligncenter" id="attachment_1334" style="width: 664px">[![Trouver et supprimer les doublons dans la nouvelle app Mac Photos](https://techan.fr/images/2015/05/screenshot.430.jpg)](https://techan.fr/images/2015/05/screenshot.430.jpg)PhotoSweeper en trouve !
 
 </div> 
 
@@ -42,7 +42,7 @@ Une fois les doublons identifiés et validés par vous, PhotoSweeper vous guide 
 
  
 
-<div class="wp-caption aligncenter" id="attachment_1342" style="width: 664px">[![Trouver et supprimer les doublons dans la nouvelle app Mac Photos](https://techan.fr/wp-content/uploads/2015/05/photosweeper_delete_duplicates.png)](https://techan.fr/wp-content/uploads/2015/05/photosweeper_delete_duplicates.png)Vous êtes guidé pour supprimer les doublons dans Photos.app
+<div class="wp-caption aligncenter" id="attachment_1342" style="width: 664px">[![Trouver et supprimer les doublons dans la nouvelle app Mac Photos](https://techan.fr/images/2015/05/photosweeper_delete_duplicates.png)](https://techan.fr/images/2015/05/photosweeper_delete_duplicates.png)Vous êtes guidé pour supprimer les doublons dans Photos.app
 
 </div> 
 

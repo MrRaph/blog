@@ -7,7 +7,7 @@ date = 2015-05-15T10:39:08Z
 author = "MrRaph_"
 categories = ["Apple","Apple Watch","Sécurité"]
 tags = ["Apple","Apple Watch","Sécurité"]
-image = "https://techan.fr/wp-content/uploads/2015/05/screenshot.479.jpg"
+image = "https://techan.fr/images/2015/05/screenshot.479.jpg"
 
 +++
 
@@ -20,7 +20,7 @@ Le site [MacRumors](http://www.macrumors.com) pointe ce matin un point plutôt i
 
  
 
-<div class="wp-caption aligncenter" style="width: 664px">![Accrochez vous bien à votre Apple Watch](https://techan.fr/wp-content/uploads/2015/05/applewatchpasscode3.jpg)La protection par mot de passe de l’Apple Watch.  
+<div class="wp-caption aligncenter" style="width: 664px">![Accrochez vous bien à votre Apple Watch](https://techan.fr/images/2015/05/applewatchpasscode3.jpg)La protection par mot de passe de l’Apple Watch.  
  Crédit : [http://www.macrumors.com/](http://www.macrumors.com/)
 
 </div> 
@@ -31,7 +31,7 @@ La fonctionnalité « Localiser mon iPhone » est également pratique pour fai
 
  
 
-<div class="wp-caption aligncenter" id="attachment_1396" style="width: 550px">[![Accrochez vous bien à votre Apple Watch](https://techan.fr/wp-content/uploads/2015/05/screenshot.480.jpg)](https://techan.fr/wp-content/uploads/2015/05/screenshot.480.jpg)Faire sonner un iBidule depuis [iCloud.com](https://www.icloud.com/#find)
+<div class="wp-caption aligncenter" id="attachment_1396" style="width: 550px">[![Accrochez vous bien à votre Apple Watch](https://techan.fr/images/2015/05/screenshot.480.jpg)](https://techan.fr/images/2015/05/screenshot.480.jpg)Faire sonner un iBidule depuis [iCloud.com](https://www.icloud.com/#find)
 
 </div> 
 

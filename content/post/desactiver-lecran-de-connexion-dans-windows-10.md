@@ -7,7 +7,7 @@ description = ""
 slug = "desactiver-lecran-de-connexion-dans-windows-10"
 date = 2015-08-03T09:13:26Z
 tags = ["désactiver écran de connexion","désactiver l écran de connexion dans windows 10","Trucs et Astuces","windows 10"]
-image = "https://techan.fr/wp-content/uploads/2015/06/windows_10_logo.png"
+image = "https://techan.fr/images/2015/06/windows_10_logo.png"
 
 +++
 
@@ -27,13 +27,13 @@ Il va vous falloir utiliser l’éditeur du registre pour cela, pour le lancer p
 
  
 
-[![Désactiver l'écran de connexion dans Windows 10](https://techan.fr/wp-content/uploads/2015/08/screenshot.679.jpg)](https://techan.fr/wp-content/uploads/2015/08/screenshot.679.jpg)
+[![Désactiver l'écran de connexion dans Windows 10](https://techan.fr/images/2015/08/screenshot.679.jpg)](https://techan.fr/images/2015/08/screenshot.679.jpg)
 
 Si le système vous demande une confirmation, cliquez sur **Oui**.
 
  
 
-[![Désactiver l'écran de connexion dans Windows 10](https://techan.fr/wp-content/uploads/2015/08/screenshot.680.jpg)](https://techan.fr/wp-content/uploads/2015/08/screenshot.680.jpg)
+[![Désactiver l'écran de connexion dans Windows 10](https://techan.fr/images/2015/08/screenshot.680.jpg)](https://techan.fr/images/2015/08/screenshot.680.jpg)
 
 Vous voici maintenant dans l’éditeur du registre. Nous allons y ajouter un valeur, pour cela, il faut naviguer dans les clefs – comme dans l’explorateur Windows. Suivez ce chemin dans l’arborescence :
 
@@ -43,19 +43,19 @@ Si vous n’avez pas la clef **Personalization**, il va falloir l’ajouter. Fai
 
  
 
-[![Désactiver l'écran de connexion dans Windows 10](https://techan.fr/wp-content/uploads/2015/08/screenshot.682.jpg)](https://techan.fr/wp-content/uploads/2015/08/screenshot.682.jpg)
+[![Désactiver l'écran de connexion dans Windows 10](https://techan.fr/images/2015/08/screenshot.682.jpg)](https://techan.fr/images/2015/08/screenshot.682.jpg)
 
 Nommez cette nouvelle clef **Personalization**.
 
  
 
-[![Désactiver l'écran de connexion dans Windows 10](https://techan.fr/wp-content/uploads/2015/08/screenshot.683.jpg)](https://techan.fr/wp-content/uploads/2015/08/screenshot.683.jpg)
+[![Désactiver l'écran de connexion dans Windows 10](https://techan.fr/images/2015/08/screenshot.683.jpg)](https://techan.fr/images/2015/08/screenshot.683.jpg)
 
  
 
  
 
-[![Désactiver l'écran de connexion dans Windows 10](https://techan.fr/wp-content/uploads/2015/08/screenshot.681.jpg)](https://techan.fr/wp-content/uploads/2015/08/screenshot.681.jpg)
+[![Désactiver l'écran de connexion dans Windows 10](https://techan.fr/images/2015/08/screenshot.681.jpg)](https://techan.fr/images/2015/08/screenshot.681.jpg)
 
  
 
@@ -65,17 +65,17 @@ Maintenant, nous allons ajouter une nouvelle valeur dans la clef **Personalizati
 
  
 
-[![Désactiver l'écran de connexion dans Windows 10](https://techan.fr/wp-content/uploads/2015/08/screenshot.684.jpg)](https://techan.fr/wp-content/uploads/2015/08/screenshot.684.jpg)
+[![Désactiver l'écran de connexion dans Windows 10](https://techan.fr/images/2015/08/screenshot.684.jpg)](https://techan.fr/images/2015/08/screenshot.684.jpg)
 
  
 
-[![Désactiver l'écran de connexion dans Windows 10](https://techan.fr/wp-content/uploads/2015/08/screenshot.685.jpg)](https://techan.fr/wp-content/uploads/2015/08/screenshot.685.jpg)
+[![Désactiver l'écran de connexion dans Windows 10](https://techan.fr/images/2015/08/screenshot.685.jpg)](https://techan.fr/images/2015/08/screenshot.685.jpg)
 
 Double cliquez sur cette nouvelle valeur et mettez sa valeur à **1 **puis cliquez sur **Ok**.
 
  
 
-[![Désactiver l'écran de connexion dans Windows 10](https://techan.fr/wp-content/uploads/2015/08/screenshot.686.jpg)](https://techan.fr/wp-content/uploads/2015/08/screenshot.686.jpg)
+[![Désactiver l'écran de connexion dans Windows 10](https://techan.fr/images/2015/08/screenshot.686.jpg)](https://techan.fr/images/2015/08/screenshot.686.jpg)
 
 Tout est prêt, vous n’avez plus qu’a redémarrer votre ordinateur, vous n’aurez plus l’écran de connexion à tout bout de champ !
 

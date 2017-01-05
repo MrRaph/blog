@@ -1,6 +1,6 @@
 +++
 categories = ["MariaDB","migration","MySQL"]
-image = "https://techan.fr/wp-content/uploads/2015/02/mysql_to_mariadb.png"
+image = "https://techan.fr/images/2015/02/mysql_to_mariadb.png"
 draft = false
 date = 2015-02-05T10:30:00Z
 author = "MrRaph_"

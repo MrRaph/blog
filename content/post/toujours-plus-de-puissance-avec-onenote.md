@@ -3,7 +3,7 @@ slug = "toujours-plus-de-puissance-avec-onenote"
 draft = false
 author = "MrRaph_"
 categories = ["App","iOS","Microsoft","OneNote","OS X","Windows"]
-image = "https://techan.fr/wp-content/uploads/2015/05/OneNote-Logo.png"
+image = "https://techan.fr/images/2015/05/OneNote-Logo.png"
 description = ""
 title = "Toujours plus de puissance avec OneNote"
 date = 2015-05-15T14:29:22Z
@@ -25,7 +25,7 @@ La force de cet outil sont les nouvelles fonctionnalités qui arrivent réguliè
 
  
 
-<div class="wp-caption aligncenter" id="attachment_1406" style="width: 664px">[![Toujours plus de puissance avec OneNote](https://techan.fr/wp-content/uploads/2015/05/screenshot.483.jpg)](https://techan.fr/wp-content/uploads/2015/05/screenshot.483.jpg)Un clic droit sur une image insérée dans une note permet d’en copier le texte.
+<div class="wp-caption aligncenter" id="attachment_1406" style="width: 664px">[![Toujours plus de puissance avec OneNote](https://techan.fr/images/2015/05/screenshot.483.jpg)](https://techan.fr/images/2015/05/screenshot.483.jpg)Un clic droit sur une image insérée dans une note permet d’en copier le texte.
 
 </div> 
 
@@ -33,7 +33,7 @@ On colle ensuite le texte ou l’on veut – en corrigeant les quelques fautes q
 
  
 
-<div class="wp-caption aligncenter" id="attachment_1407" style="width: 664px">[![Toujours plus de puissance avec OneNote](https://techan.fr/wp-content/uploads/2015/05/screenshot.484.jpg)](https://techan.fr/wp-content/uploads/2015/05/screenshot.484.jpg)Il ne reste plus qu’à coller et le tour est joué !
+<div class="wp-caption aligncenter" id="attachment_1407" style="width: 664px">[![Toujours plus de puissance avec OneNote](https://techan.fr/images/2015/05/screenshot.484.jpg)](https://techan.fr/images/2015/05/screenshot.484.jpg)Il ne reste plus qu’à coller et le tour est joué !
 
 </div> 
 
@@ -46,7 +46,7 @@ Hier Microsoft a publié une nouvelle version de OneNote, elle inclue deux toute
 
 Dans la version Windows – je n’ai pas trouvé la même option sur OS X – il est également possible de faire des recherches de contenu à l’intérieur même de ces enregistrements audio et vidéo.
 
-<div class="wp-caption aligncenter" id="attachment_1404" style="width: 664px">[![Activer la recherche dans les enregistrement audio et vidéo](https://techan.fr/wp-content/uploads/2015/05/screenshot.481.jpg)](https://techan.fr/wp-content/uploads/2015/05/screenshot.481.jpg)Activer la recherche dans les enregistrements audio et vidéo
+<div class="wp-caption aligncenter" id="attachment_1404" style="width: 664px">[![Activer la recherche dans les enregistrement audio et vidéo](https://techan.fr/images/2015/05/screenshot.481.jpg)](https://techan.fr/images/2015/05/screenshot.481.jpg)Activer la recherche dans les enregistrements audio et vidéo
 
 </div> 
 

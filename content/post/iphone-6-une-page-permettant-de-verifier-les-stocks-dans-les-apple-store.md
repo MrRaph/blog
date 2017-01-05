@@ -23,6 +23,6 @@ Voici une page qui pourra être utiles aux personnes qui souhaitent aller cherch
 
  
 
-<div class="wp-caption aligncenter" id="attachment_87" style="width: 310px">[![Disponibilité de l'iPhone 6](https://techan.fr/wp-content/uploads/2014/09/dispo_iphone6_applestore-300x273.png)](https://techan.fr/wp-content/uploads/2014/09/dispo_iphone6_applestore.png)Disponibilité de l’iPhone 6
+<div class="wp-caption aligncenter" id="attachment_87" style="width: 310px">[![Disponibilité de l'iPhone 6](https://techan.fr/images/2014/09/dispo_iphone6_applestore-300x273.png)](https://techan.fr/images/2014/09/dispo_iphone6_applestore.png)Disponibilité de l’iPhone 6
 
 </div>

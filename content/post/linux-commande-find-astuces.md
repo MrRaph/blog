@@ -1,6 +1,6 @@
 +++
 tags = ["Find","Linux","Trucs et Astuces"]
-image = "https://techan.fr/wp-content/uploads/2014/11/Linux.png"
+image = "https://techan.fr/images/2014/11/Linux.png"
 description = ""
 date = 2014-10-15T10:57:51Z
 author = "MrRaph_"

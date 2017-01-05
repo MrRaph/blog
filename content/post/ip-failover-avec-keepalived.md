@@ -5,7 +5,7 @@ description = ""
 title = "IP Failover avec KeepAlived"
 date = 2015-03-27T09:18:15Z
 author = "MrRaph_"
-image = "https://techan.fr/wp-content/uploads/2014/11/Linux.png"
+image = "https://techan.fr/images/2014/11/Linux.png"
 slug = "ip-failover-avec-keepalived"
 draft = false
 
@@ -14,7 +14,7 @@ draft = false
 
 Je vais expliquer ici comme faire du failover IP sur Centos / RedHat en utilisant [KeepAlived](http://www.keepalived.org/index.html). Même si cet outil peut faire bien plus, je n’utilise que cette fonctionnalité déjà très pratique et très facile à mettre en place !
 
-[![refonte_DMZ](https://techan.fr/wp-content/uploads/2015/03/refonte_DMZ.png)](https://techan.fr/wp-content/uploads/2015/03/refonte_DMZ.png)
+[![refonte_DMZ](https://techan.fr/images/2015/03/refonte_DMZ.png)](https://techan.fr/images/2015/03/refonte_DMZ.png)
 
 Voici donc l’infrastructure cible. Deux serveurs avec chacun une IP et une vIP qui passera d’un serveur à l’autre (172.16.17.83). C’est KeepAlived qui va s’occuper de vérifier lequel des serveurs doit avoir la vIP et la remonter sur une serveur si celui qui la possède n’est plus disponible.
 

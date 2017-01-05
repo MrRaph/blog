@@ -1,7 +1,7 @@
 +++
 title = "IP Failover avec uCARP"
 categories = ["Centos","FailOver IP","Linux","Trucs et Astuces"]
-image = "https://techan.fr/wp-content/uploads/2014/11/Linux.png"
+image = "https://techan.fr/images/2014/11/Linux.png"
 description = ""
 date = 2015-04-07T11:22:33Z
 author = "MrRaph_"

@@ -6,7 +6,7 @@ slug = "saga-changement-dhebergeur"
 date = 2015-03-05T14:53:56Z
 author = "MrRaph_"
 tags = ["Hébergement","OVH","PusleHeberg","saga changement d hébergeur"]
-image = "https://techan.fr/wp-content/uploads/2015/03/Travaux.jpg"
+image = "https://techan.fr/images/2015/03/Travaux.jpg"
 title = "[Édit][Saga] Changement d'hébergeur"
 
 +++
