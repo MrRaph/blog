@@ -7,4 +7,5 @@ featured = ""
 featuredpath = ""
 featuredalt = ""
 draft = true
+slug = ""
 +++
