@@ -5,10 +5,12 @@ author = "MrRaph_"
 description = ""
 slug = "publier-automatiquement-sur-facebook-les-nouveaux-posts-dans-hugo"
 draft = false
-
+featured = "/images/2017/01/hugo-logo.png"
+categories = ["Blog", "Trucs et Astuces"]
+tags = ["Blog", "Trucs et Astuces"]
 +++
 
-==Note : Ceci fonctionne également pour [Ghost](https://ghost.org/fr/), en remplaçant l'URL du flux RSS par : http://monsite.net/rss/ ==
+__*Note : Ceci fonctionne également pour [Ghost](https://ghost.org/fr/), en remplaçant l'URL du flux RSS par : http://monsite.net/rss/*__
 
 Dans un premier, il faudra que vous vous créiez un compte sur le site d'[IFTTT](https://ifttt.com).
 Une fois votre en main, vous allez créer une nouvelle recette ! ;-)
@@ -45,7 +47,7 @@ Personnalisez la façon dont les posts seront ajoutés sur votre page Facebook.
 
 Et enfin, créez votre recette ! :-)
 
-## Sources
+##Sources
 
 * [www.mljenkins.com](http://www.mljenkins.com/2016/01/24/blueproximity-on-ubuntu-14-04-lts/)
 * [ubuntuforums.org](http://ubuntuforums.org/showthread.php?t=702372)
