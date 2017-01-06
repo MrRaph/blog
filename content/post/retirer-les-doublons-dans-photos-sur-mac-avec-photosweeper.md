@@ -12,9 +12,9 @@ title = "Retirer les doublons dans Photos sur Mac avec PhotoSweeper"
 +++
 
 
-J’ai récemment indiqué que j’avais pu supprimer mes photos doublonnées dans la toute nouvelle bibliothèque de Photos avec [PhotoSweeper](http://overmacs.com/?p=photosweeper) (voir [Trouver et supprimer les doublons dans Photos sur Mac](https://techan.fr/trouver-et-supprimer-les-doublons-dans-photos-sur-mac/)). Or, l’interface de cet outil bien pratique n’est pas traduite en Français, ce qui pose problème à des utilisateurs qui aimeraient également nettoyer un peu cette bibliothèque.
+J’ai récemment indiqué que j’avais pu supprimer mes photos doublonnées dans la toute nouvelle bibliothèque de Photos avec <a href="https://geo.itunes.apple.com/fr/app/photosweeper/id463362050?mt=12&at=1001lsQf">PhotoSweeper</a> (voir [Trouver et supprimer les doublons dans Photos sur Mac](https://techan.fr/trouver-et-supprimer-les-doublons-dans-photos-sur-mac/)). Or, l’interface de cet outil bien pratique n’est pas traduite en Français, ce qui pose problème à des utilisateurs qui aimeraient également nettoyer un peu cette bibliothèque.
 
-C’est le cas de lilie22 qui m’a gentiment demandé de l’aide. Je vais donc expliquer ici la marche à suivre pour faire du ménage dans vos doublons en utilisant [PhotoSweeper](http://overmacs.com/?p=photosweeper).
+C’est le cas de lilie22 qui m’a gentiment demandé de l’aide. Je vais donc expliquer ici la marche à suivre pour faire du ménage dans vos doublons en utilisant <a href="https://geo.itunes.apple.com/fr/app/photosweeper/id463362050?mt=12&at=1001lsQf">PhotoSweeper - (Gwinno Software, Inc. – 9,99$)</a>.
 
 [![Retirer les doublons dans Photos sur Mac avec PhotoSweeper](https://techan.fr/images/2015/05/screenshot.513.jpg)](https://techan.fr/images/2015/05/screenshot.513.jpg)
 
@@ -61,4 +61,4 @@ Vous pourrez ensuite contrôler les doublons identifiés, le plus pratique est d
 
 Lorsque que vous avez marqué et contrôlé toute vos photos, cliquez sur « Trash Marked » en bas à gauche. L’application Photos va aors s’ouvrir, il vous suffira de suivre les indications visuelles.
 
-
+<a href="https://geo.itunes.apple.com/fr/app/photosweeper/id463362050?mt=12&at=1001lsQf">PhotoSweeper - (Gwinno Software, Inc. – 9,99$)</a> sur le mac App Store <a href="https://geo.itunes.apple.com/fr/app/photosweeper/id463362050?mt=12&at=1001lsQf" style="display:inline-block;overflow:hidden;background:url(//linkmaker.itunes.apple.com/assets/shared/badges/fr-fr/macappstore-lrg.svg) no-repeat;width:165px;height:40px;background-size:contain;"></a>

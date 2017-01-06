@@ -4,9 +4,28 @@
     <div id="main">
         <article class="post">
             <h1>
-                Nous sommes désolés, mais la page que vous cherchez n'es pas disponible ... <i class="fa fa-frown-o"></i>
+                Nous sommes désolés, mais la page que vous cherchez n'est pas disponible ... <i class="fa fa-frown-o"></i>
             </h1>
+            <p>Peut-être souhaiteriez-vous faire une recherche ?</p>
+            <p>
+              <form id="search" method="get" action="//google.com/search">
+                  <input type="text" name="q" placeholder="Recherche" />
+                  <input type="hidden" name="q" value="site:{{ .Site.BaseURL }}">
+              </form>
+            </p>
         </article>
+        <div style="display: block; width: 100%; margin-top: 15px; margin-bottom: 15px;">
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- Post 2 -->
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-9979120049846119"
+             data-ad-slot="8753295183"
+             data-ad-format="auto"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+        </div>
     </div>
     {{ partial "sidebar" . }}
 {{ partial "footer" . }}
