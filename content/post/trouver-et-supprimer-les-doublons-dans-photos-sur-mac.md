@@ -30,7 +30,9 @@ Il conseille d’utiliser [PowerPhotos](http://www.fatcatsoftware.com/powerphoto
 
 </div> 
 
-J’ai donc décidé de tester un autre outil que propose l’auteur de l’article : [PhotoSweeper](http://overmacs.com/?p=photosweeper) (Gwinno Software, Inc – 9,99$), il est également disponible sur le [Mac App Store au même prix](https://itunes.apple.com/app/photosweeper/id463362050). PhotoSweeper lui, a bien trouvé mes quelques 6 000 doublons et j’ai pu les supprimer simplement !
+J’ai donc décidé de tester un autre outil que propose l’auteur de l’article : <a href="https://geo.itunes.apple.com/fr/app/photosweeper/id463362050?mt=12&at=1001lsQf">PhotoSweeper - (Gwinno Software, Inc. – 9,99$)</a>. PhotoSweeper lui, a bien trouvé mes quelques 6 000 doublons et j’ai pu les supprimer simplement !
+
+<a href="https://geo.itunes.apple.com/fr/app/photosweeper/id463362050?mt=12&at=1001lsQf" style="display:inline-block;overflow:hidden;background:url(//linkmaker.itunes.apple.com/assets/shared/badges/fr-fr/macappstore-lrg.svg) no-repeat;width:165px;height:40px;background-size:contain;"></a>
 
  
 
@@ -66,5 +68,3 @@ J’ai écrit un tutoriel pour utiliser ce logiciel, [ça se passe par ici !](ht
  
 
  
-
-
