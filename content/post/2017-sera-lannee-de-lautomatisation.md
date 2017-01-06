@@ -1,14 +1,14 @@
 +++
 description = ""
-date = "2016-12-24T01:21:05+01:00"
+date = "2017-01-04T01:21:05+01:00"
 linktitle = ""
 author = ""
-title = "template"
+title = "2017 sera l'année de l'automatisation !"
 featuredalt = ""
 featuredpath = ""
 featured = ""
 categories = []
 draft = true
-slug = ""
+slug = "2017-sera-lannee-de-lautomatisation"
 +++
 
