@@ -6,6 +6,13 @@
             <h1>
                 Nous sommes désolés, mais la page que vous cherchez n'est pas disponible ... <i class="fa fa-frown-o"></i>
             </h1>
+            <p>Peut-être souhaiteriez-vous faire une recherche ?</p>
+            <p>
+              <form id="search" method="get" action="//google.com/search">
+                  <input type="text" name="q" placeholder="Recherche" />
+                  <input type="hidden" name="q" value="site:{{ .Site.BaseURL }}">
+              </form>
+            </p>
         </article>
     </div>
     {{ partial "sidebar" . }}
