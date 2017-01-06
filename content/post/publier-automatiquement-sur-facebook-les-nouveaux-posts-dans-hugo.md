@@ -5,7 +5,7 @@ author = "MrRaph_"
 description = ""
 slug = "publier-automatiquement-sur-facebook-les-nouveaux-posts-dans-hugo"
 draft = false
-featured = "/images/2017/01/hugo-logo.png"
+image = "/images/2017/01/hugo-logo.png"
 categories = ["Blog", "Trucs et Astuces"]
 tags = ["Blog", "Trucs et Astuces"]
 +++
