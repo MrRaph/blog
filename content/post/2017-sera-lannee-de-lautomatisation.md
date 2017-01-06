@@ -7,7 +7,6 @@ title = "2017 sera l'année de l'automatisation !"
 featuredalt = ""
 featuredpath = ""
 featured = "/images/2017/01/hugo-logo.png"
-categories = []
 draft = false
 slug = "2017-sera-lannee-de-lautomatisation"
 categories = ["Docker","iOS", "Blog", "Trucs et Astuces"]
