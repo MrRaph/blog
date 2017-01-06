@@ -111,6 +111,10 @@ article.post footer .stats {
         text-align: justify;
     }
 
+    article.post p.read {
+        text-align: initial;
+    }
+
 #header h2 {
     font-size: inherit;
     height: inherit;
