@@ -61,7 +61,7 @@ J’ai écrit un tutoriel pour utiliser ce logiciel, [ça se passe par ici !](ht
 **<span style="text-decoration: underline;">Utilitaires :</span>**
 
 - [PowerPhotos](http://www.fatcatsoftware.com/powerphotos/) (24$)
-- [PhotoSweeperX](http://overmacs.com/?p=photosweeper) (9,99$)
+- <a href="https://geo.itunes.apple.com/fr/app/photosweeper/id463362050?mt=12&at=1001lsQf">PhotoSweeper - (Gwinno Software, Inc. – 9,99$)</a> <a href="https://geo.itunes.apple.com/fr/app/photosweeper/id463362050?mt=12&at=1001lsQf" style="display:inline-block;overflow:hidden;background:url(//linkmaker.itunes.apple.com/assets/shared/badges/fr-fr/macappstore-lrg.svg) no-repeat;width:165px;height:40px;background-size:contain;"></a>
 
 **<span style="text-decoration: underline;">Source :</span>**[www.communicatejesus.com](http://www.communicatejesus.com/2015/05/how-to-find-and-remove-duplicates-from-the-new-mac-photos-app/)
 
