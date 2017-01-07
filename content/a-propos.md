@@ -8,12 +8,22 @@ author = "MrRaph_"
 
 +++
 
+# A propos de ce blog
 
-[![319426_4294985734465_1196558181_n](https://techan.fr/images/2014/09/319426_4294985734465_1196558181_n-150x150.jpg)](https://techan.fr/images/2014/09/319426_4294985734465_1196558181_n.jpg)Je m’appelle Raphaël, j’ai 27 ans et je suis consultant en informatique spécialisé dans les bases de données Oracle, les systèmes virtualisés VMware – certifié VCP – et les systèmes Linux.
+J’ai créé ce blog il y a quelques années déjà afin de partager avec le plus grand nombre tous les petits trucs que je fais dans le cadre de mon travail et qui me demande un effort de recherche ou que je fais régulièrement mais que je documente pour ne plus avoir de recherches supplémentaires a réaliser. Ceci me permet également de mettre à disposition de tous de la documentation rédigée en Français sur des sujets qui sont généralement peu couverts dans notre langue.
 
-J’ai créé ce blog afin de partager avec le plus grand nombre tous les petits trucs que je fais dans le cadre de mon travail et qui me demande un effort de recherche ou que je fais régulièrement mais que je documente pour ne plus avoir de recherches supplémentaires a réaliser.
+[En savoir plus ...](/authors/mrraph)
 
-Ces articles ne sont sans doute pas parfaits, je me comprend lorsque je les écrit alors n’hésitez surtout pas à les commenter pour demander plus de précisions, ou pour faire des retours sur vos propres expériences.
+# A propos de l’utilisation des cookies
 
-J’espère toute fois que vous trouverez le plus de réponses possible en lisant ces pages. Au jour d’aujourd’hui, il y a déjà plus de 80 articles sur pas mal de sujets différents. N’hésitez pas à proposer des sujets qui vous intéressent en utilisant le formulaire ci-dessous, il est très probable que cela pique ma curiosité et que je me penche sur le sujet. :-)
+Ce site utilise des cookies afin de mieux comprendre votre utilisation des services qu’il propose. L’amélioration des contenus proposés et de votre expérience utilisateurs dépend en grande partie de ces cookies. Google en tant que vendeur tiers utilise également des cookies sur ce site afin de proposer des publicités ciblées. Ce procédé assure la pérennité du site en aidant au paiement de son hébergement, vous pouvez vous en désengager sur [ce site](http://www.google.com/policies/technologies/ads/).
 
+Vous pouvez à tout moment supprimer les cookies de votre terminal :
+
+<iframe allowfullscreen="" frameborder="0" height="281" src="https://www.youtube.com/embed/Ij9EkAQzVvM?feature=oembed" width="500"></iframe>
+
+ # A propos des procédures exposées sur ce site
+ 
+ Les astuces, procédures et commandes fournies sur ce site sont basées sur ma propre expérience et mes propres systèmes. Je précise en général le système sur lequel et pour lequel je donne ces éléments. L'auteur - [MrRaph_](/authors/mrraph) - ne pourra en aucun cas être tenu responsable si le elements fournis ici ne fonctionnent pas, ni en cas de dommages causés sur vos systèmes.
+
+Bonne navigation !
