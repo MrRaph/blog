@@ -22,7 +22,8 @@ Vous pouvez à tout moment supprimer les cookies de votre terminal :
 
 <iframe allowfullscreen="" frameborder="0" height="281" src="https://www.youtube.com/embed/Ij9EkAQzVvM?feature=oembed" width="500"></iframe>
 
- # A propos des procédures exposées sur ce site
+
+# A propos des procédures exposées sur ce site
  
  Les astuces, procédures et commandes fournies sur ce site sont basées sur ma propre expérience et mes propres systèmes. Je précise en général le système sur lequel et pour lequel je donne ces éléments. L'auteur - [MrRaph_](/authors/mrraph) - ne pourra en aucun cas être tenu responsable si le elements fournis ici ne fonctionnent pas, ni en cas de dommages causés sur vos systèmes.
 

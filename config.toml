@@ -31,6 +31,7 @@ copyright = "© 2016 Copyright Text"
   loadFavicon          = false
   faviconVersion = ""
   showCategories = false
+  authorAvatar = "/avatars/mrraph.jpeg"
 
 [permalinks]
   post = "/:slug/" # optional
