@@ -20,7 +20,7 @@
         <time class="published"
             datetime='{{ ($.Scratch.Get "dateType").Format "2006-01-02" }}'>
             {{ ($.Scratch.Get "dateType").Format "January 2, 2006" }}</time>
-        <span class="author"><a href="/authors/mrraph">Par&nbsp;{{ .Params.author }}&nbsp;<img src="{{ .Site.Params.authorAvatar }}"/></a></span>
+        <span class="author"><a href="/authors/mrraph">{{ .Params.author }}&nbsp;<img src="{{ .Site.Params.authorAvatar }}"/></a></span>
         {{ if .Site.Params.includeReadingTime }}
             <p class="read">{{ .ReadingTime }} minute(s) de lecture</p>
         {{ end }}
