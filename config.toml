@@ -82,7 +82,7 @@ copyright = "© 2016 Copyright Text"
 [[menu.main]]
     name = "Docker"
     url = "/categories/docker/"
-    weight = 4    weight = 3
+    weight = 4
 
 [[menu.main]]
     name = "Trucs et Astuces"
