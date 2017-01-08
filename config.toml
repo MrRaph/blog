@@ -31,6 +31,7 @@ copyright = "© 2016 Copyright Text"
   loadFavicon          = false
   faviconVersion = ""
   showCategories = false
+  authorAvatar = "/avatars/mrraph.jpeg"
 
 [permalinks]
   post = "/:slug/" # optional
@@ -82,6 +83,11 @@ copyright = "© 2016 Copyright Text"
     name = "Docker"
     url = "/categories/docker/"
     weight = 4
+
+[[menu.main]]
+    name = "Trucs et Astuces"
+    url = "/categories/trucs-et-astuces/"
+    weight = 5
 
 # Insert your username and the icon will apear on the page as long as
 # socialAppearAtTop or socialAppearAtBottom is set to true in the params area
