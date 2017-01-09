@@ -2,7 +2,8 @@
 <section id="sidebar">
 
     <!-- Intro -->
-        <section id="intro">
+        <a href="/">
+          <section id="intro">
             {{ $pic := .Site.Params.intro.pic }}
             {{ with $pic.src }}
                 {{ if $pic.circle }}
@@ -28,7 +29,8 @@
                     {{ partial "social" . }}
                 {{ end }}
             </ul>
-        </section>
+          </section>
+        </a>
 
     <!-- Posts List -->
         <section id="recent-posts">
