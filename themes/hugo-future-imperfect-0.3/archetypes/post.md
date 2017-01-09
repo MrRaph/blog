@@ -10,4 +10,5 @@ type = "post"
 image = ""
 draft = true
 slug = ""
+tags = []
 +++

@@ -9,8 +9,8 @@ featuredpath = ""
 image = "/images/2017/01/hugo-logo.png"
 draft = false
 slug = "2017-sera-lannee-de-lautomatisation"
-categories = ["Docker","iOS", "Blog", "Trucs et Astuces"]
-tags = ["Docker","iOS", "Blog", "Trucs et Astuces"]
+categories = ["Docker","iOS", "Blog", "Trucs et Astuces", "automatisation"]
+tags = ["Docker","iOS", "Blog", "Trucs et Astuces", "automatisation"]
 +++
 
 # Les constatations
