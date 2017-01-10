@@ -85,9 +85,14 @@ copyright = "© 2016 Copyright Text"
     weight = 4
 
 [[menu.main]]
+    name = "Automatisation"
+    url = "/categories/automatisation/"
+    weight = 5
+
+[[menu.main]]
     name = "Trucs et Astuces"
     url = "/categories/trucs-et-astuces/"
-    weight = 5
+    weight = 6
 
 # Insert your username and the icon will apear on the page as long as
 # socialAppearAtTop or socialAppearAtBottom is set to true in the params area

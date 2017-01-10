@@ -1,0 +1,14 @@
+{{ $categoryCount := (len .Params.categories) }}
+{{ if gt (len .Params.categories) 0 }}
+  <ul class="stats">
+                  {{ if gt (len .Params.categories) 1 }}
+                      Catégories
+                  {{ else }}
+                      Catégorie
+                  {{ end }}
+
+      {{ range .Params.categories }}
+          <li><a href="/categories/{{ . | urlize }}">{{ . }}</a></li>
+      {{ end }}
+  </ul>
+{{ end }}
