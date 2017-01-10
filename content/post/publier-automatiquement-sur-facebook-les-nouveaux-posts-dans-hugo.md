@@ -6,8 +6,8 @@ description = ""
 slug = "publier-automatiquement-sur-facebook-les-nouveaux-posts-dans-hugo"
 draft = false
 image = "/images/2017/01/hugo-logo.png"
-categories = ["Blog", "Trucs et Astuces"]
-tags = ["Blog", "Trucs et Astuces"]
+categories = ["Blog", "Trucs et Astuces", "automatisation"]
+tags = ["Blog", "Trucs et Astuces", "automatisation"]
 +++
 
 __*Note : Ceci fonctionne également pour [Ghost](https://ghost.org/fr/), en remplaçant l'URL du flux RSS par : http://monsite.net/rss/*__
