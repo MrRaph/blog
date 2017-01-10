@@ -3,7 +3,6 @@ author = 'MrRaph_'
 draft = false
 title = 'Construire des images Docker du bout du doigt'
 date = '2017-01-10'
-title = 'Construire des images Docker du bout du doigt'
 categories = ["Docker", "iOS", "IFTTT", "automatisation"]
 slug = 'construire-des-images-docker-du-bout-du-doigt'
 description = ''
