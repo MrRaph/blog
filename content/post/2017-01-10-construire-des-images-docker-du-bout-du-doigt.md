@@ -38,7 +38,19 @@ Et maintenant, [IFTTT](https://ifttt.com) arrive de nouveau sur le devant de la 
 
 Le déclencheur est donc le service "Button Widget" et le service déclenché est le désormais incontournable service "Maker" !
 
-![IFTTT widget Boutond](/images/2017/01/ifttt_button_maker.jpeg)
+![IFTTT service Bouton et Maker](/images/2017/01/ifttt_button_maker.jpeg)
 
+L'utilisation du service Maker se fait comme décrit dans l'image suivante.
 
 ![Recette IFTTT pour déclencher le build](/images/2017/01/ifttt_button_push_to_trigger_build.png)
+
+Tout d'abord, on renseigne l'URL que l'on a récupérer dans les "Build Settings" de notre repository Docker. On spécifie ensuite les caractéristiques de l'appel HTTP, il s'agira d'une requête POST et le type de données sera `application/json`. Dans le body de le requête, on va donner des paramètres qui permettront au [Docker Hub](https://hub.docker.com) de choisir la bonne branche de le dépôt GitHub.
+
+    {"source_type": "Branch," "source_name": "next"}
+
+Avec cette ligne, je demande au [Docker Hub](https://hub.docker.com) d'utiliser la branche 'next' de mon dépôt.
+
+Il ne nous reste plus qu'une toute petite étape, sur notre iPhone cette fois, ajouter un petit widget pour lancer le build des images. Pour cela, il faudra que vous ayez installé l'<a href="https://itunes.apple.com/fr/app/ifttt/id660944635?mt=8&at=1001lsQf" style="display:inline-block;overflow:hidden;background:url(//linkmaker.itunes.apple.com/assets/shared/badges/fr-fr/appstore-lrg.svg) no-repeat;width:135px;height:40px;background-size:contain;">app IFTTT</a>
+<a href="https://itunes.apple.com/fr/app/ifttt/id660944635?mt=8&at=1001lsQf">app IFTTT</a>
+
+![iOS widget IFTTT pour déclencher le build](/images/2017/01/ifttt_widget_build.jpeg)
