@@ -73,6 +73,7 @@
         {{ if not (in (printf "%#v" .Site.BaseURL) "localhost") }}
             {{ template "_internal/google_analytics.html" . }}
         {{ end }}
+        <script src="/js/outboundLinks.js"></script>
     </head>
     <body>
 
