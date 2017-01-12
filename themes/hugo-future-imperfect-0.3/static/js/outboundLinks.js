@@ -1,4 +1,3 @@
-<script>
 /**
 * Fonction de suivi des clics sur des liens sortants dans Analytics
 * Cette fonction utilise une chaîne d'URL valide comme argument et se sert de cette chaîne d'URL
@@ -11,4 +10,3 @@ var trackOutboundLink = function(url) {
      'hitCallback': function(){document.location = url;}
    });
 }
-</script>
