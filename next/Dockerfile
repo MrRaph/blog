@@ -5,7 +5,11 @@ ENV VERSION=0.18.1 \
     EXTENSION=tar.gz \
     BINARY=hugo_${VERSION}_linux_amd64/hugo_${VERSION}_linux_amd64
 
-RUN apk add --no-cache --update py-pygments python py-pip git
+RUN apk add --no-cache --update py-pygments python py-pip git lua5.2-cjson
+
+RUN git clone https://github.com/shoonoise/lua-nginx-statistics.git /lua-nginx-statistics
+WORKDIR /lua-nginx-statistics
+RUN mkdir -p /usr/share/nginx/ && cp *.lua /usr/share/nginx/
 
 RUN git clone --recursive https://github.com/MrRaph/blog.git /src
 WORKDIR /src
@@ -27,6 +31,8 @@ RUN cp -rp /src/public/* /var/www/ && \
 #    rm -rf /tmp/hugo* /src
 
 ADD sites-enabled/www.techan.fr.conf /etc/nginx/conf.d/www.techan.fr.conf
+ADD sites-enabled/stats.conf /etc/nginx/conf.d/stats.conf
+ADD conf.d/stats.conf /etc/nginx/conf.d/stats.conf
 
 EXPOSE 80 443
 CMD ["nginx", "-g", "daemon off;"]
