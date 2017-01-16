@@ -14,7 +14,8 @@ type = "post"
 
 +++
 
-Ce week-end, je me suis mis en tête de créer un outil qui me permettrait simplement de récupérer les IP d'un service Swarm. C'est à dire, la vIP de ce service, ça c'est facile, mais également les IP de tous les containers composants ce service. Ce besoin m'est apparu car j'ai activé de statistiques dans mes containers Nginx - je décrirai cela dans un article futur. Le problème que je rencontrais était de pouvoir simplement interroger chaque container Nginx pour récupérer ses statistiques d'utilisation. Ceci peut paraître trivial, mais lorsque l'on utilise les services du Swarm Mode, on se retrouve toujours en train d'interroger la vIP du service et on n'interroge ainsi qu'un seul container sans pouvoir simplement spécifier celui que l'on veut.
+Ce week-end, je me suis mis en tête de créer un outil qui me permettrait simplement de récupérer les IP d'un service Swarm (lire: [Créer des services avec Docker 1.12](	
+https://techan.fr/creer-des-services-avec-docker-1-12/)). C'est à dire, la vIP de ce service, ça c'est facile, mais également les IP de tous les containers composants ce service. Ce besoin m'est apparu car j'ai activé de statistiques dans mes containers Nginx - je décrirai cela dans un article futur. Le problème que je rencontrais était de pouvoir simplement interroger chaque container Nginx pour récupérer ses statistiques d'utilisation. Ceci peut paraître trivial, mais lorsque l'on utilise les services du Swarm Mode, on se retrouve toujours en train d'interroger la vIP du service et on n'interroge ainsi qu'un seul container sans pouvoir simplement spécifier celui que l'on veut.
 
 J'ai donc écrit ce week-end un petit micro service - [`api-docker-service-ips`](https://github.com/MrRaph/api-docker-service-ips) - qui me permet de récupérer les IP des containers composant mon service.
 
