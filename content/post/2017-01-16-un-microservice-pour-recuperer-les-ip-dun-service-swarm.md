@@ -18,7 +18,7 @@ Ce week-end, je me suis mis en tête de créer un outil qui me permettrait simpl
 
 J'ai donc écrit ce week-end un petit micro service - [`api-docker-service-ips`](https://github.com/MrRaph/api-docker-service-ips) - qui me permet de récupérer les IP des containers composant mon service.
 
-# api-docker-service-ips
+# Le micro service api-docker-service-ips
 
 Ceci est un micro service écrit en Python avec [Flask](http://flask.pocoo.org/) et [Flask API](http://www.flaskapi.org/) fournissant une API permettant de récupérer les IP affectées par Docker à un service donné.
 
