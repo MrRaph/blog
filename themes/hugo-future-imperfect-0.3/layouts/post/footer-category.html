@@ -21,12 +21,3 @@
         <li><a href="/categories/{{ . | urlize }}">{{ . }}</a></li>
     {{ end }}
 </ul>
-
-<ul class="stats">
-  {{ range first 3 ( where ( where .Site.Pages.ByDate.Reverse ".Params.categories" "intersect" .Params.categories ) "Permalink" "!=" .Permalink ) }}
-    <li class="relatedPost">
-      <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a><br />
-      {{ .Description | markdownify }}
-    </li>
-  {{ end }}
-</ul>
