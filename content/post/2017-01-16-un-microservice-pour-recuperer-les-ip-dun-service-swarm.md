@@ -14,7 +14,7 @@ type = "post"
 
 +++
 
-Ce week-end, je me suis mis en tête de créer un outil qui me permettrait simplement de récupérer les IP d'un service Swarm (lire: [Créer des services avec Docker 1.12](	
+Ce week-end, je me suis mis en tête de créer un outil qui me permettrait simplement de récupérer les IP d'un service Swarm (lire: [Créer des services avec Docker 1.12](
 https://techan.fr/creer-des-services-avec-docker-1-12/)). C'est à dire, la vIP de ce service, ça c'est facile, mais également les IP de tous les containers composants ce service. Ce besoin m'est apparu car j'ai activé de statistiques dans mes containers Nginx - je décrirai cela dans un article futur. Le problème que je rencontrais était de pouvoir simplement interroger chaque container Nginx pour récupérer ses statistiques d'utilisation. Ceci peut paraître trivial, mais lorsque l'on utilise les services du Swarm Mode, on se retrouve toujours en train d'interroger la vIP du service et on n'interroge ainsi qu'un seul container sans pouvoir simplement spécifier celui que l'on veut.
 
 J'ai donc écrit ce week-end un petit micro service - [`api-docker-service-ips`](https://github.com/MrRaph/api-docker-service-ips) - qui me permet de récupérer les IP des containers composant mon service.
@@ -54,18 +54,18 @@ Pour utiliser cet outil, vous avez deux possibilité, soit de le construire depu
 
 Afin de construire l'image par vous même, vous devrez dans un premier temps, clone le dépôt Git.
 
-    git clone https://github.com/MrRaph/api-docker-service-ips.git
+    git clone https://github.com/MrRaph/api-docker.git
 
 Puis lancer la construction de l'image Docker
 
-    cd api-docker-service-ips
-    docker build -t api-docker-service-ips .
+    cd api-docker/service-ips
+    docker build -t mrraph/api-docker:service-ips .
 
 ### Utilisation de l'image Docker
 
 Pour utiliser directement l'image Docker éxistant dans le repo, rien de plus simple, il suffit d'utiliser la commande ci-dessous.
 
-    docker pull mrraph/api-docker-service-ips
+    docker pull mrraph/api-docker:service-ips
 
 ## Création du service
 
@@ -73,7 +73,7 @@ Maintenant que vous disposez de l'image dans votre infrastructure, il faut crée
 
     docker service create --replicas 1 --network web \
     --restart-condition any --name api-docker-service-ips \
-    mrraph/api-docker-service-ips
+    mrraph/api-docker:service-ips
 
 Ceci va créer un service avec un seul container dans votre cluster Swarm, vous pouvez bien entendu ajouter plus de container en changeant la valeur sur paramètre `--replicas` ou en utilisant la commande `docker service scale api-docker-service-ips=<nombre de containers souhaité>`
 
