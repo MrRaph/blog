@@ -11,7 +11,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get purge -y nginx && \
   DEBIAN_FRONTEND=noninteractive apt-get update && \
   DEBIAN_FRONTEND=noninteractive apt-get -y dist-upgrade && \
   DEBIAN_FRONTEND=noninteractive apt-get install -y liblua5.1-json nginx-extras \
-  python-pygments python git python-pip && \
+  python-pygments python git python-pip curl && \
   rm -rf /var/lib/apt/lists/* && \
   git clone https://github.com/shoonoise/lua-nginx-statistics.git /lua-nginx-statistics && \
   mkdir -p /usr/share/nginx/ && cp /lua-nginx-statistics/*.lua /usr/share/nginx/ && \
