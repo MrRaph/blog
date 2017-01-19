@@ -42,5 +42,7 @@ ADD sites-enabled/www.techan.fr.conf /etc/nginx/sites-enabled/www.techan.fr.conf
 ADD sites-enabled/stats.conf /etc/nginx/sites-enabled/stats.conf
 ADD conf.d/stats.conf /etc/nginx/conf.d/stats.conf
 
+HEALTHCHECK CMD curl --fail http://localhost/ || exit 1
+
 EXPOSE 80 443 8080
 CMD ["nginx", "-g", "daemon off;"]
