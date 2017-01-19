@@ -25,5 +25,7 @@ RUN cp -rp /src/public/* /var/www/ && \
 
 ADD sites-enabled/www.techan.fr.conf /etc/nginx/conf.d/www.techan.fr.conf
 
+HEALTHCHECK CMD curl --fail http://localhost/ || exit 1
+
 EXPOSE 80 443
 CMD ["nginx", "-g", "daemon off;"]
