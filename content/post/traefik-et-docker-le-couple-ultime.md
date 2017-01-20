@@ -45,6 +45,7 @@ Nous allons voir comment utiliser Traefik dans un environnement Docker 1.11.2 av
     services:
       traefik:
         image: traefik:v1.1.0-rc3
+        ports:
           - "80:80"
           - "443:443"
           - "8080:8080"
@@ -165,6 +166,7 @@ Depuis quelques temps, j'utilise [Let’s Encrypt](https://letsencrypt.org/) pou
     services:
       traefik:
         image: traefik:v1.1.0-rc3
+        ports:
           - "80:80"
           - "443:443"
           - "8080:8080"
