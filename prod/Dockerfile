@@ -1,4 +1,3 @@
-# FROM nginx:stable-alpine
 FROM nginx:latest
 
 ENV VERSION=0.18.1 \
@@ -6,7 +5,6 @@ ENV VERSION=0.18.1 \
     EXTENSION=tar.gz \
     BINARY=hugo_${VERSION}_linux_amd64/hugo_${VERSION}_linux_amd64
 
-# RUN apk add --no-cache --update py-pygments python py-pip git lua5.2-cjson
 RUN DEBIAN_FRONTEND=noninteractive apt-get purge -y nginx && \
   DEBIAN_FRONTEND=noninteractive apt-get update && \
   DEBIAN_FRONTEND=noninteractive apt-get -y dist-upgrade && \
