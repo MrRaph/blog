@@ -25,6 +25,8 @@ Dans ce type de cas, il est intéressant de tester si le serveur web répond ré
     HEALTHCHECK [OPTIONS] CMD command (check container health by running a command inside the container)
     HEALTHCHECK NONE (disable any healthcheck inherited from the base image)
 
+En plus de la commande de validation, qui est obligatoire, il est possible de jouer sur différents paramètres concernants la réalisation et la validation des tests de santé.
+
     --interval=DURATION (default: 30s)
     --timeout=DURATION (default: 30s)
     --retries=N (default: 3)
@@ -33,47 +35,24 @@ Dockerfile
 
     FROM nginx:latest
 
-    ENV VERSION=0.18.1 \
-        SRC=hugo_${VERSION}_Linux-64bit \
-        EXTENSION=tar.gz \
-        BINARY=hugo_${VERSION}_linux_amd64/hugo_${VERSION}_linux_amd64
-
-    RUN DEBIAN_FRONTEND=noninteractive apt-get purge -y nginx && \
-      DEBIAN_FRONTEND=noninteractive apt-get update && \
-      DEBIAN_FRONTEND=noninteractive apt-get -y dist-upgrade && \
-      DEBIAN_FRONTEND=noninteractive apt-get install -y liblua5.1-json nginx-extras \
-      python-pygments python git python-pip curl && \
-      rm -rf /var/lib/apt/lists/* && \
-      git clone https://github.com/shoonoise/lua-nginx-statistics.git /lua-nginx-statistics && \
-      mkdir -p /usr/share/nginx/ && cp /lua-nginx-statistics/*.lua /usr/share/nginx/ && \
-      cp -rp /lua-nginx-statistics/static /usr/share/nginx/ && \
-      rm -rf /lua-nginx-statistics && \
-      git clone --recursive https://github.com/MrRaph/blog.git /src
-
-    WORKDIR /src
-
-    ADD https://github.com/spf13/hugo/releases/download/v${VERSION}/hugo_${VERSION}_Linux-64bit.tar.gz /tmp/
-    RUN mkdir -p /tmp/hugo /var/www/blog && \
-        tar xzf /tmp/hugo_${VERSION}_Linux-64bit.${EXTENSION} -C /tmp/hugo && \
-        /tmp/hugo/hugo_${VERSION}_linux_amd64/hugo_${VERSION}_linux_amd64 -t hugo-future-imperfect-0.3 || exit 0
-
-    WORKDIR /var/www
-
-    RUN cp -rp /src/public/* /var/www/ && \
-        rm /tmp/hugo_${VERSION}_Linux-64bit.${EXTENSION} && \
-        rm -rf /src && \
-        chown -R nginx:nginx /var/www && \
-        rm /etc/nginx/sites-enabled/default
-       rm -rf /tmp/hugo* /src
-
+    ADD ./site /var/wwww
     ADD sites-enabled/www.techan.fr.conf /etc/nginx/sites-enabled/www.techan.fr.conf
-    ADD sites-enabled/stats.conf /etc/nginx/sites-enabled/stats.conf
-    ADD conf.d/stats.conf /etc/nginx/conf.d/stats.conf
 
     HEALTHCHECK CMD curl --fail http://localhost/ || exit 1
 
-    EXPOSE 80 443 8080
+    EXPOSE 80 443
     CMD ["nginx", "-g", "daemon off;"]
+
+
+    root@docker-machine-1:~# docker ps
+    CONTAINER ID        IMAGE                                                                                         COMMAND                  CREATED              STATUS                  PORTS                       NAMES
+    6aea82cf2942        mrraph/blog@sha256:256a5eb5651ec578be592e6be0a2dcaa3f1197a3803187eb9f92a1c5401bbc08   "nginx -g 'daemon ..."   22 hours ago        Up 22 hours (healthy)   80/tcp, 443/tcp, 8080/tcp   techan-prod.2.jb5h3e8ce30vjiohxuy1ry7bk
+
+    docker inspect --format='{{.State.Health.Status}}' techan-prod.2.jb5h3e8ce30vjiohxuy1ry7bk
+    healthy
+
+
+
 
 # Sources
 
