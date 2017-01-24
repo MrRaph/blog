@@ -21,6 +21,11 @@ Ce mécanisme est toujours présent malgré l'arrivée des "[Health Checks](http
 
 Dans ce type de cas, il est intéressant de tester si le serveur web répond réellement ou si le processus fait de la figuration. Avec l'arrivée des "[Health Checks](https://docs.docker.com/engine/reference/builder/#/healthcheck)", il est maintenant possible de déléguer ce type de validation  directement à Docker.
 
+Les "Health Checks" peuvent être définis dans le Dockerfile afin que chaque container créé à partir de l'image ainsi définie implémente ces validations. Ils peuvent également être définis au lancement d'un container, ils ne seront dans ce cas valable que pour le container démarré de cette façon.
+
+## Définition des Health Checks dans un Dockerfile
+
+Voici la commande à ajouter dans un Dockerfile pour ajouter des validations de bonne santé.
 
     HEALTHCHECK [OPTIONS] CMD command (check container health by running a command inside the container)
     HEALTHCHECK NONE (disable any healthcheck inherited from the base image)
@@ -31,9 +36,13 @@ En plus de la commande de validation, qui est obligatoire, il est possible de jo
     --timeout=DURATION (default: 30s)
     --retries=N (default: 3)
 
-Dockerfile
+Voici un exemple de Dockerfile très simple qui utilise un test de bonne santé qui valide que le serveur web NGinx répond toujours en HTTP. Petite remarque bête, on est obligé d'installer `curl` sinon le test serait forcément en erreur !
 
     FROM nginx:latest
+
+    RUN DEBIAN_FRONTEND=noninteractive apt-get update && \
+    DEBIAN_FRONTEND=noninteractive apt-get install -y  curl && \
+    rm -rf /var/lib/apt/lists/* && \
 
     ADD ./site /var/wwww
     ADD sites-enabled/www.techan.fr.conf /etc/nginx/sites-enabled/www.techan.fr.conf
@@ -43,15 +52,20 @@ Dockerfile
     EXPOSE 80 443
     CMD ["nginx", "-g", "daemon off;"]
 
+Voici ce qu'affiche Docker lorsque l'on liste les container qui sont en cours d'exécution. On peut voir la nouvelle information `(healthy)` affichée à côté du statut du container.
 
     root@docker-machine-1:~# docker ps
     CONTAINER ID        IMAGE                                                                                         COMMAND                  CREATED              STATUS                  PORTS                       NAMES
-    6aea82cf2942        mrraph/blog@sha256:256a5eb5651ec578be592e6be0a2dcaa3f1197a3803187eb9f92a1c5401bbc08   "nginx -g 'daemon ..."   22 hours ago        Up 22 hours (healthy)   80/tcp, 443/tcp, 8080/tcp   techan-prod.2.jb5h3e8ce30vjiohxuy1ry7bk
+    6aea82cf2942        mrraph/blog   "nginx -g 'daemon ..."   22 hours ago        Up 22 hours (healthy)   80/tcp, 443/tcp, 8080/tcp   techan-prod.2.jb5h3e8ce30vjiohxuy1ry7bk
+
+On peut également interroger Docker pour avoir directement le statut du Health Check avec la commande ci-dessous.
 
     docker inspect --format='{{.State.Health.Status}}' techan-prod.2.jb5h3e8ce30vjiohxuy1ry7bk
     healthy
 
 
+
+## Définir un Health Check au lancement d'un container
 
 
 # Sources
