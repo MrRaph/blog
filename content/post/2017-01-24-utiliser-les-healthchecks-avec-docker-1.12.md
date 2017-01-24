@@ -2,7 +2,7 @@
 categories = ["Docker", "Trucs et Astuces"]
 author = "MrRaph_"
 tags = ["Docker", "Trucs et Astuces"]
-draft = true
+draft = false
 title = "Utiliser les Health Checks avec Docker 1.12"
 date = "2017-01-24T08:00:59+01:00"
 type = "post"
@@ -66,6 +66,17 @@ On peut également interroger Docker pour avoir directement le statut du Health 
 
 
 ## Définir un Health Check au lancement d'un container
+
+Il est également possible de définir les paramètres de Health Check au démarrage d'un container. Ces paramètres ne seront alors valables que pendant la durée de vie du container.
+
+Si l'on reprend l'exemple précédent, voici à quoi ressemblerait la commande pour démarrer le container avec le même test de bonne santé.
+
+    $ docker run --name=test -d \
+    --health-cmd='curl --fail http://localhost/ || exit 1' \
+    --health-interval=2s \
+    mrraph/blog
+    
+Cette méthode permet de valider que le test fonctionne comme attendu.
 
 
 # Sources
