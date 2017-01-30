@@ -25,13 +25,29 @@ Voici donc une commande qui permet de lister tous les processus présents dans l
 
 ## La commande
 
-# for file in /proc/*/status ; do awk '/VmSwap|Name|^Pid:/{printf $2 " " $4 " " $3}END{ print ""}' $file; done | sort -k 3 -n -r | less
+    # for file in /proc/*/status ; do awk '/VmSwap|Name|^Pid:/{printf $2 " " $4 " " $3}END{ print ""}' $file; done | sort -k 3 -n -r | less
 
  
 
 Voici un extrait du retour de cette commande sur l’une de mes machines.
 
-mysqld 27370 120096 kB memcached 5388 65860 kB java 14287 55308 kB uwsgi 5436 47300 kB uwsgi 5434 44684 kB uwsgi 5431 42552 kB uwsgi 5432 39248 kB uwsgi 5433 32960 kB uwsgi 5437 29628 kB uwsgi 5420 20568 kB uwsgi 5438 16412 kB uwsgi 5435 16316 kB /usr/sbin/postg 11405 14304 kB named 1721 14152 kB MCMA2_Linux_x86 15355 11212 kB /usr/sbin/apach 24671 10704 kB /usr/sbin/apach 26361 6832 kB
+    mysqld 27370 120096 kB
+    memcached 5388 65860 kB
+    java 14287 55308 kB
+    uwsgi 5436 47300 kB
+    uwsgi 5434 44684 kB
+    uwsgi 5431 42552 kB
+    uwsgi 5432 39248 kB
+    uwsgi 5433 32960 kB
+    uwsgi 5437 29628 kB
+    uwsgi 5420 20568 kB
+    uwsgi 5438 16412 kB
+    uwsgi 5435 16316 kB
+    /usr/sbin/postg 11405 14304 kB
+    named 1721 14152 kB
+    MCMA2_Linux_x86 15355 11212 kB
+    /usr/sbin/apach 24671 10704 kB
+    /usr/sbin/apach 26361 6832 kB
 
 On voit que MySQL, memcached, uwsgi et apache ont été swapés, ainsi que la taille qu’il occupent dans le swap – près de 117 Mo pour MySQL.
 
@@ -48,12 +64,10 @@ Il est possible de vider le cache de manière brutale en désactivant/réactivan
 
  
 
-# swapoff -a # swapon -a
+    # swapoff -a # swapon -a
 
 <span style="text-decoration: underline;">Note :</span> Le vidage du swap peut être un peu long en fonction de la taille utilisée.
 
 <div class="wp-caption aligncenter" id="attachment_1225" style="width: 882px">[![Identifier les processus swapés sur Linux](https://techan.fr/images/2015/04/htop_swap_vide.jpg)](https://techan.fr/images/2015/04/htop_swap_vide.jpg)Après le vidage du swap
 
 </div> 
-
-
