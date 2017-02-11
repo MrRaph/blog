@@ -16,18 +16,18 @@ Il est fréquent de voir un Linux swaper, c’est normal et l’agressivité du 
 
 <div class="wp-caption aligncenter" id="attachment_1222" style="width: 876px">[![Identifier les processus swapés sur Linux](https://techan.fr/images/2015/04/htop_swap.png)](https://techan.fr/images/2015/04/htop_swap.png)Un Linux qui swape un petit peu
 
-</div> 
+</div> 
 
 Voici donc une commande qui permet de lister tous les processus présents dans le swap, ainsi que la taille qu’ils occupent dans cet espace.
 
- 
+ 
 
 
 ## La commande
 
     # for file in /proc/*/status ; do awk '/VmSwap|Name|^Pid:/{printf $2 " " $4 " " $3}END{ print ""}' $file; done | sort -k 3 -n -r | less
 
- 
+ 
 
 Voici un extrait du retour de cette commande sur l’une de mes machines.
 
@@ -51,18 +51,18 @@ Voici un extrait du retour de cette commande sur l’une de mes machines.
 
 On voit que MySQL, memcached, uwsgi et apache ont été swapés, ainsi que la taille qu’il occupent dans le swap – près de 117 Mo pour MySQL.
 
- 
+ 
 
 
 ## Forcer un vidage du swap
 
-Il est possible de vider le cache de manière brutale en désactivant/réactivant l’espace de swap. La désactivation de l’espace de swap force le Linux a écrire les pages en swap dans sa mémoire. La  réactivation rend l’espace de swap de nouveau disponible.
+Il est possible de vider le cache de manière brutale en désactivant/réactivant l’espace de swap. La désactivation de l’espace de swap force le Linux a écrire les pages en swap dans sa mémoire. La  réactivation rend l’espace de swap de nouveau disponible.
 
- 
+ 
 
 *<span style="color: #ff0000;">**<span style="text-decoration: underline;">Attention :</span> Avant de vider le swap, assurez vous d’avoir assez de mémoire disponible pour absorber le contenu du swap, et même un peu de marge, sinon le système risque de killer des processus !**</span>*
 
- 
+ 
 
     # swapoff -a # swapon -a
 
@@ -70,4 +70,8 @@ Il est possible de vider le cache de manière brutale en désactivant/réactivan
 
 <div class="wp-caption aligncenter" id="attachment_1225" style="width: 882px">[![Identifier les processus swapés sur Linux](https://techan.fr/images/2015/04/htop_swap_vide.jpg)](https://techan.fr/images/2015/04/htop_swap_vide.jpg)Après le vidage du swap
 
+<<<<<<< HEAD
 </div> 
+=======
+</div> 
+>>>>>>> 6dcdd7d453a93c89a4273a4ca00c2976ea19785b
