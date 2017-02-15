@@ -2,7 +2,7 @@
 slug = "un-relais-smtp-dans-docker-en-moins-de-5-minutes"
 draft = false
 date = "2017-02-14T18:46:12+01:00"
-image = "/images/2016/11/docker_postfix.png"
+image = "/images/2017/02/docker_postfix.png"
 type = "post"
 description = ""
 title = "Un relais SMTP dans Docker en moins de 5 minutes !"
