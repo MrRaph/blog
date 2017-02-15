@@ -13,7 +13,7 @@ slug = "recoverpoint-placer-des-flags-nommes-sur-les-points-de-consistance"
 
 
 Les boitiers RecoverPoint d’EMC servent a synchroniser des données entre des baies EMC. Cette technologie est particulièrement utile dans le cas d’an Plan de Continuité d’Activité (PCA) ou dans un Plan de Reprise d’Activité (PRA).  
-  
+
  Cela permet de transmettre tout ou partie des données sur un site de secours afin de continuer ou reprendre l’activité le plus vite possible.
 
  
@@ -34,10 +34,8 @@ Pour ajouter ce fameux flag depuis un script, il est plus pratique d(‘avoir au
 
 Voici donc la fameux commande :
 
-ssh admin@XXXXXXX bookmark_image "group='Nom_Du_Consistency_Group' bookmark='Nom_du_Flag $(date +"%d_%m_%Y__%HH%M")'"
+    ssh admin@XXXXXXX bookmark_image "group='Nom_Du_Consistency_Group' bookmark='Nom_du_Flag $(date +"%d_%m_%Y__%HH%M")'"
 
  
 
  
-
-
