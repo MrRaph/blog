@@ -12,14 +12,14 @@ tags = ["RoboCopy","Trucs et Astuces","Windows"]
 
 
 Pour synchroniser deux dossiers sur Windows, un utilitaire est proposé par défaut depuis Windows 2003, il se lance en ligne de commande, son petit nom … ROBOCOPY !  
-  
+
  L’avantage de cet outil est qu’il permet de copier les fichiers a une vitesse assez folle et qu’il a pas mal d’options, notamment pour conserver les permissions NTFS.
 
  
 
 Voici un exemple de synchronisation.
 
-robocopy "D:\STAT" "\\autre_serveur\E\STAT" /MIR /SEC /RH:2000-0700 /TEE /LOG+:c:\journal.log
+    robocopy "D:\STAT" "\\autre_serveur\E\STAT" /MIR /SEC /RH:2000-0700 /TEE /LOG+:c:\journal.log
 
 Le dossier source : « D:\STATS », le dossier cible : un chemin UNC ou un dossier « \\autre_serveur\E\STAT »
 
@@ -34,5 +34,3 @@ Voici la description des options utilisées ici :
 - **/TEE** : Rétabli la sortie écran même si le **/LOG** est spécifié.
 
 Et voilà !
-
-

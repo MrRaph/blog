@@ -21,7 +21,7 @@ Cet outil s’appelle « tlp », je vous parlerai également de « powertop 
 
 ## Installation des packages
 
-yum install tlp tlp-rdw smartmontools powertop
+    yum install tlp tlp-rdw smartmontools powertop
 
 La configuration de TLP se fait dans le fichier : /etc/default/tlp, voici les paramètres que j’ai changé dans un premier temps.
 
@@ -29,11 +29,11 @@ La configuration de TLP se fait dans le fichier : /etc/default/tlp, voici les pa
 
 Ensuite, on démarre TLP :
 
-[root@xxxxx ~]# tlp ac TLP started in ac mode.
+    [root@xxxxx ~]# tlp ac TLP started in ac mode.
 
 Ensuite, vous pouvez récupérer des informations avec les commandes suivantes :
 
-tlp stat powertop
+    tlp stat powertop
 
 Par exemple, la commande « powertop » m’apprend que la fréquence de mon CPU0 est 1,7 GHz alors que la fréquence nominale du CPU est 3,3 GHz.
 
@@ -44,5 +44,3 @@ La commande « tlp stat » donne quand a elle des informations sur le système
 [![Optimiser la consommation électrique de Linux](https://techan.fr/images/2015/02/screenshot.1423041485.png)](https://techan.fr/images/2015/02/screenshot.1423041485.png)
 
 Ici , on voit les bornes de fréquences qu’impose tlp au CPU.
-
-

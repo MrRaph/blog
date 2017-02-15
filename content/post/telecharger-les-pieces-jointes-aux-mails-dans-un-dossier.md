@@ -16,7 +16,22 @@ Voici un petit script en PHP, permettant de télécharger les pièces jointes au
 
 ### Le code
 
-<?php require('./imap-attachment.php'); $savedir = '/chemin/vers/le/dossier/de/sauvegarde/des/pieces/jointes'; $hostname='{imap.exemple.fr:143/novalidate-cert}INBOX'; $username='user@exemple.fr'; $password='password'; $inbox = new IMAPMailbox($hostname, $username, $password); $emails = $inbox->search('ALL'); if ($emails) { rsort($emails); foreach ($emails as $email) { foreach ($email->getAttachments() as $attachment) { $savepath = $savedir . str_replace('!','',str_replace('/','-',str_replace(' ','_', strtolower($attachment->getFilename())))); file_put_contents($savepath, $attachment); } } }
+    <?php
+    require('./imap-attachment.php');
+    $savedir = '/chemin/vers/le/dossier/de/sauvegarde/des/pieces/jointes';
+    $hostname='{imap.exemple.fr:143/novalidate-cert}INBOX';
+    $username='user@exemple.fr';
+    $password='password';
+    $inbox = new IMAPMailbox($hostname, $username, $password);
+    $emails = $inbox->search('ALL');
+    if ($emails) {
+      rsort($emails);
+      foreach ($emails as $email) {
+        foreach ($email->getAttachments() as $attachment) {
+          $savepath = $savedir str_replace('!','',str_replace('/','-',str_replace(' ','_', strtolower($attachment->getFilename())))); file_put_contents($savepath, $attachment);
+        }
+       }
+     }
 
  
 
@@ -24,7 +39,7 @@ Voici un petit script en PHP, permettant de télécharger les pièces jointes au
 
 Ce petit morceau de code se connecte à votre compte email, sélectionne le dossier que vous souhaitez et boucle sur les mails présents. Si un mail a une pièce jointe, il va la télécharger et la sauver dans le dossier que vous avez configuré.
 
-Et si on veut télécharger les pièces jointes aux mails d’un autre dossier de ce compte, il suffit de dupliquer ce bloc en changeant les paramètres ! Simple non ? ![:)](http://blog.techan.fr/wp-includes/images/smilies/simple-smile.png)
+Et si on veut télécharger les pièces jointes aux mails d’un autre dossier de ce compte, il suffit de dupliquer ce bloc en changeant les paramètres ! Simple non ? :-)
 
 Et vous pouvez même « crontabiser » ce script pour que tout se fasse tout seul !
 
@@ -34,7 +49,25 @@ Nouvelle version du code plus intelligente, maintenant, on marque les messages d
 
  
 
-<?php require('./imap-attachment.php'); $savedir = '/chemin/vers/le/dossier/de/sauvegarde/des/pieces/jointes'; $hostname='{imap.exemple.fr:143/novalidate-cert}INBOX'; $username='user@exemple.fr'; $password='password'; $inbox = new IMAPMailbox($hostname, $username, $password); try { $emails = $inbox->search('UNKEYWORD "$pjcopiee"'); if ($emails) { rsort($emails); foreach ($emails as $email) { foreach ($email->getAttachments() as $attachment) { $savepath = $savedir . uniqid() . str_replace('=','', str_replace('?', '', str_replace('!','',str_replace('/','-',str_replace(' ','_', strtolower($attachment->getFilename())))))); file_put_contents($savepath, $attachment); $status = imap_setflag_full($inbox->getStream(), $email->getNumber(), "\$pjcopiee"); } } } } catch (Exception $e) { echo ' Pas de messages a traiter'; } imap_close($inbox->getStream()); ?>
+    <?php
+    require('./imap-attachment.php');
+    $savedir = '/chemin/vers/le/dossier/de/sauvegarde/des/pieces/jointes';
+    $hostname='{imap.exemple.fr:143/novalidate-cert}INBOX';
+    $username='user@exemple.fr';
+    $password='password';
+    $inbox = new IMAPMailbox($hostname, $username, $password);
+    try {
+       $emails = $inbox->search('UNKEYWORD "$pjcopiee"');
+       if ($emails) {
+          rsort($emails);
+          foreach ($emails as $email) {
+             foreach ($email->getAttachments() as $attachment) {
+                $savepath = $savedir . uniqid() . str_replace('=','', str_replace('?', '', str_replace('!','',str_replace('/','-',str_replace(' ','_', strtolower($attachment->getFilename())))))); file_put_contents($savepath, $attachment); $status = imap_setflag_full($inbox->getStream(), $email->getNumber(), "\$pjcopiee");
+              }
+           }
+       }
+    } catch (Exception $e) { echo ' Pas de messages a traiter'; }
+    imap_close($inbox->getStream()); ?>
 
  
 
@@ -43,5 +76,3 @@ Nouvelle version du code plus intelligente, maintenant, on marque les messages d
 ### Sources
 
 [Télécharger les classes IMAP (Clic droit -> Enrgistrer la cible sous)](https://techan.fr/downloads/imap-attachment.php.download)
-
-

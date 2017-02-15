@@ -18,6 +18,39 @@ Son utilisation est simple, il suffit de changer les quelques variables dans le 
 
  
 
-#!/bin/bash user='root' password='password' destination="/backup/$(date "+%d")" mail='destinataire@domaine.fr' mkdir -p $destination for i in `echo "show databases;" | mysql -u$user -p$password | grep -v Database`; do mysqldump -u$user -p$password --opt --add-drop-table --routines --triggers --events --single-transaction -B $i > $destination/$i.sql gzip -f $destination/$i.sql done problem_text='' problem=0 for i in `ls $destination/*` ; do size=`du -sk $i | awk '{ print $1 }'` if [ $size -le 2 ] ; then problem_text="$problem_text- $i database. Backupped database size is equal or under 4k ($size)\n" problem=1 fi done if [ $problem -ne 0 ] ; then echo -e "Backups problem detected on :\n\n$problem_text" | mail -s "$HOSTNAME - MySQL backup problem" $mail else echo `echo "show databases;" | mysql -u$user -p$password | grep -v Database` | mail -s "[sl-0-mysql1] Bases sauvegardees" $mail fi find $destination -name "*.gz" -mtime +14 -exec rm {} \;
+     #!/bin/bash
+     user='root'
+     password='password'
+     destination="/backup/$(date "+%d")"
+     mail='destinataire@domaine.fr'
+     mkdir -p $destination
 
-Il ne reste plus qu’à l’ajouter à la crontab 
+     for i in `echo "show databases;" | mysql -u$user -p$password | grep -v Database`;
+     do
+      mysqldump -u$user -p$password --opt --add-drop-table --routines --triggers --events --single-transaction -B $i > $destination/$i.sql
+      gzip -f $destination/$i.sql
+     done
+
+     problem_text=''
+     problem=0
+
+     for i in `ls $destination/*` ;
+     do
+      size=`du -sk $i | awk '{ print $1 }'`
+      if [ $size -le 2 ] ;
+      then
+       problem_text="$problem_text- $i database. Backupped database size is equal or under 4k ($size)\n"
+       problem=1
+      fi
+     done
+
+     if [ $problem -ne 0 ] ;
+     then
+      echo -e "Backups problem detected on :\n\n$problem_text" | mail -s "$HOSTNAME - MySQL backup problem" $mail
+     else
+      echo `echo "show databases;" | mysql -u$user -p$password | grep -v Database` | mail -s "[sl-0-mysql1] Bases sauvegardees" $mail
+     fi
+
+     find $destination -name "*.gz" -mtime +14 -exec rm {} \;
+
+Il ne reste plus qu’à l’ajouter à la crontab

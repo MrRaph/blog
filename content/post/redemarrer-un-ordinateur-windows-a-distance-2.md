@@ -26,7 +26,7 @@ Il existe toute fois une commande DOS – équivalente à la commande **shutdown
 
 Comme indiqué dans l’aide, cette commande peut être utilisée sur l’ordinateur local ou bien sur une machine distante. La syntaxe pour l’utiliser sur un Windows distant est la suivante :
 
-shutdown -r -f -m \\<NOM DE L'ORDINATEUR> -t 0
+    shutdown -r -f -m \\<NOM DE L'ORDINATEUR> -t 0
 
  
 
@@ -42,12 +42,10 @@ Si comme dans mon cas cette commande vous renvoie une erreur d’authentificatio
 
  
 
-NET USE \\<NOM DE L'ORDINATEUR>\IPC$ <mot de passe de l'utilisater> /USER:<NOM DE L'ORDINATEUR>\<Identifiant de l'utilisateur> shutdown -r -f -m \\<NOM DE L'ORDINATEUR> -t 0
+    NET USE \\<NOM DE L'ORDINATEUR>\IPC$ <mot de passe de l'utilisater> /USER:<NOM DE L'ORDINATEUR>\<Identifiant de l'utilisateur> shutdown -r -f -m \\<NOM DE L'ORDINATEUR> -t 0
 
  
 
 Et voilà, vous pouvez maintenant vous passer de connecter un clavier et une souris pour redémarrer des ordinateurs fonctionnant sous Windows !
 
  
-
-

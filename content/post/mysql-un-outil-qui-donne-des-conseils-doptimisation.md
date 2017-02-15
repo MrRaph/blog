@@ -16,10 +16,11 @@ Voici un outil en ligne de commande assez pratique qui audit votre serveur MySQL
  
 
 Cet outil est disponible directement dans les dépots d’Ubuntu, son petit nom mysqltuner.  
-  
+
   
 
-root@kelthuzad:~# aptitude search mysqltuner p mysqltuner - high-performance MySQL tuning script
+    root@kelthuzad:~# aptitude search mysqltuner
+    p mysqltuner - high-performance MySQL tuning script
 
  
 
@@ -40,5 +41,3 @@ Et on ajoute une petite planification pour ce script :
 ## Optim MySQL 0 2 * * * /root/bin/mysql_optimize.sh >> /dev/null
 
  
-
-

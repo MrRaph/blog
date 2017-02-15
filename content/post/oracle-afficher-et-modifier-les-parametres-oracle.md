@@ -76,7 +76,7 @@ Dans ce cas, si l’on ne précise aucune option au démarrage, Oracle va utilis
 
 Si vous souhaitez démarrer la base en utilisant son pfile, vous pouvez utiliser la commande suivante :
 
-SQL> startup pfile='/path/to/init<SID>.ora'
+    SQL> startup pfile='/path/to/init<SID>.ora'
 
  
 
@@ -108,7 +108,7 @@ Cette méthode est un peu plus compliquée mais vous permettra de voir si la val
 
 Pour modifier la valeur d’un paramètre, vous allez devoir utiliser la commande suivante :
 
-SQL> alter system set [parameter_name]='[value]' [scope=both|memory|spfile];
+    SQL> alter system set [parameter_name]='[value]' [scope=both|memory|spfile];
 
  
 
@@ -153,7 +153,7 @@ Il est possible de remettre un paramètre à sa valeur par défaut, celle qu’O
 
 Pour ce faire, il faut utiliser la commande suivante :
 
-SQL> alter system reset [parameter_name]='[value]' [scope=both|memory|spfile];
+    SQL> alter system reset [parameter_name]='[value]' [scope=both|memory|spfile];
 
  
 
@@ -164,5 +164,3 @@ Nous allons réinitialiser la valeur du paramètre « sessions » que nous avo
 Après un reboot de la base, la valeur est de nouveau 247 ! ![:)](http://blog.techan.fr/wp-includes/images/smilies/simple-smile.png)
 
  
-
-

@@ -19,18 +19,19 @@ Comme d’habitude, je me suis rendu compte que je n’avais pas activé l’acc
  
 
 J’ai donc fouiner sur l’internet multimédia pour trouver comment faire ça depuis la ligne de commande et j’ai fini par trouver.  
-  
+
  Déjà, il faut installer « vino » :
 
-aptitude install vino
+    aptitude install vino
 
 Ensuite, il faut activer le partage de bureau, <span style="text-decoration: underline;">ceci est à exécuter en étant connecté avec le compte de l’utilisateur qui va partager son bureau</span>.
 
-$ export DISPLAY=:0 $ gsettings set org.gnome.Vino enabled true
+    $ export DISPLAY=:0 $ gsettings set org.gnome.Vino enabled true
 
 Et ensuite, il faut lancer le serveur « vino » :
 
-raphael@xxxx:~$ DISPLAY=:0.0 /usr/lib/vino/vino-server & [1] 30950 raphael@xxxx:~$ disown 30950
+    raphael@xxxx:~$ DISPLAY=:0.0 /usr/lib/vino/vino-server & [1] 30950
+    raphael@xxxx:~$ disown 30950
 
 La commande « disown » permet de détacher le processus de votre session en cours, « vino » continuera de tourner même si vous fermez votre session SSH.
 
@@ -38,8 +39,6 @@ La commande « disown » permet de détacher le processus de votre session en 
 
 Si jamais vous avez des erreurs d’encryption incompatibles entre votre client VNC et le serveur « vino », voici la commande à utiliser :
 
-gsettings set org.gnome.Vino require-encryption false
+    gsettings set org.gnome.Vino require-encryption false
 
  
-
-

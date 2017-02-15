@@ -19,13 +19,20 @@ Sur les anciennes versions de RedHat, la commande rescan-scsi-bus n’est pas fo
 
 Pour cela, il suffit de faire un cat dans des fichiers spéciaux sous le /sys.
 
-[root@xxxxxxx ~]# ll /sys/class/scsi_host/ total 0 lrwxrwxrwx 1 root root 0 22 oct. 16:22 host0 -> ../../devices/pci0000:00/0000:00:07.1/ata1/host0/scsi_host/host0 lrwxrwxrwx 1 root root 0 22 oct. 16:22 host1 -> ../../devices/pci0000:00/0000:00:07.1/ata2/host1/scsi_host/host1 lrwxrwxrwx 1 root root 0 22 oct. 16:22 host2 -> ../../devices/pci0000:00/0000:00:10.0/host2/scsi_host/host2 lrwxrwxrwx 1 root root 0 22 oct. 16:22 host3 -> ../../devices/pci0000:00/0000:00:11.0/0000:02:01.0/host3/scsi_host/host3 lrwxrwxrwx 1 root root 0 22 oct. 16:22 host4 -> ../../devices/pci0000:00/0000:00:11.0/0000:02:02.0/host4/scsi_host/host4 lrwxrwxrwx 1 root root 0 22 oct. 16:22 host5 -> ../../devices/pci0000:00/0000:00:11.0/0000:02:03.0/host5/scsi_host/host5
+    [root@xxxxxxx ~]# ll /sys/class/scsi_host/
+    total 0
+    lrwxrwxrwx 1 root root 0 22 oct. 16:22 host0 -> ../../devices/pci0000:00/0000:00:07.1/ata1/host0/scsi_host/host0
+    lrwxrwxrwx 1 root root 0 22 oct. 16:22 host1 -> ../../devices/pci0000:00/0000:00:07.1/ata2/host1/scsi_host/host1
+    lrwxrwxrwx 1 root root 0 22 oct. 16:22 host2 -> ../../devices/pci0000:00/0000:00:10.0/host2/scsi_host/host2
+    lrwxrwxrwx 1 root root 0 22 oct. 16:22 host3 -> ../../devices/pci0000:00/0000:00:11.0/0000:02:01.0/host3/scsi_host/host3
+    lrwxrwxrwx 1 root root 0 22 oct. 16:22 host4 -> ../../devices/pci0000:00/0000:00:11.0/0000:02:02.0/host4/scsi_host/host4
+    lrwxrwxrwx 1 root root 0 22 oct. 16:22 host5 -> ../../devices/pci0000:00/0000:00:11.0/0000:02:03.0/host5/scsi_host/host5
 
  
 
 Chacun de ces dossiers « host » contient un fichier « scan », c’est dans ces fichiers que nous allons faire ces cat :
 
-[root@xxxxxxx ~]# echo "- - -" > /sys/class/scsi_host/host0/scan
+    [root@xxxxxxx ~]# echo "- - -" > /sys/class/scsi_host/host0/scan
 
  
 
@@ -53,5 +60,3 @@ Le disque /dev/sdb à donc comme identifiant « 0:0:1 », pour que l’agrandi
  
 
  
-
-

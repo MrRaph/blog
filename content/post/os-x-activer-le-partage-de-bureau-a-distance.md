@@ -23,12 +23,12 @@ J’ai testé avec la version 10.10 « Yosemite », cela fonctionne !! L’aut
 
 Voici donc l’astuce, ouvrez le Terminal.app et tapez le commandes suivantes :
 
-cd /System/Library/LaunchDaemons/ sudo launchctl load -w com.apple.screensharing.plist
+    cd /System/Library/LaunchDaemons/
+    sudo launchctl load -w com.apple.screensharing.plist
 
 Et pour arrêter le partage d’écran :
 
-cd /System/Library/LaunchDaemons/ sudo launchctl unload -w com.apple.screensharing.plist
+    cd /System/Library/LaunchDaemons/
+    sudo launchctl unload -w com.apple.screensharing.plist
 
  
-
-

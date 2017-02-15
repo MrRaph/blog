@@ -27,16 +27,16 @@ Dans ce post, je part du principe que Docker et Docker-Compose sont déjà insta
 
 Nous positionnons la variable `OVPN_DATA` qui nous servira à intéragir avec notre container.
 
-`echo 'OVPN_DATA="openvpn_data_1"' >> ~/.bashrc 
-source ~/.bashrc`
+    `echo 'OVPN_DATA="openvpn_data_1"' >> ~/.bashrc
+    source ~/.bashrc`
 
 ## Configuration du server OpenVPN
 
 Tout d'abord, nous allons créer un nouveau dossier et un fichier `docker-compose.yml` pour notre serveur OpenVPN.
 
-`mkdir /data/openvpn
-cd /data/openvpn
-vi docker-compose.yml`
+    `mkdir /data/openvpn
+    cd /data/openvpn
+    vi docker-compose.yml`
 
 Voici le contenu du fichier `docker-compose.yml`.
 

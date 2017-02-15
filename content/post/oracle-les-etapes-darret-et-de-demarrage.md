@@ -35,7 +35,7 @@ Les « data files » ne sont pas ouverts à pendant cette étape.
 
 <span style="text-decoration: underline;">**Note :**</span> Le mode « mount » est beaucoup utilisé pour restaurer la base ou pour faire des recovers avec RMAN.
 
-##### 
+#####
 
 ##### open
 
@@ -55,7 +55,9 @@ Il est possible de démarrer une base dans l’un des trois états décrit plus 
 
 Voici les différentes commandes pour faire ça :
 
-SQL> startup nomount ; --starts DB in nomount mode SQL> startup mount ; --starts DB in mount mode SQL> startup ; --start DB in open mode
+    SQL> startup nomount ; --starts DB in nomount mode
+    SQL> startup mount ; --starts DB in mount mode
+    SQL> startup ; --start DB in open mode
 
 Si vous avez ouvert la base dans une des étapes intermédiaires avant le open, vous pourrez pousser la base dans les étapes suivantes mais vous ne pourrez pas redescendre dans les étapes plus basses.
 
@@ -63,7 +65,8 @@ Pour faire cela, vous devrez éteindre et redémarrer la base dans un mode plus 
 
 Voici les commandes pour passer la base dans un mode d’ouverture plus haut :
 
-SQL> alter database mount ; --Switch a DB in nomount mode to mount mode SQL> alter database open ; --Switch a DB in nomount or mount mode to open mode
+    SQL> alter database mount ; --Switch a DB in nomount mode to mount mode
+    SQL> alter database open ; --Switch a DB in nomount or mount mode to open mode
 
  
 
@@ -73,7 +76,7 @@ SQL> alter database mount ; --Switch a DB in nomount mode to mount mode SQL> alt
 
 L’option restrict est utilisée pour éviter toute connections non privilégiée à la base. La base est techniquement « ouverte » mais seuls les DBAs peuvent s’y connecter.
 
-SQL> startup restrict ; --Start a DB in restrict mode
+    SQL> startup restrict ; --Start a DB in restrict mode
 
 ##### Upgrade
 
@@ -81,7 +84,7 @@ Le mode upgrade porte bien son nom, il est utilisé pour passer des script de mi
 
 Cette option est utilisée pour upgrader des bases de la 10gR2 vers la 11G par exemple.
 
-SQL> startup upgrade ; --Start a DB in upgrade mode
+    SQL> startup upgrade ; --Start a DB in upgrade mode
 
  
 
@@ -89,7 +92,7 @@ SQL> startup upgrade ; --Start a DB in upgrade mode
 
 La commande pour arrêter une bases est la suivante :
 
-SQL> shutdown ; --Shut a database down
+    SQL> shutdown ; --Shut a database down
 
 Vous trouverez ci-dessous les différentes options que l’on peut ajouter à cette commande.
 
@@ -101,7 +104,7 @@ Causes :
 - Les transactions non commitées sont rollbackées
 - Tous les utilisateurs sont déconnectés
 
-SQL> shutdown immediate ; --Shut a database down
+    SQL> shutdown immediate ; --Shut a database down
 
 C’est le mode d’arrêt le plus fréquent, il laisse la base dans un état consistant.
 
@@ -113,7 +116,7 @@ Causes :
 - Les clients ne peuvent plus commencer de nouvelles transactions, ceux qui tentes de commencer une nouvelle transaction sont déconnectés.
 - Une fois toutes les transactions commitées ou terminées, tout client toujours connecté est déconnecté.
 
-SQL> shutdown transactional ; --Shut a database down
+    SQL> shutdown transactional ; --Shut a database down
 
  
 
@@ -128,7 +131,8 @@ Le prochain démarrage ne nécessitera pas de recovery.
 
 C’est l’optiond’arrêt par défaut.
 
-SQL> shutdown normal; --Shut a database down SQL> shutdown ; --Shut a database down
+    SQL> shutdown normal; --Shut a database down
+    SQL> shutdown ; --Shut a database down
 
  
 
@@ -144,7 +148,7 @@ Une recovery de l’instance sera nécessaire au prochain démarrage.
 
 A utiliser avec précaution !!!
 
-SQL> shutdown abort ; --Abort a database instance
+    SQL> shutdown abort ; --Abort a database instance
 
 Cette option va forcer le kill du processus principal de l’instance Oracle. Cela laisse la base dans un état totalement incohérent !!!
 
@@ -153,8 +157,9 @@ Cette option va forcer le kill du processus principal de l’instance Oracle. Ce
 
 Ce cycle force Oracle a néttoyer les data files pour qu’ils soient cohérents.
 
-SQL> shutdown abort ; --Abort a database instance SQL> startup ; SQL> shutdown immediate ; SQL> startup ;
+    SQL> shutdown abort ; --Abort a database instance
+    SQL> startup ;
+    SQL> shutdown immediate ;
+    SQL> startup ;
 
  
-
-

@@ -13,7 +13,7 @@ date = 2014-10-16T09:57:50Z
 
 
 Dans cet article nous allons voir comment lister les directories présents dans une base Oracle et comment les administrer.  
-  
+
   
 
 Les directories sont des alias vers un dossier système dans une bases Oracle, ils permettent à Oracle de connaitre quelques uns des dossiers présents sur l’OS. Ils sont utilisées notamment pour les export/import avec DataPump.
@@ -26,7 +26,7 @@ Un directory appartient à l’utilisateur qui le crée, le privilège « CREAT
 
 La commande SQL ci-dessous liste tous les directories créés dans la base de données à laquelle on est connecté.
 
-select * from dba_directories ;
+    select * from dba_directories ;
 
  
 
@@ -42,7 +42,7 @@ A l’intérieur de la base de » données, toutes opérations réalisées en u
 
 ##### Donner le droit de créer des directories à un utilisateur
 
-grant create any directory to <username> ;
+    grant create any directory to <username> ;
 
  
 
@@ -56,12 +56,10 @@ L’utilisateur « scott » peut maintenant crée des directories.
 
 La création d’un directory est faite par la commande SQL suivante :
 
-create directory <DIRECTORY_NAME> as '/path/to/system/directory' ;
+    create directory <DIRECTORY_NAME> as '/path/to/system/directory' ;
 
 [![image2014-4-4 10-34-47](https://techan.fr/images/2014/10/image2014-4-4-10-34-47.png)](https://techan.fr/images/2014/10/image2014-4-4-10-34-47.png)
 
 L’utilisateur « scott » dispose maintenant d’un directory « DATAPUMP » qui pointe vers le dossier système « /data/oracle/admin/TFTI1/dpdump ».
 
  
-
-

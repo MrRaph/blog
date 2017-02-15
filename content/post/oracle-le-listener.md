@@ -13,7 +13,7 @@ draft = false
 
 
 Le listener est un programme fournit par Oracle qui écoute sur un port réseau, le 1521 par défaut, c’est la porte d’entrée dans le monde Oracle.  
-  
+
  Ce programme reçoit les connexions clientes et les dispatche sur la bonne base Oracle. Un seul listener peut gérer les connexions vers plusieurs base de données.
 
 On peut toute fois mettre en place pas mal de configurations différentes avec cet outil :
@@ -53,7 +53,7 @@ Dans cet affichage, on trouve également l’emplacement du fichier de log du li
 
 ##### Stopper un listener
 
-lsnrctl <LISTENER NAME> stop
+    lsnrctl <LISTENER NAME> stop
 
 [![image2014-4-10 13-36-17](https://techan.fr/images/2014/10/image2014-4-10-13-36-17.png)](https://techan.fr/images/2014/10/image2014-4-10-13-36-17.png)
 
@@ -63,7 +63,7 @@ lsnrctl <LISTENER NAME> stop
 
 ##### Démarrer un listener
 
-lsnrctl <LISTENER NAME> start
+    lsnrctl <LISTENER NAME> start
 
 [![image2014-4-10 13-38-26](https://techan.fr/images/2014/10/image2014-4-10-13-38-26.png)](https://techan.fr/images/2014/10/image2014-4-10-13-38-26.png)
 
@@ -73,7 +73,7 @@ lsnrctl <LISTENER NAME> start
 
 Cette opération force le listener a relire et recharger sa configuration sans pour autant l’arrêter.
 
-lsnrctl reload <LISTENER NAME>
+    lsnrctl reload <LISTENER NAME>
 
 [![image2014-4-10 13-40-13](https://techan.fr/images/2014/10/image2014-4-10-13-40-13.png)](https://techan.fr/images/2014/10/image2014-4-10-13-40-13.png)
 
@@ -91,5 +91,3 @@ La configuration du listener est situé dans le dossier suivant :
 [![image2014-4-10 13-46-36](https://techan.fr/images/2014/10/image2014-4-10-13-46-36.png)](https://techan.fr/images/2014/10/image2014-4-10-13-46-36.png)
 
 Le nom du fichier de configuration est : « listener.ora ».
-
-

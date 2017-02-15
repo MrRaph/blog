@@ -13,14 +13,14 @@ description = ""
 
 
 Un utilisateur Oracle est un schéma Oracle, c’est un login associé à un mot de passe. Ce compte peut contenir des objets ou utiliser les objets d’autres utilisateurs s’il en a le droit.  
-  
+
   
 
 ### Lister les utilisateurs d’une base Oracle
 
 Ceci peut être fait via une requête SQL très simple :
 
-select username from dba_users ;
+    select username from dba_users ;
 
 [![image2014-4-4 13-36-50](https://techan.fr/images/2014/10/image2014-4-4-13-36-50.png)](https://techan.fr/images/2014/10/image2014-4-4-13-36-50.png)
 
@@ -32,7 +32,7 @@ select username from dba_users ;
 
 La requête suivante permet de créer un utilisateur dans Oracle.
 
-create user <USERNAME> identified by <PASSWORD> ;
+    create user <USERNAME> identified by <PASSWORD> ;
 
 [![image2014-4-4 13-40-28](https://techan.fr/images/2014/10/image2014-4-4-13-40-28.png)](https://techan.fr/images/2014/10/image2014-4-4-13-40-28.png)
 
@@ -58,7 +58,7 @@ Les privilèges basique a donner sont :
 
 Donner ces privilèges se fait via cette requête SQL :
 
-grant connect, resource to <USERNAME> ;
+    grant connect, resource to <USERNAME> ;
 
 [![image2014-4-4 13-49-44](https://techan.fr/images/2014/10/image2014-4-4-13-49-44.png)](https://techan.fr/images/2014/10/image2014-4-4-13-49-44.png)
 
@@ -86,7 +86,7 @@ Par défaut, le tablepspace par défaut est « USERS ».
 
 On peut changer ce default tablepsace en utilisant la commande suivante.
 
-alter user <USERNAME> default tablespace EXAMPLE ;
+    alter user <USERNAME> default tablespace EXAMPLE ;
 
  
 
@@ -106,7 +106,7 @@ Verrouiller des compte peut être utile si l’on souhaite empêcher des applica
 
 La commande suivante permet de verrouiller un compte :
 
-alter user <USERNAME> account lock ;
+    alter user <USERNAME> account lock ;
 
 [![image2014-4-4 14-3-37](https://techan.fr/images/2014/10/image2014-4-4-14-3-37.png)](https://techan.fr/images/2014/10/image2014-4-4-14-3-37.png)
 
@@ -119,7 +119,7 @@ Le compte « izual » est maintenant verrouillé, personne ne peux plus se con
 
 Voici la requête qui permet de déverrouiller un compte :
 
-alter user <USERNAME> account unlock ;
+    alter user <USERNAME> account unlock ;
 
 [![image2014-4-4 14-5-37](https://techan.fr/images/2014/10/image2014-4-4-14-5-37.png)](https://techan.fr/images/2014/10/image2014-4-4-14-5-37.png)
 
@@ -141,7 +141,7 @@ Cette manipulation est intéressante si l’on souhaite recréer un compte avec 
 
 On peut utiliser cette requête pour récupérer le hashage du mot de passe :
 
-SQL> select username, password from dba_users where username='<USERNAME>' ;
+    SQL> select username, password from dba_users where username='<USERNAME>' ;
 
  
 
@@ -151,7 +151,7 @@ A partir de la version 11gR1, Oracle a modifié sa stratégie de stockage des mo
 
 Il faut maintenant utiliser la méthode suivante pour récupérer les mots de passe.
 
-SQL> select dbms_metadata.get_ddl('USER','<USERNAME>') from dual ;
+    SQL> select dbms_metadata.get_ddl('USER','<USERNAME>') from dual ;
 
  
 
@@ -165,10 +165,8 @@ SQL> select dbms_metadata.get_ddl('USER','<USERNAME>') from dual ;
 
 Si vous avez récupérer un hash de mot de passe et que vous souhaitez remettre ce mot de passe à un utilisateur, voici la marche à suivre :
 
-alter user <USERNAME> identified by values '<PASSWORD HASH VALUE>' ;
+    alter user <USERNAME> identified by values '<PASSWORD HASH VALUE>' ;
 
  
 
 [![image2014-4-7 11-22-9](https://techan.fr/images/2014/10/image2014-4-7-11-22-9.png)](https://techan.fr/images/2014/10/image2014-4-7-11-22-9.png)
-
-

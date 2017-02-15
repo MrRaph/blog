@@ -12,7 +12,7 @@ tags = ["Gros Dump","Import","MySQL","Trucs et Astuces"]
 
 
 MySQL a par défaut des limitations en terme de taille maximales de paquets, dans certains cas, il est nécessaire de les augmenter pour pouvoir importer de très gros fichiers de dump.  
-  
+
  Dans notre exemple, le fichier fait presque 1,5 Go.
 
 [root@xxxx mysql]# du -sh dump_databaseName.sql 1,3G dump_databaseName.sql
@@ -38,5 +38,3 @@ Ensuite, on peut importer le dump en passant un option supplémentaire au client
  
 
  
-
-

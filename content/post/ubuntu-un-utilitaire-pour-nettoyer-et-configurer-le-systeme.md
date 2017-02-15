@@ -12,12 +12,14 @@ slug = "ubuntu-un-utilitaire-pour-nettoyer-et-configurer-le-systeme"
 
 
 J’ai découvert aujourd’hui un outil (ubuntu-tweak) qui permet de faire de manière graphique quelques opérations d’administration et de nettoyage sur Ubuntu.  
-  
+
   
 
 Pour l’installer, rien de plus simple en passant par les dépôts PPA.
 
-sudo add-apt-repository ppa:tualatrix/ppa sudo apt-get update sudo apt-get install ubuntu-tweak
+    sudo add-apt-repository ppa:tualatrix/ppa
+    sudo apt-get update
+    sudo apt-get install ubuntu-tweak
 
 Sinon, vous pouvez télécharger le paquet en utilisant [ce lien](https://launchpad.net/ubuntu-tweak/+download).
 
@@ -30,5 +32,3 @@ Sinon, vous pouvez télécharger le paquet en utilisant [ce lien](https://launch
 [http://blog.ubuntu-tweak.com/](http://blog.ubuntu-tweak.com/)
 
  
-
-

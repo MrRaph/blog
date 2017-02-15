@@ -19,7 +19,62 @@ J’ai eu besoin de créer un script pour pouvoir surveiller les performances d�
 
 Voici donc le fameux script, anonymisé bien sûr !
 
-#!/bin/bash ####################################################### ### Monitor_website.sh ### ### Auteur : MrRaph_ ### ### Site : https://techan.fr ### ### Date : 31/03/2015 ### ### ### ####################################################### ####################################################### ### Constantes ### ####################################################### export TMP_DIRECTORY='/tmp/Monitor' export COOKIE_BASE_NAME='cookie_' export WGET="/usr/bin/wget" export DATE=/bin/date ####################################################### ### Les paramètres ### ####################################################### export HOST=$1 export PORT=$2 export WARN=$3 export CRIT=$4 ####################################################### ### Le script ### ####################################################### mkdir -p ${TMP_DIRECTORY}/${PORT} cd ${TMP_DIRECTORY}/${PORT} export COOKIE=${TMP_DIRECTORY}/${PORT}/${COOKIE_BASE_NAME}${PORT} STARTTIME=$($DATE +%s%N) wget --cache=off -nv -p -H --cookies=on --post-data 'username=USER&password=PASS' --load-cookies=${COOKIE} --keep-session-cookies --save-cookies=${COOKIE} http://${HOST}:${PORT}/LOGINPAGE >/dev/null 2>&1 wget --cache=off -nv -p -H --cookies=on --post-data 'username=USER&password=PASS' --load-cookies=${COOKIE} --keep-session-cookies --save-cookies=${COOKIE} --refer=http://${HOST}:${PORT}/LOGINPAGE http://${HOST}:${PORT}/CONTENTPAGE >/dev/null 2>&1 ENDTIME=$($DATE +%s%N) TIMEDIFF=$((($ENDTIME-$STARTTIME)/1000000)) if [ "$TIMEDIFF" -lt "$WARN" ]; then STATUS=OK elif [ "$TIMEDIFF" -ge "$WARN" ] && [ "$TIMEDIFF" -lt "$CRIT" ]; then STATUS=WARNING elif [ "$TIMEDIFF" -ge "$CRIT" ]; then STATUS=CRITICAL fi OUTMSG="$TIMEDIFF ms" cd ${TMP_DIRECTORY} rm -rf ${PORT} echo "RESPONSE: $STATUS - $OUTMSG""|Response="$TIMEDIFF"ms;"$WARN";"$CRIT";0" if [ "$STATUS" = "OK" ]; then exit 0 elif [ "$STATUS" = "WARNING" ]; then exit 1 elif [ "$STATUS" = "CRITICAL" ]; then exit 2 fi exit 3
+    #!/bin/bash #######################################################
+    ### Monitor_website.sh ###
+    ### Auteur : MrRaph_ ###
+    ### Site : https://techan.fr ###
+    ### Date : 31/03/2015 ###
+    ###
+    ###
+    #######################################################
+    #######################################################
+    ### Constantes ###
+    ####################################################### export
+    TMP_DIRECTORY='/tmp/Monitor' export COOKIE_BASE_NAME='cookie_' export
+    WGET="/usr/bin/wget" export DATE=/bin/date
+    #######################################################
+    ### Les paramètres ###
+    #######################################################
+    export HOST=$1
+    export PORT=$2
+    export WARN=$3
+    export CRIT=$4
+    #######################################################
+    ### Le script ###
+    #######################################################
+    mkdir -p ${TMP_DIRECTORY}/${PORT}
+    cd ${TMP_DIRECTORY}/${PORT}
+    export COOKIE=${TMP_DIRECTORY}/${PORT}/${COOKIE_BASE_NAME}${PORT}
+    STARTTIME=$($DATE +%s%N)
+    wget --cache=off -nv -p -H --cookies=on --post-data 'username=USER&password=PASS' --load-cookies=${COOKIE} --keep-session-cookies --save-cookies=${COOKIE} http://${HOST}:${PORT}/LOGINPAGE >/dev/null 2>&1
+    wget --cache=off -nv -p -H --cookies=on --post-data 'username=USER&password=PASS' --load-cookies=${COOKIE} --keep-session-cookies --save-cookies=${COOKIE} --refer=http://${HOST}:${PORT}/LOGINPAGE http://${HOST}:${PORT}/CONTENTPAGE >/dev/null 2>&1
+    ENDTIME=$($DATE +%s%N)
+    TIMEDIFF=$((($ENDTIME-$STARTTIME)/1000000))
+    if [ "$TIMEDIFF" -lt "$WARN" ];
+      then STATUS=OK
+    elif [ "$TIMEDIFF" -ge "$WARN" ] && [ "$TIMEDIFF" -lt "$CRIT" ];
+    then
+      STATUS=WARNING
+    elif [ "$TIMEDIFF" -ge "$CRIT" ];
+    then
+      STATUS=CRITICAL
+    fi
+
+    OUTMSG="$TIMEDIFF ms" cd ${TMP_DIRECTORY}
+    rm -rf ${PORT}
+    echo "RESPONSE: $STATUS - $OUTMSG""|Response="$TIMEDIFF"ms;"$WARN";"$CRIT";0"
+
+    if [ "$STATUS" = "OK" ];
+    then
+      exit 0
+    elif [ "$STATUS" = "WARNING" ];
+    then
+      exit 1
+    elif [ "$STATUS" = "CRITICAL" ];
+    then
+      exit 2
+    fi
+    exit 3
 
 Il vous faudra adapter :
 
@@ -45,5 +100,3 @@ Avec ces réglages on aura :
 #### Et voilà !
 
 [![Surveiller les performances d’un site avec Nagios ](https://techan.fr/images/2015/03/screenshot.179.jpg)](https://techan.fr/images/2015/03/screenshot.179.jpg)
-
-
