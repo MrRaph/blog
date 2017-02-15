@@ -25,7 +25,7 @@ Vous êtes convaincus et vous voulez utiliser [Ghost](https://ghost.org/fr/) ? D
 
 # La configuration cible
 
-Une fois la migration effectuée, voici ce que nous aurons : 
+Une fois la migration effectuée, voici ce que nous aurons :
 - Ghost
 - Serveur Nginx
 
@@ -67,16 +67,16 @@ Voici le fichier de configuration à ajouter dans Nginx pour proxyfier Ghost.
         listen 0.0.0.0:80;
         server_name *your-domain-name*;
         access_log /var/log/nginx/*your-domain-name*.log;
-    
+
         location / {
             proxy_set_header X-Real-IP $remote_addr;
             proxy_set_header HOST $http_host;
             proxy_set_header X-NginX-Proxy true;
-    
+
             proxy_pass http://127.0.0.1:2368;
             proxy_redirect off;
         }
-        
+
         location /wp-content {
             alias /data/ghost/images_wordpress ;
         }
@@ -86,10 +86,10 @@ Ce ficher devra être créé dans le dossier /etc/nginx/sites-available, dans ce
 
 Il ne reste qu'à activer cette configuration et à redémarrer Nginx.
 
-`ln -s /etc/nginx/sites-available/ghost.conf /etc/nginx/sites-enabled/ghost.conf`
+    `ln -s /etc/nginx/sites-available/ghost.conf /etc/nginx/sites-enabled/ghost.conf`
 
-ˋservice nginx restart`
- 
+    ˋservice nginx restart`
+
 
 # Sources
 

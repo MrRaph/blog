@@ -19,15 +19,13 @@ Cela peut, au mieux, apporter des bugs à l’outil voir l’empêche de fonctio
  
 
 Voici la méthode a utiliser pour forcer ce programme a utiliser une locale anglaise.  
-  
+
  Pour un programme que l’on lancerait via la ligne de commande suivante :
 
-/path/to/mon/programme -argument1 valeur1 -argumenté valeur2
+    /path/to/mon/programme -argument1 valeur1 -argumenté valeur2
 
 Il suffit d’ajouter « LANG=C » au tout début de la ligne de commande et le programme utilisera l’anglais.
 
-LANG=C /path/to/mon/programme -argument1 valeur1 -argumenté valeur2
+    LANG=C /path/to/mon/programme -argument1 valeur1 -argumenté valeur2
 
  
-
-

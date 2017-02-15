@@ -33,9 +33,17 @@ Dans mon installation, les fichiers de configuration se trouvent dans le dossier
 
 Voici le contenu de ce dossier, je détaillerai chacun de ces fichiers dans les parties suivantes.
 
-[root@xxxxxxxxx conf.d]# ll total 28 -rw-r--r-- 1 root root 194 13 oct. 14:34 01-input_files.conf -rw-r--r-- 1 root root 155 10 oct. 16:26 02-input_rsyslog.conf -rw-r--r-- 1 root root 160 9 oct. 17:23 10-filter_rsyslog.conf -rw-r--r-- 1 root root 1150 10 oct. 11:34 11-filter_apache.conf -rw-r--r-- 1 root root 816 13 oct. 14:45 12-filter_esxi.conf -rw-r--r-- 1 root root 1535 13 oct. 14:20 13-filter_mysql_slow_queries.conf -rw-r--r-- 1 root root 1801 13 oct. 14:27 31-to_graylog2.conf
+    [root@xxxxxxxxx conf.d]# ll
+    total 28
+    -rw-r--r-- 1 root root 194 13 oct. 14:34 01-input_files.conf
+    -rw-r--r-- 1 root root 155 10 oct. 16:26 02-input_rsyslog.conf
+    -rw-r--r-- 1 root root 160 9 oct. 17:23 10-filter_rsyslog.conf
+    -rw-r--r-- 1 root root 1150 10 oct. 11:34 11-filter_apache.conf
+    -rw-r--r-- 1 root root 816 13 oct. 14:45 12-filter_esxi.conf
+    -rw-r--r-- 1 root root 1535 13 oct. 14:20 13-filter_mysql_slow_queries.conf
+    -rw-r--r-- 1 root root 1801 13 oct. 14:27 31-to_graylog2.conf
 
-### 
+###
 
 J’ai coupé la configuration en plusieurs morceaux afin de pouvoir plus facilement tester chacun des éléments.
 
@@ -58,7 +66,16 @@ Dans ma configuration j’utilise deux types d’entrées :
 
 Elles sont documentées dans le fichier « 01-input_files.conf ».
 
-input { file { path => "/data/syslog/172.16.17.51/*.log" exclude => "*.gz" type => "esxi" } file { path => "/data/syslog/127.0.0.1/*.log" exclude => "*.gz" type => "localhost" } }
+    input {
+       file {
+          path => "/data/syslog/172.16.17.51/*.log" exclude => "*.gz"
+          type => "esxi"
+        }
+        file {
+           path => "/data/syslog/127.0.0.1/*.log" exclude => "*.gz"
+           type => "localhost"
+        }
+    }
 
 Ce fichier dit à logstash d’alelr lire tous les fichiers se terminant par « .log » dans les dossiers « /data/syslog/127.0.0.1 » et « /data/syslog/172.16.12.51 » en excluant les fichiers se terminant par « .gz ».
 
@@ -72,7 +89,12 @@ Elles sont documentées dans le fichier « 02-input_rsyslog.conf ».
 
  
 
-input { syslog { type => syslog port => 5140 } }
+    input {
+       syslog {
+          type => syslog
+          port => 5140
+       }
+    }
 
  
 
@@ -90,7 +112,12 @@ Elles sont documentées dans les fichiers « 10-filter_rsyslog.conf », « 11
 
 ##### Fichier 10-filter_rsyslog.conf
 
-filter { if [type] == "syslog" { syslog_pri { } date { locale => "en" match => [ "syslog_timestamp", "MMM d HH:mm:ss", "MMM dd HH:mm:ss" ] } } }
+    filter {
+       if [type] == "syslog" {
+          syslog_pri { }
+          date { locale => "en" match => [ "syslog_timestamp", "MMM d HH:mm:ss", "MMM dd HH:mm:ss" ] }
+       }
+    }
 
  
 
@@ -108,7 +135,19 @@ Voici la méthode a utiliser pour le forcer en anglais : [[Linux] Forcer un prog
 
 ##### Fichier 11-filter_apache.conf
 
-filter { if [program] == "apache-access" { grok { match => { "message" => "%{COMBINEDAPACHELOG}" } } } } if [program] == "apache-error" { grok { match => { "message" => "\[%{HTTPERRORDATE:timestamp}\] \[%{WORD:class}\] \[%{WORD:originator} %{IP:clientip}\] %{GREEDYDATA:errmsg}" } patterns_dir => ["/etc/logstash/grok"] } date { locale => "en" match => [ "syslog_timestamp", "MMM d HH:mm:ss", "MMM dd HH:mm:ss" ] } } }
+    filter {
+     if [program] == "apache-access" { grok { match => { "message" => "%{COMBINEDAPACHELOG}" } } }
+     if [program] == "apache-error" {
+      grok {
+        match => { "message" => "\[%{HTTPERRORDATE:timestamp}\] \[%{WORD:class}\] \[%{WORD:originator} %{IP:clientip}\] %{GREEDYDATA:errmsg}" }
+        patterns_dir => ["/etc/logstash/grok"]
+      }
+      date {
+        locale => "en"
+        match => [ "syslog_timestamp", "MMM d HH:mm:ss", "MMM dd HH:mm:ss" ]
+      }
+     }
+    }
 
 Dans ce filtre, on ne s’occupe que des logs des serveurs apache. Le filtre est fait sur le champ « program » des logs reçus, ce champ est positionné par le rsyslog qui envoie ces logs.
 
@@ -140,7 +179,18 @@ Les valeurs des « InputFileStateFile » doivent être uniques dans la configu
 
 ##### Fichier 12-filter_esxi.conf
 
-filter { if [type] == "esxi" and [path] != "/data/syslog/172.16.17.51/for.log" { grok { pattern => ['(?:%{SYSLOGTIMESTAMP:timestamp}|%{TIMESTAMP_ISO8601:timestamp8601}) (?:%{SYSLOGHOST:logsource}) (?:%{SYSLOGPROG}): (?<messagebody>(?:\[(?<esxi_thread_id>[0-9A-Z]{8,8}) %{DATA:esxi_loglevel} \'%{DATA:esxi_service}\'\] %{GREEDYDATA:esxi_message}|%{GREEDYDATA}))'] type => "esxi" } } else if [type] == "esxi" and [path] == "/data/syslog/172.16.17.51/for.log" { grok { pattern => ['(?:%{SYSLOGTIMESTAMP:timestamp}|%{TIMESTAMP_ISO8601:timestamp8601}) (?:%{DATA:vmware_bullshit}?,) (?:%{SYSLOGHOST:logsource}) (?:%{SYSLOGPROG}): (?<messagebody>(?:\[(?<esxi_thread_id>[0-9A-Z]{8,8}) %{DATA:esxi_loglevel} \'%{DATA:esxi_service}\'\] %{GREEDYDATA:esxi_message}|%{GREEDYDATA}))'] type => "esxi" } } }
+    filter {
+       if [type] == "esxi" and [path] != "/data/syslog/172.16.17.51/for.log" {
+          grok {
+            pattern => ['(?:%{SYSLOGTIMESTAMP:timestamp}|%{TIMESTAMP_ISO8601:timestamp8601}) (?:%{SYSLOGHOST:logsource}) (?:%{SYSLOGPROG}): (?<messagebody>(?:\[(?<esxi_thread_id>[0-9A-Z]{8,8}) %{DATA:esxi_loglevel} \'%{DATA:esxi_service}\'\] %{GREEDYDATA:esxi_message}|%{GREEDYDATA}))']
+          type => "esxi" }
+       } else if [type] == "esxi" and [path] == "/data/syslog/172.16.17.51/for.log" {
+          grok {
+             pattern => ['(?:%{SYSLOGTIMESTAMP:timestamp}|%{TIMESTAMP_ISO8601:timestamp8601}) (?:%{DATA:vmware_bullshit}?,) (?:%{SYSLOGHOST:logsource}) (?:%{SYSLOGPROG}): (?<messagebody>(?:\[(?<esxi_thread_id>[0-9A-Z]{8,8}) %{DATA:esxi_loglevel} \'%{DATA:esxi_service}\'\] %{GREEDYDATA:esxi_message}|%{GREEDYDATA}))']
+             type => "esxi"
+          }
+       }
+    }
 
  
 
@@ -154,7 +204,43 @@ Pour traiter ces lgos là, je filtre sur le type qui doit être égal à « esx
 
 ##### Fichier 13-filter_mysql_slow_queries.conf
 
-filter { if [program] == "mysql-slow-queries" and [type] == "syslog" { mutate { replace => [ "type", "lumberjack_multiline" ] } multiline { pattern => "^# User@Host:" negate => true what => previous } } if [program] == "mysql-slow-queries" and [type] == "lumberjack_multiline" { # Capture user, optional host and optional ip fields # sample log file lines: # User@Host: logstash[logstash] @ localhost [127.0.0.1] # User@Host: logstash[logstash] @ [127.0.0.1] grok { match => [ "message", "^# User@Host: %{USER:user}(?:\[[^\]]+\])?\s+@\s+%{HOST:host}?\s+\[%{IP:ip}?\]" ] } # Capture query time, lock time, rows returned and rows examined # sample log file lines: # Query_time: 102.413328 Lock_time: 0.000167 Rows_sent: 0 Rows_examined: 1970 # Query_time: 1.113464 Lock_time: 0.000128 Rows_sent: 1 Rows_examined: 0 grok { match => [ "message", "^# Query_time: %{NUMBER:duration:float}\s+Lock_time: %{NUMBER:lock_wait:float} Rows_sent: %{NUMBER:results:int} \s*Rows_examined: %{NUMBER:scanned:int}"] } # Capture the time the query happened grok { match => [ "message", "^SET timestamp=%{NUMBER:timestamp};" ] } # Extract the time based on the time of the query and # not the time the item got logged date { match => [ "timestamp", "UNIX" ] } # Drop the captured timestamp field since it has been moved to the # time of the event mutate { remove_field => "timestamp" } } }
+    filter {
+       if [program] == "mysql-slow-queries" and [type] == "syslog" {
+          mutate {
+            replace => [ "type", "lumberjack_multiline" ]
+          }
+          multiline {
+            pattern => "^# User@Host:" negate => true what => previous
+          }
+      }
+      if [program] == "mysql-slow-queries" and [type] == "lumberjack_multiline" {
+        # Capture user, optional host and optional ip fields
+        # sample log file lines:
+        # User@Host: logstash[logstash] @ localhost [127.0.0.1]
+        # User@Host: logstash[logstash] @ [127.0.0.1]
+        grok {
+          match => [ "message", "^# User@Host: %{USER:user}(?:\[[^\]]+\])?\s+@\s+%{HOST:host}?\s+\[%{IP:ip}?\]" ]
+        }
+        # Capture query time, lock time, rows returned and rows examined
+        # sample log file lines:
+        # Query_time: 102.413328 Lock_time: 0.000167 Rows_sent: 0 Rows_examined: 1970
+        # Query_time: 1.113464 Lock_time: 0.000128 Rows_sent: 1 Rows_examined: 0
+        grok {
+          match => [ "message", "^
+          # Query_time:
+          %{NUMBER:duration:float}\s+Lock_time: %{NUMBER:lock_wait:float} Rows_sent: %{NUMBER:results:int} \s*Rows_examined: %{NUMBER:scanned:int}"]
+        }
+        # Capture the time the query happened
+        grok {
+          match => [ "message", "^SET timestamp=%{NUMBER:timestamp};" ] }
+           # Extract the time based on the time of the query and
+          # not the time the item got logged
+          date {
+            match => [ "timestamp", "UNIX" ] }
+            # Drop the captured timestamp field since it has been moved to the # time of the event
+            mutate { remove_field => "timestamp" }
+          }
+        }
 
  
 
@@ -180,7 +266,7 @@ Elles sont documentées dans le fichier « 31-to_graylog2.conf ».
 
  
 
-output { if [program] == "apache-access" { gelf { level => ["%{syslog_severity}"] host => "127.0.0.1" port => "12211" sender => "%{logsource}" short_message => "%{message}" full_message => "%{syslog_full}" ship_metadata => true ship_tags => true ignore_metadata => [ "type", "syslog_pri", "syslog_timestamp", "syslog_hostname", "syslog_message", "syslog_severity", "syslog_severity_code", "syslog_facility_code", "syslog_full" ] } } else if [program] == "apache-error" { gelf { level => ["%{class}","ERROR"] host => "127.0.0.1" port => "12211" sender => "%{logsource}" short_message => "%{message}" full_message => "%{errmsg}" ship_metadata => true ship_tags => true ignore_metadata => [ "type", "syslog_pri", "syslog_timestamp", "syslog_hostname", "syslog_message", "syslog_severity", "syslog_severity_code", "syslog_facility_code", "syslog_full" ] } } else { gelf { level => ["%{syslog_severity}","%{esxi_loglevel}","UNKNOWN"] host => "127.0.0.1" port => "12211" sender => "%{logsource}" short_message => "%{message}" full_message => "%{syslog_full}" ship_metadata => true ship_tags => true } } }
+    output { if [program] == "apache-access" { gelf { level => ["%{syslog_severity}"] host => "127.0.0.1" port => "12211" sender => "%{logsource}" short_message => "%{message}" full_message => "%{syslog_full}" ship_metadata => true ship_tags => true ignore_metadata => [ "type", "syslog_pri", "syslog_timestamp", "syslog_hostname", "syslog_message", "syslog_severity", "syslog_severity_code", "syslog_facility_code", "syslog_full" ] } } else if [program] == "apache-error" { gelf { level => ["%{class}","ERROR"] host => "127.0.0.1" port => "12211" sender => "%{logsource}" short_message => "%{message}" full_message => "%{errmsg}" ship_metadata => true ship_tags => true ignore_metadata => [ "type", "syslog_pri", "syslog_timestamp", "syslog_hostname", "syslog_message", "syslog_severity", "syslog_severity_code", "syslog_facility_code", "syslog_full" ] } } else { gelf { level => ["%{syslog_severity}","%{esxi_loglevel}","UNKNOWN"] host => "127.0.0.1" port => "12211" sender => "%{logsource}" short_message => "%{message}" full_message => "%{syslog_full}" ship_metadata => true ship_tags => true } } }
 
 Toutes ces sorties envoient les logs vers le serveur Graylog2. En fonction des différentes sources, les variables sources des champs envoyés varient car en fonction des pattern, les noms ne sont pas forcément les mêmes, surtout pour les « level » et « sender ».
 
@@ -194,8 +280,6 @@ Toutes ces sorties envoient les logs vers le serveur Graylog2. En fonction des d
 
 ##### Fichier de patterns
 
-[root@sl-0-syslogint1 ~]# cat /etc/logstash/grok/grok.conf HTTPERRORDATE %{DAY} %{MONTH} %{MONTHDAY} %{TIME} %{YEAR} APACHEERRORLOG %{SYSLOGTIMESTAMP:mytimestamp} %{SYSLOGHOST:syslog_hostname} %{DATA:syslog_program} \[%{HTTPERRORDATE:timestamp}\] \[%{WORD:severity}\] \[client %{IPORHOST:clientip}\] %{GREEDYDATA:message_remainder} USERNAME [a-zA-Z0-9._-]+ USER %{USERNAME} INT (?:[+-]?(?:[0-9]+)) BASE10NUM (?<![0-9.+-])(?>[+-]?(?:(?:[0-9]+(?:\.[0-9]+)?)|(?:\.[0-9]+))) NUMBER (?:%{BASE10NUM}) BASE16NUM (?<![0-9A-Fa-f])(?:[+-]?(?:0x)?(?:[0-9A-Fa-f]+)) BASE16FLOAT \b(?<![0-9A-Fa-f.])(?:[+-]?(?:0x)?(?:(?:[0-9A-Fa-f]+(?:\.[0-9A-Fa-f]*)?)|(?:\.[0-9A-Fa-f]+)))\b POSINT \b(?:[1-9][0-9]*)\b NONNEGINT \b(?:[0-9]+)\b WORD \b\w+\b NOTSPACE \S+ SPACE \s* DATA .*? GREEDYDATA .* QUOTEDSTRING (?>(?<!\\)(?>"(?>\\.|[^\\"]+)+"|""|(?>'(?>\\.|[^\\']+)+')|''|(?>`(?>\\.|[^\\`]+)+`)|``)) UUID [A-Fa-f0-9]{8}-(?:[A-Fa-f0-9]{4}-){3}[A-Fa-f0-9]{12} # Networking MAC (?:%{CISCOMAC}|%{WINDOWSMAC}|%{COMMONMAC}) CISCOMAC (?:(?:[A-Fa-f0-9]{4}\.){2}[A-Fa-f0-9]{4}) WINDOWSMAC (?:(?:[A-Fa-f0-9]{2}-){5}[A-Fa-f0-9]{2}) COMMONMAC (?:(?:[A-Fa-f0-9]{2}:){5}[A-Fa-f0-9]{2}) IPV6 ((([0-9A-Fa-f]{1,4}:){7}([0-9A-Fa-f]{1,4}|:))|(([0-9A-Fa-f]{1,4}:){6}(:[0-9A-Fa-f]{1,4}|((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3})|:))|(([0-9A-Fa-f]{1,4}:){5}(((:[0-9A-Fa-f]{1,4}){1,2})|:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3})|:))|(([0-9A-Fa-f]{1,4}:){4}(((:[0-9A-Fa-f]{1,4}){1,3})|((:[0-9A-Fa-f]{1,4})?:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){3}(((:[0-9A-Fa-f]{1,4}){1,4})|((:[0-9A-Fa-f]{1,4}){0,2}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){2}(((:[0-9A-Fa-f]{1,4}){1,5})|((:[0-9A-Fa-f]{1,4}){0,3}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){1}(((:[0-9A-Fa-f]{1,4}){1,6})|((:[0-9A-Fa-f]{1,4}){0,4}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(:(((:[0-9A-Fa-f]{1,4}){1,7})|((:[0-9A-Fa-f]{1,4}){0,5}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:)))(%.+)? IPV4 (?<![0-9])(?:(?:25[0-5]|2[0-4][0-9]|[0-1]?[0-9]{1,2})[.](?:25[0-5]|2[0-4][0-9]|[0-1]?[0-9]{1,2})[.](?:25[0-5]|2[0-4][0-9]|[0-1]?[0-9]{1,2})[.](?:25[0-5]|2[0-4][0-9]|[0-1]?[0-9]{1,2}))(?![0-9]) IP (?:%{IPV6}|%{IPV4}) HOSTNAME \b(?:[0-9A-Za-z][0-9A-Za-z-]{0,62})(?:\.(?:[0-9A-Za-z][0-9A-Za-z-]{0,62}))*(\.?|\b) HOST %{HOSTNAME} IPORHOST (?:%{HOSTNAME}|%{IP}) HOSTPORT %{IPORHOST}:%{POSINT} # paths PATH (?:%{UNIXPATH}|%{WINPATH}) UNIXPATH (?>/(?>[\w_%!$@:.,~-]+|\\.)*)+ TTY (?:/dev/(pts|tty([pq])?)(\w+)?/?(?:[0-9]+)) WINPATH (?>[A-Za-z]+:|\\)(?:\\[^\\?*]*)+ URIPROTO [A-Za-z]+(\+[A-Za-z+]+)? URIHOST %{IPORHOST}(?::%{POSINT:port})? # uripath comes loosely from RFC1738, but mostly from what Firefox # doesn't turn into %XX URIPATH (?:/[A-Za-z0-9$.+!*'(){},~:;=@#%_\-]*)+ #URIPARAM \?(?:[A-Za-z0-9]+(?:=(?:[^&]*))?(?:&(?:[A-Za-z0-9]+(?:=(?:[^&]*))?)?)*)? URIPARAM \?[A-Za-z0-9$.+!*'|(){},~@#%&/=:;_?\-\[\]]* URIPATHPARAM %{URIPATH}(?:%{URIPARAM})? URI %{URIPROTO}://(?:%{USER}(?::[^@]*)?@)?(?:%{URIHOST})?(?:%{URIPATHPARAM})? # Months: January, Feb, 3, 03, 12, December MONTH \b(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\b MONTHNUM (?:0?[1-9]|1[0-2]) MONTHNUM2 (?:0[1-9]|1[0-2]) MONTHDAY (?:(?:0[1-9])|(?:[12][0-9])|(?:3[01])|[1-9]) # Days: Monday, Tue, Thu, etc... DAY (?:Mon(?:day)?|Tue(?:sday)?|Wed(?:nesday)?|Thu(?:rsday)?|Fri(?:day)?|Sat(?:urday)?|Sun(?:day)?) # Years? YEAR (?>\d\d){1,2} HOUR (?:2[0123]|[01]?[0-9]) MINUTE (?:[0-5][0-9]) # '60' is a leap second in most time standards and thus is valid. SECOND (?:(?:[0-5]?[0-9]|60)(?:[:.,][0-9]+)?) TIME (?!<[0-9])%{HOUR}:%{MINUTE}(?::%{SECOND})(?![0-9]) # datestamp is YYYY/MM/DD-HH:MM:SS.UUUU (or something like it) DATE_US %{MONTHNUM}[/-]%{MONTHDAY}[/-]%{YEAR} DATE_EU %{MONTHDAY}[./-]%{MONTHNUM}[./-]%{YEAR} ISO8601_TIMEZONE (?:Z|[+-]%{HOUR}(?::?%{MINUTE})) ISO8601_SECOND (?:%{SECOND}|60) TIMESTAMP_ISO8601 %{YEAR}-%{MONTHNUM}-%{MONTHDAY}[T ]%{HOUR}:?%{MINUTE}(?::?%{SECOND})?%{ISO8601_TIMEZONE}? DATE %{DATE_US}|%{DATE_EU} DATESTAMP %{DATE}[- ]%{TIME} TZ (?:[PMCE][SD]T|UTC) DATESTAMP_RFC822 %{DAY} %{MONTH} %{MONTHDAY} %{YEAR} %{TIME} %{TZ} DATESTAMP_RFC2822 %{DAY}, %{MONTHDAY} %{MONTH} %{YEAR} %{TIME} %{ISO8601_TIMEZONE} DATESTAMP_OTHER %{DAY} %{MONTH} %{MONTHDAY} %{TIME} %{TZ} %{YEAR} DATESTAMP_EVENTLOG %{YEAR}%{MONTHNUM2}%{MONTHDAY}%{HOUR}%{MINUTE}%{SECOND} # Syslog Dates: Month Day HH:MM:SS SYSLOGTIMESTAMP %{MONTH} +%{MONTHDAY} %{TIME} PROG (?:[\w._/%-]+) SYSLOGPROG %{PROG:program}(?:\[%{POSINT:pid}\])? SYSLOGHOST %{IPORHOST} SYSLOGFACILITY <%{NONNEGINT:facility}.%{NONNEGINT:priority}> HTTPERRORDATE %{DAY} %{MONTH} %{MONTHDAY} %{TIME} %{YEAR} HTTPDATE %{MONTHDAY}/%{MONTH}/%{YEAR}:%{TIME} %{INT} # Shortcuts QS %{QUOTEDSTRING} # Log formats SYSLOGBASE %{SYSLOGTIMESTAMP:timestamp} (?:%{SYSLOGFACILITY} )?%{SYSLOGHOST:logsource} %{SYSLOGPROG}: COMMONAPACHELOG %{IPORHOST:clientip} %{USER:ident} %{NOTSPACE:auth} \[%{HTTPDATE:timestamp}\] "(?:%{WORD:verb} %{NOTSPACE:request}(?: HTTP/%{NUMBER:httpversion})?|%{DATA:rawrequest})" %{NUMBER:response} (?:%{NUMBER:bytes}|-) COMBINEDAPACHELOG %{COMMONAPACHELOG} %{QS:referrer} %{QS:agent} # Log Levels LOGLEVEL ([Aa]lert|ALERT|[Tt]race|TRACE|[Dd]ebug|DEBUG|[Nn]otice|NOTICE|[Ii]nfo|INFO|[Ww]arn?(?:ing)?|WARN?(?:ING)?|[Ee]rr?(?:or)?|ERR?(?:OR)?|[Cc]rit?(?:ical)?|CRIT?(?:ICAL)?|[Ff]atal|FATAL|[Ss]evere|SEVERE|EMERG(?:ENCY)?|[Ee]merg(?:ency)?)
+    [root@sl-0-syslogint1 ~]# cat /etc/logstash/grok/grok.conf HTTPERRORDATE %{DAY} %{MONTH} %{MONTHDAY} %{TIME} %{YEAR} APACHEERRORLOG %{SYSLOGTIMESTAMP:mytimestamp} %{SYSLOGHOST:syslog_hostname} %{DATA:syslog_program} \[%{HTTPERRORDATE:timestamp}\] \[%{WORD:severity}\] \[client %{IPORHOST:clientip}\] %{GREEDYDATA:message_remainder} USERNAME [a-zA-Z0-9._-]+ USER %{USERNAME} INT (?:[+-]?(?:[0-9]+)) BASE10NUM (?<![0-9.+-])(?>[+-]?(?:(?:[0-9]+(?:\.[0-9]+)?)|(?:\.[0-9]+))) NUMBER (?:%{BASE10NUM}) BASE16NUM (?<![0-9A-Fa-f])(?:[+-]?(?:0x)?(?:[0-9A-Fa-f]+)) BASE16FLOAT \b(?<![0-9A-Fa-f.])(?:[+-]?(?:0x)?(?:(?:[0-9A-Fa-f]+(?:\.[0-9A-Fa-f]*)?)|(?:\.[0-9A-Fa-f]+)))\b POSINT \b(?:[1-9][0-9]*)\b NONNEGINT \b(?:[0-9]+)\b WORD \b\w+\b NOTSPACE \S+ SPACE \s* DATA .*? GREEDYDATA .* QUOTEDSTRING (?>(?<!\\)(?>"(?>\\.|[^\\"]+)+"|""|(?>'(?>\\.|[^\\']+)+')|''|(?>`(?>\\.|[^\\`]+)+`)|``)) UUID [A-Fa-f0-9]{8}-(?:[A-Fa-f0-9]{4}-){3}[A-Fa-f0-9]{12} # Networking MAC (?:%{CISCOMAC}|%{WINDOWSMAC}|%{COMMONMAC}) CISCOMAC (?:(?:[A-Fa-f0-9]{4}\.){2}[A-Fa-f0-9]{4}) WINDOWSMAC (?:(?:[A-Fa-f0-9]{2}-){5}[A-Fa-f0-9]{2}) COMMONMAC (?:(?:[A-Fa-f0-9]{2}:){5}[A-Fa-f0-9]{2}) IPV6 ((([0-9A-Fa-f]{1,4}:){7}([0-9A-Fa-f]{1,4}|:))|(([0-9A-Fa-f]{1,4}:){6}(:[0-9A-Fa-f]{1,4}|((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3})|:))|(([0-9A-Fa-f]{1,4}:){5}(((:[0-9A-Fa-f]{1,4}){1,2})|:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3})|:))|(([0-9A-Fa-f]{1,4}:){4}(((:[0-9A-Fa-f]{1,4}){1,3})|((:[0-9A-Fa-f]{1,4})?:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){3}(((:[0-9A-Fa-f]{1,4}){1,4})|((:[0-9A-Fa-f]{1,4}){0,2}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){2}(((:[0-9A-Fa-f]{1,4}){1,5})|((:[0-9A-Fa-f]{1,4}){0,3}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){1}(((:[0-9A-Fa-f]{1,4}){1,6})|((:[0-9A-Fa-f]{1,4}){0,4}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(:(((:[0-9A-Fa-f]{1,4}){1,7})|((:[0-9A-Fa-f]{1,4}){0,5}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:)))(%.+)? IPV4 (?<![0-9])(?:(?:25[0-5]|2[0-4][0-9]|[0-1]?[0-9]{1,2})[.](?:25[0-5]|2[0-4][0-9]|[0-1]?[0-9]{1,2})[.](?:25[0-5]|2[0-4][0-9]|[0-1]?[0-9]{1,2})[.](?:25[0-5]|2[0-4][0-9]|[0-1]?[0-9]{1,2}))(?![0-9]) IP (?:%{IPV6}|%{IPV4}) HOSTNAME \b(?:[0-9A-Za-z][0-9A-Za-z-]{0,62})(?:\.(?:[0-9A-Za-z][0-9A-Za-z-]{0,62}))*(\.?|\b) HOST %{HOSTNAME} IPORHOST (?:%{HOSTNAME}|%{IP}) HOSTPORT %{IPORHOST}:%{POSINT} # paths PATH (?:%{UNIXPATH}|%{WINPATH}) UNIXPATH (?>/(?>[\w_%!$@:.,~-]+|\\.)*)+ TTY (?:/dev/(pts|tty([pq])?)(\w+)?/?(?:[0-9]+)) WINPATH (?>[A-Za-z]+:|\\)(?:\\[^\\?*]*)+ URIPROTO [A-Za-z]+(\+[A-Za-z+]+)? URIHOST %{IPORHOST}(?::%{POSINT:port})? # uripath comes loosely from RFC1738, but mostly from what Firefox # doesn't turn into %XX URIPATH (?:/[A-Za-z0-9$.+!*'(){},~:;=@#%_\-]*)+ #URIPARAM \?(?:[A-Za-z0-9]+(?:=(?:[^&]*))?(?:&(?:[A-Za-z0-9]+(?:=(?:[^&]*))?)?)*)? URIPARAM \?[A-Za-z0-9$.+!*'|(){},~@#%&/=:;_?\-\[\]]* URIPATHPARAM %{URIPATH}(?:%{URIPARAM})? URI %{URIPROTO}://(?:%{USER}(?::[^@]*)?@)?(?:%{URIHOST})?(?:%{URIPATHPARAM})? # Months: January, Feb, 3, 03, 12, December MONTH \b(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\b MONTHNUM (?:0?[1-9]|1[0-2]) MONTHNUM2 (?:0[1-9]|1[0-2]) MONTHDAY (?:(?:0[1-9])|(?:[12][0-9])|(?:3[01])|[1-9]) # Days: Monday, Tue, Thu, etc... DAY (?:Mon(?:day)?|Tue(?:sday)?|Wed(?:nesday)?|Thu(?:rsday)?|Fri(?:day)?|Sat(?:urday)?|Sun(?:day)?) # Years? YEAR (?>\d\d){1,2} HOUR (?:2[0123]|[01]?[0-9]) MINUTE (?:[0-5][0-9]) # '60' is a leap second in most time standards and thus is valid. SECOND (?:(?:[0-5]?[0-9]|60)(?:[:.,][0-9]+)?) TIME (?!<[0-9])%{HOUR}:%{MINUTE}(?::%{SECOND})(?![0-9]) # datestamp is YYYY/MM/DD-HH:MM:SS.UUUU (or something like it) DATE_US %{MONTHNUM}[/-]%{MONTHDAY}[/-]%{YEAR} DATE_EU %{MONTHDAY}[./-]%{MONTHNUM}[./-]%{YEAR} ISO8601_TIMEZONE (?:Z|[+-]%{HOUR}(?::?%{MINUTE})) ISO8601_SECOND (?:%{SECOND}|60) TIMESTAMP_ISO8601 %{YEAR}-%{MONTHNUM}-%{MONTHDAY}[T ]%{HOUR}:?%{MINUTE}(?::?%{SECOND})?%{ISO8601_TIMEZONE}? DATE %{DATE_US}|%{DATE_EU} DATESTAMP %{DATE}[- ]%{TIME} TZ (?:[PMCE][SD]T|UTC) DATESTAMP_RFC822 %{DAY} %{MONTH} %{MONTHDAY} %{YEAR} %{TIME} %{TZ} DATESTAMP_RFC2822 %{DAY}, %{MONTHDAY} %{MONTH} %{YEAR} %{TIME} %{ISO8601_TIMEZONE} DATESTAMP_OTHER %{DAY} %{MONTH} %{MONTHDAY} %{TIME} %{TZ} %{YEAR} DATESTAMP_EVENTLOG %{YEAR}%{MONTHNUM2}%{MONTHDAY}%{HOUR}%{MINUTE}%{SECOND} # Syslog Dates: Month Day HH:MM:SS SYSLOGTIMESTAMP %{MONTH} +%{MONTHDAY} %{TIME} PROG (?:[\w._/%-]+) SYSLOGPROG %{PROG:program}(?:\[%{POSINT:pid}\])? SYSLOGHOST %{IPORHOST} SYSLOGFACILITY <%{NONNEGINT:facility}.%{NONNEGINT:priority}> HTTPERRORDATE %{DAY} %{MONTH} %{MONTHDAY} %{TIME} %{YEAR} HTTPDATE %{MONTHDAY}/%{MONTH}/%{YEAR}:%{TIME} %{INT} # Shortcuts QS %{QUOTEDSTRING} # Log formats SYSLOGBASE %{SYSLOGTIMESTAMP:timestamp} (?:%{SYSLOGFACILITY} )?%{SYSLOGHOST:logsource} %{SYSLOGPROG}: COMMONAPACHELOG %{IPORHOST:clientip} %{USER:ident} %{NOTSPACE:auth} \[%{HTTPDATE:timestamp}\] "(?:%{WORD:verb} %{NOTSPACE:request}(?: HTTP/%{NUMBER:httpversion})?|%{DATA:rawrequest})" %{NUMBER:response} (?:%{NUMBER:bytes}|-) COMBINEDAPACHELOG %{COMMONAPACHELOG} %{QS:referrer} %{QS:agent} # Log Levels LOGLEVEL ([Aa]lert|ALERT|[Tt]race|TRACE|[Dd]ebug|DEBUG|[Nn]otice|NOTICE|[Ii]nfo|INFO|[Ww]arn?(?:ing)?|WARN?(?:ING)?|[Ee]rr?(?:or)?|ERR?(?:OR)?|[Cc]rit?(?:ical)?|CRIT?(?:ICAL)?|[Ff]atal|FATAL|[Ss]evere|SEVERE|EMERG(?:ENCY)?|[Ee]merg(?:ency)?)
 
  
-
-

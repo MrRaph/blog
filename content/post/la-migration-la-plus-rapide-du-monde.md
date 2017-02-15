@@ -23,8 +23,7 @@ J’ai fait, par acquis de conscience, un backup de mes bases MySQL avant la mig
 
 Voici les commandes qui permettent la migration.
 
-root@xxxxxx:~# service mysql stop mysql stop/waiting root@xxxxxx:~# aptitude install mariadb-server
+    root@xxxxxx:~# service mysql stop mysql stop/waiting
+    root@xxxxxx:~# aptitude install mariadb-server
 
 Et voilà, MariaDB démarre et la migration est faite !
-
-

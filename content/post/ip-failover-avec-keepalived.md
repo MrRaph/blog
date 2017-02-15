@@ -21,7 +21,7 @@ Voici donc l’infrastructure cible. Deux serveurs avec chacun une IP et une vIP
 
 ## Installation de KeepAlived
 
-yum -y install keepalived chkconfig --add keepalived chkconfig --level 2345 keepalived on cp /etc/keepalived/keepalived.conf{,.ori}
+    yum -y install keepalived chkconfig --add keepalived chkconfig --level 2345 keepalived on cp /etc/keepalived/keepalived.conf{,.ori}
 
 Ce n’est pas plus compliqué que ça, on en profite pour faire un backup du fichier de configuration original.
 
@@ -30,11 +30,30 @@ Ce n’est pas plus compliqué que ça, on en profite pour faire un backup du fi
 
  
 
-vi /etc/keepalived/keepalived.conf
+    vi /etc/keepalived/keepalived.conf
 
 Voici le fichier de configuration type pour du failover IP.
 
-! Configuration File for keepalived global_defs { notification_email { acassen@firewall.loc failover@firewall.loc sysadmin@firewall.loc } notification_email_from Alexandre.Cassen@firewall.loc smtp_server 127.0.0.1 smtp_connect_timeout 30 router_id LVS_DEVEL } vrrp_instance VI_1 { state MASTER interface eth0 virtual_router_id 51 priority 100 advert_int 1 authentication { auth_type PASS auth_pass 1111 } virtual_ipaddress { 172.16.17.83/24 dev eth0 } }
+    ! Configuration File for keepalived
+    global_defs {
+      notification_email { acassen@firewall.loc failover@firewall.loc sysadmin@firewall.loc }
+      notification_email_from Alexandre.Cassen@firewall.loc
+      smtp_server 127.0.0.1
+      smtp_connect_timeout 30
+      router_id LVS_DEVEL
+    }
+    vrrp_instance VI_1 {
+       state MASTER
+       interface eth0
+       virtual_router_id 51
+       priority 100
+       advert_int 1
+       authentication {
+          auth_type PASS
+          auth_pass 1111
+       }
+       virtual_ipaddress { 172.16.17.83/24 dev eth0 }
+     }
 
 Les deux seuls modifications a faire sont :
 
@@ -43,16 +62,17 @@ Les deux seuls modifications a faire sont :
 
 On redémarre KeepAlived.
 
-service keepalived restart Arrêt de keepalived : [ OK ] Démarrage de keepalived : [ OK ]
+    service keepalived restart
+    Arrêt de keepalived : [ OK ]
+    Démarrage de keepalived : [ OK ]
 
 Et on vérifie sur le serveur maître que la vIP est bien montée.
 
-# ip addr show eth0 2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP qlen 1000 link/ether 00:50:56:a0:29:8f brd ff:ff:ff:ff:ff:ff inet 172.16.17.82/24 brd 172.16.17.255 scope global eth0 inet 172.16.17.83/24 scope global secondary eth0 inet6 fe80::250:56ff:fea0:298f/64 scope link valid_lft forever preferred_lft forever
+    # ip addr show
+    eth0 2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP qlen 1000 link/ether 00:50:56:a0:29:8f brd ff:ff:ff:ff:ff:ff inet 172.16.17.82/24 brd 172.16.17.255 scope global eth0 inet 172.16.17.83/24 scope global secondary eth0 inet6 fe80::250:56ff:fea0:298f/64 scope link valid_lft forever preferred_lft forever
 
 Et voilà !
 
  
 
  
-
-
