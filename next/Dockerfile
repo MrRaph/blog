@@ -40,7 +40,7 @@ RUN cp -rp /src/public/* /var/www/ && \
     rm -rf /src && \
     chown -R nginx:nginx /var/www && \
     rm /etc/nginx/sites-enabled/default && \
-    DEBIAN_FRONTEND=noninteractive apt-get purge -y python-pygments python git python-pip curl && \
+    DEBIAN_FRONTEND=noninteractive apt-get purge -y python-pygments python git python-pip && \
     rm -rf /var/lib/apt/lists/* && \
     rm /opt/collectd/etc/collectd.conf && \
     rm -rf /tmp/hugo* /src
