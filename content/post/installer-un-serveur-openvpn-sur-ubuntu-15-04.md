@@ -134,7 +134,7 @@ De même pour les fichiers de certificats, vérifiez en fonction des noms qu’o
 
 C’est l’heure de vérité, on redémarre le dament OpenVPN afin qu’il intègre notre nouvelle configuration.
 
-root@xxxx:/etc/openvpn/easy-rsa# service openvpn restart * Stopping virtual private network daemon(s)... * No VPN is running. * Starting virtual private network daemon(s)... * Autostarting VPN 'server'
+    root@xxxx:/etc/openvpn/easy-rsa# service openvpn restart * Stopping virtual private network daemon(s)... * No VPN is running. * Starting virtual private network daemon(s)... * Autostarting VPN 'server'
 
 On peut également vérifier que l’interface « tune » est bien apparue sur le système.
 
