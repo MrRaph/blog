@@ -1,12 +1,10 @@
-# FROM nginx:stable-alpine
 FROM nginx:latest
 
-ENV VERSION=0.18.1 \
+ENV VERSION=0.19 \
     SRC=hugo_${VERSION}_Linux-64bit \
     EXTENSION=tar.gz \
     BINARY=hugo_${VERSION}_linux_amd64/hugo_${VERSION}_linux_amd64
 
-# RUN apk add --no-cache --update py-pygments python py-pip git lua5.2-cjson
 RUN DEBIAN_FRONTEND=noninteractive apt-get purge -y nginx && \
   DEBIAN_FRONTEND=noninteractive apt-get update && \
   DEBIAN_FRONTEND=noninteractive apt-get -y dist-upgrade && \
@@ -20,9 +18,6 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get purge -y nginx && \
   git clone --recursive https://github.com/MrRaph/blog.git /src
 
 WORKDIR /src
-
-RUN git checkout origin/next && \
-    sed -i 's/techan.fr/next.techan.fr/' /src/config.toml
 
 ADD https://github.com/spf13/hugo/releases/download/v${VERSION}/hugo_${VERSION}_Linux-64bit.tar.gz /tmp/
 RUN mkdir -p /tmp/hugo /var/www/blog && \

@@ -1,7 +1,7 @@
 # FROM nginx:stable-alpine
 FROM nginx:latest
 
-ENV VERSION=0.18.1 \
+ENV VERSION=0.19 \
     SRC=hugo_${VERSION}_Linux-64bit \
     EXTENSION=tar.gz \
     BINARY=hugo_${VERSION}_linux_amd64/hugo_${VERSION}_linux_amd64
