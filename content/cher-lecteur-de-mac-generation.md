@@ -5,7 +5,8 @@ description = ""
 slug = "cher-lecteur-de-mac-generation"
 draft = false
 title = "Cher lecteur de Mac Génération"
-
+categories = ["Mac Generation","macg.co"]
+tags = ["Mac Generation","macg.co"]
 +++
 
 
