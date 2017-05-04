@@ -2,7 +2,7 @@
 slug = "utiliser-lambda-et-serverless-pour-creer-un-stopinator-aws-part-I"
 draft = false
 date = "2017-05-04T18:46:12+01:00"
-image = "/images/2017/03/SUSE_Logo.png"
+image = "/images/2017/05/Logo_Lambda_Stopinator.png"
 type = "post"
 description = ""
 title = "Utiliser Lambda et ServerLess pour creer un stopinator AWS - Partie 1"
@@ -59,7 +59,7 @@ Le framework permet également de simplifier grandement les tests de fonctions L
 
 Et bien, cela ressemblera à cela !
 
-![Schéma du Stopinator Lambda](../../static/images/2017/05/Lambda_Stopinator.png)
+![Schéma du Stopinator Lambda](/images/2017/05/Lambda_Stopinator.png)
 
 On voit ici les deux déclencheurs CloudWatch qui vont provoquer l'exécution de la fonction Lambda. On remarque que notre fonction aura besoin de permissions IAM spécifiques pour pouvoir interagir avec les instances EC2. De l'autre côté de la fonction Lambda, on voit qu'elle va interagir avec l'API EC2 et non avec les instances elles mêmes.
 
