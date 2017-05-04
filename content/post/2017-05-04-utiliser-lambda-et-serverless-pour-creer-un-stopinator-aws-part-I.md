@@ -57,4 +57,14 @@ Le framework permet également de simplifier grandement les tests de fonctions L
 
 # Bon, maintenant qu'on connait tout cela, à quoi va ressembler le STOPINATOR ?
 
-![Poids images Docker](/images/2017/05/Lambda_Stopinator.png)
+Et bien, cela ressemblera à cela !
+
+![Schéma du Stopinator Lambda](../../static/images/2017/05/Lambda_Stopinator.png)
+
+On voit ici les deux déclencheurs CloudWatch qui vont provoquer l'exécution de la fonction Lambda. On remarque que notre fonction aura besoin de permissions IAM spécifiques pour pouvoir interagir avec les instances EC2. De l'autre côté de la fonction Lambda, on voit qu'elle va interagir avec l'API EC2 et non avec les instances elles mêmes.
+
+Dans un premier temps, la fonction va filter les instances pour ne cibler que celles qu'elle est chargée d'éteindre ou d'allumer. Puis dans un second temps, elle envoie ses instructions à l'API EC2 pour éteindre ou allumer les instances EC2. Ce sont ces trois actions - décrire, démarrer, éteindre des instances EC2 - qui nécessitent des autorisations IAM.
+
+# La suite au prochain épisode !
+
+Dans la seconde partie, nous verrons comment configurer le framework Server-Less pour notre cas d'usage. Nous créerons également la fonction Lambda qui sera utilisée pour _stopiner_ nos instances.
