@@ -68,3 +68,5 @@ Dans un premier temps, la fonction va filter les instances pour ne cibler que ce
 # La suite au prochain épisode !
 
 Dans la seconde partie, nous verrons comment configurer le framework Server-Less pour notre cas d'usage. Nous créerons également la fonction Lambda qui sera utilisée pour _stopiner_ nos instances.
+
+[>> Suivant](/utiliser-lambda-et-serverless-pour-creer-un-stopinator-aws-part-II)
