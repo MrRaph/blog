@@ -21,3 +21,11 @@ Dans la [partie 1](/utiliser-lambda-et-serverless-pour-creer-un-stopinator-aws-p
 ## Installation
 
 L'installation du framework est relativement simple, elle nécessite toute fois que [Node.js](node.js) soit installé sur votre poste. Ceci n'est pas couvert dans cette suite d'article.
+
+## Configuration
+
+
+## Création du projet
+
+
+# Créons notre fonction Lambda
