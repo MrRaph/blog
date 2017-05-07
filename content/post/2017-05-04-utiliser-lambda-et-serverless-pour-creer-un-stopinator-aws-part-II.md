@@ -77,6 +77,15 @@ Nous voilà maintenant dans le coeur du problème ! Nous allons créer un projet
 
 La création du service, est très simple, elle revient à exécuter la commande suivante.
 
-    serverless create --template aws-nodejs --path lambdaStopinator
+    serverless create --template aws-python --path Stopinator
+
+![Création du service avec Serverless](/images/2017/05/serverles_create_service.png)
+
+Cette commande va créer le dossier "_Stopinator_" ainsi que deux fichiers :
+
+* handler.py
+* serverless.yml
+
+Le premier fichier - `handler.py` - contiendra le code de la fonction Lambda du _stopinator_ et le second - `serverless.yml` - contiendra lui la configuration de cette fonction et tous ses à-côtés. Il faudra en effet configurer l'event _CloudWatch_ qui va déclencher son exécution. Il faudra également qu'il contienne les éléments de configuration _IAM_ pour que notre fonction puisse agir sur les instances EC2.
 
 # Créons notre fonction Lambda
