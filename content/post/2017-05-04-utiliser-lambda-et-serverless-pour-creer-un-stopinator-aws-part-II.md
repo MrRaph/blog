@@ -31,13 +31,15 @@ Il est maintenant temps de passer à la configuration du framework.
 
 ## Configuration
 
-La configuration principale de [Serverless](http://www.serverless.com/) est liée à la configuration de la [ligne de commande AWS](https://aws.amazon.com/fr/cli/) - que je vous conseille fortement d'[installer](http://docs.aws.amazon.com/fr_fr/cli/latest/userguide/installing.html). [Serverless](http://www.serverless.com/) va se servir des informations de connexion que vous aurez configuré pour utiliser la ligne de commande AWS](https://aws.amazon.com/fr/cli/).
+La configuration principale de [Serverless](http://www.serverless.com/) est liée à la configuration de la [ligne de commande AWS](https://aws.amazon.com/fr/cli/) - que je vous conseille fortement d'[installer](http://docs.aws.amazon.com/fr_fr/cli/latest/userguide/installing.html). [Serverless](http://www.serverless.com/) va se servir des informations de connexion que vous aurez configuré pour utiliser [la ligne de commande AWS](https://aws.amazon.com/fr/cli/).
 
 Assurez-vous que vous disposez d'une paire _Acces Key_, _Secret Key_ créée depuis la console AWS. Si vous n'en avez pas, [leur création est documentée ici par AWS](http://docs.aws.amazon.com/fr_fr/general/latest/gr/managing-aws-access-keys.html).
 
 Une vidéo expliquant la configuration de informations de connexion pour Serverless est disponible sur la chaine Youtube du projet.
 
+
 {{< youtube HSd9uYj2LJA >}}
+
 
 ### Si vous avez installé la ligne de commande AWS
 
