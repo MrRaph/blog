@@ -10,3 +10,9 @@ author = "MrRaph_"
 categories = ["AWS","Lambda","Trucs et Astuces", "Cloud"]
 tags = ["AWS","Lambda","Trucs et Astuces", "Cloud"]
 +++
+
+# Résumé des épisodes précédents
+
+Dans la [partie 1](/utiliser-lambda-et-serverless-pour-creer-un-stopinator-aws-part-I) nous avons vu les différents composants qui seront utilisés par notre _stopinator_. Nous allons maintenant nous pencher sur les deux éléments clefs de ce projet, l'utilistion du framework [Serverless](http://www.serverless.com/) et la création de notre fonction Lambda.
+
+*Note :* Tous les codes présentés dans cette suite d'articles [sont disponible dans ce dépôt GitHub](https://github.com/MrRaph/article-stopinator).

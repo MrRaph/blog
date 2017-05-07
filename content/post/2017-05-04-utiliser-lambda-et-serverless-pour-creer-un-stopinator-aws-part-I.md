@@ -70,3 +70,5 @@ Dans un premier temps, la fonction va filter les instances pour ne cibler que ce
 Dans la seconde partie, nous verrons comment configurer le framework [Serverless](http://www.serverless.com/) pour notre cas d'usage. Nous créerons également la fonction Lambda qui sera utilisée pour _stopiner_ nos instances.
 
 [>> Suivant](/utiliser-lambda-et-serverless-pour-creer-un-stopinator-aws-part-II)
+
+*Note :* Tous les codes présentés dans cette suite d'articles [sont disponible dans ce dépôt GitHub](https://github.com/MrRaph/article-stopinator).

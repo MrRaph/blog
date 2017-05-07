@@ -1,7 +1,7 @@
 +++
 slug = "utiliser-lambda-et-serverless-pour-creer-un-stopinator-aws-part-II"
-draft = true
-date = "2017-05-04T18:46:12+01:00"
+draft = false
+date = "2017-05-07T21:17:12+01:00"
 image = "/images/2017/05/Logo_Lambda_Stopinator_2.png"
 type = "post"
 description = ""
@@ -15,6 +15,7 @@ tags = ["AWS","Lambda","Trucs et Astuces", "Cloud"]
 
 Dans la [partie 1](/utiliser-lambda-et-serverless-pour-creer-un-stopinator-aws-part-I) nous avons vu les différents composants qui seront utilisés par notre _stopinator_. Nous allons maintenant nous pencher sur les deux éléments clefs de ce projet, l'utilistion du framework [Serverless](http://www.serverless.com/) et la création de notre fonction Lambda.
 
+*Note :* Tous les codes présentés dans cette suite d'articles [sont disponible dans ce dépôt GitHub](https://github.com/MrRaph/article-stopinator).
 
 # Le framework [Serverless](http://www.serverless.com/)
 
@@ -89,3 +90,39 @@ Cette commande va créer le dossier "_Stopinator_" ainsi que deux fichiers :
 Le premier fichier - `handler.py` - contiendra le code de la fonction Lambda du _stopinator_ et le second - `serverless.yml` - contiendra lui la configuration de cette fonction et tous ses à-côtés. Il faudra en effet configurer l'event _CloudWatch_ qui va déclencher son exécution. Il faudra également qu'il contienne les éléments de configuration _IAM_ pour que notre fonction puisse agir sur les instances EC2.
 
 # Créons notre fonction Lambda
+
+_*Note :*_ _[Le code complet de la fonction est disponible ici](https://raw.githubusercontent.com/MrRaph/article-stopinator/master/handler.py)._
+
+Le coeur de notre fonction Lambda va se situer dans le fichier `handler.py`. Nous allons remplacer la fonction existante dans ce fichier, la fonction `hello` qui s'y trouve a été créée par le framework Serverless lors de la création du service. Nous allons donc remplacer cette fonction `hello`par le code suivant.
+
+    def doStop(event, context):
+
+        response = "doStop"
+
+        for instance in filterInstances(event['ENV'], 'running'):
+            instance.stop()
+
+        return response
+
+Cette fonction prend deux paramètres - `event` et `context` - par défaut pour les fonctions Lambda. Elle appelle ensuite la fonction `filterInstances` à laquelle elle passe un paramètre `ENV` qu'elle a elle même reçue via les paramètres de la fonction Lambda et un paramètre contenant l'état souhaiter des instances à traiter. Dans ce cas, les instances sur lesquelles nous souhaitons agir sont celles qui sont en cours d'exécution, nous passons donc l'état `running`. Puis elle boucle sur chaque instance retournée par cette dernière fonction et stoppe l'instance concernée.
+
+Nous allons également ajouter le code de la fonction `filterInstances` à la fin du fichier `handler.py`.
+
+
+    def filterInstances(env, state):
+        filters = [
+                {'Name':'tag:Environment', 'Values':[ env ]},
+                {'Name': 'instance-state-name', 'Values': [ state ]}
+            ]
+        allInstances = ec2.instances.filter(Filters=filters)
+
+        return allInstances
+
+Cette fonction va filtrer les instances en fonction de leur environnement et de leur état actuel puis retourner cette liste d'instance.
+
+# La suite au prochain épisode !
+
+ Maintenant nous avons configuré le framework Serverless, nous avons créé notre fonction Lambda, bref, nous sommes prêt à _stopiner_ !! Dans la troisième partie, nous mettrons le tout en musique !
+
+
+*Note :* Tous les codes présentés dans cette suite d'articles [sont disponible dans ce dépôt GitHub](https://github.com/MrRaph/article-stopinator).
