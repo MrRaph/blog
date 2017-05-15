@@ -1,7 +1,7 @@
 +++
 slug = "utiliser-lambda-et-serverless-pour-creer-un-stopinator-aws-part-I"
 draft = false
-date = "2017-05-04T18:46:12 01:00"
+date = "2017-05-04T18:46:12+01:00"
 image = "/images/2017/05/Logo_Lambda_Stopinator.png"
 type = "post"
 description = ""
