@@ -1,4 +1,4 @@
-   
++++
 slug = "utiliser-lambda-et-serverless-pour-creer-un-stopinator-aws-part-I"
 draft = false
 date = "2017-05-04T18:46:12 01:00"
@@ -9,7 +9,7 @@ title = "Utiliser Lambda et ServerLess pour creer un stopinator AWS - Partie 1"
 author = "MrRaph_"
 categories = ["AWS","Lambda","Trucs et Astuces", "Cloud"]
 tags = ["AWS","Lambda","Trucs et Astuces", "Cloud"]
-   
++++
 
 # Un stopina...QUOI ?
 
