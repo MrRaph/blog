@@ -64,7 +64,21 @@ Nous allons maintenant configurer les fonctions à proprement parler !
           memorySize: 128 # optional, default is 1024
           timeout: 60 # optional, default is 6
 
-Nous déclarons notre fonction `doStop` le bloc `functions`. Le handler est le "chemin" que Lambda va utiliser pour lancer la fonction, il est constitué du nom du fichier dans lequel la fonction est présente - sans son extension - et du nom de la fonction, le tout séparé par un point. Le paramètre `memorySize` décrit la mémoire maximale dont pourra disposer la fonctioner, il s'agit d'un des éléments définissant le prix que vous allez payer en utilsant cette fonction Lambda. Le paramètre `timeout` quant à lui définit le temps d'exécution maximale de la fonction, il a également un impact sur le prix que vous coûteront les exécutions des fonctions Lambda. Si le `timeout` est dépassé, Lambda met fin à l'exécution de la fonction. Il ne peut pas exéder 300 secondes. 
+Nous déclarons notre fonction `doStop` le bloc `functions`. Le handler est le "chemin" que Lambda va utiliser pour lancer la fonction, il est constitué du nom du fichier dans lequel la fonction est présente - sans son extension - et du nom de la fonction, le tout séparé par un point. Le paramètre `memorySize` décrit la mémoire maximale dont pourra disposer la fonctioner, il s'agit d'un des éléments définissant le prix que vous allez payer en utilsant cette fonction Lambda. Le paramètre `timeout` quant à lui définit le temps d'exécution maximale de la fonction, il a également un impact sur le prix que vous coûteront les exécutions des fonctions Lambda. Si le `timeout` est dépassé, Lambda met fin à l'exécution de la fonction. Il ne peut pas exéder 300 secondes.
+
+Avec ces paramètres, la fonction serait fonctionnelle, mais il nous faut un moyen de l'exécuter tous les soirs, afin d'éteindre les instances que les étourdis ont oubliées ! :p Nous allons pour cela utiliser une fonction de CloudWatch.
+
+      events:
+        - schedule:
+            name: DEVEveningShutDownEC2
+            description: 'Shut down DEV EC2 at 19:50 PM'
+            rate: cron(50 17 ? * 2-6 *) # AWS CloudWatch Events time are in UTC !
+            enabled: true
+            input:
+              ENV: DEV
+
+
+
 
 # Et voilà !
 
