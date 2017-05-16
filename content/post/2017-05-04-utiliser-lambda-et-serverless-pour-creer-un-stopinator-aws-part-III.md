@@ -116,6 +116,14 @@ Il est également possible avec ServerLess d'invoquer sa fonction Lambda depuis 
 
 *Note 2 :* Ceci vous est facturé comme une exécution normale de la fonction étant donné que cette exécution à bel et bien lieux chez AWS. Il est par contre possible de faire des tests exclusivement en local en utilisant la commande `serverless invoke local`.
 
+## Supprimer une projet
+
+ServerLess simplifie également la suppression complète d'un projet de votre compte AWS. Ceci se réalise avec la commande suivante.
+
+    $ serverless remove
+
+![Supprimer le projet avec ServerLess](/images/2017/05/Lambda_Stopinator_Serverless_remove.png)
+
 # Et voilà !
 
 Notre fonction est en place chez AWS et planifiée tous les soirs. La chasse au gaspi peut commencer !
