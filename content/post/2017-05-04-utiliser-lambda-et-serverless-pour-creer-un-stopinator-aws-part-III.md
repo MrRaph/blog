@@ -13,7 +13,7 @@ tags = ["AWS","Lambda","Trucs et Astuces", "Cloud"]
 
 # Résumé des épisodes précédents
 
-Dans la [partie 2](https://techan.fr/utiliser-lambda-et-serverless-pour-creer-un-stopinator-aws-part-ii/i) nous avons configuré le framework ServerLess et nous avons créé notre fonction Lambda. nous allons maintenant voir comment configurer la plateforme Lambda avec le framework Serverless et nous déploierons notre fonction.
+Dans la [partie 2](https://techan.fr/utiliser-lambda-et-serverless-pour-creer-un-stopinator-aws-part-ii/) nous avons configuré le framework ServerLess et nous avons créé notre fonction Lambda. nous allons maintenant voir comment configurer la plateforme Lambda avec le framework Serverless et nous déploierons notre fonction.
 
 *Note :* Tous les codes présentés dans cette suite d'articles [sont disponible dans ce dépôt GitHub](https://github.com/MrRaph/article-stopinator).
 

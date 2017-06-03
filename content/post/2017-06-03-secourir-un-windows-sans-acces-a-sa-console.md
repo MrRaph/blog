@@ -78,3 +78,6 @@ Lorsque vos modifications sont terminées, il faut décharger le `hive` malade d
 Il ne vous reste plus qu'à débrancher proprement le disque malade, le remonter sur le Windows malade et voir si votre modification à porté ses fruits... Et recommencer si celà n'est pas le cas :p
 
 Bonne chance et bon courage !!
+
+
+Voici [quelques clefs de registres bien utiles ...](https://techan.fr/quelques-clefs-de-registre-bien-utiles).
