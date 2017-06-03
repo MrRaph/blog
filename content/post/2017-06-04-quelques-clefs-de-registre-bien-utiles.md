@@ -1,7 +1,7 @@
 +++
 slug = "quelques-clefs-de-registre-bien-utiles"
 draft = false
-date = "2017-06-04T11:46:12+01:00"
+date = "2017-06-03T14:46:12+01:00"
 image = "/images/2017/06/rescue_windows.png"
 type = "post"
 description = ""
