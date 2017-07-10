@@ -17,7 +17,9 @@
             </li>
     {{ end }}
 
-    {{ range .Params.categories }}
-        <li><a href="/categories/{{ . | urlize }}">{{ . }}</a></li>
+    {{ if ge $categoryCount 1 }}
+      {{ range .Params.categories }}
+          <li><a href="/categories/{{ . | urlize }}">{{ . }}</a></li>
+      {{ end }}
     {{ end }}
 </ul>

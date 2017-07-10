@@ -5,6 +5,7 @@ slug = "utiliser-skype-for-business-sur-linux"
 draft = false
 title = "Utiliser Skype for Business sur Linux"
 date = 2016-05-19T09:47:31Z
+categories = ["Linux","Trucs et Astuces","Ubuntu"]
 
 +++
 

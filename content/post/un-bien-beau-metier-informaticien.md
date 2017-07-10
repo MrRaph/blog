@@ -5,28 +5,29 @@ date = 2016-05-24T20:53:17Z
 author = "MrRaph_"
 description = ""
 slug = "un-bien-beau-metier-informaticien"
+categories = ["Divagations"]
 
 +++
 
 
 
-Je suis informaticien et je ne m'en cache pas, vous avez dû le remarquer. Mes domaines d'expertises sont la virtualisation, les bases de données et les systèmes Linux. Ça fait quelques années que je fais ça, je n'utilise plus que Linux et ça me plait ! 
+Je suis informaticien et je ne m'en cache pas, vous avez dû le remarquer. Mes domaines d'expertises sont la virtualisation, les bases de données et les systèmes Linux. Ça fait quelques années que je fais ça, je n'utilise plus que Linux et ça me plait !
 
 Cependant il y a une chose que je ne supporte plus. Plus ennuyeux qu'une mise en production à 3h du matin. Plus pénible qu'un ticket arrivant à 17h un vendredi. Je m'en vais vous compter mon pire cauchemar, oui le pire.
 
 Tout d'abord, plantons les décors. C'est le week-end, vous êtes tranquillement sur votre terrasse lorsque des amis arrivent ...
 
 
-## La phase des banalités 
+## La phase des banalités
 
-Jusque là tout va bien me direz vous, la bière est fraîche, les biscuits apéritifs croustillent, bref, le panard ! La conversation va bon train tant et si bien qu'elle glisse sur le sujet professionnel. Arrive alors le moment où Micheline commence son tour de table avec sa fabuleuse question : 
+Jusque là tout va bien me direz vous, la bière est fraîche, les biscuits apéritifs croustillent, bref, le panard ! La conversation va bon train tant et si bien qu'elle glisse sur le sujet professionnel. Arrive alors le moment où Micheline commence son tour de table avec sa fabuleuse question :
 
 > "Et toi tu es dans quoi ?"
 
-_Le piège est tendu !_ Même si vous avez déjà bien fondu sur votre chaise, vous êtes toujours visible et Micheline ne vous a pas oublié ! 
+_Le piège est tendu !_ Même si vous avez déjà bien fondu sur votre chaise, vous êtes toujours visible et Micheline ne vous a pas oublié !
 
 
-![La phase des banalités](/content/images/2016/05/je_suis---informaticien.png)
+![La phase des banalités](/images/2016/05/je_suis_informaticien.png)
 
 
 > "Je suis ... informaticien ..."
@@ -53,7 +54,7 @@ Le plus drôle c'est que si vous refusez poliment d'aider Mamy Thérèse, vous a
 
 ## La "Solution"
 
-Je dois avouer que depuis quelques temps, j'ai trouvé une solution. Elle s'imposait, mais elle ne me plait pas vraiment. Maintenant je dit que je travaille dans la vente... 
+Je dois avouer que depuis quelques temps, j'ai trouvé une solution. Elle s'imposait, mais elle ne me plait pas vraiment. Maintenant je dit que je travaille dans la vente...
 
 
 

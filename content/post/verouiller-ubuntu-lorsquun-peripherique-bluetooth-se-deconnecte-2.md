@@ -5,6 +5,7 @@ draft = false
 title = "Vérouiller Ubuntu lorsqu'un périphérique Bluetooth se déconnecte"
 date = 2016-05-18T10:03:44Z
 author = "MrRaph_"
+categories = ["Linux","Trucs et Astuces","Ubuntu"]
 
 +++
 

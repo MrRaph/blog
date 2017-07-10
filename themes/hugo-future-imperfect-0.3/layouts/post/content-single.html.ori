@@ -40,7 +40,10 @@
 </div>
 
 {{ if ne .Site.DisqusShortname "" }}
+    {{ if not (in (printf "%#v" .Site.BaseURL) "localhost") }}
         <article class="post">
-            {{ template "_internal/disqus.html" . }}
+            <!-- {{ template "_internal/disqus.html" . }} -->
+            {{ partial "disqus" . }}
         </article>
+    {{ end }}
 {{ end }}
