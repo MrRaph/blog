@@ -6,7 +6,7 @@ MetaDataFormat = "toml"
 paginate = 9 # To specify a multiple of 3
 disqusShortname = "techan" # optional
 copyright = "© 2016 Copyright Text"
-
+uglyurls = true
 
 
 name = "TechAN"
@@ -93,27 +93,27 @@ min_version = 0.15
 
 [[menu.main]]
     name = "Catégories"
-    url = "/categories"
+    url = "/categories/index.html"
     weight = 2
 
 [[menu.main]]
     name = "A Propos"
-    url = "/a-propos"
+    url = "/a-propos/index.html"
     weight = 3
 
 [[menu.main]]
     name = "Docker"
-    url = "/categories/docker/"
+    url = "/categories/docker/index.html"
     weight = 4
 
 [[menu.main]]
     name = "Automatisation"
-    url = "/categories/automatisation/"
+    url = "/categories/automatisation/index.html"
     weight = 5
 
 [[menu.main]]
     name = "Trucs et Astuces"
-    url = "/categories/trucs-et-astuces/"
+    url = "/categories/trucs-et-astuces/index.html"
     weight = 6
 
 # Insert your username and the icon will apear on the page as long as
