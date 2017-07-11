@@ -17,7 +17,7 @@ Un _stopinator_ est un programme permettant d'arrêter - de _stopiner_ :p - des 
 
 Dans le contexte [AWS](https://aws.amazon.com/fr/what-is-aws/) dont je vais parler dans cet article, les choses sont relativement simple car l'API mis à disposition d'Amazon est très bien fournie et permet de faire beaucoup de chose en CLI - ligne de commandes - de plus, les nombreux SDK disponibles sont également très complets. J'utiliserai le SDK Python dans le cadre de cette suite d'article, il s'appelle [Boto3](https://aws.amazon.com/fr/sdk-for-python/).
 
-Il y a plusieurs manières de mettre en place des _stopinators_. On peut, par exemple, utiliser une instance qui sera elle toujours allumée, peut être une passerelle ou autre, et lui ajouter une tâche planifiée qui va aller éteindre d'autres ressources. Dans le cadre de cet article, je vais décrire la mise en place d'un processus un peu plus évolué utilisant une fonction [Lambda](https://aws.amazon.com/fr/lambda/details/).amazon.com/fr/lambda/details/) et des règles [CloudWatch](https://aws.amazon.com/fr/lambda/details/).amazon.com/fr/cloudwatch/details/).
+Il y a plusieurs manières de mettre en place des _stopinators_. On peut, par exemple, utiliser une instance qui sera elle toujours allumée, peut être une passerelle ou autre, et lui ajouter une tâche planifiée qui va aller éteindre d'autres ressources. Dans le cadre de cet article, je vais décrire la mise en place d'un processus un peu plus évolué utilisant une fonction [Lambda](https://aws.amazon.com/fr/lambda/details/) et des règles [CloudWatch](https://aws.amazon.com/fr/cloudwatch/details/).
 
 
 # Heu ... Et Lambda ? Késako ?
