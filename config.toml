@@ -1,5 +1,5 @@
 theme="hugo-future-imperfect-0.3"
-baseurl = "https://techan.fr"
+baseurl = "https://techan.fr/"
 languageCode = "fr-fr"
 title = "TechAN"
 MetaDataFormat = "toml"
@@ -7,7 +7,7 @@ paginate = 9 # To specify a multiple of 3
 disqusShortname = "techan" # optional
 copyright = "© 2016 Copyright Text"
 uglyurls = true
-
+canonifyURLS = true
 
 name = "TechAN"
 description = "Trucs, Astuces et Bidouilles IT"
@@ -50,7 +50,7 @@ min_version = 0.15
   # The set of favicons used are based on the write-up from this link:
   # https://github.com/audreyr/favicon-cheat-sheet
   # Please see the favicon partial template for more information
-  loadFavicon          = false
+  loadFavicon          = true
   faviconVersion = ""
   showCategories = false
   authorAvatar = "/avatars/mrraph.jpeg"
@@ -87,33 +87,33 @@ min_version = 0.15
 # You can use identifier to prepend a font awesome icon to your text
 [[menu.main]]
     name = "Blog"
-    url = "/"
+    url = "/index.html"
     identifier = "fa fa-newspaper-o"
     weight = 1
 
 [[menu.main]]
     name = "Catégories"
-    url = "/categories/index.html"
+    url = "/categories.html"
     weight = 2
 
 [[menu.main]]
     name = "A Propos"
-    url = "/a-propos/index.html"
+    url = "/a-propos.html"
     weight = 3
 
 [[menu.main]]
     name = "Docker"
-    url = "/categories/docker/index.html"
+    url = "/categories/docker.html"
     weight = 4
 
 [[menu.main]]
     name = "Automatisation"
-    url = "/categories/automatisation/index.html"
+    url = "/categories/automatisation.html"
     weight = 5
 
 [[menu.main]]
     name = "Trucs et Astuces"
-    url = "/categories/trucs-et-astuces/index.html"
+    url = "/categories/trucs-et-astuces.html"
     weight = 6
 
 # Insert your username and the icon will apear on the page as long as
@@ -139,8 +139,8 @@ min_version = 0.15
     xing            = ""
     linkedin        = ""
     slideshare      = ""
-    stackoverflow   = ""
-    reddit          = ""
+    stackoverflow   = "7740251"
+    reddit          = "MrRaph_"
     pinterest       = ""
     googleplus      = ""
     facebook        = "TechAldanet"
