@@ -26,9 +26,9 @@
             <script>
             $( document ).ready(function() {
                 $('a').each(function() {
-                    var href = $(this).attr('href');
-                    if (href.endsWith('/') === true) {
-                        $(this).attr('href', href.replace(/\/$/, '.html'))
+                    var str_href = $(this).attr('href');
+                    if (str_href.endsWith('/') === true) {
+                        $(this).attr('href', str_href.replace(/\/$/, '.html'));
                     }
                 });
             });
