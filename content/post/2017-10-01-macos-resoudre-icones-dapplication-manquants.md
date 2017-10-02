@@ -7,8 +7,8 @@ type = "post"
 description = ""
 title = "macOS, résoudre le problème des icônes d'application manquants"
 author = "MrRaph_"
-categories = ["Trucs et Astuces","macOS","SOS", "Trucs et Astuces"]
-tags = ["Trucs et Astuces","macOS","SOS", "Trucs et Astuces"]
+categories = ["Trucs et Astuces","macOS","SOS"]
+tags = ["Trucs et Astuces","macOS","SOS"]
 +++
 
 
