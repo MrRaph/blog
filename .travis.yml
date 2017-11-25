@@ -1,3 +1,9 @@
+# safelist
+branches:
+  only:
+  - master
+  - stable
+
 language: go
 install: go get -v github.com/spf13/hugo
 script:
