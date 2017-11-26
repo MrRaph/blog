@@ -16,7 +16,17 @@ tags = ["Trucs et Astuces","iOS"]
 +++
 
 
-La vie numérique est un peu comme la vraie vie, mieux vaut sortir couvert.
+La protection de la vie numérique se résument souvent pour beaucoup à mettre un code sur un appareil - ordinateur ou mobile - et ne va souvent pas bien plus loin.
+
+On s’accroche à notre vie privée mais dans le même temps on se connecte aux réseaux wifi ouverts proposés dans les restaurants, les bars, les gares ... Sans se douter une seconde que ces réseaux ouverts laissent les mains libres aux gens mal intentionnés pouvant intercepter les données que l’on reçoit ou que l’on envoie.
+
+Dans le même esprit mais plus insoupçonné, les réseaux mobiles 3G ou 4G sont également des réseaux ouverts. Certes les attaques sur ces réseaux ne sont pas aussi aisées que sur des Wifi ouverts mais le risque existe. D’autre part, les données que vous consommez sur les réseaux mobiles transitent par des serveurs de votre opérateur.
+
+Bref, la vie numérique est un peu comme la vraie vie, mieux vaut sortir couvert. Un des préservatifs numérique s’appelle un VPN (Virtual Private Network). Le VPN est un programme auquel un appareil informatique peut se connecter. Une fois cette connexion effectuée, l’appareil et le serveur VPN sont reliés par une espèce de tunnel informatique par lequel les données transiteront. Les données sont chiffrées dans tout le tunnel, elles ressortent ensuite à la fin du tunnel et continuent leur route sur Internet. Un peu comme le tunnel sous la manche qui évite les turbulences de la Manche. Le VPN permet de sécuriser les échanges sur des réseaux non sûrs.
+
+Il est possible d’utiliser un VPN sur les appareils mobiles. Mais c’est souvent fastidieux, en effet souvent il faut que l’utilisateur pense à initier la connexion au VPN, il arrive qu’il se déconnecte...
+
+Depuis la version 8, iOS supporte le VPN on Demande, il s’agit d’un mécanisme qui permet de spécifier des réseaux Wifi sûrs. iOS se chargera ensuite automatiquement de mettre ne place le VPN lorsque l’on est pas sur un réseau sûr ou de l’enlever lorsque l’on se connecte à un Wifi sûr - maison, travail, ...
 
 
 ## Pré-requis
