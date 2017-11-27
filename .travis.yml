@@ -10,7 +10,7 @@ script:
   - python --version
   - sudo pip install awscli
   - hugo
-  - s3cmd sync --delete public/ s3://techan-fr-public/
+  - aws s3 sync --delete public/ s3://techan-fr-public/
   - mkdir ~/.aws
   - echo "[preview]" > ~/.aws/config
   - echo "cloudfront = true" >> ~/.aws/config
