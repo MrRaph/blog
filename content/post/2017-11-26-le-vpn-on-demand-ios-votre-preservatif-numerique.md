@@ -76,6 +76,8 @@ Il se peut également que les certificats soient stockés en dehors de votre con
 
 Afin de pouvoir utiliser les certificats dans une configuration à la demande, il faut les convertir dans le format .p12, c'est ce que nous allons faire avec la commande suivante.
 
+Pensez bien à remplacer les `<name>` et `<device>` par vos informations, par exemple `<moi>` et `<iphone>`, ainsi que `vpn.example.net` par le nom d'hôte de votre serveur OpenVPN.
+
     openssl pkcs12 -export -out ./certificate.p12 \
     -inkey cert.key -in cert.crt \
     -passout pass:p12passphrase -name <name>-<device>@vpn.example.net
@@ -83,4 +85,11 @@ Afin de pouvoir utiliser les certificats dans une configuration à la demande, i
 
 ## Génération et installation  d'un profile On Demand
 
-    ovpnmcgen.rb gen -c .ovpnmcgen.rb.yml --ovpnconfigfile config-client.ovpn --security-level paranoid --cafile ./ca.crt --tafile ./tls.key --host vpn.example.net --p12file ./certificate.p12 --p12pass p12passphrase <name> <device> -o config-ondemand.mobileconfig
+Pensez bien à remplacer les `<name>` et `<device>` par vos informations, par exemple `<moi>` et `<iphone>`, ainsi que `vpn.example.net` par le nom d'hôte de votre serveur OpenVPN.
+
+    ovpnmcgen.rb gen -c .ovpnmcgen.rb.yml --ovpnconfigfile config-client.ovpn \
+    --security-level paranoid --cafile ./ca.crt --tafile ./tls.key \ 
+    --host vpn.example.net --p12file ./certificate.p12 --p12pass p12passphrase \
+    <name> <device> -o config-ondemand.mobileconfig
+
+L'installation profile généré est très simple, envoyé le fichier  `config-ondemand.mobileconfig` sur votre iPhone et ouvrez le. Suivez ensuite les instructions à l'écran en acceptant les avertissements et le tour sera joué.
