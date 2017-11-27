@@ -1,5 +1,5 @@
 +++
-slug = "le-vpn-on-demand-ios-votre-préservatif-numérique"
+slug = "le-vpn-on-demand-ios-votre-preservatif-numerique"
 draft = true
 featured = ""
 date = "2017-11-26T12:18:39"
