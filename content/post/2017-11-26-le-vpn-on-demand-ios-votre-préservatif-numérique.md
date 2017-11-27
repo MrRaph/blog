@@ -26,8 +26,9 @@ Bref, la vie numérique est un peu comme la vraie vie, mieux vaut sortir couvert
 
 Il est possible d’utiliser un VPN sur les appareils mobiles. Mais c’est souvent fastidieux, en effet souvent il faut que l’utilisateur pense à initier la connexion au VPN, il arrive qu’il se déconnecte...
 
-Depuis la version 8, iOS supporte le VPN on Demande, il s’agit d’un mécanisme qui permet de spécifier des réseaux Wifi sûrs. iOS se chargera ensuite automatiquement de mettre ne place le VPN lorsque l’on est pas sur un réseau sûr ou de l’enlever lorsque l’on se connecte à un Wifi sûr - maison, travail, ...
+Depuis la version 8, iOS supporte le VPN on Demand, il s’agit d’un mécanisme qui permet de spécifier des réseaux Wifi sûrs. iOS se chargera ensuite automatiquement de mettre ne place le VPN lorsque l’on est pas sur un réseau sûr ou de l’enlever lorsque l’on se connecte à un Wifi sûr - maison, travail, ...
 
+Il existe des applications qui font tout cela pour vous, et qui vous fournissent le serveur VPN nécessaire - comme l'excellent <a href="https://itunes.apple.com/fr/app/tunnelbear-vpn/id564842283?mt=8&at=1001lsQf">TunnelBear VPN - TunnelBear, Inc. (500 Mo de VPN gratuit par mois)</a>. Le revers de la médaille c'est qu'il faut passer à la caisse, souvent via un abonnement mensuel, pour bénificier de leurs services. 
 
 ## Pré-requis
 
@@ -41,6 +42,8 @@ Il faudra que Ruby soit installé sur le poste que vous utiliserez pour la suite
 
     gem install ovpnmcgen.rb
 
+
+Il faudra également que l'application <a href="https://itunes.apple.com/fr/app/openvpn-connect/id590379981?mt=8&at=1001lsQf">OpenVPN Connect - OpenVPN Technologies (Gratuite)</a> soit installée sur votre appareil iOS afin qu'il puisse se connecter au serveur OpenVPN.
 
 ## Modification de la configuration OpenVPN
 
@@ -78,6 +81,6 @@ Afin de pouvoir utiliser les certificats dans une configuration à la demande, i
     -passout pass:p12passphrase -name <name>-<device>@vpn.example.net
 
 
-## Génération d'un profile On Demand
+## Génération et installation  d'un profile On Demand
 
     ovpnmcgen.rb gen -c .ovpnmcgen.rb.yml --ovpnconfigfile config-client.ovpn --security-level paranoid --cafile ./ca.crt --tafile ./tls.key --host vpn.example.net --p12file ./certificate.p12 --p12pass p12passphrase <name> <device> -o config-ondemand.mobileconfig
