@@ -5,7 +5,7 @@ description = ""
 slug = "disclaimer"
 draft = false
 title = "Mise en garde"
-
+categories = []
 +++
 
 
@@ -32,5 +32,3 @@ Vous pouvez à tout moment supprimer les cookies de votre terminal :
  
 
 Bonne navigation !
-
-

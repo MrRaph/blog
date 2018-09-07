@@ -5,7 +5,7 @@ slug = "administration-de-postfix"
 draft = true
 title = "Administration de Postfix"
 date = 2015-12-17T14:56:33Z
-
+categories = []
 +++
 
 
@@ -33,5 +33,3 @@ mailq | tail +2 | grep -v ‘^ *(‘ | awk  ‘BEGIN { RS = «  » } { if ($8
  
 
  
-
-

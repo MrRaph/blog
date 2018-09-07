@@ -5,7 +5,7 @@ draft = false
 title = "A Propos"
 date = 2014-09-23T09:02:00Z
 author = "MrRaph_"
-
+categories = []
 +++
 
 # A propos de ce blog

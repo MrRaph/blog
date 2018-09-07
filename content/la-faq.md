@@ -5,7 +5,7 @@ title = "La FAQ"
 date = 2015-06-22T16:50:50Z
 author = "MrRaph_"
 description = ""
-
+categories = []
 +++
 
 
@@ -24,5 +24,3 @@ var lpQA = lpQA({ appID:"8932", genQ: "false", identifier: "8932" });
 // ]]></script>
 
 <span style="color: #ffffff;">**z35W7z4v9z8w**</span>
-
-

@@ -5,7 +5,7 @@ description = ""
 slug = "cher-lecteur-de-mac-generation"
 draft = false
 title = "Cher lecteur de Mac Génération"
-
+categories = []
 +++
 
 
@@ -36,5 +36,3 @@ Si vous souhaitez tout de même consulter le contenu que vous veniez chercher ic
 Bien à vous,
 
 MrRaph_
-
-

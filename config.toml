@@ -11,7 +11,7 @@ canonifyURLS = true
 
 name = "TechAN"
 description = "Trucs, Astuces et Bidouilles IT"
-homepage = "https://github.com/jbub/ghostwriter"
+homepage = "https://techan.fr"
 tags = ["blog", "technical", "personal"]
 features = ["blog", "technical", "personal"]
 min_version = 0.15
